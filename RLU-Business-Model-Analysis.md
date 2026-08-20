@@ -25,6 +25,27 @@ A note on scope: this repo contains a prior offer-ladder audit dated August 17, 
 
 ---
 
+## The plan in plain English
+
+The whole report, in simple words. Numbers are rounded.
+
+**What the data says.** Big launches and live events did not sell anything this year. What sold: one woman who sat quietly in your free community for a year, and personal one-on-one messages. So the plan is built on two things — a community that grows every day, and you personally messaging the warmest women in it.
+
+**The money math.** Every certification sale makes you about $1,700 to $2,200 in profit after costs. You want $10,000 a month. You get there by stacking three streams: about 4 certification sales a month (around $7,800), about 345 people paying $9 a month in the campus (around $2,900), and about 8 women a month buying a $297 starter course (around $2,300). Add those up, subtract about $1,800 for ads and about $670 for your tools, and you land just over $10,000 a month in profit. On the current plan that happens around one year from now.
+
+**The one-year plan, one step at a time:**
+1. **Right now to September 8:** personally message all 84 people already in your world. Tell them the cohort starts September 8. Expect 3 to 5 to enroll. Start the $60-a-day ad to the $9 campus on Monday.
+2. **September 8 to October 20:** teach the cohort (only 2 to 3 hours a week of your time). Keep building the $297 Lash Brand Sprint on the side. Hire your success coach to run the weekly campus calls.
+3. **October 21 to early January:** launch the Sprint, message every new warm member, sell your product inventory to your own people over Black Friday, and collect deposits for the January cohort. No cohort in December — that time is for filling January.
+4. **January:** a short 3-day event for your warm list only, then the next cohort starts January 11.
+5. **Rest of the year:** a cohort about every 3 months — April, then late June. Speed up only when cohorts fill up early with people left over waiting.
+
+**The three rules that make it work:** always offer RLU Pay first (it makes you money instead of costing you fees — it's worth about $300 more per sale than Affirm). Always offer the bigger Equipped package first (it makes you $480 more per sale than Certified). And never close a sale by broadcast — always in a personal conversation.
+
+**What "good" looks like at each check-in:** more than 60 new paying campus members a month from the ad means scale it up; fewer than 30 means turn it off and fix the page. A cohort with 4 to 6 women in September is a win. By next summer, cohorts of 10 to 12. If the ads work well and you push spend harder, the year-one ceiling is roughly $20,000 to $25,000 a month in revenue — more than your goal, but nowhere near $91,000, which needs a big team and a huge audience and is a year-3 conversation.
+
+---
+
 ## Flagged numbers
 
 Per your rules — things in the brief that don't add up or need scrutiny:
@@ -83,8 +104,9 @@ Path using all three revenue lines, at the 40-hour work level (base case, month 
 | Campus | ~345 paying | $9 × ~94% net of fees | $2,900 |
 | Bridge (Sprint) | 8/mo | $297 × ~95% margin | $2,255 |
 | Ads | — | $60/day | −$1,824 |
-| Fixed tools | — | trimmed to ~$350 | −$350 |
-| **Profit** | | | **≈ $10,780** |
+| Fixed tools | — | trimmed ~$373 + Higgsfield AI $300 | −$673 |
+| Success coach | — | ~4 campus calls/month | −$300 |
+| **Profit** | | | **≈ $10,160** |
 
 Certifications-only version for reference: ($10,000 + $2,174 of ads and tools) ÷ $1,950 ≈ **6.2 → 6 enrollments/month, every month**. Against 2 enrollments in 8 months that's a 24x jump on one product line — which is why the three-line stack is the plan, not cert volume alone.
 
@@ -164,7 +186,7 @@ Everything in Sections 5–10 prices against member lifetime value, so I derive 
 
 **Total expected LTV per paid member ≈ $105 — $56 hard, ~$49 speculative** (the speculative half rests on n=1 and an unbuilt product), so operating rules below use $56 as the floor and ~$105 as the ceiling.
 
-Also note: **55 paying members covers your entire fixed tool stack** ($492 ÷ $9). You currently have ~15.
+Also note on the tool stack: with the ~$300/month Higgsfield AI subscription added, fixed tools run **~$792/month as-is, or ~$673 after trimming the IG badge and HoneyBook** — meaning **75–88 paying members just to cover tools**. You currently have ~15. Higgsfield's job is ad and content creative for the daily campaign; hold it to that — if after 90 days it isn't producing the creative that keeps cost-per-paid-member at or under $30, it goes the way of the IG badge.
 
 ---
 
@@ -274,7 +296,7 @@ Order of hires, with trigger numbers. Every trigger is "whichever comes first." 
 | # | Hire | Trigger | Takes off your plate | Cost |
 |---|---|---|---|---|
 | 1 | Part-time VA / community manager | Campus > 150 paying members, OR campus admin > 5 hrs/week (base case: ~month 4–5) | Onboarding DMs, post moderation, failed-payment chasing, scheduling | $400–$800/mo |
-| 2 | Graduate success coach (Chiquita or Ashleigh) | Live delivery approaching your 10 hr/week teaching cap — in practice, two overlapping cohorts or one cohort ≥ 10 seats | Weekly campus coaching calls, Shadow Lab assist, student check-ins | $50–$75/call or ~5% of cohort revenue |
+| 2 | Graduate success coach (Chiquita or Ashleigh) | **Hired now at Destyni's decision (she can afford it)** — scoped to the campus first: weekly campus calls, engagement rhythm, welcome/first-win follow-ups. Cohort delivery transfers later, when live delivery approaches the 10 hr/week teaching cap | Weekly campus coaching calls, member engagement, check-ins; never certification scoring | $50–$75/call ≈ $200–$300/mo |
 | 3 | DM setter | > 40 new qualified conversations/week needed (≈ month 10+, or post-challenge spikes) | Opening and qualifying threads; you close | Base + 5–8% commission on closed |
 | 4 | Certified instructors | **Not in the next 12 months.** Trigger: demand > 6 cohorts/year at 10+ seats (≈ $350K+/yr run rate) with you as the delivery ceiling | Live curriculum teaching only | Rev share per cohort |
 
@@ -301,7 +323,17 @@ You gave me no inventory data — SKUs, unit costs, retail value, or shelf life 
 3. **Bridge/ladder enrichment.** A small product component inside the Sprint ($297 feels different with something physical in the mail) or as a deposit-week bonus.
 4. **One-time liquidation for ad budget.** Whatever fits none of the above: a campus-only flash sale. Dead stock → ad dollars. Inventory sitting in boxes is your ad budget wearing a disguise.
 
-Sequence it as roles 2 and 4 in the next 60 days (they need no build), role 1 as a simple restock page by month 6, role 3 when the Sprint ships.
+Sequence it as roles 2 and 4 in the next 60 days (they need no build), role 1 as a simple restock page by month 6, role 3 when the Sprint ships. Black Friday (November 27) is the natural moment for the flash sale — a campus-and-grads-only sale converts dead inventory to January ad budget at zero acquisition cost.
+
+### Should you run ads to the products? (Added after your margin data)
+
+You reported 50–70% product margins and asked whether to run ads to the store too. **Not cold ads, and not yet.** The math, in plain terms:
+
+- [ASSUMPTION — you haven't given me prices] A typical lash product sells for $20–$60. At 50–70% margin, one sale earns you **$10 to $42**.
+- A cold Meta ad purchase for beauty products typically costs **$25 to $50** to acquire. So a cold product ad most likely earns less than it costs, or at best breaks even — you'd be working to move inventory at zero profit.
+- The same ad dollar sent to the $9 campus buys a member worth about **$105** over her lifetime. One budget, two doors: the campus door pays 3 to 10 times better. Every dollar you'd put on product ads is a dollar taken from the engine that produces $2,000-margin certification sales.
+
+The products' job is to be sold to people you already own, where acquisition costs zero and the 50–70% margin is real profit: the graduate restock page, the Black Friday campus flash sale, the annual-upgrade box, the Sprint bonus. Revisit paid product ads only if all three of these are true: the campus ad is fully funded at its winning threshold, you're selling bundles above roughly $75–$100 per order (so one sale can afford a $25–$50 acquisition cost), and your owned-audience channels are already selling through inventory. Until then, the answer is no.
 
 ---
 
@@ -338,6 +370,32 @@ Two more asymmetries worth naming: her offer was $997 and fully digital — an i
 Constraints honored throughout: ~30–35 hrs/week typical with 40 as headroom, **live teaching never above 10 hrs/week** (the plan peaks around 6–7), work structured async-first so it stays on your terms. Base-case assumptions: $30 CPPM, 15% churn, Sprint attach 10%, DM economics per Section 7, blended cert margin ~$1,950. Revenue figures are monthly run rate at the end of each phase.
 
 The extra hours change the *sequence*, not the strategy: the Sprint build moves up two months, the sweep compresses to two weeks, and cohort targets rise roughly one phase earlier than the 20-hour version.
+
+### The concrete calendar (cohort 1 runs Tuesday September 8 → Tuesday October 20)
+
+**Before the cohort — Aug 21 to Sept 7:**
+- **Fri Aug 21 – Sun Sept 7:** the DM sweep, ~30 threads/week, warmest names first. Every thread: "my next cohort starts September 8." RLU Pay first, Equipped first.
+- **Mon Aug 24:** $60/day campus ad goes live.
+- **By Sun Aug 30:** enroll-page fixes live (named proof, RLU Pay visible, legacy pages killed) — every woman you DM will read that page before she pays.
+- **Thu Sept 10:** first ad verdict (~$1,000 spent): under $30 per paid member → plan the October scale-up; over $60 → pause and fix the landing page.
+
+**During the cohort — Sept 8 to Oct 20** (your live load ~2.5 hrs/week):
+- **Week 1 (Sept 8):** kickoff call. Coach starts running the weekly campus call this week too.
+- **Weeks 2–5 (Sept 15 – Oct 12):** weekly coaching call; Shadow Labs in weeks 3 and 5 (Sept 22 week, Oct 6 week); Equipped 1:1s booked weeks 2–5. Sprint build continues ~5 hrs/week in the background.
+- **Week 6 (Oct 13–20):** final week; **graduation Oct 20**. Before they leave: collect named, dated testimonials from every graduate — this cohort's real job is producing the proof the whole funnel is starving for.
+
+**Between cohorts — Oct 21 to Jan 10 (this is "what am I doing between cohorts"):**
+- **Oct 21–31:** launch the Sprint at $297 to the waitlist and campus. Grad restock offer to the new graduates. First month-in-review of ad numbers.
+- **November:** sweep #2 — personal DMs to every free member and every new paying member who's shown a warm signal. **Black Friday (Nov 27): campus-and-grads-only product flash sale** — inventory becomes January ad budget. Ad scale decision #2: raise to $100/day if cost-per-paid-member has held at or under $30.
+- **December:** no cohort, no holiday launch. Sell January deposits all month ("cohort starts January 11, deposit holds your seat"). Prep the 3-day challenge. Coach keeps the campus rhythm through the holidays.
+- **Jan 5–7:** warm-list 3-day challenge — goal is 100+ opened DM threads, not sales from stage.
+- **Mon Jan 11:** cohort 2 starts (runs to Feb 21). Then: early April, late June.
+
+The weekly default between cohorts, at the 40-hour ceiling: DMs 8–10 hrs, content and ad creative 4–5 hrs (this is Higgsfield's job), Sprint/build work 5–8 hrs, campus presence 2–3 hrs (the coach runs the calls; you drop in), admin 2 hrs. Between-cohort time is not downtime — it's when the pipeline for the next cohort gets built, and the pipeline is the whole game.
+
+### Spending more to get more than $10K
+
+You've said you want more than $10K/month and you're willing to spend more on ads. The rule: **more ad spend buys more speed only after the ad has proven itself — spending ahead of proof just buys the same leak faster.** The ladder: $60/day now → **$100/day from ~October** if CPPM ≤ $30 over the first $1,000 → **$150–$200/day from January** if CPPM holds ≤ $35 at the higher spend (cost usually creeps up as spend scales; that's normal — kill the scale-up only if it blows past $50). At $150/day holding ~$35, the campus reaches roughly 500–600 paying by month 12 (~$4,700–$5,400 MRR), Sprint volume roughly doubles, and the month-12 upside column — $20–25K revenue, $15–18K profit — becomes the realistic target instead of the stretch. That is the honest "more than $10K" path: it runs through the same engine, just fed harder, and every rung is gated by a measured number, not by ambition.
 
 ### Phase 1 — Harvest and build in parallel (Sept–Oct, months 1–2)
 
@@ -415,4 +473,4 @@ Answers to these would materially change or sharpen specific sections:
 
 ---
 
-*Method note: all inputs are from the August 20, 2026 brief plus Destyni's same-day corrections (COGS $290/$810; up to 40 hrs/week on her terms; teaching ≤10 hrs/week; payment-rail fees at $2,997 — Affirm $239.76, Shop Pay Installments $177.12). No external market data was fetched; industry-range figures (churn, community-to-high-ticket conversion, high-ticket CAC) are marked as assumptions and carry ranges. Where n=1 underlies a projection, the text says so.*
+*Method note: all inputs are from the August 20, 2026 brief plus Destyni's same-day corrections (COGS $290/$810; up to 40 hrs/week on her terms; teaching ≤10 hrs/week; payment-rail fees at $2,997 — Affirm $239.76, Shop Pay Installments $177.12; cohort dates Sept 8–Oct 20; product margins 50–70%; Higgsfield AI subscription ~$300/month; success coach hired now; target raised to "more than $10K/month" with willingness to fund ads). No external market data was fetched; industry-range figures (churn, community-to-high-ticket conversion, high-ticket CAC) are marked as assumptions and carry ranges. Where n=1 underlies a projection, the text says so.*
