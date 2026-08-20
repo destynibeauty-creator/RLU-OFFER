@@ -34,7 +34,8 @@ Per your rules — things in the brief that don't add up or need scrutiny:
 - **The second 2026 enrollment's tier is unspecified.** The three-day challenge produced "one $2,997 enrollment" — that price is *both* Certified-regular and Equipped-challenge. COGS is $290 or $810 depending; the YTD P&L carries the range.
 - **1:1 session count per Equipped student is unspecified.** [ASSUMPTION] 2 sessions × 45 min = 1.5 hrs per Equipped enrollment.
 - **Tool-stack sanity check:** $80/month for an IG verified badge ($960/year) and $38.99/month for HoneyBook, in a business with 2 enrollments YTD, have no attributable return in your data. Cutting both saves $1,428/year with no visible downside in anything you've shown me.
-- **RLU Pay carries un-modeled default risk.** No credit check + in-house plan means you are the lender. You gave me no default/delinquency history, so all margin figures assume 100% collection. See Section 13.
+- **RLU Pay carries un-modeled default risk.** No credit check + in-house plan means you are the lender. You gave me no default/delinquency history, so all margin figures assume 100% collection. See Section 13 — and note the payment-rail math in Section 3 now quantifies how much default tolerance the fee savings buy you.
+- **Affirm at $2,997: the brief contradicts your fee data.** The brief says Affirm and Sezzle "appear to cap below $2,997, so they do not reliably work for Equipped" — yet your fee figures ($239.76 = exactly 8.0% of $2,997) are quoted *at* $2,997, which reads like a real transaction. Which is true? If Affirm does clear $2,997, Equipped's rails are less broken than the brief said (though Section 3 now argues you shouldn't want buyers on Affirm anyway).
 
 ---
 
@@ -130,6 +131,24 @@ What survives from the original analysis:
 3. **Alexandria — your only organic buyer — chose Equipped unprompted.** The studio makes the outcome tangible and self-selects serious buyers.
 
 **Recommendation, revised: keep both tiers and actively steer toward Equipped.** It is now simultaneously your higher-margin sale, your conversion driver, and your buyer-quality filter. In every DM that reaches a payment conversation, present Equipped as the default and Certified as the trim-down — the $480 margin difference pays for the 1:1 time three times over. Do not add tiers.
+
+### The payment-rail math (added after your fee data)
+
+You reported real fees on a $2,997 sale: **Affirm $239.76** (exactly 8.0%) and **Shop Pay Installments $177.12** (exactly 5.9% + $0.30). The gross margins above are *before* these fees, and the rail chosen swings real money. RLU Pay is the opposite case: the buyer pays you a $150 plan fee, and your only cost is ordinary card processing on the installment payments [ASSUMPTION: ~2.9% + $0.30 per payment ≈ $93 on a $3,147 collection].
+
+| Rail, on a $2,997 sale | Fee to you | Margin: Certified $1,997* | Margin: Equipped $2,997 |
+|---|---|---|---|
+| Affirm | −$239.76 (8.0%) | $1,547 | $1,947 |
+| Shop Pay Installments | −$177.12 (5.9% + 30¢) | $1,589 | $2,010 |
+| **RLU Pay** | **+$150 fee − ~$93 processing ≈ +$57 net** | **~$1,793** | **~$2,244** |
+
+*Certified column recomputed at $1,997 (Affirm $159.76, Shop Pay $118.12, RLU Pay net ≈ +$86).
+
+**Every enrollment steered from Affirm to RLU Pay is worth ~$250–$300; from Shop Pay, ~$200–$235.** At 4 certs/month, an all-RLU-Pay mix versus an all-Affirm mix is roughly **$1,000–$1,200/month** — about a month of timeline on the $10K goal.
+
+The counterweight is who carries default risk: Affirm and Shop Pay pay you in full and absorb the buyer's default; on RLU Pay, you do. The breakeven: the ~$300 per-plan fee advantage covers expected losses until default probability × loss-given-default exceeds ~$300. If a defaulted plan loses you half the balance (~$1,500), RLU Pay remains the better rail up to a **~20% default rate** — far worse than any plausible reality if your collection history is even mediocre. So the operating rule: **present RLU Pay first in every payment conversation** (which you should be doing anyway — it's the no-credit-check differentiator), keep Shop Pay as the pay-in-full path, and treat Affirm as the rail of last resort. This also raises the stakes on Section 13 question #1: your actual RLU Pay default history is now worth ~$1,000/month of decision quality.
+
+One consistency note: the blended ~$1,950 margin used in Sections 2, 4, 10, and 12 sits between the Affirm-heavy (~$1,750) and RLU-Pay-heavy (~$2,020) mixes. If you steer to RLU Pay as recommended, the plan's projections are mildly conservative; if buyers land on Affirm, they're mildly optimistic.
 
 ---
 
@@ -384,7 +403,7 @@ The extra hours change the *sequence*, not the strategy: the Sprint build moves 
 
 Answers to these would materially change or sharpen specific sections:
 
-1. **RLU Pay collection history** — plans issued, completed, delinquent, defaulted. Every margin figure assumes 100% collection; as the lender, your real margin is this number, and it matters most on Equipped where you front $810. (Sections 2, 3)
+1. **RLU Pay collection history** — plans issued, completed, delinquent, defaulted. Every margin figure assumes 100% collection; as the lender, your real margin is this number, and it matters most on Equipped where you front $810. With your fee data it's now also worth ~$1,000/month of decision quality: RLU Pay beats Affirm by ~$300/enrollment up to roughly a 20% default rate, but only your actual history can confirm you're under that. (Sections 2, 3)
 2. **The second 2026 enrollment** — which tier, which price, how she found you, and whether any prior relationship existed. It's half your 2026 sample. (Flags; Section 1)
 3. **1:1 session count and usage rate per Equipped student.** (Section 3)
 4. **Product inventory** — SKU list, units, your cost (actual cost, not retail — see the COGS flag), retail value, expiry dates. (Section 9)
@@ -396,4 +415,4 @@ Answers to these would materially change or sharpen specific sections:
 
 ---
 
-*Method note: all inputs are from the August 20, 2026 brief plus Destyni's same-day corrections (COGS $290/$810; up to 40 hrs/week on her terms; teaching ≤10 hrs/week). No external market data was fetched; industry-range figures (churn, community-to-high-ticket conversion, high-ticket CAC) are marked as assumptions and carry ranges. Where n=1 underlies a projection, the text says so.*
+*Method note: all inputs are from the August 20, 2026 brief plus Destyni's same-day corrections (COGS $290/$810; up to 40 hrs/week on her terms; teaching ≤10 hrs/week; payment-rail fees at $2,997 — Affirm $239.76, Shop Pay Installments $177.12). No external market data was fetched; industry-range figures (churn, community-to-high-ticket conversion, high-ticket CAC) are marked as assumptions and carry ranges. Where n=1 underlies a projection, the text says so.*
