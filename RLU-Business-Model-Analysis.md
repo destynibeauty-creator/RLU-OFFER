@@ -341,12 +341,12 @@ The extra hours change the *sequence*, not the strategy: the Sprint build moves 
 
 ### Phase 1 — Harvest and build in parallel (Sept–Oct, months 1–2)
 
-1. **The 70-member DM sweep + the 14 VIPs** (Section 10), compressed into weeks 1–3 at ~9 hrs/wk. Target: 2–4 enrollments (**$3,900–$7,800 margin**), Sprint waitlist seeded, Equipped presented as the default in every payment conversation (Section 3).
+1. **The 70-member DM sweep + the 14 VIPs** (Section 10), compressed into the 19 days before the **September 8 cohort start** — that date is the deadline in every thread ("my next cohort starts September 8"), and the sweep is this cohort's enrollment engine. ~30 threads/week, RLU Pay presented first, Equipped as the default (Section 3). Target: 3–5 enrollments (**$5,800–$11,200 margin**), Sprint waitlist seeded. Warm women who can't make September 8 get a deposit toward January or the Sprint waitlist — they're the January pipeline, not lost sales.
 2. **Start the $60/day campus ad Monday** with the Section 5 kill/scale rules written down. First judgment after $1,000 spent (~day 17).
 3. **Build the Lash Brand Sprint concurrently** (~35 hrs across weeks 2–8 ≈ 5 hrs/wk — this is the move the 40-hour ceiling buys you; it shipped in December in the 20-hour plan). Launch to the sweep waitlist first: if fewer than 5 of your warmest women buy at $297, fix the offer before showing it to strangers.
 4. **Tool trim:** cut IG badge + HoneyBook (−$119/mo) unless you can name what they earned in 2026. Fixed drops to ~$373.
 5. Product line quick wins: annual-upgrade box + one campus flash sale (Section 9). Target: **$2,000–$5,000 one-time cash**.
-6. Run the fall cohort with whatever the sweep fills — 4–6 seats is success at this pipeline size (~$8–12K margin).
+6. Run the **September 8 cohort** with whatever the sweep fills — 4–6 seats is success at this pipeline size (~$8–12K margin). Cohort cadence from here: quarterly starts — September 8 → mid-January (fed by the warm 3-day challenge) → early April → late June — selling continuously between starts via deposits, with the go-faster rule: move to every-8-weeks only when the campus passes ~300 paying AND a cohort fills to 10+ seats before its start date with threads left over.
 
 *Hours: ~30–34/wk (teaching ~3). Exit run rate: ~$1,800–$2,600/mo recurring + cohort margin lumps + Sprint live.*
 
