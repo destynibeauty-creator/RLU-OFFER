@@ -66,7 +66,7 @@ Lay the 2026 evidence side by side.
 
 | Mechanism | Cost | Result |
 |---|---|---|
-| Five-night challenge (LMC26) | $510 ads + ~50 hrs [ASSUMPTION] | 16 × $9/mo VIPs, **0 enrollments** |
+| Five-night challenge (LMC26) | $510 ads + ~50 hrs [ASSUMPTION] | 16 × $9/mo VIPs, 0 enrollments during the event; **1 delayed Equipped enrollment (Aug 20)** — a repeat attendee who was also in the previous challenge |
 | Application funnel | $1,011 ads | **0 sales** |
 | Three-day challenge | $605 ads + ~30 hrs [ASSUMPTION] | 4 × $47 + **1 enrollment ($2,997)** |
 | Broadcast SMS to full list | ~$0 | 0 conversions |
@@ -83,6 +83,8 @@ What this implies, stated as mechanism:
 4. **Attribution is lying to you.** The three-day challenge's one sale gets "attributed" to $605 of ads, but you don't know how warm that buyer was. Given Alexandria and the DM data, the honest model is: **ads fill the incubator; the incubator plus a personal conversation makes the sale.** Judging any single campaign by 30-day attributed revenue will systematically make your best asset (the campus) look worthless and your worst habit (launching) look occasionally lucky.
 
 Everything downstream in this report is built on this model: fill the incubator cheaply and continuously, shorten the incubation with structure (the bridge, the ascension path), and systematize the conversation layer without removing you from it.
+
+**Update, evening of Aug 20 — enrollment #3 confirms the model.** A woman enrolled at Equipped ($2,997) the day after LMC26 ended — and she had attended the *previous* challenge too. She is not a launch conversion; she is a repeat-exposure buyer: two challenges of incubation, then a decision on her own clock. Read the pattern across all three 2026 enrollments: one from a challenge (warmth unknown), one after a year-plus of silent free membership (Alexandria), one after two challenges. Zero from a single cold touch. Notable secondary signals: she chose Equipped — that's at least 2 of 3 buyers picking the higher tier unprompted, validating the steer-to-Equipped rule — and she's on RLU Pay ($500 down, $700 on Sept 4 when the kit ships, then three biweekly payments of $649; total $3,147 = price + the $150 plan fee, collected in full by ~Oct 16). Her margin at full collection ≈ $2,250 — roughly $300 more than if she'd paid through Affirm. She also fills the first seat of the September 8 cohort before the sweep begins, and note the shipping discipline worked as designed: by kit-ship day she'll have paid $1,200 against $810 of COGS, so even a worst-case default after shipping leaves the sale ~$390 above cost.
 
 ---
 
