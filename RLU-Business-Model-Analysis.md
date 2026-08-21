@@ -56,7 +56,7 @@ Per your rules — things in the brief that don't add up or need scrutiny:
 - **1:1 session count per Equipped student is unspecified.** [ASSUMPTION] 2 sessions × 45 min = 1.5 hrs per Equipped enrollment.
 - **Tool-stack sanity check:** $80/month for an IG verified badge ($960/year) and $38.99/month for HoneyBook, in a business with 2 enrollments YTD, have no attributable return in your data. Cutting both saves $1,428/year with no visible downside in anything you've shown me.
 - **RLU Pay carries un-modeled default risk.** No credit check + in-house plan means you are the lender. You gave me no default/delinquency history, so all margin figures assume 100% collection. See Section 13 — and note the payment-rail math in Section 3 now quantifies how much default tolerance the fee savings buy you.
-- **Affirm at $2,997: the brief contradicts your fee data.** The brief says Affirm and Sezzle "appear to cap below $2,997, so they do not reliably work for Equipped" — yet your fee figures ($239.76 = exactly 8.0% of $2,997) are quoted *at* $2,997, which reads like a real transaction. Which is true? If Affirm does clear $2,997, Equipped's rails are less broken than the brief said (though Section 3 now argues you shouldn't want buyers on Affirm anyway).
+- **Resolved: Affirm clears $2,997.** The brief said Affirm caps below $2,997; in fact Alexandria's Equipped enrollment ran through Affirm at $2,997, which is where the $239.76 fee figure comes from. So Equipped's checkout rails are not broken — Affirm just costs you ~$300 more per sale than RLU Pay (Section 3). Keep it live as the self-serve fallback; it closed your biggest organic sale without a conversation.
 
 ---
 
@@ -158,7 +158,7 @@ What survives from the original analysis:
 
 ### The payment-rail math (added after your fee data)
 
-You reported real fees on a $2,997 sale: **Affirm $239.76** (exactly 8.0%) and **Shop Pay Installments $177.12** (exactly 5.9% + $0.30). The gross margins above are *before* these fees, and the rail chosen swings real money. RLU Pay is the opposite case: the buyer pays you a $150 plan fee, and your only cost is ordinary card processing on the installment payments [ASSUMPTION: ~2.9% + $0.30 per payment ≈ $93 on a $3,147 collection].
+You reported real fees on a $2,997 sale: **Affirm $239.76** (exactly 8.0% — this was Alexandria's actual Equipped transaction, confirming Affirm clears $2,997) and **Shop Pay Installments $177.12** (exactly 5.9% + $0.30). The gross margins above are *before* these fees, and the rail chosen swings real money. RLU Pay is the opposite case: the buyer pays you a $150 plan fee, and your only cost is ordinary card processing on the installment payments [ASSUMPTION: ~2.9% + $0.30 per payment ≈ $93 on a $3,147 collection].
 
 | Rail, on a $2,997 sale | Fee to you | Margin: Certified $1,997* | Margin: Equipped $2,997 |
 |---|---|---|---|
