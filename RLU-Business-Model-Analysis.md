@@ -106,9 +106,9 @@ Path using all three revenue lines, at the 40-hour work level (base case, month 
 | Campus | ~345 paying | $9 × ~94% net of fees | $2,900 |
 | Bridge (Sprint) | 8/mo | $297 × ~95% margin | $2,255 |
 | Ads | — | $60/day | −$1,824 |
-| Fixed tools | — | trimmed ~$373 + Higgsfield AI $300 | −$673 |
+| Fixed tools | — | trimmed ~$348 (badge, HoneyBook, Canva cut) + Higgsfield AI $300 | −$648 |
 | Success coach | — | ~4 campus calls/month | −$300 |
-| **Profit** | | | **≈ $10,160** |
+| **Profit** | | | **≈ $10,185** |
 
 Certifications-only version for reference: ($10,000 + $2,174 of ads and tools) ÷ $1,950 ≈ **6.2 → 6 enrollments/month, every month**. Against 2 enrollments in 8 months that's a 24x jump on one product line — which is why the three-line stack is the plan, not cert volume alone.
 
@@ -188,7 +188,7 @@ Everything in Sections 5–10 prices against member lifetime value, so I derive 
 
 **Total expected LTV per paid member ≈ $105 — $56 hard, ~$49 speculative** (the speculative half rests on n=1 and an unbuilt product), so operating rules below use $56 as the floor and ~$105 as the ceiling.
 
-Also note on the tool stack: with the ~$300/month Higgsfield AI subscription added, fixed tools run **~$792/month as-is, or ~$673 after trimming the IG badge and HoneyBook** — meaning **75–88 paying members just to cover tools**. You currently have ~15. Higgsfield's job is ad and content creative for the daily campaign; hold it to that — if after 90 days it isn't producing the creative that keeps cost-per-paid-member at or under $30, it goes the way of the IG badge.
+Also note on the tool stack: with the ~$300/month Higgsfield AI subscription added, fixed tools run **~$767/month as-is, or ~$648 after trimming the IG badge, HoneyBook, and Canva** (Canva cut Aug 20 — Higgsfield covers creative now) — meaning **72–85 paying members just to cover tools**. You currently have ~15. Higgsfield's job is ad and content creative for the daily campaign; hold it to that — if after 90 days it isn't producing the creative that keeps cost-per-paid-member at or under $30, it goes the way of the IG badge.
 
 ---
 
@@ -327,6 +327,12 @@ You gave me no inventory data — SKUs, unit costs, retail value, or shelf life 
 
 Sequence it as roles 2 and 4 in the next 60 days (they need no build), role 1 as a simple restock page by month 6, role 3 when the Sprint ships. Black Friday (November 27) is the natural moment for the flash sale — a campus-and-grads-only sale converts dead inventory to January ad budget at zero acquisition cost.
 
+### The kit restock (Aug 20): $3,800 for ~45 kits of components
+
+Destyni is paying a $3,800 vendor invoice buying roughly 45 units of every kit component. The math worth noticing: **$3,800 ÷ 45 ≈ $84 per kit from this vendor.** If this invoice is the whole kit, the true kit COGS is far below even the corrected $290 — meaning Certified margins are better than every figure in this report. If the kit pulls from multiple vendors, $290 stands. **Destyni: which is it?** (This is the third time a "cost" number has moved down on inspection — a one-time true unit-costing of the kit and studio, actual invoices only, would put this to bed.)
+
+Coverage check: at plan pace (~35–40 enrollments over 12 months), 45 kits is roughly a year of supply, on top of the two Equipped kits shipping in early September. Cash check: the invoice is effectively paid by the two seated students — Alexandria's ~$2,757 already collected plus the new enrollee's $1,200 by Sept 4 ≈ $3,957. The caveat that keeps this honest: inventory is frozen ad budget, so a bulk buy is only right if the volume price break is real and nothing in the existing unsold inventory already covers these components — check the shelf before the invoice clears.
+
 ### Should you run ads to the products? (Added after your margin data)
 
 You reported 50–70% product margins and asked whether to run ads to the store too. **Not cold ads, and not yet.** The math, in plain terms:
@@ -404,7 +410,7 @@ You've said you want more than $10K/month and you're willing to spend more on ad
 1. **The 70-member DM sweep + the 14 VIPs** (Section 10), compressed into the 19 days before the **September 8 cohort start** — that date is the deadline in every thread ("my next cohort starts September 8"), and the sweep is this cohort's enrollment engine. ~30 threads/week, RLU Pay presented first, Equipped as the default (Section 3). Target: 3–5 enrollments (**$5,800–$11,200 margin**), Sprint waitlist seeded. Warm women who can't make September 8 get a deposit toward January or the Sprint waitlist — they're the January pipeline, not lost sales.
 2. **Start the $60/day campus ad Monday** with the Section 5 kill/scale rules written down. First judgment after $1,000 spent (~day 17).
 3. **Build the Lash Brand Sprint concurrently** (~35 hrs across weeks 2–8 ≈ 5 hrs/wk — this is the move the 40-hour ceiling buys you; it shipped in December in the 20-hour plan). Launch to the sweep waitlist first: if fewer than 5 of your warmest women buy at $297, fix the offer before showing it to strangers.
-4. **Tool trim:** cut IG badge + HoneyBook (−$119/mo) unless you can name what they earned in 2026. Fixed drops to ~$373.
+4. **Tool trim:** cut IG badge + HoneyBook + Canva (−$144/mo total; Canva cut Aug 20 since Higgsfield covers creative). Fixed drops to ~$348 plus the $300 Higgsfield line.
 5. Product line quick wins: annual-upgrade box + one campus flash sale (Section 9). Target: **$2,000–$5,000 one-time cash**.
 6. Run the **September 8 cohort** with whatever the sweep fills — 4–6 seats is success at this pipeline size (~$8–12K margin). Cohort cadence from here: quarterly starts — September 8 → mid-January (fed by the warm 3-day challenge) → early April → late June — selling continuously between starts via deposits, with the go-faster rule: move to every-8-weeks only when the campus passes ~300 paying AND a cohort fills to 10+ seats before its start date with threads left over.
 
