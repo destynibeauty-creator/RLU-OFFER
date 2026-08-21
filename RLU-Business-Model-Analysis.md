@@ -9,6 +9,33 @@ A note on scope: this repo contains a prior offer-ladder audit dated August 17, 
 
 ---
 
+## Reconciliation with the August 21 operating briefing (authoritative)
+
+The August 21 briefing supersedes several session-era figures. Where this report and the briefing disagree, the briefing wins. Blanket supersessions: wherever this report says "Lash Brand Sprint," read **Lash Cash Q4**; the cohort start is **September 7**, not September 8. Final values, now set in Shopify:
+
+| Item | Was (session) | Final (briefing) |
+|---|---|---|
+| Certified COGS / margin | $290 / $1,707 | **$375 / $1,622 (81%)** |
+| Equipped COGS / margin | $810 / $2,187 | **$870 / $2,127 (71%)** |
+| Equipped premium over Certified | +$480/sale | **+$505/sale** |
+| Blended cert margin (50/50 mix) | ~$1,950 | **~$1,875** |
+| Cohort 2 start | September 8 | **September 7** (Labor Day; live page must be fixed) |
+| Bridge offer | Lash Brand Sprint, $297 recorded | **Lash Cash Q4**: 6 live build nights, $997 / $497 RLU women / included for Equipped, cap 15, cart Oct 6–20 |
+| New Equipped enrollee | unnamed | **Miesha Johnson**, $3,147 RLU Pay |
+| Aug 3–11 ad campaign | ~$31.90/member, 16 members | **$34/member, 15 members**, $510.34 |
+| Lifetime RLU collected | not established | **~$34,789** over four years; lifetime ads ~$7,986 returned ~$4.36 per dollar |
+
+What changes strategically:
+
+1. **Equipped steering strengthens.** The premium is now +$505 of margin per sale for the same ~1.5 hours of 1:1 time (~$337/hour).
+2. **RLU Pay guidance is revised by real data: payment-plan completion history is 1 of 2** (Delia Puesi's $1,050 write-off). At a 50% observed completion base rate, the ~$300 fee advantage over Affirm does not cover expected default losses. Revised rail rule: **pay in full first (Shop Pay or Affirm) whenever the buyer can; RLU Pay as the access path, with mandatory autopay and the written delinquency policy in place before Miesha's Sept 18 installment.** Miesha completing 5 of 5 is the live test that re-earns RLU-Pay-first. Alexandria's Affirm pay-in-full, viewed with this data, was the good outcome, not the expensive one.
+3. **Lash Cash Q4 supersedes the Sprint design, and it is the historically validated choice**: the 2024 Lash Cash Mentorship was the middle rung of the best year on record ($4,294 across 5 buyers, ~$859 average). Trade-offs versus the Sprint: roughly double the revenue per buyer, but ~9 live delivery hours plus build time, a 15-seat cap, and it is an event rather than evergreen. Revenue potential at cap: with, say, 3 Equipped included, 4 RLU women at $497, and 8 outside buyers at $997, the cohort collects ~$9,964 against ~$930 of kit COGS (15 Retention Ritual kits at $62.03). After Dec 3, record the six nights and productize the replay as the evergreen bridge; that recovers the Sprint's always-on role with no new delivery.
+4. **Chiquita Turner is the retention proof.** $47 entry, $2,697 thirteen days later, $3,077 a year after that, 9 of 9 payments completed, $5,821 lifetime. The incubation model in Section 1 now has its strongest single data point.
+5. **Scheduling collision the briefing does not flag: the cruise (Oct 12–20) overlaps Cohort 2's final week and graduation (cohort ends ~Oct 19) and 14 of the 15 days of the Lash Cash cart window (Oct 6–20).** Decisions needed by mid-September: pre-record or reschedule week 6, move graduation to after the return, and automate the cart close or staff it (the coach). Closing a DM-dependent cart with the founder at sea is the exact failure mode this report warns about.
+6. **2024 corroborates the plan's structure.** The best year ($18,344) ran three events in five weeks with a working middle offer, and ten high-ticket sales carried 89% of the year. Cadence plus a middle rung plus high-ticket concentration is the briefing's Path B and this report's plan, told from two directions.
+
+---
+
 ## Executive summary — the verdicts up front
 
 1. **The goal is $10,000+/month profit — realistically inside the 12-month window. The old $2,997/day target is retired from the plan at Destyni's direction (Aug 20).** With corrected margins ($1,707–$2,187 per enrollment) and 40 available hours, $10K/month *profit* is a **base-case month 11–13 outcome**, with revenue crossing $10K around month 8–10 — and the ad-spend ladder (Section 12) is the path to "more than," with a year-one ceiling around $20–25K/month if the ad engine proves out (Section 2).
@@ -17,7 +44,7 @@ A note on scope: this repo contains a prior offer-ladder audit dated August 17, 
 
 3. **Your revenue does not come from launches. It comes from long incubation plus personal contact.** Both 2026 enrollments trace to trust built over months-to-years, and the only mechanism that demonstrably moved money in August was a one-to-one DM. 405 registrants and five live nights produced zero. The strategic conclusion runs through this entire report: the campus is the engine, DMs are the transmission, and challenges are — at best — a lead-gen feeder.
 
-4. **Equipped is your better sale — the corrected COGS reverses my original finding.** The brief's "identical $1,622 margin" was an artifact of stale COGS. In reality Equipped earns **$480 more margin per enrollment** than Certified ($2,187 vs $1,707 at challenge prices), the $1,000 studio premium carries a 48% incremental margin, and both deposits now comfortably cover COGS. Keep both tiers and *lean into* Equipped (Section 3).
+4. **Equipped is your better sale.** At the final Shopify-set COGS ($375 / $870), Equipped earns **$505 more margin per enrollment** than Certified ($2,127 vs $1,622 at challenge prices), the $1,000 studio premium carries a ~51% incremental margin, and both deposits comfortably cover COGS. Keep both tiers and *lean into* Equipped — all three 2026 buyers chose it unprompted (Section 3).
 
 5. **The $60/day campus ad is worth testing, with hard kill/scale thresholds.** Your one real data point (LMC26) implies ~$31.90 per paid member, which is inside the viable band. Rules and projections in Section 5.
 
@@ -31,16 +58,16 @@ The whole report, in simple words. Numbers are rounded.
 
 **What the data says.** Big launches and live events did not sell anything this year. What sold: one woman who sat quietly in your free community for a year, and personal one-on-one messages. So the plan is built on two things — a community that grows every day, and you personally messaging the warmest women in it.
 
-**The money math.** Every certification sale makes you about $1,700 to $2,200 in profit after costs. You want $10,000 a month. You get there by stacking three streams: about 4 certification sales a month (around $7,800), about 345 people paying $9 a month in the campus (around $2,900), and about 8 women a month buying a $297 starter course (around $2,300). Add those up, subtract about $1,800 for ads and about $670 for your tools, and you land just over $10,000 a month in profit. On the current plan that happens around one year from now.
+**The money math.** Every certification sale makes you about $1,600 to $2,100 in profit after costs. You want $10,000 a month. You get there by stacking three streams: about 4 certification sales a month (around $7,500), about 345 people paying $9 a month in the campus (around $2,900), and Lash Cash seats averaging about $2,000 a month across the year. Add those up, subtract about $1,800 for ads, $650 for tools, and $300 for your coach, and you land just under $10,000 a month, crossing it in any month with a fifth certification or a Lash Cash group running. On the current plan that happens around one year from now.
 
 **The one-year plan, one step at a time:**
-1. **Right now to September 8:** personally message all 84 people already in your world. Tell them the cohort starts September 8. Expect 3 to 5 to enroll. Start the $60-a-day ad to the $9 campus on Monday.
-2. **September 8 to October 20:** teach the cohort (only 2 to 3 hours a week of your time). Keep building the $297 Lash Brand Sprint on the side. Hire your success coach to run the weekly campus calls.
-3. **October 21 to early January:** launch the Sprint, message every new warm member, sell your product inventory to your own people over Black Friday, and collect deposits for the January cohort. No cohort in December — that time is for filling January.
+1. **Right now to September 7:** personally message all 84 people already in your world. Tell them the cohort starts September 7. Expect 3 to 5 to enroll. Start the $60-a-day ad to the $9 campus on Monday.
+2. **September 7 to October 19:** teach the cohort (only 2 to 3 hours a week of your time). Keep building Lash Cash Q4 on the side. Hire your success coach to run the weekly campus calls. One warning: the cruise (October 12 to 20) sits on top of the final cohort week and most of the Lash Cash cart window, so decide the coverage plan by mid-September.
+3. **October 22 to early January:** deliver the six Lash Cash Thursday nights, message every new warm member, sell your product inventory to your own people over Black Friday, and collect deposits for the January cohort. No cohort in December — that time is for filling January and turning the Lash Cash recordings into a replay product.
 4. **January:** a short 3-day event for your warm list only, then the next cohort starts January 11.
 5. **Rest of the year:** a cohort about every 3 months — April, then late June. Speed up only when cohorts fill up early with people left over waiting.
 
-**The three rules that make it work:** always offer RLU Pay first (it makes you money instead of costing you fees — it's worth about $300 more per sale than Affirm). Always offer the bigger Equipped package first (it makes you $480 more per sale than Certified). And never close a sale by broadcast — always in a personal conversation.
+**The three rules that make it work:** ask for pay in full first, with RLU Pay as the door for women who need it (your plan history is 1 completed of 2, so RLU Pay requires autopay plus a signed late-payment policy until Miesha proves the system). Always offer the bigger Equipped package first: it makes you $505 more per sale than Certified. Never close a sale by broadcast. Always in a personal conversation.
 
 **What "good" looks like at each check-in:** more than 60 new paying campus members a month from the ad means scale it up; fewer than 30 means turn it off and fix the page. A cohort with 4 to 6 women in September is a win. By next summer, cohorts of 10 to 12. If the ads work well and you push spend harder, the year-one ceiling is roughly $20,000 to $25,000 a month in revenue — comfortably more than the goal. (The old "$2,997 a day" target is officially retired: the plan aims at ten thousand or more a month in profit, grown by feeding the ad engine harder as it proves itself.)
 
@@ -50,12 +77,12 @@ The whole report, in simple words. Numbers are rounded.
 
 Per your rules — things in the brief that don't add up or need scrutiny:
 
-- **The brief's tier-economics table is now internally inconsistent.** It states $375 / $1,375 COGS and "identical $1,622 gross margin"; your correction ($290 / $810) makes both false. This analysis uses the corrected figures throughout: margins are $1,707 / $2,187 at challenge prices, $2,707 / $3,187 at regular prices. **Open item (Aug 20 evening):** you've since said the kit is "still $375" — that's two figures in one day ($290 morning, $375 evening). The gap is $85/sale and flips no conclusion, but settle it from actual invoices (see the kit-restock note in Section 9).
+- **RESOLVED (Aug 21): COGS is final at $375 Certified / $870 Equipped, set in Shopify.** The day's earlier figures ($290/$810, then "still $375") converged here. Margins: $1,622 (81%) and $2,127 (71%) at challenge prices. The reconciliation section carries the full supersession table.
 - **$136/month from ~15 members at $9** = $135. Trivial rounding; ignored.
-- **The second 2026 enrollment's tier is unspecified.** The three-day challenge produced "one $2,997 enrollment" — that price is *both* Certified-regular and Equipped-challenge. COGS is $290 or $810 depending; the YTD P&L carries the range.
+- **RESOLVED (Aug 21): the 2026 enrollments are named.** Ashleigh Aikens (Cohort 1, graduated, credential RLU-LMCEO-AA-081826), Alexandria Austin (Equipped, pay in full via Affirm, order RLU1110), Miesha Johnson (Equipped, RLU Pay, $3,147 contracted, $500 collected). Shopify 2026 YTD of $6,182 reconciles as two $2,997 enrollments plus $188 of VIP passes.
 - **1:1 session count per Equipped student is unspecified.** [ASSUMPTION] 2 sessions × 45 min = 1.5 hrs per Equipped enrollment.
-- **Tool-stack sanity check:** $80/month for an IG verified badge ($960/year) and $38.99/month for HoneyBook, in a business with 2 enrollments YTD, have no attributable return in your data. Cutting both saves $1,428/year with no visible downside in anything you've shown me.
-- **RLU Pay carries un-modeled default risk.** No credit check + in-house plan means you are the lender. You gave me no default/delinquency history, so all margin figures assume 100% collection. See Section 13 — and note the payment-rail math in Section 3 now quantifies how much default tolerance the fee savings buy you.
+- **Tool-stack sanity check:** $80/month for an IG verified badge ($960/year) and $38.99/month for HoneyBook have no attributable return in the data. Note HoneyBook currently carries Miesha's RLU Pay contract, so keep it until her plan completes or the contract moves; the badge can go now.
+- **RESOLVED (Aug 21): RLU Pay default risk is no longer un-modeled — completion history is 1 of 2.** The revised rail rule in Section 3 responds to it: pay in full first, RLU Pay as the access path with autopay and a written delinquency policy (due before Miesha's Sept 18 installment).
 - **Resolved: Affirm clears $2,997.** The brief said Affirm caps below $2,997; in fact Alexandria's Equipped enrollment ran through Affirm at $2,997, which is where the $239.76 fee figure comes from. So Equipped's checkout rails are not broken — Affirm just costs you ~$300 more per sale than RLU Pay (Section 3). Keep it live as the self-serve fallback; it closed your biggest organic sale without a conversation.
 
 ---
@@ -84,7 +111,7 @@ What this implies, stated as mechanism:
 
 Everything downstream in this report is built on this model: fill the incubator cheaply and continuously, shorten the incubation with structure (the bridge, the ascension path), and systematize the conversation layer without removing you from it.
 
-**Update, evening of Aug 20 — enrollment #3 confirms the model.** A woman enrolled at Equipped ($2,997) the day after LMC26 ended — and she had attended the *previous* challenge too. She is not a launch conversion; she is a repeat-exposure buyer: two challenges of incubation, then a decision on her own clock. Read the pattern across all three 2026 enrollments: one from a challenge (warmth unknown), one after a year-plus of silent free membership (Alexandria), one after two challenges. Zero from a single cold touch. Notable secondary signals: she chose Equipped — that's at least 2 of 3 buyers picking the higher tier unprompted, validating the steer-to-Equipped rule — and she's on RLU Pay ($500 down, $700 on Sept 4 when the kit ships, then three biweekly payments of $649; total $3,147 = price + the $150 plan fee, collected in full by ~Oct 16). Her margin at full collection ≈ $2,250 — roughly $300 more than if she'd paid through Affirm. With Alexandria also seated, the September 8 cohort starts with 2 seats filled before the sweep begins — both Equipped. And note the shipping discipline worked as designed: by kit-ship day she'll have paid $1,200 against $810 of COGS, so even a worst-case default after shipping leaves the sale ~$390 above cost.
+**Update, evening of Aug 20 — enrollment #3 confirms the model.** A woman enrolled at Equipped ($2,997) the day after LMC26 ended — and she had attended the *previous* challenge too. She is not a launch conversion; she is a repeat-exposure buyer: two challenges of incubation, then a decision on her own clock. Read the pattern across all three 2026 enrollments: one from a challenge (warmth unknown), one after a year-plus of silent free membership (Alexandria), one after two challenges. Zero from a single cold touch. Notable secondary signals: she chose Equipped — that's at least 2 of 3 buyers picking the higher tier unprompted, validating the steer-to-Equipped rule — and she's on RLU Pay ($500 down, $700 on Sept 4 when the kit ships, then three biweekly payments of $649; total $3,147 = price + the $150 plan fee, collected in full by ~Oct 16). Her margin at full collection ≈ $2,250 — roughly $300 more than if she'd paid through Affirm. With Alexandria also seated, the September 7 cohort starts with 2 seats filled before the sweep begins — both Equipped. And note the shipping discipline worked as designed: by kit-ship day she'll have paid $1,200 against $810 of COGS, so even a worst-case default after shipping leaves the sale ~$390 above cost.
 
 ---
 
@@ -100,13 +127,15 @@ Path using all three revenue lines, at the 40-hour work level (base case, month 
 
 | Line | Volume | Unit economics | Monthly margin |
 |---|---|---|---|
-| Certifications | 4/mo | ~$1,950 blended margin | $7,800 |
+| Certifications | 4/mo | ~$1,875 blended margin (final COGS) | $7,500 |
 | Campus | ~345 paying | $9 × ~94% net of fees | $2,900 |
-| Bridge (Sprint) | 8/mo | $297 × ~95% margin | $2,255 |
+| Bridge (Lash Cash + replay) | ~2/mo average | $997 / $497 mix, ~90% margin | $2,000 |
 | Ads | — | $60/day | −$1,824 |
-| Fixed tools | — | trimmed ~$348 (badge, HoneyBook, Canva cut) + Higgsfield AI $300 | −$648 |
+| Fixed tools | — | trimmed ~$387 (badge, Canva cut; HoneyBook stays while it carries Miesha's contract) + Higgsfield AI $300 | −$687 |
 | Success coach | — | ~4 campus calls/month | −$300 |
-| **Profit** | | | **≈ $10,185** |
+| **Profit** | | | **≈ $9,590** |
+
+At final COGS the base case lands just under $10K; the gap closes in any month with a fifth certification or a Lash Cash cohort in session, and the ad ladder's first rung ($100/day at proven cost-per-member) closes it permanently.
 
 Certifications-only version for reference: ($10,000 + $2,174 of ads and tools) ÷ $1,950 ≈ **6.2 → 6 enrollments/month, every month**. Against 2 enrollments in 8 months that's a 24x jump on one product line — which is why the three-line stack is the plan, not cert volume alone.
 
@@ -127,14 +156,14 @@ My original analysis — built on the brief's $375/$1,375 COGS — concluded the
 | | Certified | Equipped |
 |---|---|---|
 | Challenge price | $1,997 | $2,997 |
-| Corrected COGS | $290 | $810 |
-| **Gross margin (challenge)** | **$1,707 (85%)** | **$2,187 (73%)** |
-| Gross margin (regular) | $2,707 | $3,187 |
-| Deposit vs COGS | $750 − $290 = **+$460 at deposit** | $1,200 − $810 = **+$390 at deposit** |
+| Final COGS (set in Shopify, Aug 21) | $375 | $870 |
+| **Gross margin (challenge)** | **$1,622 (81%)** | **$2,127 (71%)** |
+| Gross margin (regular) | $2,622 | $3,127 |
+| Deposit vs COGS | $750 − $375 = **+$375 at deposit** | $1,200 − $870 = **+$330 at deposit** |
 | Incremental founder time | 0 | ~1.5 hrs of 1:1s [ASSUMPTION] + shipping |
-| Incremental margin vs Certified | — | **+$480 per sale → ~$320/hr for the 1:1 time** |
+| Incremental margin vs Certified | — | **+$505 per sale → ~$337/hr for the 1:1 time** |
 
-Read the premium directly: the buyer pays $1,000 more and your incremental cost is $520 ($810 − $290) — **the studio upsell itself runs a 48% margin.** Both tiers are cash-positive on deposit day, so my original recommendations to raise the Equipped deposit and add $300 to its price are withdrawn — the problems they solved don't exist.
+Read the premium directly: the buyer pays $1,000 more and your incremental cost is $495 ($870 − $375) — **the studio upsell itself runs a ~51% margin.** Both tiers are cash-positive on deposit day, so my original recommendations to raise the Equipped deposit and add $300 to its price are withdrawn — the problems they solved don't exist.
 
 What survives from the original analysis:
 
@@ -150,15 +179,17 @@ You reported real fees on a $2,997 sale: **Affirm $239.76** (exactly 8.0% — th
 
 | Rail, on a $2,997 sale | Fee to you | Margin: Certified $1,997* | Margin: Equipped $2,997 |
 |---|---|---|---|
-| Affirm | −$239.76 (8.0%) | $1,547 | $1,947 |
-| Shop Pay Installments | −$177.12 (5.9% + 30¢) | $1,589 | $2,010 |
-| **RLU Pay** | **+$150 fee − ~$93 processing ≈ +$57 net** | **~$1,793** | **~$2,244** |
+| Affirm | −$239.76 (8.0%) | $1,462 | $1,887 |
+| Shop Pay Installments | −$177.12 (5.9% + 30¢) | $1,504 | $1,950 |
+| **RLU Pay** | **+$150 fee − ~$93 processing ≈ +$57 net** | **~$1,708** | **~$2,184** |
 
 *Certified column recomputed at $1,997 (Affirm $159.76, Shop Pay $118.12, RLU Pay net ≈ +$86).
 
 **Every enrollment steered from Affirm to RLU Pay is worth ~$250–$300; from Shop Pay, ~$200–$235.** At 4 certs/month, an all-RLU-Pay mix versus an all-Affirm mix is roughly **$1,000–$1,200/month** — about a month of timeline on the $10K goal.
 
-The counterweight is who carries default risk: Affirm and Shop Pay pay you in full and absorb the buyer's default; on RLU Pay, you do. The breakeven: the ~$300 per-plan fee advantage covers expected losses until default probability × loss-given-default exceeds ~$300. If a defaulted plan loses you half the balance (~$1,500), RLU Pay remains the better rail up to a **~20% default rate** — far worse than any plausible reality if your collection history is even mediocre. So the operating rule: **present RLU Pay first in every payment conversation** (which you should be doing anyway — it's the no-credit-check differentiator), keep Shop Pay as the pay-in-full path, and treat Affirm as the rail of last resort. This also raises the stakes on Section 13 question #1: your actual RLU Pay default history is now worth ~$1,000/month of decision quality.
+The counterweight is who carries default risk: Affirm and Shop Pay pay you in full and absorb the buyer's default; on RLU Pay, you do. The breakeven: the ~$300 per-plan fee advantage covers expected losses only while default probability × loss-given-default stays under ~$300.
+
+**REVISED by the Aug 21 briefing: the collection history arrived, and it is 1 of 2 plans completed** (Chiquita 9 of 9; Delia's $1,050 written off). At a 50% observed base rate with four-figure losses, the fee advantage does not cover the risk. The revised rule: **pay in full first (Shop Pay, then Affirm) whenever the buyer can manage it; RLU Pay stays on the menu as the access path** — it is still the no-credit-check differentiator that closes women the other rails reject — but only with autopay mandatory, the written delinquency policy signed before the first installment, and goods shipping only after collected cash exceeds COGS (already the practice). Miesha completing 5 of 5 is the live test; two clean completions in a row re-open the RLU-Pay-first argument, because the fee math never stopped favoring it.
 
 One consistency note: the blended ~$1,950 margin used in Sections 2, 4, 10, and 12 sits between the Affirm-heavy (~$1,750) and RLU-Pay-heavy (~$2,020) mixes. If you steer to RLU Pay as recommended, the plan's projections are mildly conservative; if buyers land on Affirm, they're mildly optimistic.
 
@@ -223,6 +254,8 @@ Evidence: n=1. Alexandria converted after ~12 months from the free tier. Compara
 ---
 
 ## 6. The missing bridge
+
+**SUPERSEDED (Aug 21): the bridge is now Lash Cash Q4** — six live build nights at $997 (or $497 for RLU women, included for Equipped buyers), cart Oct 6–20, nights Oct 22–Dec 3, cap 15, campus membership required. The design below (the Lash Brand Sprint) stands as the record of the reasoning and as the blueprint for the **evergreen replay product** to build from the recorded nights after Dec 3. The structural argument is unchanged and Lash Cash satisfies it: the ladder needed a rung between $9 and $1,997, and 2024's Lash Cash Mentorship (~$859 average, 5 buyers, best year on record) already proved this exact rung sells.
 
 The gap is brutal and your LMC26 data proves it: 16 women demonstrated willingness to pay *something* during a high-intent week, and the next rung was 83x their commitment ($9 → $750 deposit). Zero made the jump. Alexandria needed 12+ months of free incubation to make it. The bridge's job is to compress that incubation.
 
@@ -367,27 +400,30 @@ Constraints honored throughout: ~30–35 hrs/week typical with 40 as headroom, *
 
 The extra hours change the *sequence*, not the strategy: the Sprint build moves up two months, the sweep compresses to two weeks, and cohort targets rise roughly one phase earlier than the 20-hour version.
 
-### The concrete calendar (cohort 1 runs Tuesday September 8 → Tuesday October 20)
+### The concrete calendar (Cohort 2 runs Monday September 7 → Monday October 19)
 
-**Before the cohort — Aug 21 to Sept 7:**
-- **Fri Aug 21 – Sun Sept 7:** the DM sweep, ~30 threads/week, warmest names first. Every thread: "my next cohort starts September 8." RLU Pay first, Equipped first.
+Note: September 7 is Labor Day, so plan the kickoff call time accordingly. Ashleigh's completed cohort was Cohort 1, which makes this one Cohort 2. The live certification page still shows the old September 8 date in six places and must be corrected.
+
+**Before the cohort — Aug 21 to Sept 6:**
+- **Fri Aug 21 – Sat Sept 6:** the DM sweep, ~30 threads/week, warmest names first. Every thread: "my next cohort starts September 7." RLU Pay per the revised rail rule, Equipped first.
 - **Mon Aug 24:** $60/day campus ad goes live.
-- **By Sun Aug 30:** enroll-page fixes live (named proof, RLU Pay visible, legacy pages killed) — every woman you DM will read that page before she pays.
-- **Thu Sept 10:** first ad verdict (~$1,000 spent): under $30 per paid member → plan the October scale-up; over $60 → pause and fix the landing page.
+- **By Sun Aug 30:** enroll-page fixes live (named proof, the September 7 date corrected, encoding bug fixed, placeholders filled) — every woman you DM will read that page before she pays.
+- **Thu Sept 10:** first ad verdict (~$1,000 spent): under $30 per paid member → plan the October increase; over $60 → pause and fix the landing page.
 
-**During the cohort — Sept 8 to Oct 20** (your live load ~2.5 hrs/week):
-- **Week 1 (Sept 8):** kickoff call. Coach starts running the weekly campus call this week too.
-- **Weeks 2–5 (Sept 15 – Oct 12):** weekly coaching call; Shadow Labs in weeks 3 and 5 (Sept 22 week, Oct 6 week); Equipped 1:1s booked weeks 2–5. Sprint build continues ~5 hrs/week in the background.
-- **Week 6 (Oct 13–20):** final week; **graduation Oct 20**. Before they leave: collect named, dated testimonials from every graduate — this cohort's real job is producing the proof the whole funnel is starving for.
+**During the cohort — Sept 7 to Oct 19** (your live load ~2.5 hrs/week):
+- **Week 1 (Mon Sept 7):** kickoff call. Coach starts running the weekly campus call this week too. Kit emails follow the briefing sequence: Email 1 Sept 8 or 9, Email 2 Sept 10 or 11, Email 3 Sept 13 or 14.
+- **Weeks 2–5 (Sept 14 – Oct 11):** weekly coaching call; Shadow Labs in weeks 3 and 5 (Sept 21 week, Oct 5 week); Equipped 1:1s booked weeks 2–5. Lash Cash Q4 build work continues ~5 hrs/week in the background.
+- **Tue Oct 6:** Lash Cash Q4 cart opens (through Oct 20).
+- **Week 6 (Oct 12–19): COLLIDES WITH THE CRUISE (Oct 12–20).** The final cohort week, graduation, and 14 of the 15 cart days land while Destyni is at sea. Decide by mid-September: pre-record or reschedule week 6, hold graduation Oct 21–22 after return, and automate the cart close (scheduled emails, coach handles DMs) or accept selling the final stretch from the ship. Collect named, dated testimonials from every graduate at graduation — this cohort's real job is producing the proof the funnel is starving for.
 
-**Between cohorts — Oct 21 to Jan 10 (this is "what am I doing between cohorts"):**
-- **Oct 21–31:** launch the Sprint at $297 to the waitlist and campus. Grad restock offer to the new graduates. First month-in-review of ad numbers.
-- **November:** sweep #2 — personal DMs to every free member and every new paying member who's shown a warm signal. **Black Friday (Nov 27): campus-and-grads-only product flash sale** — inventory becomes January ad budget. Ad scale decision #2: raise to $100/day if cost-per-paid-member has held at or under $30.
-- **December:** no cohort, no holiday launch. Sell January deposits all month ("cohort starts January 11, deposit holds your seat"). Prep the 3-day challenge. Coach keeps the campus rhythm through the holidays.
+**Between cohorts — Oct 20 to Jan 10 (this is "what am I doing between cohorts"):**
+- **Oct 22 – Dec 3:** Lash Cash Q4 build nights, Thursdays 9 PM ET (Oct 22, Oct 29, Nov 5, Nov 12, Nov 19, Dec 3). Grad restock offer to the new graduates. First month-in-review of ad numbers.
+- **November:** sweep #2 — personal DMs to every non-paying member and every new paying member who's shown a warm signal. **Black Friday (Nov 27): campus-and-grads-only product flash sale** — inventory becomes January ad budget. Ad decision #2: raise to $100/day if cost-per-paid-member has held at or under $30.
+- **December:** no cohort, no holiday launch. Sell January deposits all month ("Cohort 3 starts January 11, deposit holds your seat"). Record the six Lash Cash nights into an evergreen replay product. Prep the 3-day challenge. Coach keeps the campus rhythm through the holidays.
 - **Jan 5–7:** warm-list 3-day challenge — goal is 100+ opened DM threads, not sales from stage.
-- **Mon Jan 11:** cohort 2 starts (runs to Feb 21). Then: early April, late June.
+- **Mon Jan 11:** Cohort 3 starts (runs to Feb 21). Then: early April, late June.
 
-The weekly default between cohorts, at the 40-hour ceiling: DMs 8–10 hrs, content and ad creative 4–5 hrs (this is Higgsfield's job), Sprint/build work 5–8 hrs, campus presence 2–3 hrs (the coach runs the calls; you drop in), admin 2 hrs. Between-cohort time is not downtime — it's when the pipeline for the next cohort gets built, and the pipeline is the whole game.
+The weekly default between cohorts, at the 40-hour ceiling: DMs 8–10 hrs, content and ad creative 4–5 hrs (this is Higgsfield's job), build work 5–8 hrs (Lash Cash delivery through Dec 3, then the replay productization), campus presence 2–3 hrs (the coach runs the calls; you drop in), admin 2 hrs. Between-cohort time is not downtime — it's when the pipeline for the next cohort gets built, and the pipeline is the whole game.
 
 ### Spending more to get more than $10K
 
@@ -395,12 +431,12 @@ You've said you want more than $10K/month and you're willing to spend more on ad
 
 ### Phase 1 — Harvest and build in parallel (Sept–Oct, months 1–2)
 
-1. **The 70-member DM sweep + the 14 VIPs** (Section 10), compressed into the 19 days before the **September 8 cohort start** — that date is the deadline in every thread ("my next cohort starts September 8"), and the sweep is this cohort's enrollment engine. ~30 threads/week, RLU Pay presented first, Equipped as the default (Section 3). Target: 3–5 enrollments (**$5,800–$11,200 margin**), Sprint waitlist seeded. Warm women who can't make September 8 get a deposit toward January or the Sprint waitlist — they're the January pipeline, not lost sales.
+1. **The 70-member DM sweep + the 14 VIPs** (Section 10), compressed into the 19 days before the **September 7 cohort start** — that date is the deadline in every thread ("my next cohort starts September 7"), and the sweep is this cohort's enrollment engine. ~30 threads/week, RLU Pay presented first, Equipped as the default (Section 3). Target: 3–5 enrollments (**$5,600–$10,600 margin at final COGS**), Lash Cash waitlist seeded. Warm women who can't make September 7 get a deposit toward January or the Lash Cash cart (opens Oct 6) — they're pipeline, not lost sales.
 2. **Start the $60/day campus ad Monday** with the Section 5 kill/scale rules written down. First judgment after $1,000 spent (~day 17).
-3. **Build the Lash Brand Sprint concurrently** (~35 hrs across weeks 2–8 ≈ 5 hrs/wk — this is the move the 40-hour ceiling buys you; it shipped in December in the 20-hour plan). Launch to the sweep waitlist first: if fewer than 5 of your warmest women buy at $297, fix the offer before showing it to strangers.
-4. **Tool trim:** cut IG badge + HoneyBook + Canva (−$144/mo total; Canva cut Aug 20 since Higgsfield covers creative). Fixed drops to ~$348 plus the $300 Higgsfield line.
+3. **Build Lash Cash Q4 concurrently** (~5 hrs/wk through the cohort; six build nights, forms library, AI-agent night, page and cart). Seed the waitlist from the sweep: warm women who stall at the certification deposit hear about the Oct 6 cart the same week.
+4. **Tool trim:** cut IG badge + Canva (−$105/mo; Canva cut Aug 20 since Higgsfield covers creative). **Keep HoneyBook for now** — it carries Miesha's RLU Pay contract; revisit when her plan completes in October.
 5. Product line quick wins: annual-upgrade box + one campus flash sale (Section 9). Target: **$2,000–$5,000 one-time cash**.
-6. Run the **September 8 cohort** with whatever the sweep fills — 4–6 seats is success at this pipeline size (~$8–12K margin). Cohort cadence from here: quarterly starts — September 8 → mid-January (fed by the warm 3-day challenge) → early April → late June — selling continuously between starts via deposits, with the go-faster rule: move to every-8-weeks only when the campus passes ~300 paying AND a cohort fills to 10+ seats before its start date with threads left over.
+6. Run the **September 7 cohort** with whatever the sweep fills — 4–6 seats is success at this pipeline size (~$8–12K margin). Cohort cadence from here: quarterly starts — September 7 → mid-January (fed by the warm 3-day challenge) → early April → late June — selling continuously between starts via deposits, with the go-faster rule: move to every-8-weeks only when the campus passes ~300 paying AND a cohort fills to 10+ seats before its start date with threads left over.
 
 *Hours: ~30–34/wk (teaching ~3). Exit run rate: ~$1,800–$2,600/mo recurring + cohort margin lumps + Sprint live.*
 
@@ -469,4 +505,4 @@ Answers to these would materially change or sharpen specific sections:
 
 ---
 
-*Method note: all inputs are from the August 20, 2026 brief plus Destyni's same-day corrections (COGS $290/$810; up to 40 hrs/week on her terms; teaching ≤10 hrs/week; payment-rail fees at $2,997 — Affirm $239.76, Shop Pay Installments $177.12; cohort dates Sept 8–Oct 20; product margins 50–70%; Higgsfield AI subscription ~$300/month; success coach hired now; target raised to "more than $10K/month" with willingness to fund ads). No external market data was fetched; industry-range figures (churn, community-to-high-ticket conversion, high-ticket CAC) are marked as assumptions and carry ranges. Where n=1 underlies a projection, the text says so.*
+*Method note: all inputs are from the August 20, 2026 brief plus Destyni's same-day corrections (COGS $290/$810; up to 40 hrs/week on her terms; teaching ≤10 hrs/week; payment-rail fees at $2,997 — Affirm $239.76, Shop Pay Installments $177.12; cohort dates Sept 7–Oct 20; product margins 50–70%; Higgsfield AI subscription ~$300/month; success coach hired now; target raised to "more than $10K/month" with willingness to fund ads). Reconciled Aug 21 against the operating briefing: final COGS $375/$870 set in Shopify, cohort dates Sept 7–Oct 19, Lash Cash Q4 as the bridge, payment-plan completion history 1 of 2, lifetime collected ~$34,789. No external market data was fetched; industry-range figures (churn, community-to-high-ticket conversion, high-ticket CAC) are marked as assumptions and carry ranges. Where n=1 underlies a projection, the text says so.*
