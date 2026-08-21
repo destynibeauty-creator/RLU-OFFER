@@ -11,7 +11,7 @@ A note on scope: this repo contains a prior offer-ladder audit dated August 17, 
 
 ## Executive summary — the verdicts up front
 
-1. **Build toward $10,000/month profit — now realistically inside the 12-month window. The $2,997/day goal still is not.** With corrected margins ($1,707–$2,187 per enrollment instead of $1,622) and 40 available hours, $10K/month *profit* moves from a month-15-to-18 outcome to a **base-case month 11–13 outcome**, with revenue crossing $10K around month 8–10. $2,997/day ($91,109/month) remains out of reach in 12 months — and the reason is no longer your hours. Doubling your hours moves the 12-month ceiling from ~$10–12K to roughly $20–25K/month. The remaining 4x gap is audience size and team, which don't compress into a year at any founder hour count (Section 2).
+1. **The goal is $10,000+/month profit — realistically inside the 12-month window. The old $2,997/day target is retired from the plan at Destyni's direction (Aug 20).** With corrected margins ($1,707–$2,187 per enrollment) and 40 available hours, $10K/month *profit* is a **base-case month 11–13 outcome**, with revenue crossing $10K around month 8–10 — and the ad-spend ladder (Section 12) is the path to "more than," with a year-one ceiling around $20–25K/month if the ad engine proves out (Section 2).
 
 2. **The business is currently operating at roughly break-even.** 2026 YTD with corrected COGS: ~$7,000–$7,300 total revenue against ~$6,600–$7,700 total cost (fixed tools + ads + COGS). Net between −$700 and +$700. The build starts from ~zero monthly profit, not from a base.
 
@@ -42,7 +42,7 @@ The whole report, in simple words. Numbers are rounded.
 
 **The three rules that make it work:** always offer RLU Pay first (it makes you money instead of costing you fees — it's worth about $300 more per sale than Affirm). Always offer the bigger Equipped package first (it makes you $480 more per sale than Certified). And never close a sale by broadcast — always in a personal conversation.
 
-**What "good" looks like at each check-in:** more than 60 new paying campus members a month from the ad means scale it up; fewer than 30 means turn it off and fix the page. A cohort with 4 to 6 women in September is a win. By next summer, cohorts of 10 to 12. If the ads work well and you push spend harder, the year-one ceiling is roughly $20,000 to $25,000 a month in revenue — more than your goal, but nowhere near $91,000, which needs a big team and a huge audience and is a year-3 conversation.
+**What "good" looks like at each check-in:** more than 60 new paying campus members a month from the ad means scale it up; fewer than 30 means turn it off and fix the page. A cohort with 4 to 6 women in September is a win. By next summer, cohorts of 10 to 12. If the ads work well and you push spend harder, the year-one ceiling is roughly $20,000 to $25,000 a month in revenue — comfortably more than the goal. (The old "$2,997 a day" target is officially retired: the plan aims at ten thousand or more a month in profit, grown by feeding the ad engine harder as it proves itself.)
 
 ---
 
@@ -50,7 +50,7 @@ The whole report, in simple words. Numbers are rounded.
 
 Per your rules — things in the brief that don't add up or need scrutiny:
 
-- **The brief's tier-economics table is now internally inconsistent.** It states $375 / $1,375 COGS and "identical $1,622 gross margin"; your correction ($290 / $810) makes both false. This analysis uses the corrected figures throughout: margins are $1,707 / $2,187 at challenge prices, $2,707 / $3,187 at regular prices. Worth also asking *why* the brief's COGS was high — if $375 was the kit's retail value rather than your cost, check whether other "cost" figures in your records are retail too.
+- **The brief's tier-economics table is now internally inconsistent.** It states $375 / $1,375 COGS and "identical $1,622 gross margin"; your correction ($290 / $810) makes both false. This analysis uses the corrected figures throughout: margins are $1,707 / $2,187 at challenge prices, $2,707 / $3,187 at regular prices. **Open item (Aug 20 evening):** you've since said the kit is "still $375" — that's two figures in one day ($290 morning, $375 evening). The gap is $85/sale and flips no conclusion, but settle it from actual invoices (see the kit-restock note in Section 9).
 - **$136/month from ~15 members at $9** = $135. Trivial rounding; ignored.
 - **The second 2026 enrollment's tier is unspecified.** The three-day challenge produced "one $2,997 enrollment" — that price is *both* Certified-regular and Equipped-challenge. COGS is $290 or $810 depending; the YTD P&L carries the range.
 - **1:1 session count per Equipped student is unspecified.** [ASSUMPTION] 2 sessions × 45 min = 1.5 hrs per Equipped enrollment.
@@ -88,11 +88,9 @@ Everything downstream in this report is built on this model: fill the incubator 
 
 ---
 
-## 2. The two goals: $10,000/month vs. $2,997/day
+## 2. The goal: $10,000+/month profit
 
-### The gap itself
-
-$2,997/day × 30.4 days = **$91,109/month = $1.09M/year.** Your household need is $10,000/month. The stated goal is **9.1x** the actual need. These are not two ambition levels of the same business; they are two different companies — and it's worth noticing that $2,997/day is exactly "one Equipped sale per day." It reads like an identity goal ("a sale a day") rather than a derived number. The derived number is $10K.
+**Retired, evening of Aug 20, at Destyni's direction: the $2,997/day revenue goal.** For the record before it goes: it worked out to $91,109/month — about 9x the household need — and required a staffed sales-and-delivery company, five-figure monthly ad spend, and an audience that doesn't exist yet. It is out of the plan. The plan builds toward the derived goal — **$10,000 or more per month in profit** — with the ad-spend ladder in Section 12 as the honest path to "more."
 
 ### What $10,000/month requires
 
@@ -116,17 +114,7 @@ Certifications-only version for reference: ($10,000 + $2,174 of ads and tools) �
 
 Hours at this scale: ~30–35/week, structured on your terms. DM pipeline 10–12 (async, your schedule), build/content 8–10, campus 4, live teaching **3–6 (well under your 10-hour cap)**, admin 3. You do not need all 40 every week; the plan targets ~32 with surge weeks near cohort closes. One flag you should sit with: 40 RLU hours + 18 nursing hours = 58/week total. The plan below works at ~30–35 RLU hours; treat 40 as headroom, not the default.
 
-### What $91,109/month requires
-
-Work backward from 30 cert sales/month at ~$3,000 average:
-
-- **Traffic/CAC:** your only ad-attributed sale cost effectively $2,127 of 2026 spend. Assume a well-tuned high-ticket funnel gets CAC to $400–$800: 30 sales × $400–800 = **$12,000–$24,000/month ad spend**.
-- **Sales labor:** at ~10 quality conversations per close [ASSUMPTION, consistent with your 24-hour DM data], 30 closes = 300 conversations/month ≈ 75–100 hours of selling. Even at your full 40 hours doing nothing but DMs, you personally cover barely half — so **1–2 setters/closers minimum**.
-- **Delivery:** ~90 students in the pipeline at any moment. If half are Equipped: 15/month × 1.5 hrs of 1:1s = 22.5 hrs/month of 1:1s, plus 30 kit/studio shipments/month, plus group calls — live delivery alone breaches your 10-hour teaching cap without **2 coaches + 1 ops person**.
-- **Payroll:** setters, closer, ops, 2 coaches, VA ≈ **$25,000–$35,000/month** loaded.
-- **Audience:** every operator actually doing $1M+/year in this niche (see Section 11) sits on an audience of hundreds of thousands built over years. You have 85 community members and a 405-name challenge list.
-
-**Verdict: build toward $10,000/month profit for the next 12 months.** Your willingness to work 40 hours changes the *speed* — it does not change this answer, because at $91K/month the binding constraints are audience size and a managed team, and neither compresses into a year. A staffed sales floor and fixed management cadence is also not "on my terms and my time." The 40-hour ceiling honestly buys you: $10K profit ~4 months sooner, and a 12-month revenue ceiling around **$20–25K/month** if everything breaks right — real, but still 4x short of $91K. Revisit the bigger number after $10K/month has held for two consecutive quarters.
+**Verdict: build toward $10,000+/month profit.** The 40-hour ceiling buys you $10K profit ~4 months sooner than the 20-hour plan, and a 12-month revenue ceiling around **$20–25K/month** if the ad engine proves out — that ladder (Section 12) is the "more than $10K" path, gated by measured numbers at every rung. Scale conversations beyond that live in year 2–3, from atop a larger audience.
 
 One adjacent note: $10K/month from RLU also makes the 18 hrs/week of W2 nursing optional, which is the cleanest way to fund more RLU hours without touching the 58-hour problem.
 
@@ -329,9 +317,9 @@ Sequence it as roles 2 and 4 in the next 60 days (they need no build), role 1 as
 
 ### The kit restock (Aug 20): $3,800 for ~45 kits of components
 
-Destyni is paying a $3,800 vendor invoice buying roughly 45 units of every kit component. The math worth noticing: **$3,800 ÷ 45 ≈ $84 per kit from this vendor.** If this invoice is the whole kit, the true kit COGS is far below even the corrected $290 — meaning Certified margins are better than every figure in this report. If the kit pulls from multiple vendors, $290 stands. **Destyni: which is it?** (This is the third time a "cost" number has moved down on inspection — a one-time true unit-costing of the kit and studio, actual invoices only, would put this to bed.)
+Destyni is paying a $3,800 vendor invoice buying roughly 45 units of every kit component — **this vendor supplies part of the kit, not all of it** ($3,800 ÷ 45 ≈ $84/kit from this vendor; Destyni confirms the kit is multi-vendor). Open item on the total: Destyni has now given two figures for full kit COGS in one day — **$290 (morning correction) and $375 (evening, "still what I said")**. The gap is $85 per Certified sale; the report's margin figures currently use $290/$810, and no strategic conclusion flips either way, but one final number from actual invoices would settle it — this is the third cost figure today that moved on inspection.
 
-Coverage check: at plan pace (~35–40 enrollments over 12 months), 45 kits is roughly a year of supply, on top of the two Equipped kits shipping in early September. Cash check: the invoice is effectively paid by the two seated students — Alexandria's ~$2,757 already collected plus the new enrollee's $1,200 by Sept 4 ≈ $3,957. The caveat that keeps this honest: inventory is frozen ad budget, so a bulk buy is only right if the volume price break is real and nothing in the existing unsold inventory already covers these components — check the shelf before the invoice clears.
+Coverage check: at plan pace (~35–40 enrollments over 12 months), 45 kits is roughly a year of supply, on top of the two Equipped kits shipping in early September. Cash check: the invoice is effectively paid by the two seated students — Alexandria's ~$2,757 already collected plus the new enrollee's $1,200 by Sept 4 ≈ $3,957. **Destyni's half-order idea is the right instinct:** ~$1,900 for ~22 kits is still 6+ months of supply, and the freed ~$1,900 is a full month of the $60/day ad. Decision rule: take the half order if the per-unit price holds within ~10% of the bulk rate; take the full 45 only if the volume discount is real (roughly 15%+ or free freight) — and either way, check the existing unsold inventory for overlapping components before any invoice clears.
 
 ### Should you run ads to the products? (Added after your margin data)
 
@@ -461,7 +449,7 @@ You've said you want more than $10K/month and you're willing to spend more on ad
 | Your hours | ~30–35 | ~35–40 |
 | Teaching share | ~4–6 hrs/wk | ~6–8 hrs/wk (under cap) |
 
-**$10K/month revenue: around month 8–10. $10K/month profit: base case months 11–13, upside month 9–10.** Your two corrections moved profit forward roughly four months versus my original analysis. And $2,997/day still appears nowhere on this page, because at any founder hour count it requires an audience and a team that don't exist yet. What it *can* be is the year-3 question, asked from atop a 1,500-member campus and a waiting list — the position Ariel pitched from.
+**$10K/month revenue: around month 8–10. $10K/month profit: base case months 11–13, upside month 9–10 — with the ad ladder as the road past it.** Your corrections moved profit forward roughly four months versus my original analysis. The retired daily-revenue goal doesn't appear on this page; what replaces it is the upside column above, earned rung by rung. The bigger scale conversation belongs to year 2–3, asked from atop a 1,500-member campus and a waiting list — the position Ariel pitched from.
 
 ---
 
