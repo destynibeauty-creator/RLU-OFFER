@@ -43,7 +43,7 @@ What changes strategically:
 
 **Build the product this way.** One product, "Lash Cash Q4 Business Intensive," two variants: *With Certified CEO* at $497 and *Standalone* at $997. Paste the $497 variant ID into the section setting and the button appears. Put the $997 variant on its own product page and paste that URL into the other setting to make the "Everyone else" row clickable. Equipped needs nothing, it is already included.
 
-**On RLU Pay, do not build anything.** Handle it in the conversation and add $497 to her existing plan. At this volume that is one contract edit, not three new templates. The numbers to quote on the spot:
+**On RLU Pay, duplicate one lead form.** The six RLU Pay links are pre-built HoneyBook lead forms, not per-client contracts, so duplicating is cheap and editing one is safe for anyone already signed. Duplicate the **Certified biweekly** form, rename it "Certified CEO + Lash Cash Q4," and set it to $964.67, $964.67, $964.66. One duplication, not three: biweekly is what your only plan buyer chose, and weekly or two-pay requests are rare enough to handle by adding a separate $497 invoice to her project. The numbers to quote on the spot:
 
 | Certified + Lash Cash on RLU Pay | |
 |---|---|
@@ -57,6 +57,8 @@ What changes strategically:
 The biweekly line is the one to say out loud: **$799 becomes $964.67, about $166 more per payment.** A woman deciding between the two hears one number, not a new checkout.
 
 **Why no plan for the $497 by itself.** It is small enough that a plan adds risk without adding access, and payment-plan completion history is 1 of 2. If she is not on RLU Pay and wants Lash Cash later, she pays the $497 standalone before the October 22 cart close.
+
+**Correction on record about editing the six forms.** An earlier note in this file warned that editing them might alter Miesha Johnson's active plan. That was wrong. Because they are lead forms, an edit changes what future submissions are charged and leaves signed agreements alone. Repricing them is not the risky step it was described as. Open her project once afterward to confirm $649 biweekly still reads correctly, and move on.
 
 ---
 
