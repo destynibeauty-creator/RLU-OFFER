@@ -69,3 +69,33 @@ values are empty, so nothing breaks in the meantime.
 
 20 seats means up to 20 Retention Ritual Kits at $62.03 each, about $1,241 at
 full capacity. Current Retention Ritual stock is 44 units, so you are covered.
+
+---
+
+## BUILT (Aug 22, 2026)
+
+Created live in Shopify via the connector.
+
+| | |
+|---|---|
+| Product GID | `gid://shopify/Product/9595294941442` |
+| Handle | `lash-cash-q4-business-intensive` |
+| Status | **DRAFT** |
+| With Certified CEO ($497) | variant `48367533621506` &middot; SKU `LCQ4-WITH-CERT` |
+| Standalone ($997) | variant `48367533654274` &middot; SKU `LCQ4-STANDALONE` |
+| Cost per item | $62.03 on both |
+| Requires shipping | Yes on both |
+| Inventory tracking | Off on both, cap of 20 managed by hand |
+
+Already wired into `templates/page.LMCEO.liquid`:
+
+    assign lc_variant_addon = "48367533621506"
+    assign lc_product_url   = "https://richlash.university/products/lash-cash-q4-business-intensive"
+
+### Two things left, both need a human
+
+1. **Add a product image.** Shopify needs a publicly hosted image and the
+   connector cannot upload one from here.
+2. **Flip status to Active** when the image is on and you have read the
+   description. While it is DRAFT the product URL 404s, so the add-on button
+   and the "Everyone else" row will not work for buyers yet.
