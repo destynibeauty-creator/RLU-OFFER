@@ -410,6 +410,10 @@
   .rp-plan-r .amt{font-size:15px;font-weight:400;color:var(--ink);white-space:nowrap}
   .rp-plan-r .go{font-size:11px;letter-spacing:0.08em;text-transform:uppercase;color:var(--pink-soft);font-weight:500;white-space:nowrap}
   .rp-card.ess .rp-plan-r .go{color:var(--gold-soft)}
+  .rp-plan.lc{border-color:rgba(126,232,77,.38);background:rgba(78,187,25,.05)}
+  .rp-plan.lc:hover{border-color:var(--green-soft);background:rgba(78,187,25,.09)}
+  .rp-plan.lc .rp-plan-r .go{color:var(--green-soft)}
+  .rp-plan.lc .rp-plan-l span{color:var(--green-soft)}
   .rp-foot{margin-top:18px;text-align:center;font-size:11px;color:var(--faint);letter-spacing:0.03em;line-height:1.6}
   .rp-other{max-width:640px;margin:6vh auto 0;text-align:center;font-size:13.5px;color:var(--soft);line-height:1.8;font-weight:300}
   .rp-other b{color:#fff;font-weight:500}
@@ -1218,7 +1222,7 @@
           <a href="https://richlash.university/cart/{{ cert_variant }}:1,{{ section.settings.lc_variant_addon }}:1" class="addon-btn">+ Add Lash Cash Q4 &middot; ${{ lc_addon }} &rarr;<span>Both together, pay in full: ${{ section.settings.cert_plus_lc }}</span></a>
           {%- endif -%}
           <div class="pay-options"><div class="pay-options-label">Or enroll with</div><a href="https://richlash.university/cart/add?id={{ cert_variant }}&quantity=1&properties[%E2%9C%93%20Includes]=6-Week%20Live%20Coaching%2C%20Certifications%2C%20Money%20Maker%20Lash%20Kit%2C%20GPT%20Library%2C%20Vendor%20List%2C%20Performance%20Guarantee&properties[Cohort%20Begins]={{ cohort_date | url_encode }}&return_to=/checkout" class="pay-badge shop" aria-label="Enroll in Certified CEO and use Shop Pay at checkout">Shop Pay &nearr;</a><a href="https://richlash.university/cart/add?id={{ cert_variant }}&quantity=1&properties[%E2%9C%93%20Includes]=6-Week%20Live%20Coaching%2C%20Certifications%2C%20Money%20Maker%20Lash%20Kit%2C%20GPT%20Library%2C%20Vendor%20List%2C%20Performance%20Guarantee&properties[Cohort%20Begins]={{ cohort_date | url_encode }}&return_to=/checkout" class="pay-badge affirm" aria-label="Enroll in Certified CEO and use Affirm at checkout">Affirm &nearr;</a><a href="https://richlash.university/cart/add?id={{ cert_variant }}&quantity=1&properties[%E2%9C%93%20Includes]=6-Week%20Live%20Coaching%2C%20Certifications%2C%20Money%20Maker%20Lash%20Kit%2C%20GPT%20Library%2C%20Vendor%20List%2C%20Performance%20Guarantee&properties[Cohort%20Begins]={{ cohort_date | url_encode }}&return_to=/checkout" class="pay-badge sezzle" aria-label="Enroll in Certified CEO and use Sezzle at checkout">Sezzle &nearr;</a></div>
-          <div class="tier-note">No credit check with RLU Pay&trade; &middot; Cohort begins {{ cohort_date }}<br>On a payment plan and want Lash Cash Q4? Message me and I will add it to your plan.</div>
+          <div class="tier-note">No credit check with RLU Pay&trade; &middot; Cohort begins {{ cohort_date }}<br>Adding Lash Cash Q4 on a payment plan? Choose it in RLU Pay&trade; below.</div>
         </div>
       </div>
 
@@ -1342,8 +1346,11 @@
           <a class="rp-plan" href="https://richlash.hbportal.co/public/6a309018624600aa983ba83a"><span class="rp-plan-l"><b>Weekly</b><span>6 payments</span></span><span class="rp-plan-r"><span class="amt">{{ cert_weekly }}</span><span class="go">Select &rsaquo;</span></span></a>
           <a class="rp-plan" href="https://richlash.hbportal.co/public/6a3094655c94a6efd80597f0"><span class="rp-plan-l"><b>Biweekly</b><span>3 payments</span></span><span class="rp-plan-r"><span class="amt">{{ cert_biweekly }}</span><span class="go">Select &rsaquo;</span></span></a>
           <a class="rp-plan" href="https://richlash.hbportal.co/public/6a309468d18f7d3578645969"><span class="rp-plan-l"><b>Two Payments</b><span>2 payments</span></span><span class="rp-plan-r"><span class="amt">{{ cert_twopay }}</span><span class="go">Select &rsaquo;</span></span></a>
+          {%- if section.settings.cert_lc_plan_url != blank -%}
+          <a class="rp-plan lc" href="{{ section.settings.cert_lc_plan_url }}"><span class="rp-plan-l"><b>Biweekly + Lash Cash Q4</b><span>3 payments &middot; adds the ${{ lc_addon }} intensive</span></span><span class="rp-plan-r"><span class="amt">{{ section.settings.cert_lc_biweekly }}</span><span class="go">Select &rsaquo;</span></span></a>
+          {%- endif -%}
         </div>
-        <div class="rp-foot">*Weekly: first 3 payments are $400 &middot; final 3 are $399</div>
+        <div class="rp-foot">*Weekly: first 3 payments are $400 &middot; final 3 are $399{% if section.settings.cert_lc_plan_url != blank %}<br>With Lash Cash Q4 added: ${{ section.settings.cert_lc_total }} total, same ${{ cert_deposit }} deposit{% endif %}</div>
       </div>
 
       <div class="rp-card full reveal d1">
@@ -1883,6 +1890,9 @@
     { "type": "text", "id": "lc_variant_addon", "label": "Add-on variant ID (the $497 one)", "info": "From the Lash Cash Q4 product. Leave blank to hide the add-on button until the product exists." },
     { "type": "text", "id": "cert_plus_lc", "label": "Certified + Lash Cash combined total", "default": "3,494" },
     { "type": "url", "id": "lc_product_url", "label": "Lash Cash Q4 product page", "info": "For the standalone $997 buyers. Leave blank to keep that row as plain text." },
+    { "type": "text", "id": "cert_lc_plan_url", "label": "RLU Pay link: Certified + Lash Cash", "info": "Duplicate the Certified biweekly HoneyBook form, set it to $964.67 / $964.67 / $964.66, paste the public link here. Leave blank to hide the option." },
+    { "type": "text", "id": "cert_lc_biweekly", "label": "Combined biweekly amount", "default": "$964.67/ea" },
+    { "type": "text", "id": "cert_lc_total", "label": "Combined RLU Pay total", "default": "3,644" },
 
     { "type": "header", "content": "Proof" },
     { "type": "checkbox", "id": "show_money_wall", "label": "Show the Real Results money wall", "default": true, "info": "Revenue screenshots. Live since Aug 19 2026 1:15 PM ET; Alexandria enrolled at Equipped 61 minutes later. Kept on for that reason. Note it sits against the no-income-claims brand rule, permitted under the amended brand rule of Aug 22 2026: documented historical results with a disclaimer are allowed, forward-looking earnings promises are not." },
