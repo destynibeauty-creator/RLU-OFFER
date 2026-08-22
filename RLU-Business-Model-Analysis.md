@@ -37,6 +37,29 @@ What changes strategically:
 
 ---
 
+## Lash Cash Q4 add-on: how it sells
+
+**Pay in full.** A button on the Certified card adds both to the cart in one click: certification plus the $497 add-on variant, $3,494 together. It stays hidden until the Shopify product exists, so nothing breaks before then.
+
+**Build the product this way.** One product, "Lash Cash Q4 Business Intensive," two variants: *With Certified CEO* at $497 and *Standalone* at $997. Paste the $497 variant ID into the section setting and the button appears. Put the $997 variant on its own product page and paste that URL into the other setting to make the "Everyone else" row clickable. Equipped needs nothing, it is already included.
+
+**On RLU Pay, do not build anything.** Handle it in the conversation and add $497 to her existing plan. At this volume that is one contract edit, not three new templates. The numbers to quote on the spot:
+
+| Certified + Lash Cash on RLU Pay | |
+|---|---|
+| Total | $3,644 (2,997 + 497 + 150 plan fee) |
+| Deposit | $750, unchanged |
+| Remaining | $2,894 |
+| Weekly, 6 payments | $483 twice, then $482 four times |
+| Biweekly, 3 payments | $964.67, $964.67, $964.66 |
+| Two payments | $1,447 each |
+
+The biweekly line is the one to say out loud: **$799 becomes $964.67, about $166 more per payment.** A woman deciding between the two hears one number, not a new checkout.
+
+**Why no plan for the $497 by itself.** It is small enough that a plan adds risk without adding access, and payment-plan completion history is 1 of 2. If she is not on RLU Pay and wants Lash Cash later, she pays the $497 standalone before the October 22 cart close.
+
+---
+
 ## Brand rule amendment, adopted August 22, 2026
 
 **The rule that changed.** The old rule read: never make *any income claim or earnings promise, in any form.* As written it banned two different things at once, and the certification page was breaking it on the highest-traffic page in the business. The rule was too broad, not the page.
