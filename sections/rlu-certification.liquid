@@ -413,6 +413,15 @@
   .rp-plan.lc{border-color:rgba(126,232,77,.38);background:rgba(78,187,25,.05)}
   .rp-plan.lc:hover{border-color:var(--green-soft);background:rgba(78,187,25,.09)}
   .rp-plan.lc .rp-plan-r .go{color:var(--green-soft)}
+  .lc-toggle{display:flex;align-items:center;gap:12px;padding:14px 16px;margin-bottom:14px;border:1px dashed rgba(126,232,77,.45);border-radius:14px;background:rgba(78,187,25,.05);cursor:pointer;transition:background .25s,border-color .25s}
+  .lc-toggle:hover{border-style:solid;background:rgba(78,187,25,.09)}
+  .lc-toggle input{appearance:none;-webkit-appearance:none;flex-shrink:0;width:20px;height:20px;border:1px solid rgba(126,232,77,.6);border-radius:6px;background:transparent;cursor:pointer;position:relative;margin:0}
+  .lc-toggle input:checked{background:var(--green);border-color:var(--green)}
+  .lc-toggle input:checked::after{content:'';position:absolute;left:6px;top:2px;width:5px;height:10px;border:solid #fff;border-width:0 2px 2px 0;transform:rotate(45deg)}
+  .lc-toggle input:focus-visible{outline:2px solid var(--green-soft);outline-offset:2px}
+  .lc-toggle-l{line-height:1.45}
+  .lc-toggle-l b{display:block;font-size:13px;color:#fff;font-weight:500}
+  .lc-toggle-l span{font-size:11.5px;color:var(--green-soft)}
   .rp-plan.lc .rp-plan-l span{color:var(--green-soft)}
   .rp-foot{margin-top:18px;text-align:center;font-size:11px;color:var(--faint);letter-spacing:0.03em;line-height:1.6}
   .rp-other{max-width:640px;margin:6vh auto 0;text-align:center;font-size:13.5px;color:var(--soft);line-height:1.8;font-weight:300}
@@ -1222,7 +1231,7 @@
           <a href="https://richlash.university/cart/{{ cert_variant }}:1,{{ section.settings.lc_variant_addon }}:1" class="addon-btn">+ Add Lash Cash Q4 &middot; ${{ lc_addon }} &rarr;<span>Both together, pay in full: ${{ section.settings.cert_plus_lc }}</span></a>
           {%- endif -%}
           <div class="pay-options"><div class="pay-options-label">Or enroll with</div><a href="https://richlash.university/cart/add?id={{ cert_variant }}&quantity=1&properties[%E2%9C%93%20Includes]=6-Week%20Live%20Coaching%2C%20Certifications%2C%20Money%20Maker%20Lash%20Kit%2C%20GPT%20Library%2C%20Vendor%20List%2C%20Performance%20Guarantee&properties[Cohort%20Begins]={{ cohort_date | url_encode }}&return_to=/checkout" class="pay-badge shop" aria-label="Enroll in Certified CEO and use Shop Pay at checkout">Shop Pay &nearr;</a><a href="https://richlash.university/cart/add?id={{ cert_variant }}&quantity=1&properties[%E2%9C%93%20Includes]=6-Week%20Live%20Coaching%2C%20Certifications%2C%20Money%20Maker%20Lash%20Kit%2C%20GPT%20Library%2C%20Vendor%20List%2C%20Performance%20Guarantee&properties[Cohort%20Begins]={{ cohort_date | url_encode }}&return_to=/checkout" class="pay-badge affirm" aria-label="Enroll in Certified CEO and use Affirm at checkout">Affirm &nearr;</a><a href="https://richlash.university/cart/add?id={{ cert_variant }}&quantity=1&properties[%E2%9C%93%20Includes]=6-Week%20Live%20Coaching%2C%20Certifications%2C%20Money%20Maker%20Lash%20Kit%2C%20GPT%20Library%2C%20Vendor%20List%2C%20Performance%20Guarantee&properties[Cohort%20Begins]={{ cohort_date | url_encode }}&return_to=/checkout" class="pay-badge sezzle" aria-label="Enroll in Certified CEO and use Sezzle at checkout">Sezzle &nearr;</a></div>
-          <div class="tier-note">No credit check with RLU Pay&trade; &middot; Cohort begins {{ cohort_date }}<br>Adding Lash Cash Q4 on a payment plan? Choose it in RLU Pay&trade; below.</div>
+          <div class="tier-note">No credit check with RLU Pay&trade; &middot; Cohort begins {{ cohort_date }}<br>Adding Lash Cash Q4 on a payment plan? Tick the box in RLU Pay&trade; below.</div>
         </div>
       </div>
 
@@ -1340,17 +1349,22 @@
       <div class="rp-card ess reveal">
         <div class="rp-tag">Certified CEO</div>
         <div class="rp-dep"><span class="rp-depnum">${{ cert_deposit }}</span><span class="rp-deplbl">deposit<br>today</span></div>
-        <div class="rp-totals" style="margin-top:10px">RLU Pay&trade; total: <b>${{ cert_total }}</b> &middot; Remaining after deposit: <b>${{ cert_remaining }}</b></div>
+        <div class="rp-totals" id="certTotals" style="margin-top:10px" data-base="RLU Pay&amp;trade; total: <b>${{ cert_total }}</b> &middot; Remaining after deposit: <b>${{ cert_remaining }}</b>" data-alt="RLU Pay&amp;trade; total with Lash Cash Q4: <b>${{ section.settings.cert_lc_total }}</b> &middot; Remaining after deposit: <b>${{ section.settings.cert_lc_remaining }}</b>">RLU Pay&trade; total: <b>${{ cert_total }}</b> &middot; Remaining after deposit: <b>${{ cert_remaining }}</b></div>
         <div class="rp-pick">Choose your payment plan</div>
+        {%- assign lc_ready = false -%}
+        {%- if section.settings.cert_lc_weekly_url != blank and section.settings.cert_lc_biweekly_url != blank and section.settings.cert_lc_twopay_url != blank -%}{%- assign lc_ready = true -%}{%- endif -%}
+        {%- if lc_ready -%}
+        <label class="lc-toggle" for="lcToggle">
+          <input type="checkbox" id="lcToggle">
+          <span class="lc-toggle-l"><b>Add Lash Cash Q4</b><span>+${{ lc_addon }} on any plan below</span></span>
+        </label>
+        {%- endif -%}
         <div class="rp-plans">
-          <a class="rp-plan" href="https://richlash.hbportal.co/public/6a309018624600aa983ba83a"><span class="rp-plan-l"><b>Weekly</b><span>6 payments</span></span><span class="rp-plan-r"><span class="amt">{{ cert_weekly }}</span><span class="go">Select &rsaquo;</span></span></a>
-          <a class="rp-plan" href="https://richlash.hbportal.co/public/6a3094655c94a6efd80597f0"><span class="rp-plan-l"><b>Biweekly</b><span>3 payments</span></span><span class="rp-plan-r"><span class="amt">{{ cert_biweekly }}</span><span class="go">Select &rsaquo;</span></span></a>
-          <a class="rp-plan" href="https://richlash.hbportal.co/public/6a309468d18f7d3578645969"><span class="rp-plan-l"><b>Two Payments</b><span>2 payments</span></span><span class="rp-plan-r"><span class="amt">{{ cert_twopay }}</span><span class="go">Select &rsaquo;</span></span></a>
-          {%- if section.settings.cert_lc_plan_url != blank -%}
-          <a class="rp-plan lc" href="{{ section.settings.cert_lc_plan_url }}"><span class="rp-plan-l"><b>Biweekly + Lash Cash Q4</b><span>3 payments &middot; adds the ${{ lc_addon }} intensive</span></span><span class="rp-plan-r"><span class="amt">{{ section.settings.cert_lc_biweekly }}</span><span class="go">Select &rsaquo;</span></span></a>
-          {%- endif -%}
+          <a class="rp-plan" href="https://richlash.hbportal.co/public/6a309018624600aa983ba83a" data-base-href="https://richlash.hbportal.co/public/6a309018624600aa983ba83a" data-alt-href="{{ section.settings.cert_lc_weekly_url }}" data-base-amt="{{ cert_weekly }}" data-alt-amt="{{ section.settings.cert_lc_weekly }}"><span class="rp-plan-l"><b>Weekly</b><span>6 payments</span></span><span class="rp-plan-r"><span class="amt">{{ cert_weekly }}</span><span class="go">Select &rsaquo;</span></span></a>
+          <a class="rp-plan" href="https://richlash.hbportal.co/public/6a3094655c94a6efd80597f0" data-base-href="https://richlash.hbportal.co/public/6a3094655c94a6efd80597f0" data-alt-href="{{ section.settings.cert_lc_biweekly_url }}" data-base-amt="{{ cert_biweekly }}" data-alt-amt="{{ section.settings.cert_lc_biweekly }}"><span class="rp-plan-l"><b>Biweekly</b><span>3 payments</span></span><span class="rp-plan-r"><span class="amt">{{ cert_biweekly }}</span><span class="go">Select &rsaquo;</span></span></a>
+          <a class="rp-plan" href="https://richlash.hbportal.co/public/6a309468d18f7d3578645969" data-base-href="https://richlash.hbportal.co/public/6a309468d18f7d3578645969" data-alt-href="{{ section.settings.cert_lc_twopay_url }}" data-base-amt="{{ cert_twopay }}" data-alt-amt="{{ section.settings.cert_lc_twopay }}"><span class="rp-plan-l"><b>Two Payments</b><span>2 payments</span></span><span class="rp-plan-r"><span class="amt">{{ cert_twopay }}</span><span class="go">Select &rsaquo;</span></span></a>
         </div>
-        <div class="rp-foot">*Weekly: first 3 payments are $400 &middot; final 3 are $399{% if section.settings.cert_lc_plan_url != blank %}<br>With Lash Cash Q4 added: ${{ section.settings.cert_lc_total }} total, same ${{ cert_deposit }} deposit{% endif %}</div>
+        <div class="rp-foot" id="certFoot" data-base="*Weekly: first 3 payments are $400 &middot; final 3 are $399" data-alt="*Weekly with Lash Cash Q4: first 2 payments are $483 &middot; final 4 are $482. Biweekly: $964.67, $964.67, $964.66.">*Weekly: first 3 payments are $400 &middot; final 3 are $399</div>
       </div>
 
       <div class="rp-card full reveal d1">
@@ -1809,6 +1823,27 @@
     }catch(e){}
   }
 
+  /* ---------- LASH CASH ADD-ON TOGGLE ---------- */
+  var lcToggle=$('#lcToggle');
+  if(lcToggle){
+    var swap=function(){
+      var on=lcToggle.checked;
+      $$('.rp-card.ess .rp-plan[data-alt-href]').forEach(function(a){
+        var href=a.getAttribute(on?'data-alt-href':'data-base-href');
+        var amt=a.getAttribute(on?'data-alt-amt':'data-base-amt');
+        if(href){a.setAttribute('href',href);}
+        var el=a.querySelector('.amt'); if(el&&amt){el.textContent=amt;}
+        a.classList.toggle('lc',on);
+      });
+      ['certTotals','certFoot'].forEach(function(id){
+        var n=document.getElementById(id); if(!n)return;
+        var v=n.getAttribute(on?'data-alt':'data-base'); if(v){n.innerHTML=v;}
+      });
+    };
+    lcToggle.addEventListener('change',swap);
+    swap();
+  }
+
   /* ---------- MOBILE MENU ---------- */
   window.rluMenu=function(btn){
     var m=$('#mobileMenu'); if(!m)return;
@@ -1890,9 +1925,16 @@
     { "type": "text", "id": "lc_variant_addon", "label": "Add-on variant ID (the $497 one)", "info": "From the Lash Cash Q4 product. Leave blank to hide the add-on button until the product exists." },
     { "type": "text", "id": "cert_plus_lc", "label": "Certified + Lash Cash combined total", "default": "3,494" },
     { "type": "url", "id": "lc_product_url", "label": "Lash Cash Q4 product page", "info": "For the standalone $997 buyers. Leave blank to keep that row as plain text." },
-    { "type": "text", "id": "cert_lc_plan_url", "label": "RLU Pay link: Certified + Lash Cash", "info": "Duplicate the Certified biweekly HoneyBook form, set it to $964.67 / $964.67 / $964.66, paste the public link here. Leave blank to hide the option." },
+    { "type": "header", "content": "Lash Cash on RLU Pay" },
+    { "type": "paragraph", "content": "Duplicate all three Certified HoneyBook forms, add $497 to each, paste the links below. The Add Lash Cash toggle only appears once all three are filled in." },
+    { "type": "text", "id": "cert_lc_weekly_url", "label": "Weekly link", "info": "Set the form to $483 twice, then $482 four times" },
+    { "type": "text", "id": "cert_lc_biweekly_url", "label": "Biweekly link", "info": "Set the form to $964.67, $964.67, $964.66" },
+    { "type": "text", "id": "cert_lc_twopay_url", "label": "Two-pay link", "info": "Set the form to $1,447 twice" },
+    { "type": "text", "id": "cert_lc_weekly", "label": "Combined weekly amount", "default": "$483/wk*" },
     { "type": "text", "id": "cert_lc_biweekly", "label": "Combined biweekly amount", "default": "$964.67/ea" },
+    { "type": "text", "id": "cert_lc_twopay", "label": "Combined two-pay amount", "default": "$1,447/ea" },
     { "type": "text", "id": "cert_lc_total", "label": "Combined RLU Pay total", "default": "3,644" },
+    { "type": "text", "id": "cert_lc_remaining", "label": "Combined remaining after deposit", "default": "2,894" },
 
     { "type": "header", "content": "Proof" },
     { "type": "checkbox", "id": "show_money_wall", "label": "Show the Real Results money wall", "default": true, "info": "Revenue screenshots. Live since Aug 19 2026 1:15 PM ET; Alexandria enrolled at Equipped 61 minutes later. Kept on for that reason. Note it sits against the no-income-claims brand rule, permitted under the amended brand rule of Aug 22 2026: documented historical results with a disclaimer are allowed, forward-looking earnings promises are not." },

@@ -36,9 +36,14 @@
         "lc_variant_addon": "",
         "cert_plus_lc": "3,494",
         "lc_product_url": "",
-        "cert_lc_plan_url": "",
         "cert_lc_biweekly": "$964.67/ea",
-        "cert_lc_total": "3,644"
+        "cert_lc_total": "3,644",
+        "cert_lc_weekly_url": "",
+        "cert_lc_biweekly_url": "",
+        "cert_lc_twopay_url": "",
+        "cert_lc_weekly": "$483/wk*",
+        "cert_lc_twopay": "$1,447/ea",
+        "cert_lc_remaining": "2,894"
       }
     }
   },
