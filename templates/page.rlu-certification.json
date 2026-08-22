@@ -34,7 +34,7 @@
         "lc_start": "October 29",
         "lc_dates": "October 29, November 5, 12, 19, then December 3 and 10",
 
-        "show_money_wall": false,
+        "show_money_wall": true,
         "video_url": "https://cdn.shopify.com/videos/c/vp/728b141713c642e6933c241415a1147d/728b141713c642e6933c241415a1147d.SD-480p-0.9Mbps-87192502.mp4",
         "klaviyo_list": "YsGNGU"
       }

@@ -1129,20 +1129,30 @@
     </div>
 
     {% if section.settings.show_money_wall %}
-    {% comment %} The Real Results money wall below shows revenue
-      screenshots. Your brand rules state "no income claim or earnings promise,
-      in any form." This section conflicts with that rule even with the
-      disclaimer. Keep it or delete this whole .results-wall div. Your call.
+    {% comment %}
+      REAL RESULTS MONEY WALL. On by default, deliberately.
+      Evidence: these images went live Aug 19 2026 at 1:15 PM ET. Alexandria
+      Austin ordered Equipped (RLU1110) at 2:16 PM ET the same day, 61 minutes
+      later, pay in full, no conversation. It was on the page when the only
+      organic top-tier sale of the year closed.
+
+      Open item, not a blocker: the written brand rule says no income claim in
+      any form. This is Destyni's own documented history with a disclaimer,
+      not a promise of what the buyer will earn. Those are different things
+      and the rule should be amended to say so, or this comes down. Decide the
+      rule, do not leave the page and the rule disagreeing.
+
+      Toggle in Customize under Proof. Turning it off hides the whole block.
     {% endcomment %}
     <div class="results-wall reveal d1">
       <div class="results-kicker">Real Results. Real Receipts.</div>
       <h3>What this skill has <em>actually produced.</em></h3>
       <p class="results-note">These are Destyni&rsquo;s real historical results, not a promise of what you will earn. Every artist&rsquo;s results are different and depend on skill, effort, market, pricing, consistency, and business decisions.</p>
       <div class="money-grid">
-        <figure class="money-shot"><img src="https://cdn.shopify.com/s/files/1/0649/6505/0626/files/01_3202_week.png?v=1787159729" alt="One lash week revenue screenshot"><figcaption>One Lash Week</figcaption></figure>
-        <figure class="money-shot"><img src="https://cdn.shopify.com/s/files/1/0649/6505/0626/files/02_july_10029.png?v=1787159729" alt="July revenue screenshot"><figcaption>July</figcaption></figure>
-        <figure class="money-shot"><img src="https://cdn.shopify.com/s/files/1/0649/6505/0626/files/03_august_11831.png?v=1787159730" alt="August revenue screenshot"><figcaption>August</figcaption></figure>
-        <figure class="money-shot"><img src="https://cdn.shopify.com/s/files/1/0649/6505/0626/files/04_september_16209.png?v=1787159729" alt="September revenue screenshot"><figcaption>September</figcaption></figure>
+        <figure class="money-shot"><img src="https://cdn.shopify.com/s/files/1/0649/6505/0626/files/01_3202_week.png?v=1787159729" alt="One lash week revenue screenshot"><figcaption>One Lash Week &middot; $3,202</figcaption></figure>
+        <figure class="money-shot"><img src="https://cdn.shopify.com/s/files/1/0649/6505/0626/files/02_july_10029.png?v=1787159729" alt="July revenue screenshot"><figcaption>July &middot; $10K+</figcaption></figure>
+        <figure class="money-shot"><img src="https://cdn.shopify.com/s/files/1/0649/6505/0626/files/03_august_11831.png?v=1787159730" alt="August revenue screenshot"><figcaption>August &middot; $11.8K+</figcaption></figure>
+        <figure class="money-shot"><img src="https://cdn.shopify.com/s/files/1/0649/6505/0626/files/04_september_16209.png?v=1787159729" alt="September revenue screenshot"><figcaption>September &middot; $16.2K+</figcaption></figure>
       </div>
       <div class="chelsea-proof">
         <img src="https://cdn.shopify.com/s/files/1/0649/6505/0626/files/chelsea_84e2e5ce-eeb7-425f-9366-805023a848c8.jpg?v=1787159729" alt="Chelsea proof screenshot about her first client and upcoming bookings">
@@ -1857,7 +1867,7 @@
     { "type": "text", "id": "lc_dates", "label": "All six dates", "default": "October 29, November 5, 12, 19, then December 3 and 10" },
 
     { "type": "header", "content": "Proof" },
-    { "type": "checkbox", "id": "show_money_wall", "label": "Show the Real Results money wall", "default": false, "info": "Revenue screenshots. Off by default: this conflicts with the no-income-claims brand rule. Turn on only if you decide to keep it." },
+    { "type": "checkbox", "id": "show_money_wall", "label": "Show the Real Results money wall", "default": true, "info": "Revenue screenshots. Live since Aug 19 2026 1:15 PM ET; Alexandria enrolled at Equipped 61 minutes later. Kept on for that reason. Note it sits against the no-income-claims brand rule, so see the rule note in the analysis doc." },
     { "type": "text", "id": "video_url", "label": "Graduate video file URL", "default": "https://cdn.shopify.com/videos/c/vp/728b141713c642e6933c241415a1147d/728b141713c642e6933c241415a1147d.SD-480p-0.9Mbps-87192502.mp4", "info": "Upload to Settings > Files, then paste the full link" },
 
     { "type": "header", "content": "Waitlist" },
