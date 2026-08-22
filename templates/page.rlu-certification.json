@@ -9,7 +9,6 @@
         "cohort_iso": "2026-09-07T09:00:00-04:00",
         "ship_by": "September 3",
         "first_payment": "Friday, September 11",
-
         "cert_variant": "47381941223682",
         "cert_price": "2,997",
         "cert_deposit": "750",
@@ -18,7 +17,6 @@
         "cert_weekly": "$400/wk*",
         "cert_biweekly": "$799/ea",
         "cert_twopay": "$1,198.50/ea",
-
         "eq_variant": "47974784270594",
         "eq_price": "3,997",
         "eq_deposit": "1,200",
@@ -27,18 +25,21 @@
         "eq_weekly": "$491/wk*",
         "eq_biweekly": "$982.33/ea**",
         "eq_twopay": "$1,473.50/ea",
-
         "lc_price": "997",
         "lc_addon": "497",
         "lc_cap": "20",
         "lc_start": "October 29",
         "lc_dates": "October 29, November 5, 12, 19, then December 3 and 10",
-
         "show_money_wall": true,
         "video_url": "https://cdn.shopify.com/videos/c/vp/728b141713c642e6933c241415a1147d/728b141713c642e6933c241415a1147d.SD-480p-0.9Mbps-87192502.mp4",
-        "klaviyo_list": "YsGNGU"
+        "klaviyo_list": "YsGNGU",
+        "lc_variant_addon": "",
+        "cert_plus_lc": "3,494",
+        "lc_product_url": ""
       }
     }
   },
-  "order": ["main"]
+  "order": [
+    "main"
+  ]
 }
