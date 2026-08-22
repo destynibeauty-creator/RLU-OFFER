@@ -34,6 +34,27 @@ What changes strategically:
 5. **RESOLVED (Aug 21, Destyni's call): everything that collided with the cruise (Oct 12–20) shifts to after it.** The shifted schedule: all six weeks of live teaching compress into Sept 7 – Oct 11 (week 6 content delivered in week 5 or pre-recorded); the cruise week becomes the cohort's built-in portfolio week, assignments only, coach keeps the campus rhythm; **graduation moves to Tuesday, October 27**; the Lash Cash cart extends to close **Tuesday, October 27** (giving a full week home for the closing DMs instead of zero); build nights shift one week to **Thursdays Oct 29, Nov 5, Nov 12, Nov 19, Dec 3, Dec 10** (Nov 26 still skipped). Graduation and cart close land on the same day by design: the graduation celebration in the campus is live social proof during the cart's final hours. One automation note stands: Miesha's Oct 16 installment falls mid-cruise, so autopay must be confirmed before departure.
 6. **2024 corroborates the plan's structure.** The best year ($18,344) ran three events in five weeks with a working middle offer, and ten high-ticket sales carried 89% of the year. Cadence plus a middle rung plus high-ticket concentration is the briefing's Path B and this report's plan, told from two directions.
 
+
+---
+
+## Brand rule amendment, adopted August 22, 2026
+
+**The rule that changed.** The old rule read: never make *any income claim or earnings promise, in any form.* As written it banned two different things at once, and the certification page was breaking it on the highest-traffic page in the business. The rule was too broad, not the page.
+
+**The amended rule, in force now:**
+
+> **Never make a forward-looking income or earnings promise to a buyer, in any form.** No "earn $200+ per day," no "replace your income," no projected or implied numbers about what she will make. Not in copy, ads, emails, captions, DMs, or on a live call.
+>
+> **Documented historical results may be shown, under all four conditions:** the numbers are real and screenshot-backed; they are labeled as whose they are (Destyni's own, or a named graduate with her permission); a plain results-vary disclaimer sits with them; and nothing around them frames the number as what the reader will earn.
+
+**Why the line sits there.** "Here is what you will earn" is a promise, and it is the exact thing that created the Burned Buyer. "Here is what I earned, disclaimed, with receipts" is evidence, and the 2026 buyer requires evidence. Banning both left the business unable to prove anything, which was the single largest gap the offer audit found.
+
+**What this permits, effective immediately.** The Real Results money wall stays on the certification page at full strength. The evidence is direct: those images went live August 19, 2026 at 1:15 PM ET, and order RLU1110 (Alexandria Austin, Equipped CEO, $2,997, paid in full through Affirm with no conversation) was placed at 2:16 PM ET the same day, 61 minutes later. It was on the page when the only organic top-tier sale of the year closed.
+
+**What this still forbids.** The legacy "earn $200+ per day" line, anywhere it survives. Any framing that converts Destyni's history into the reader's forecast. Fabricated or unsubstantiated counts, which is why the "250+ women trained" claim is fine and a "250 artists use these products" claim was refused.
+
+**The upgrade to make next.** Founder revenue is the weakest form of this proof, because the reflex is "of course the teacher makes money." Graduate results outperform it with the Burned Buyer. Chelsea's five-bookings screenshot already does that work. As Cohort 2 graduates produce numbers, add them to the wall beside Destyni's and let hers become the smaller half.
+
 ---
 
 ## Executive summary — the verdicts up front
