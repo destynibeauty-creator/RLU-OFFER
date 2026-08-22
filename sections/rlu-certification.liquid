@@ -4,14 +4,25 @@
   Shopify section. Everything that changes cohort to cohort is
   editable in Customize, no code required.
 
-  INSTALL
-  1. Online Store > Themes > Edit code
-  2. Sections > Add a new section > name it: rlu-certification
-  3. Paste this entire file, replacing what is there. Save.
-  4. Templates > Add a new template > page > name: rlu-certification
-     Paste the contents of page.rlu-certification.json. Save.
-  5. Pages > your enroll page > Theme template > rlu-certification
-  6. Customize the page to edit dates, prices, and the money wall.
+  INSTALL, two steps. You do NOT need a JSON template.
+
+  STEP 1. Online Store > Themes > Edit code > Sections > Add a new section.
+          Name it exactly:  rlu-certification
+          Delete whatever Shopify puts in it, paste this whole file, Save.
+
+  STEP 2. Templates > page.LMCEO.liquid
+          Delete everything in that file and replace it with a single
+          section tag that renders this section by name. The file
+          templates/page.LMCEO.liquid in the handoff has the exact line.
+          Save. Your page keeps its current URL and template assignment.
+
+  Then open Customize on that page and every date, price, and link below is
+  an editable field. Nothing else to wire up.
+
+  IF YOU SAW "Unknown tag schema": that happens when this file is pasted into
+  a template. Schema settings only work from the Sections folder. Sections,
+  not Templates. Revert the template and follow the two steps above.
+
   ============================================================
 {% endcomment %}
 
