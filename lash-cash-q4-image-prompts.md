@@ -1,20 +1,80 @@
 # Lash Cash Q4: image prompts
 
-Goal: she should look at the image and feel the Thursday night. Laptop open,
-9 PM, building the thing while Destyni walks her through it.
+---
 
-Palette to hold: black `#080808`, off-white `#F2EEF0`, hot pink `#F600A2`,
-gold `#D4AF37`.
+# THE COVER
 
-**Shoot over the shoulder or hands only.** No visible faces. Two reasons. A
-faceless frame lets her project herself into the seat, which is the whole
-point. It also keeps you clear of an AI face reading as a fake graduate photo.
+One image. It has to say what this is and put her in the chair at the same
+time. The scene sits low and right, the top left stays dark and empty so the
+title has somewhere to live.
+
+## Paste this
+
+> Photorealistic cinematic product cover, square 1:1.
+>
+> Composition: the lower right two thirds of the frame shows, from behind and
+> slightly above, the shoulder and hands of a Black woman in her early
+> thirties at a small desk at night. Back of her head and shoulder only, soft
+> focus, face never visible. Her hands rest on an open laptop. The upper left
+> third of the frame is deep empty shadow, almost black, deliberately clear
+> and uncluttered so large text can be placed there later.
+>
+> On the laptop screen: a website under construction, abstract panels and
+> blocks, every piece of text blurred and unreadable. A small video call tile
+> in the corner with one blurred person on it. Cool screen light spills across
+> her hands and the desk.
+>
+> The room is dark and warm. One amber lamp low on the right edge. A spiral
+> notebook with unreadable handwriting. A mug. Far in the background, thrown
+> heavily out of focus, the silhouette of a lash bed and a ring light, barely
+> suggested.
+>
+> A hot pink rim light, hex #F600A2, traces the edge of her shoulder and the
+> top of the laptop, coming from just off frame. A faint gold warmth, hex
+> #D4AF37, in the lamp glow.
+>
+> Mood: 9 PM on a Thursday, focused, quietly determined, mid-task. Not posed,
+> not smiling at a camera, not a stock photo. Shallow depth of field, natural
+> film grain, rich blacks near hex #080808, warm shadows, nothing glossy.
+>
+> No text, no letters, no numbers, no logos, no watermarks, no readable screen
+> content, no visible face, no floating icons, no sparkles.
+
+Notice it says **no text**. That is on purpose. Image models still mangle
+letters, and a cover with a warped R is worse than no cover. Generate the
+scene, then set the type yourself where it will be perfect.
+
+## Then set the type over the dark upper left
+
+In Canva, using Poppins:
+
+| Element | Spec |
+|---|---|
+| Eyebrow | 10px, uppercase, letter-spacing 0.4em, grey `#A39BA0` : RICH LASH UNIVERSITY |
+| Title | Poppins ExtraLight, off-white `#F2EEF0`, two lines: LASH CASH / Q4 |
+| The Q4 | same size, italic, hot pink `#F600A2` |
+| Subline | Poppins Light, 16px, grey: Six live build nights |
+| Footer | 10px, uppercase, 0.3em tracking, gold `#D4AF37` : THURSDAYS 9 PM ET |
+
+Left aligned, stacked in the dark corner, plenty of air around it. Do not
+center it and do not add a box behind it. The empty shadow is the container.
+
+## If you would rather one-shot it
+
+Add this to the end of the prompt above and delete the "no text" line. Then
+zoom to 200 percent and read every character before you use it.
+
+> Overlaid in the dark upper left, in a thin geometric sans like Poppins,
+> left aligned: a small wide-spaced uppercase line reading RICH LASH
+> UNIVERSITY in grey, beneath it a very large two-line title reading LASH CASH
+> then Q4, with LASH CASH in off-white and Q4 in italic hot pink, and beneath
+> that a small line reading Six live build nights.
 
 ---
 
-## PROMPT 1. The hero. Thursday night, building.
+# SUPPORTING IMAGES
 
-Use this as the main product image.
+## Gallery image 1. Wider version of the cover scene, no text space needed.
 
 > Photorealistic, cinematic, shot from behind and slightly above the
 > shoulder of a Black woman in her early thirties sitting at a small desk in
