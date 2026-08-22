@@ -121,7 +121,16 @@
   .urg{background:linear-gradient(90deg,#1a0010,#0a0a0a,#0a1206);border-bottom:1px solid var(--line);text-align:center;padding:11px 16px;font-size:10.5px;font-weight:500;letter-spacing:0.15em;text-transform:uppercase;color:var(--ink);line-height:1.6}
   .urg b{color:#fff}
   .urg .open-dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--green-soft);box-shadow:0 0 0 0 rgba(126,232,77,0.5);animation:pulse 1.8s infinite;margin-right:8px;vertical-align:middle}
-  .hero{padding:13vh 6vw 9vh;text-align:center;position:relative;overflow:hidden}
+  .hero{padding:7vh 6vw 8vh;text-align:center;position:relative;overflow:hidden}
+  @media(max-width:640px){.hero{padding:5vh 6vw 7vh}}
+  .hero-sub{font-size:16.5px;color:var(--soft);line-height:1.7;max-width:540px;margin:0 auto 32px;font-weight:300}
+  .hero-sub strong{color:#fff;font-weight:500}
+  .hero-cta{margin-bottom:28px}
+  .hero-alt{display:block;margin-top:18px;font-size:12.5px;letter-spacing:.03em;color:var(--soft);transition:color .25s}
+  .hero-alt:hover{color:var(--pink-soft)}
+  .hero-trust{display:flex;justify-content:center;gap:9px;flex-wrap:wrap}
+  .hero-trust span{font-size:10px;letter-spacing:.15em;text-transform:uppercase;color:var(--soft);border:1px solid var(--line);border-radius:999px;padding:8px 15px;white-space:nowrap}
+  @media(max-width:560px){.hero-trust span{font-size:9px;padding:7px 11px;letter-spacing:.1em}}
   .hero::before{content:'';position:absolute;top:-15%;left:0;right:0;margin-inline:auto;width:760px;height:500px;background:radial-gradient(ellipse,rgba(246,0,162,0.14),transparent 62%);pointer-events:none}
   .hero-c{position:relative;z-index:2}
   .hero .ey{display:block;margin-bottom:26px}
@@ -777,11 +786,16 @@
 <section class="hero">
   <div class="hero-c">
     <span class="ey">The Lash Mastery CEO Certification&trade;</span>
-    <span class="open-flag"><i></i>Enrollment Open &middot; Cohort Begins {{ cohort_date }}</span>
+    <span class="open-flag"><i></i>Enrollment Open &middot; {{ cohort_name }} Begins {{ cohort_day }}, {{ cohort_date }}</span>
     <h1>Get certified, equipped, and <b>actually ready</b> <span class="it">in six weeks, live with a Registered Nurse.</span></h1>
-    <p>Get trained, certified, and fully equipped for real clients in one decision. A complete professional studio (~$2,100 value) ships to your door. <strong>No experience required.</strong></p>
-    <div class="hero-meta">100% Virtual &middot; Live + Recorded &middot; Learn From Anywhere, Even On Your Break</div>
-    <div class="hero-note"><b>One decision, and the whole thing is handled.</b> Six weeks live with a Registered Nurse, two certifications women recognize, your Money Maker Lash Kit shipped before Week 1, and the <strong>Rich Lash&reg; Performance Guarantee</strong> written into your agreement before you pay. <b>{{ cohort_name }} begins {{ cohort_day }}, {{ cohort_date }}.</b></div>
+    <p class="hero-sub">Two certifications women recognize, your kit shipped before Week 1, and a guarantee in writing before you pay. <strong>No experience required.</strong></p>
+    <div class="hero-cta">
+      <a href="#choose-path" class="btn">Choose Your CEO Path<span class="btn-sub">Deposit or pay in full &middot; No credit check with RLU Pay&trade;</span></a>
+      <a href="#heroWatch" class="hero-alt">Hear from three graduates first &darr;</a>
+    </div>
+    <div class="hero-trust">
+      <span>RN-Led Training</span><span>Kit Shipped Before Week 1</span><span>Performance Guarantee</span><span>100% Virtual</span>
+    </div>
 
     <div class="mc reveal" id="challengeGraduateVideo">
       <div class="mc-kicker"><span class="tri"></span>Graduates &middot; In Their Own Words</div>
@@ -805,7 +819,7 @@
       <p class="mc-under"><b>They didn&rsquo;t start as success stories.</b> They started by showing up and deciding not to stop there.</p>
     </div>
 
-    <a href="#choose-path" class="btn">Choose Your CEO Path<span class="btn-sub">Deposit or pay in full &middot; No credit check with RLU Pay&trade;</span></a>
+    <a href="#choose-path" class="btn">See Both Paths &amp; Pricing<span class="btn-sub">{{ cohort_name }} begins {{ cohort_day }}, {{ cohort_date }} &middot; Seats limited</span></a>
   </div>
 </section>
 
