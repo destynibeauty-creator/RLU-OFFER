@@ -1,85 +1,114 @@
-# Lash Cash Q4: image prompts for ChatGPT
+# Lash Cash Q4: image prompts
 
-Brand palette to keep exact: black `#080808`, off-white `#F2EEF0`,
-hot pink `#F600A2`, gold `#D4AF37`, green `#4EBB19`.
-Type direction: Poppins or similar geometric sans, very light weight for the
-big words, wide letter-spacing on the small uppercase labels.
+Goal: she should look at the image and feel the Thursday night. Laptop open,
+9 PM, building the thing while Destyni walks her through it.
 
----
+Palette to hold: black `#080808`, off-white `#F2EEF0`, hot pink `#F600A2`,
+gold `#D4AF37`.
 
-## PROMPT A. Finished product card, text baked in
-
-Fast, one shot. Risk: image models still mangle small text, so zoom in and
-check every character before you use it.
-
-> Create a square 1:1 product graphic for a premium virtual business program
-> called "LASH CASH Q4".
->
-> Style: modern luxury, editorial, restrained. Deep near-black background,
-> hex #080808, with a soft radial glow of hot pink hex #F600A2 bleeding in
-> from the upper right at low opacity. Thin hairline rules in white at about
-> 10 percent opacity. Square corners, generous negative space, nothing
-> cluttered. The whole thing should feel like an expensive invitation, not a
-> sales flyer.
->
-> Typography, in a geometric sans like Poppins:
-> - Small uppercase eyebrow at the top with wide letter spacing, in muted
->   grey: RICH LASH UNIVERSITY
-> - Enormous headline in ultra-light weight, off-white hex #F2EEF0, stacked on
->   two lines: LASH CASH / Q4
-> - The "Q4" set in italic hot pink hex #F600A2
-> - One thin line beneath in light grey: Six live build nights
-> - Small uppercase footer with wide letter spacing in gold hex #D4AF37:
->   OCTOBER 29 TO DECEMBER 10
->
-> Do not include: people, faces, hands, lash extensions, tweezers, product
-> bottles, stock-photo business imagery, gradients that look like a template,
-> rounded corners, drop shadows, emoji, or any extra words beyond what is
-> listed above.
+**Shoot over the shoulder or hands only.** No visible faces. Two reasons. A
+faceless frame lets her project herself into the seat, which is the whole
+point. It also keeps you clear of an AI face reading as a fake graduate photo.
 
 ---
 
-## PROMPT B. Text-free background, add your type in Canva
+## PROMPT 1. The hero. Thursday night, building.
 
-Better result. Generate this, drop it in Canva, set the words yourself in real
-Poppins so every letter is crisp and on brand.
+Use this as the main product image.
 
-> Create a square 1:1 abstract background for a luxury beauty business brand.
+> Photorealistic, cinematic, shot from behind and slightly above the
+> shoulder of a Black woman in her early thirties sitting at a small desk in
+> her home at night. We see the back of her head and shoulder, soft focus, her
+> hands resting on an open laptop keyboard. Her face is not visible.
 >
-> Deep near-black field, hex #080808. A soft radial bloom of hot pink, hex
-> #F600A2, entering from the upper right at low opacity and fading to nothing
-> by the center. A second, much fainter warm gold bloom, hex #D4AF37, in the
-> lower left. Very fine grain texture across the whole image, like matte
-> photographic paper. One or two hairline geometric rules in white at 8
-> percent opacity, thin and precise, placed asymmetrically.
+> On the laptop screen: a website being built, abstract blocks and panels, all
+> text blurred and illegible. A small video call window sits in the corner
+> with one person on it, also blurred. The screen throws a cool light onto her
+> hands.
 >
-> Mood: expensive, quiet, editorial, the cover of a design magazine. Lots of
-> empty space in the center and lower middle where text will be placed later.
+> The room is dark and warm. A single lamp off to the right, low and amber. A
+> spiral notebook beside the laptop with handwriting, unreadable. A mug. In
+> the deep background, thrown far out of focus, a lash bed and a ring light,
+> just suggested, not detailed.
 >
-> Absolutely no text, no letters, no numbers, no logos, no people, no product
-> objects, no lashes, no florals, no sparkles, no bokeh lights, no glossy 3D
-> shapes.
-
-Then in Canva, on top of it:
-- Eyebrow, 10px, letter-spacing 0.4em, uppercase, grey: RICH LASH UNIVERSITY
-- Headline, Poppins Light or ExtraLight, off-white: LASH CASH **Q4** with Q4
-  in italic hot pink
-- Subline, Poppins Light, grey: Six live build nights
-- Footer, uppercase, wide tracking, gold: OCTOBER 29 TO DECEMBER 10
+> A faint hot pink glow, hex #F600A2, catches the edge of her shoulder and the
+> rim of the laptop, like a light source just off frame.
+>
+> Mood: focused, late, quietly determined. She is in the middle of doing
+> something, not posing. Shallow depth of field, natural grain, warm shadows,
+> nothing glossy.
+>
+> Square 1:1. No text, no logos, no watermarks, no readable screen content, no
+> visible face, no stock-photo smiling, no clip art, no floating icons.
 
 ---
 
-## One thing not to generate
+## PROMPT 2. The close-up. What the work actually looks like.
 
-Do not have ChatGPT create a photo of the Retention Ritual Kit or any of your
-products. Those are real physical items you ship, and an invented photo of
-them is a picture of something the buyer will not receive. Shoot the real flat
-lay. It is already open task number one on your list, and that single photo
-unblocks the kit product page, the retention email, and this listing.
+Second image in the gallery. This one sells the doing.
 
-## Where the image goes
+> Photorealistic macro shot, top-down, of a workspace at night. Two Black
+> hands with a neat manicure typing on a laptop. The laptop screen shows a
+> booking calendar and a service menu being built, all text deliberately
+> blurred and unreadable. Beside it, an open notebook with a handwritten list,
+> also unreadable, and a phone face up showing a notification banner, blurred.
+>
+> Lighting is warm lamp light from the upper left with a cool screen glow on
+> the hands, plus a faint hot pink rim light, hex #F600A2, along the top edge
+> of the laptop.
+>
+> Deep near-black surface, hex #080808. Lots of negative space at the bottom
+> for text to be added later.
+>
+> Mood: real work in progress, not a styled flat lay. Slight imperfection,
+> natural grain, shallow depth of field.
+>
+> Square 1:1. No readable text, no logos, no brand names, no faces, no
+> sparkles, no confetti, no 3D icons.
 
-Shopify > Products > Lash Cash Q4 Business Intensive > Media.
-The connector cannot upload it, so this one is by hand. Once the image is on
-and you have read the description, flip the product from Draft to Active and
-the add-on button on the certification page goes live.
+---
+
+## PROMPT 3. The payoff. What Thursday nights add up to.
+
+Third image. Where the six nights land.
+
+> Photorealistic interior, early morning light, a small private lash studio.
+> A made-up lash bed with clean linens, a ring light off to one side, a rolling
+> cart with tools arranged neatly, a small plant. Nobody in the room.
+>
+> On a side table, a phone face up showing a calendar view with several filled
+> blocks, all text blurred and unreadable.
+>
+> Warm natural window light from the left, soft shadows, a faint gold tone,
+> hex #D4AF37, in the highlights. Calm, expensive, cared for. The room of
+> someone who takes herself seriously.
+>
+> Square 1:1. No text, no logos, no people, no lash extension close-ups, no
+> stock-photo styling, no clutter.
+
+---
+
+## How to use the three
+
+| Slot | Image | Why |
+|---|---|---|
+| Product image 1 | Prompt 1 | She sees the seat she will be sitting in |
+| Product image 2 | Prompt 2 | She sees the actual work, close enough to touch |
+| Product image 3 | Prompt 3 | She sees where six Thursdays lead |
+
+Add the words in Canva if you want them on the image, so the type is real
+Poppins and crisp. Suggested overlay on image one only:
+
+- Eyebrow, uppercase, wide tracking, grey: THURSDAYS AT 9 PM ET
+- Headline, Poppins Light, off-white: You leave every night holding **a piece
+  of your business that already works.**
+
+## Two rules for these
+
+**Never caption them with a name.** These are mood images, not graduates. The
+moment one gets a caption like "Ashleigh building her site," it becomes a
+fabricated testimonial. Keep the captions about the work, never about a person.
+
+**Do not generate your products.** No Retention Ritual Kit, no adhesive, no
+tools in sharp focus. Those are real things you ship, and an invented photo of
+them shows a buyer something she will not receive. Shoot the real flat lay.
