@@ -12,6 +12,15 @@
 {%- liquid
   # ============ EDIT THESE ============
 
+  ### HERO HEADLINE
+  # Swap the two lines below to test a different angle. Alternates:
+  #  A. "You don&rsquo;t need to feel ready. You need to be <b>trained right.</b>"     (kills the top objection)
+  #  B. "The last lash training <b>you&rsquo;ll ever pay for.</b>"                     (aimed at the woman burned before)
+  #  C. "Trained by a Registered Nurse. <b>Equipped like a professional.</b>"      (leads with the differentiator)
+  #  D. "Six weeks to the skill that lets you <b>choose your own day.</b>"         (leads with the desire)
+  assign hero_h1 = "You don&rsquo;t need to feel ready. You need to be <b>trained right.</b>"
+  assign hero_sub = "Six weeks live with a Registered Nurse. Two certifications, your kit shipped before Week 1, and a guarantee in writing that we keep working until your first paying client."
+
   ### COHORT
   assign cohort_name = "Cohort Two"
   assign cohort_day = "Monday"
@@ -787,8 +796,8 @@
   <div class="hero-c">
     <span class="ey">The Lash Mastery CEO Certification&trade;</span>
     <span class="open-flag"><i></i>Enrollment Open &middot; {{ cohort_name }} Begins {{ cohort_day }}, {{ cohort_date }}</span>
-    <h1>Get certified, equipped, and <b>actually ready</b> <span class="it">in six weeks, live with a Registered Nurse.</span></h1>
-    <p class="hero-sub">Two certifications women recognize, your kit shipped before Week 1, and a guarantee in writing before you pay. <strong>No experience required.</strong></p>
+    <h1>{{ hero_h1 }}</h1>
+    <p class="hero-sub">{{ hero_sub }}</p>
     <div class="hero-cta">
       <a href="#choose-path" class="btn">Choose Your CEO Path<span class="btn-sub">Deposit or pay in full &middot; No credit check with RLU Pay&trade;</span></a>
       <a href="#heroWatch" class="hero-alt">Hear from three graduates first &darr;</a>

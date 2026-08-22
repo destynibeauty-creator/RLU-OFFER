@@ -782,8 +782,8 @@
   <div class="hero-c">
     <span class="ey">The Lash Mastery CEO Certification&trade;</span>
     <span class="open-flag"><i></i>Enrollment Open &middot; {{ cohort_name }} Begins {{ cohort_day }}, {{ cohort_date }}</span>
-    <h1>Get certified, equipped, and <b>actually ready</b> <span class="it">in six weeks, live with a Registered Nurse.</span></h1>
-    <p class="hero-sub">Two certifications women recognize, your kit shipped before Week 1, and a guarantee in writing before you pay. <strong>No experience required.</strong></p>
+    <h1>{{ hero_h1 }}</h1>
+    <p class="hero-sub">{{ hero_sub }}</p>
     <div class="hero-cta">
       <a href="#choose-path" class="btn">Choose Your CEO Path<span class="btn-sub">Deposit or pay in full &middot; No credit check with RLU Pay&trade;</span></a>
       <a href="#heroWatch" class="hero-alt">Hear from three graduates first &darr;</a>
@@ -1913,6 +1913,10 @@
   "tag": "section",
   "class": "rlu-certification-section",
   "settings": [
+    { "type": "header", "content": "Hero headline" },
+    { "type": "textarea", "id": "hero_h1", "label": "Headline", "default": "You don&rsquo;t need to feel ready. You need to be <b>trained right.</b>", "info": "Wrap the punch words in <b> tags. Alternates: 'The last lash training <b>you&rsquo;ll ever pay for.</b>' / 'Trained by a Registered Nurse. <b>Equipped like a professional.</b>' / 'Six weeks to the skill that lets you <b>choose your own day.</b>'" },
+    { "type": "textarea", "id": "hero_sub", "label": "Subhead", "default": "Six weeks live with a Registered Nurse. Two certifications, your kit shipped before Week 1, and a guarantee in writing that we keep working until your first paying client." },
+
     { "type": "header", "content": "Cohort" },
     { "type": "text", "id": "cohort_name", "label": "Cohort name", "default": "Cohort Two", "info": "Shown as 'Cohort Two begins Monday, September 7'" },
     { "type": "text", "id": "cohort_day", "label": "Start day of week", "default": "Monday" },
