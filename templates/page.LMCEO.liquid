@@ -156,7 +156,8 @@
   .hero-note strong{color:var(--gold-soft);font-weight:600}
   .btn{display:inline-block;padding:18px 48px;border-radius:40px;font-size:12px;font-weight:600;letter-spacing:0.14em;text-transform:uppercase;color:#fff;background:linear-gradient(120deg,#F600A2,#b80079);box-shadow:0 12px 34px rgba(246,0,162,0.38);transition:transform .18s,box-shadow .25s}
   .btn:hover{transform:translateY(-2px);box-shadow:0 18px 46px rgba(246,0,162,0.55)}
-  .btn-sub{display:block;margin-top:14px;font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:var(--faint)}
+  .btn-note{display:block;margin-top:14px;font-size:11.5px;letter-spacing:0.02em;color:var(--soft);font-weight:300;line-height:1.6}
+  .btn-note b{color:var(--ink);font-weight:500}
   .talk-line{display:block;margin-top:20px;font-size:12px;color:var(--soft)}
   .talk-line a{color:var(--pink-soft)}
   .mc{max-width:840px;margin:52px auto 34px;position:relative}
@@ -799,7 +800,8 @@
     <h1>{{ hero_h1 }}</h1>
     <p class="hero-sub">{{ hero_sub }}</p>
     <div class="hero-cta">
-      <a href="#choose-path" class="btn">Choose Your CEO Path<span class="btn-sub">Deposit or pay in full &middot; No credit check with RLU Pay&trade;</span></a>
+      <a href="#choose-path" class="btn">Choose Your CEO Path</a>
+      <span class="btn-note">Start with a deposit or pay in full. <b>No credit check with RLU Pay&trade;.</b></span>
       <a href="#heroWatch" class="hero-alt">Hear from three graduates first &darr;</a>
     </div>
     <div class="hero-trust">
@@ -828,7 +830,8 @@
       <p class="mc-under"><b>They didn&rsquo;t start as success stories.</b> They started by showing up and deciding not to stop there.</p>
     </div>
 
-    <a href="#choose-path" class="btn">See Both Paths &amp; Pricing<span class="btn-sub">{{ cohort_name }} begins {{ cohort_day }}, {{ cohort_date }} &middot; Seats limited</span></a>
+    <a href="#choose-path" class="btn">See Both Paths &amp; Pricing</a>
+    <span class="btn-note"><b>{{ cohort_name }} begins {{ cohort_day }}, {{ cohort_date }}.</b> Seats are limited.</span>
   </div>
 </section>
 
@@ -1655,7 +1658,8 @@
     <span class="ey reveal">Faith First. Work Daily. Watch It Come.</span>
     <h2 class="reveal d1">Your seat is <b>open.</b><br>The next move is <b>yours.</b></h2>
     <p class="reveal d1">Enrollment is open now and seats are filling for the {{ cohort_date }} cohort. You can keep waiting to feel ready, or you can start becoming the woman who chooses her own day.</p>
-    <div class="reveal d2"><a href="#choose-path" class="btn">Enroll Now<span class="btn-sub">Deposit or pay in full &middot; No credit check with RLU Pay&trade;</span></a></div>
+    <div class="reveal d2"><a href="#choose-path" class="btn">Enroll Now</a>
+      <span class="btn-note">Start with a deposit or pay in full. <b>No credit check with RLU Pay&trade;.</b></span></div>
     <span class="cohort reveal d2">Cohort begins {{ cohort_day }}, {{ cohort_date }} &middot; Seats limited</span>
 
     <div class="waitlist-mini reveal">
