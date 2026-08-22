@@ -413,7 +413,8 @@ Note: September 7 is Labor Day, so plan the kickoff call time accordingly. Ashle
 **During the cohort — Sept 7 to Oct 19** (your live load ~2.5 hrs/week):
 - **Week 1 (Mon Sept 7):** kickoff call. Coach starts running the weekly campus call this week too. Kit emails follow the briefing sequence: Email 1 Sept 8 or 9, Email 2 Sept 10 or 11, Email 3 Sept 13 or 14.
 - **Weeks 2–5 (Sept 14 – Oct 11):** weekly coaching call; Shadow Labs in weeks 3 and 5 (Sept 21 week, Oct 5 week); Equipped 1:1s booked weeks 2–5. Lash Cash Q4 build work continues ~5 hrs/week in the background.
-- **Tue Oct 6:** Lash Cash Q4 cart opens (extended close: Mon Oct 26).
+- **Tue Oct 6:** Lash Cash Q4 cart opens (extended close: Tue Oct 27).
+- **Thu Oct 8, 9 PM ET: campus masterclass for the cart** — included with campus membership, no card required for members, non-members join at $9; the link lives inside Skool like the build nights. Format: a live 60-minute demo rehearsal of Night 2 or Night 4 (build a booking page or run the AI agent on screen), titled for Stalled Pros, zero new prep. Its metric is DM threads opened, never sales from stage. Replay pushed by scheduled email during the cruise; optional short Q&A Mon Oct 26 for fence-sitters.
 - **Weeks 5 and 6 compressed (through Sun Oct 11):** all remaining live teaching lands before the cruise; week 6 content is delivered in week 5 or pre-recorded. Confirm Miesha's Oct 16 autopay before departure.
 - **Cruise week (Mon Oct 12 – Tue Oct 20):** the cohort's built-in **portfolio week** — assignments only, no live calls. The coach keeps the campus rhythm; scheduled emails keep the cart warm; ads keep running (a $9 self-serve checkout needs no founder).
 - **Wed Oct 21 – Mon Oct 26:** back home. Closing week: personal DMs on every warm Lash Cash thread, catch-up 1:1s if any were owed.
