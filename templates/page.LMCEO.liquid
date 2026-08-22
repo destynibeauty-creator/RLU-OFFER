@@ -22,11 +22,17 @@
   assign hero_sub = "Six weeks live with a Registered Nurse. Two certifications, your kit shipped before Week 1, and a guarantee in writing that we keep working until your first paying client."
 
   ### COHORT
-  assign cohort_name = "Cohort Two"
-  assign cohort_day = "Monday"
-  assign cohort_date = "September 7"
-  assign cohort_iso = "2026-09-07T09:00:00-04:00"
-  assign ship_by = "September 3"
+  # Cohort dates now live in ONE place: Shopify admin > Settings > Custom data > Shop.
+  # Change them there and every page updates. The default: values below are the fallback
+  # if a field is ever blank, so nothing can render empty.
+  assign cohort_name = shop.metafields.rlu.cohort_name | default: "Cohort Two"
+  assign cohort_full = shop.metafields.rlu.cohort_date | default: "Monday, September 7"
+  assign cohort_iso  = shop.metafields.rlu.cohort_iso  | default: "2026-09-07T09:00:00-04:00"
+  assign ship_by     = shop.metafields.rlu.ship_by     | default: "September 3"
+  # split "Monday, September 7" back into day + date so all existing markup keeps working
+  assign cohort_parts = cohort_full | split: ", "
+  assign cohort_day   = cohort_parts[0] | default: "Monday"
+  assign cohort_date  = cohort_parts[1] | default: cohort_full
   assign first_payment = "Friday, September 11"
 
   ### CERTIFIED CEO
