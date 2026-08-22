@@ -10,32 +10,47 @@ Canva > Brand > Brand Kits > **Rich Lash Tech** > Edit
 
 ## 1. Fonts
 
-Canva Pro lets you upload font files. Get Poppins from Google Fonts
-(fonts.google.com/specimen/Poppins > Get font > Download all), unzip, then upload
-these four files under **Brand fonts**:
+Canva gives you eight named slots on this page. Fill every one. Any slot you leave
+alone is a slot Canva will fall back to with the wrong font.
 
-| Role | File | Use it for |
+**To upload:** click a slot row, and in the font picker that opens click
+**Upload a font** at the top. Requires Canva Pro. Desktop only.
+
+Get the files first: fonts.google.com/specimen/Poppins > **Get font** >
+**Download all** > unzip. You need five of the files in that folder.
+
+| Canva slot | Upload this file | Weight |
 |---|---|---|
-| Headings | `Poppins-ExtraLight.ttf` (200) | Big display type, section headlines |
-| Subheadings | `Poppins-Light.ttf` (300) | Sublines, body copy |
-| Body | `Poppins-Regular.ttf` (400) | Long paragraphs |
-| Accent | `Poppins-SemiBold.ttf` (600) | Buttons, eyebrows, all-caps labels |
+| **Title** | `Poppins-ExtraLight.ttf` | 200 |
+| **Subtitle** | `Poppins-Light.ttf` | 300 |
+| **Heading** | `Poppins-Light.ttf` | 300 |
+| **Subheading** | `Poppins-Light.ttf` | 300 |
+| **Section header** | `Poppins-SemiBold.ttf` | 600 |
+| **Body** | `Poppins-Light.ttf` | 300 |
+| **Quote** | `Poppins-LightItalic.ttf` | 300 italic |
+| **Caption** | `Poppins-SemiBold.ttf` | 600 |
 
-Also upload `Poppins-LightItalic.ttf` (300 italic). The italic is doing real work
-on the live page: every emphasized word in a headline is italic Poppins Light in
-pink. Without it Canva fakes the slant and it looks wrong.
+You only upload each file once. After the first upload the rest of the slots can
+pick Poppins from your uploaded fonts list.
 
-**Delete or demote whatever font is currently set as the heading font.** As long
-as it sits in the Heading slot, Canva keeps reaching for it.
+### Why the italic matters
+Every emphasized word in an RLU headline is italic Poppins Light in pink. It is on
+the live page in a dozen places. Without the real italic file Canva fakes the slant
+by shearing the letters, and it reads cheap.
 
-### Text style presets to save
-| Preset | Font | Size (on a 1080x1350) | Color | Spacing |
-|---|---|---|---|---|
-| Display | Poppins ExtraLight 200 | 120-140 | `#F2EEF0` | letter-spacing -3%, line-height 0.95 |
-| Headline | Poppins Light 300 | 54-64 | `#F2EEF0` | letter-spacing -2%, line-height 1.15 |
-| Subline | Poppins Light 300 | 30-36 | `#A39BA0` | line-height 1.5 |
-| Eyebrow | Poppins SemiBold 600 | 16-18, ALL CAPS | `#A39BA0` | letter-spacing +18% |
-| Detail | Poppins SemiBold 600 | 16-18, ALL CAPS | `#D4AF37` | letter-spacing +14% |
+### Sizes and spacing
+Canva stores a size per slot. Set these for a 1080x1350 post:
+
+| Slot | Size | Color | Spacing |
+|---|---|---|---|
+| Title | 132 | `#F2EEF0` | letter-spacing -3%, line-height 0.95 |
+| Subtitle | 40 | `#A39BA0` | line-height 1.3 |
+| Heading | 58 | `#F2EEF0` | letter-spacing -2%, line-height 1.15 |
+| Subheading | 34 | `#A39BA0` | line-height 1.5 |
+| Section header | 17, ALL CAPS | `#A39BA0` | letter-spacing +18% |
+| Body | 24 | `#F2EEF0` | line-height 1.6 |
+| Quote | 40 italic | `#FF5CC5` | line-height 1.3 |
+| Caption | 17, ALL CAPS | `#D4AF37` | letter-spacing +14% |
 
 ---
 
