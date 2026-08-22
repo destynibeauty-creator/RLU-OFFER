@@ -408,6 +408,14 @@
   .addon-btn:hover{transform:translateY(-1px);border-style:solid;border-color:var(--green-soft);background:rgba(78,187,25,.1);color:#fff}
   .addon-btn span{display:block;margin-top:5px;font-size:10px;font-weight:400;letter-spacing:.04em;text-transform:none;color:var(--soft)}
   .lc-note{font-size:11.5px;color:var(--faint);line-height:1.75;letter-spacing:.02em}
+  .lc-intro{font-size:15px;color:#fff;line-height:1.7;font-weight:300;margin-bottom:24px;max-width:640px}
+  .lc-intro b{font-weight:500;color:var(--pink-soft)}
+  .lc-list{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:26px}
+  @media(max-width:700px){.lc-list{grid-template-columns:1fr}}
+  .lc-item{padding:18px 20px;border:1px solid var(--line);border-radius:14px;background:rgba(255,255,255,.025)}
+  .lc-item .lc-n{display:block;font-size:9.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--green-soft);margin-bottom:8px}
+  .lc-item b{display:block;font-size:14.5px;color:#fff;font-weight:500;line-height:1.35;margin-bottom:6px}
+  .lc-item span.d{font-size:12.5px;color:var(--soft);line-height:1.6;font-weight:300}
   .rlupay{border-top:1px solid var(--line);position:relative;overflow:hidden}
   .rlupay::before{content:'';position:absolute;top:-8%;left:0;right:0;margin-inline:auto;width:760px;height:440px;background:radial-gradient(ellipse,rgba(212,175,55,0.06),transparent 62%);pointer-events:none}
   .rlupay .wrap{position:relative;z-index:2}
@@ -1264,7 +1272,7 @@
           <div class="tl">Money Maker Lash Kit for your first 30 clients</div>
           <div class="tl">Lash CEO GPT Library&trade; + Vendor List</div>
           <div class="tl">Rich Lash&reg; Performance Guarantee</div>
-          <div class="tl x">Lash Cash Q4 available as a ${{ lc_addon }} add-on, a ${{ lc_price }} program</div>
+          <div class="tl x">Add Lash Cash Q4 for ${{ lc_addon }}, or step up to Equipped where it is included</div>
         </div>
         <div class="tier-foot">
           <a href="#rlu-pay" class="deposit-btn" id="rluEss">Start With ${{ cert_deposit }} &rarr;</a>
@@ -1309,7 +1317,15 @@
     <div class="lc-band reveal d1">
       <span class="lc-eyebrow">New for Q4 &middot; Included With Equipped CEO</span>
       <h3>Lash Cash Q4: six live nights where your <em>business gets built with you.</em></h3>
-      <p>Certification teaches you to lash. Lash Cash builds the thing that runs it. Six Thursday nights, laptops open, and you leave every night with something that exists: your entity and pricing, your website with booking and deposits, your 16-template forms library, your AI agents set up live, your client and rebooking system, then your Q4 and January plan.</p>
+      <p class="lc-intro">Certification makes you good at lashes. <b>This makes you open for business.</b> Six Thursday nights, laptops open, and you leave every one of them holding a piece of your business that already works.</p>
+      <div class="lc-list">
+        <div class="lc-item"><span class="lc-n">Night One &middot; The Setup</span><b>You stop operating like a hobby.</b><span class="d">Entity, insurance, banking, and pricing built on your real numbers.</span></div>
+        <div class="lc-item"><span class="lc-n">Night Two &middot; The Website</span><b>Women book you while you sleep.</b><span class="d">Your site goes live that night with a service menu, booking, and deposits.</span></div>
+        <div class="lc-item"><span class="lc-n">Night Three &middot; The Back End</span><b>No-shows stop costing you.</b><span class="d">A 16-template forms library wired straight into your booking.</span></div>
+        <div class="lc-item"><span class="lc-n">Night Four &middot; The AI Night</span><b>Your admin runs without you.</b><span class="d">We build your agents live: content, follow-up, reminders, the busywork.</span></div>
+        <div class="lc-item"><span class="lc-n">Night Five &middot; Getting Clients</span><b>You stop posting and praying.</b><span class="d">A repeatable content, referral, and rebooking system that fills your chair.</span></div>
+        <div class="lc-item"><span class="lc-n">Night Six &middot; Q4 Execution</span><b>You walk into the holidays with a plan.</b><span class="d">Holiday pricing, gift cards, packages, then your January map.</span></div>
+      </div>
       <div class="lc-rows">
         <div class="lc-row hl"><b>Equipped CEO</b><span>Included</span></div>
         <div class="lc-row"><b>Certified CEO</b><span>Add for ${{ lc_addon }}</span></div>
