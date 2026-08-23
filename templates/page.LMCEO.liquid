@@ -92,6 +92,12 @@
   assign cert_lc_total = "3,644"
   assign cert_lc_remaining = "2,894"
 
+  ### SEATS LEFT
+  # Real numbers beat the word "limited", but only while they are true.
+  # Check Shopify inventory and update these before every push.
+  assign cert_seats = "4"
+  assign eq_seats = "6"
+
   ### PROOF AND EXTRAS
   assign show_money_wall = true
   assign video_url = "https://cdn.shopify.com/videos/c/vp/728b141713c642e6933c241415a1147d/728b141713c642e6933c241415a1147d.SD-480p-0.9Mbps-87192502.mp4"
@@ -579,6 +585,8 @@
   .guar .ey{display:block;margin-bottom:24px;color:var(--green-soft)}
   .guar h2{font-size:clamp(30px,5vw,58px);font-weight:200;line-height:1.1;color:#fff;letter-spacing:-0.02em;margin-bottom:30px}
   .guar h2 b{font-weight:600}
+  .guar-fine{max-width:520px;margin:22px auto 0;font-size:13px;line-height:1.8;color:var(--soft);font-weight:300}
+  .guar-fine b{color:#fff;font-weight:600}
   .guar-do{display:inline-flex;flex-direction:column;gap:10px;text-align:left;margin:0 auto 28px}
   .gd{font-size:15px;color:var(--ink);display:flex;gap:14px;font-weight:300}
   .gd::before{content:'\2713';color:var(--green-soft);font-weight:600}
@@ -888,7 +896,7 @@
     </div>
 
     <a href="#choose-path" class="btn">See Both Paths &amp; Pricing</a>
-    <span class="btn-note"><b>{{ cohort_name }} begins {{ cohort_day }}, {{ cohort_date }}.</b> {{ vr_name }} meets {{ vr_when }}. Seats are limited.</span>
+    <span class="btn-note"><b>{{ cohort_name }} begins {{ cohort_day }}, {{ cohort_date }}.</b> {{ vr_name }} meets {{ vr_when }}. {{ cert_seats }} Certified and {{ eq_seats }} Equipped seats left.</span>
   </div>
 </section>
 
@@ -921,7 +929,7 @@
     <div class="sbi"><svg class="st-ic" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><div class="sbn" data-count="9" data-suffix="+">9+</div><div class="sbl">Years of Artistry</div></div>
     <div class="sbi"><svg class="st-ic" viewBox="0 0 24 24"><path d="M12 2l8 4v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6z"/><path d="M12 8v6M9 11h6"/></svg><div class="sbn">RN</div><div class="sbl">Clinical Standards</div></div>
   </div>
-  <div class="celeb">Trusted by clients including celebrities like Summer Walker</div>
+  <div class="celeb">Lashing since 2017 &middot; Trusted by clients including celebrities like Summer Walker</div>
 </div>
 <section>
   <div class="wrap center">
@@ -983,7 +991,7 @@
       <div class="wf reveal d2">
         <svg class="wf-ic" viewBox="0 0 24 24"><path d="M12 2c3 3 4 7 4 10l-4 4-4-4c0-3 1-7 4-10z"/><circle cx="12" cy="9" r="1.5"/><path d="M8 16l-2 4M16 16l2 4"/></svg>
         <h4>The Stalled Pro</h4>
-        <p>You&rsquo;re trained. Maybe even certified. But your chair is still empty and you don&rsquo;t know why. You don&rsquo;t need more technique. You need the part nobody taught you: how to price, how to get clients, and the confidence to finally put yourself out there.</p>
+        <p>You&rsquo;re trained. Maybe even certified. But your chair is still empty and you don&rsquo;t know why. You need the part nobody taught you: how to price, how to get clients, and the confidence to put yourself out there. That is Weeks 5 and 6, and all of Lash Cash Q4. Weeks 1 through 4 are not a repeat for you, they are the audit. An empty chair is often a retention problem wearing a marketing costume, and I will tell you straight which one yours is.</p>
       </div>
     </div>
     <p class="wf-close reveal">Whichever one you are, the goal is the same. <b>Wake up and choose your own day.</b></p>
@@ -1074,7 +1082,7 @@
       <div class="eyrow c reveal"><span class="ln"></span><span class="ey">Your Six Weeks, Mapped</span><span class="ln"></span></div>
       <h2 class="big reveal">From <em>foundations</em> to <em>launch.</em></h2>
       <p class="lead reveal d1" style="margin:22px auto 0">A guided arc, each week builds on the last. Plan for <b style="color:#fff">5 to 10 hours per week.</b> Every live call is recorded, so if a shift runs long, you never fall behind.</p>
-      <div class="sched-top reveal d1">{{ vr_name }} meets <b>{{ vr_when }}</b>, six sessions. Shadow Labs run <b>{{ lab_when }}</b>, three of them. {{ break_note }} You graduate the week of the 20th.</div>
+      <div class="sched-top reveal d1">{{ vr_name }} meets <b>{{ vr_when }}</b>, six sessions. Shadow Labs run <b>{{ lab_when }}</b>, three of them. {{ break_note }} You graduate the week of the 20th.<br><b>Still working a job?</b> Sessions are at noon because that is when most of you can actually think. If you are on shift, watch the replay. It counts for your guarantee, and you will not be behind.</div>
     </div>
     <div class="wk-line">
       <div class="wk reveal"><svg class="wk-ic" viewBox="0 0 24 24"><path d="M12 2l8 4v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6z"/><path d="M9 12l2 2 4-4"/></svg><div class="wk-no">Week 1</div><div class="wk-date">{{ vr_1 }} &middot; 12 PM ET</div><h4>Foundations</h4><span class="wk-out">Your station is safe enough to touch a client.</span><p>Sanitation, safety, and setup the way medical professionals do it. Your studio, ready.</p></div>
@@ -1101,7 +1109,7 @@
     </div>
     <div class="how-grid">
       <div class="hcard reveal"><svg class="hc-ic" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg><h3><span class="n">01</span>You see it up close</h3><p>Every method on camera, zoomed all the way in, and recorded, so you can <b>rewatch as many times as you need.</b></p></div>
-      <div class="hcard reveal d1"><svg class="hc-ic" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.6-7 8-7s8 3 8 7"/></svg><h3><span class="n">02</span>You practice on a real model</h3><p>A full set on a real person <b>before your first paying client.</b></p></div>
+      <div class="hcard reveal d1"><svg class="hc-ic" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.6-7 8-7s8 3 8 7"/></svg><h3><span class="n">02</span>You practice on a real model</h3><p>A full set on a real person <b>before your first paying client.</b> You bring her: a friend, a sister, a coworker. She does not pay, you do not charge, and nobody has to trust a beginner with their money.</p></div>
       <div class="hcard reveal"><svg class="hc-ic" viewBox="0 0 24 24"><path d="M4 6h16M4 12h10M4 18h7"/><path d="M15 16l2 2 4-4"/></svg><h3><span class="n">03</span>You get corrected</h3><p>I review your real work in the Portfolio Audit, and in Equipped CEO, Shadow Labs lets me watch your technique live and <b>fix you on the spot.</b></p></div>
       <div class="hcard reveal d1"><svg class="hc-ic" viewBox="0 0 24 24"><path d="M21 11.5a8.4 8.4 0 01-1 4 8.5 8.5 0 01-7.5 4.5 8.4 8.4 0 01-4-1L3 21l1.5-5.5a8.4 8.4 0 01-1-4A8.5 8.5 0 018 4a8.4 8.4 0 014-1 8.5 8.5 0 018.5 8.5z"/></svg><h3><span class="n">04</span>You&rsquo;re coached weekly</h3><p>Six weeks of me pouring into you. In Equipped CEO, your 1:1s build <b>a roadmap just for you.</b></p></div>
     </div>
@@ -1167,7 +1175,7 @@
     <div class="fdr-body reveal d1">
       <span class="ey">Training by a Registered Nurse</span>
       <h2 class="big" style="margin-top:18px">Built for women <em>like you.</em></h2>
-      <p>Destyni Triplett, RN, isn&rsquo;t a lash artist who started teaching. She&rsquo;s a <b>nurse who built a real lash business</b>, trained over 250 women, and served 1,000+ clients.</p>
+      <p>Destyni Triplett, RN, isn&rsquo;t a lash artist who started teaching. She&rsquo;s a <b>nurse who built a real lash business</b>, has trained over 250 women and served more than 1,000 clients since 2017.</p>
       <p>If you&rsquo;re a nurse, CNA, or esthetician, working long shifts, scared to leave a &ldquo;good job&rdquo; that&rsquo;s costing your peace, <b>she was you.</b></p>
       <div class="fdr-why">
         <div class="fwl">Sanitation the way medical pros do it</div>
@@ -1327,6 +1335,7 @@
           <div class="tl">Money Maker Lash Kit for your first 30 clients</div>
           <div class="tl">Lash CEO GPT Library&trade; + Vendor List</div>
           <div class="tl">Rich Lash&reg; Performance Guarantee</div>
+          <div class="tl">12 months of portal and curriculum access</div>
           <div class="tl x">Add Lash Cash Q4 for ${{ lc_addon }}, or step up to Equipped where it is included</div>
         </div>
         <div class="tier-foot">
@@ -1336,7 +1345,7 @@
           <a href="https://richlash.university/cart/{{ cert_variant }}:1,{{ lc_variant_addon }}:1" class="addon-btn">+ Add Lash Cash Q4 &middot; ${{ lc_addon }} &rarr;<span>Both together, pay in full: ${{ cert_plus_lc }}</span></a>
           {%- endif -%}
           <div class="pay-options"><div class="pay-options-label">Or enroll with</div><a href="https://richlash.university/cart/add?id={{ cert_variant }}&quantity=1&properties[%E2%9C%93%20Includes]=6-Week%20Live%20Coaching%2C%20Certifications%2C%20Money%20Maker%20Lash%20Kit%2C%20GPT%20Library%2C%20Vendor%20List%2C%20Performance%20Guarantee&properties[Cohort%20Begins]={{ cohort_date | url_encode }}&return_to=/checkout" class="pay-badge shop" aria-label="Enroll in Certified CEO and use Shop Pay at checkout">Shop Pay &nearr;</a><a href="https://richlash.university/cart/add?id={{ cert_variant }}&quantity=1&properties[%E2%9C%93%20Includes]=6-Week%20Live%20Coaching%2C%20Certifications%2C%20Money%20Maker%20Lash%20Kit%2C%20GPT%20Library%2C%20Vendor%20List%2C%20Performance%20Guarantee&properties[Cohort%20Begins]={{ cohort_date | url_encode }}&return_to=/checkout" class="pay-badge affirm" aria-label="Enroll in Certified CEO and use Affirm at checkout">Affirm &nearr;</a><a href="https://richlash.university/cart/add?id={{ cert_variant }}&quantity=1&properties[%E2%9C%93%20Includes]=6-Week%20Live%20Coaching%2C%20Certifications%2C%20Money%20Maker%20Lash%20Kit%2C%20GPT%20Library%2C%20Vendor%20List%2C%20Performance%20Guarantee&properties[Cohort%20Begins]={{ cohort_date | url_encode }}&return_to=/checkout" class="pay-badge sezzle" aria-label="Enroll in Certified CEO and use Sezzle at checkout">Sezzle &nearr;</a></div>
-          <div class="tier-note">No credit check with RLU Pay&trade; &middot; Cohort begins {{ cohort_date }}<br>Adding Lash Cash Q4 on a payment plan? Tick the box in RLU Pay&trade; below.</div>
+          <div class="tier-note">No credit check with RLU Pay&trade; &middot; Cohort begins {{ cohort_date }} &middot; <b style="color:var(--pink-soft)">{{ cert_seats }} seats left</b><br>Adding Lash Cash Q4 on a payment plan? Tick the box in RLU Pay&trade; below.</div>
         </div>
       </div>
 
@@ -1364,7 +1373,7 @@
           <a href="#rlu-pay" class="deposit-btn" id="rluFull">Start With ${{ eq_deposit }} &rarr;</a>
           <a href="https://richlash.university/cart/add?id={{ eq_variant }}&quantity=1&properties[%E2%9C%93%20Includes]=Everything%20in%20Certified%20CEO%20%2B%20Complete%20Studio%20Shipped%2C%20Shadow%20Labs%2C%201%3A1s%2C%20Lash%20Cash%20Q4&properties[Cohort%20Begins]={{ cohort_date | url_encode }}&return_to=/checkout" class="payfull-link">Pay in Full &middot; ${{ eq_price }} &rarr;</a>
           <div class="pay-options"><div class="pay-options-label">Or enroll with</div><a href="https://richlash.university/cart/add?id={{ eq_variant }}&quantity=1&properties[%E2%9C%93%20Includes]=Everything%20in%20Certified%20CEO%20%2B%20Complete%20Studio%20Shipped%2C%20Shadow%20Labs%2C%201%3A1s%2C%20Lash%20Cash%20Q4&properties[Cohort%20Begins]={{ cohort_date | url_encode }}&return_to=/checkout" class="pay-badge shop" aria-label="Enroll in Equipped CEO and use Shop Pay at checkout">Shop Pay &nearr;</a><a href="https://richlash.university/cart/add?id={{ eq_variant }}&quantity=1&properties[%E2%9C%93%20Includes]=Everything%20in%20Certified%20CEO%20%2B%20Complete%20Studio%20Shipped%2C%20Shadow%20Labs%2C%201%3A1s%2C%20Lash%20Cash%20Q4&properties[Cohort%20Begins]={{ cohort_date | url_encode }}&return_to=/checkout" class="pay-badge affirm" aria-label="Enroll in Equipped CEO and use Affirm at checkout">Affirm &nearr;</a><a href="https://richlash.university/cart/add?id={{ eq_variant }}&quantity=1&properties[%E2%9C%93%20Includes]=Everything%20in%20Certified%20CEO%20%2B%20Complete%20Studio%20Shipped%2C%20Shadow%20Labs%2C%201%3A1s%2C%20Lash%20Cash%20Q4&properties[Cohort%20Begins]={{ cohort_date | url_encode }}&return_to=/checkout" class="pay-badge sezzle" aria-label="Enroll in Equipped CEO and use Sezzle at checkout">Sezzle &nearr;</a></div>
-          <div class="tier-note">No credit check with RLU Pay&trade; &middot; Cohort begins {{ cohort_date }}</div>
+          <div class="tier-note">No credit check with RLU Pay&trade; &middot; Cohort begins {{ cohort_date }} &middot; <b style="color:var(--pink-soft)">{{ eq_seats }} seats left</b></div>
         </div>
       </div>
     </div>
@@ -1585,10 +1594,11 @@
     <h2>The real fear isn&rsquo;t the lashes. It&rsquo;s betting on yourself and failing. <b>So we took that off the table.</b></h2>
     <div class="guar-do">
       <div class="gd">Complete the curriculum</div>
-      <div class="gd">Show up to your live sessions</div>
+      <div class="gd">Show up live, or watch the replay</div>
       <div class="gd">Run the client strategy we give you</div>
     </div>
     <p>&hellip;and if you still haven&rsquo;t landed your first paying client? <b>We keep working with you until you do.</b></p>
+    <p class="guar-fine">Working a shift on Tuesday? <b>The replay counts.</b> This guarantee asks you to do the work, not to be free at noon.</p>
   </div>
 </section>
 
@@ -1672,7 +1682,7 @@
       <div class="fc not reveal">
         <h3>Keep your money if&hellip;</h3>
         <div class="fl"><span class="m">&#10007;</span>You want a magic download with no work on your part</div>
-        <div class="fl"><span class="m">&#10007;</span>You won&rsquo;t show up to your live sessions</div>
+        <div class="fl"><span class="m">&#10007;</span>You won&rsquo;t show up live or watch the replays</div>
         <div class="fl"><span class="m">&#10007;</span>You&rsquo;re looking for the cheapest option, not the right one</div>
         <div class="fl"><span class="m">&#10007;</span>You want a certificate to frame, not a business to run</div>
       </div>
@@ -1694,14 +1704,14 @@
     <div class="faq-list" style="text-align:left">
       <div class="fitem reveal"><div class="fq"><h3>When does it start, and is enrollment open now?</h3><div class="ic"></div></div><div class="fa">Enrollment is open right now, and seats are filling. {{ cohort_name }} begins {{ cohort_day }}, {{ cohort_date }}. Enroll by {{ ship_by }} so your kit ships in time to start with the group. When you enroll, whether you pay in full or put your deposit down, your seat is locked and you get everything you need before Week 1.</div></div>
       <div class="fitem reveal"><div class="fq"><h3>Do I need any experience?</h3><div class="ic"></div></div><div class="fa">None. Total beginners are welcome and we start from the very beginning. If you&rsquo;re already trained, you&rsquo;ll sharpen your technique and finally get the business side nobody taught you.</div></div>
+      <div class="fitem reveal"><div class="fq"><h3>Do I need a license to lash?</h3><div class="ic"></div></div><div class="fa">It depends on your state, and you should know before you enroll rather than after. Some states require an esthetician or cosmetology license to work on paying clients, and a private certification does not replace a state license. This certification trains and certifies you in the skill and the business, and you get our State-by-State Licensing Guide so you know exactly what yours requires. You can read the short version now: <a href="/blogs/news/staterequirements" style="color:var(--pink-soft);border-bottom:1px solid rgba(246,0,162,.35)">state-by-state lash licensing requirements</a>.</div></div>
       <div class="fitem reveal"><div class="fq"><h3>How can I really learn lashing online?</h3><div class="ic"></div></div><div class="fa">You see every method up close on camera, practice on a real model, and get corrected by an RN on your actual work. Every live call is recorded so you can rewatch as many times as you need. You&rsquo;re not learning alone behind a screen, you get more live coaching than a one-day in-person class gives you.</div></div>
       <div class="fitem reveal"><div class="fq"><h3>How much time each week?</h3><div class="ic"></div></div><div class="fa">{{ vr_name }}, our weekly session, meets <b>{{ vr_when }}</b>: {{ vr_1 }}, {{ vr_2 }}, {{ vr_3 }}, {{ vr_4 }}, {{ vr_5 }} and {{ vr_6 }}. Shadow Labs run {{ lab_when }} on {{ lab_1 }}, {{ lab_2 }} and {{ lab_3 }}. {{ break_note }} Around that, plan for about 5 to 10 hours a week. Every session is recorded, so if a shift runs long, you catch up on your schedule and never fall behind.</div></div>
       <div class="fitem reveal"><div class="fq"><h3>What&rsquo;s the difference between Certified CEO and Equipped CEO?</h3><div class="ic"></div></div><div class="fa">Both tiers include the full certification, live coaching, AI tools, Performance Guarantee, and the Money Maker Lash Kit with product for your first 30 clients. Equipped CEO adds the complete professional studio shipped to your door, Shadow Labs for live technique correction, private 1:1 strategy sessions, and your seat in Lash Cash Q4. Certified gets you trained, certified, and stocked with your kit. Equipped gets you fully set up.</div></div>
       <div class="fitem reveal"><div class="fq"><h3>What is Lash Cash Q4, and how do I get in?</h3><div class="ic"></div></div><div class="fa">Lash Cash Q4 is six live build nights where your business gets built with you: entity and pricing, your website with booking and deposits, a 16-template forms library, your AI agents set up live, your client and rebooking system, then your Q4 and January plan. Thursdays at 9 PM ET on {{ lc_dates }}. It is included with Equipped CEO, a ${{ lc_addon }} add-on for Certified CEO, and ${{ lc_price }} for everyone else. Seats are capped at {{ lc_cap }} and every night is recorded. Your call link and replays arrive by email before Night One.</div></div>
       <div class="fitem reveal"><div class="fq"><h3>Can I split the payment?</h3><div class="ic"></div></div><div class="fa">Yes. You can pay in full, use Shop Pay, Affirm, or Sezzle at checkout, or use RLU Pay&trade;, our in-house plan with no credit check. Put a deposit down to lock your seat and pay the rest across your six weeks. See the RLU Pay&trade; section above for exact plans.</div></div>
-      <div class="fitem reveal"><div class="fq"><h3>Do I need a license to lash?</h3><div class="ic"></div></div><div class="fa">It depends on your state. This certification trains and certifies you in the skill and the business, and you&rsquo;ll get our State-by-State Licensing Guide. Some states require an esthetician or cosmetology license to work on paying clients, and a private certification does not replace a state license. We&rsquo;ll show you exactly what your state requires so you&rsquo;re set up right.</div></div>
-      <div class="fitem reveal"><div class="fq"><h3>What is the Performance Guarantee?</h3><div class="ic"></div></div><div class="fa">Complete the curriculum, show up to your live sessions, and run the client strategy we give you. If you still haven&rsquo;t landed your first paying client, we keep working with you until you do. The risk of betting on yourself is off the table.</div></div>
-      <div class="fitem reveal"><div class="fq"><h3>Is my payment refundable?</h3><div class="ic"></div></div><div class="fa">Seats are limited and held for you, so enrollment is final per RLU&rsquo;s enrollment agreement. Your deposit reserves your spot and goes toward your total. Enroll when you&rsquo;re truly ready, and we&rsquo;ve got you from there. Questions? learn@richlash.university</div></div>
+      <div class="fitem reveal"><div class="fq"><h3>What is the Performance Guarantee?</h3><div class="ic"></div></div><div class="fa">Complete the curriculum, show up to your live sessions <b>or watch the replays</b>, and run the client strategy we give you. If you still haven&rsquo;t landed your first paying client, we keep working with you until you do. Working a shift on Tuesday does not cost you the guarantee. The risk of betting on yourself is off the table.</div></div>
+      <div class="fitem reveal"><div class="fq"><h3>Is my payment refundable?</h3><div class="ic"></div></div><div class="fa">No. Seats are held for you and your kit ships before Week 1, so enrollment is final per RLU&rsquo;s enrollment agreement. Here is the honest version of why that is not the risk it sounds like. A refund window only pays you if the thing fails, and you have to be the one who gives up to collect it. The Performance Guarantee runs the other direction: do the work and if you still have no paying client, <b>I keep working with you until you do</b>, at no extra cost and with no end date. That is worth more to you than getting your money back, and it is the promise I would rather be held to. Your deposit reserves your seat and goes toward your total. Questions before you decide? learn@richlash.university</div></div>
     </div>
   </div>
 </section>
