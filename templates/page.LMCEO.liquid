@@ -78,6 +78,9 @@
   ### PROOF AND EXTRAS
   assign show_money_wall = true
   assign video_url = "https://cdn.shopify.com/videos/c/vp/728b141713c642e6933c241415a1147d/728b141713c642e6933c241415a1147d.SD-480p-0.9Mbps-87192502.mp4"
+  # The still that shows before anyone presses play. With this set, the browser
+  # no longer has to download the video just to have something to show.
+  assign video_poster = "https://cdn.shopify.com/s/files/1/0649/6505/0626/files/Court_thumbnail.jpg?v=1782231848"
   assign klaviyo_list = "YsGNGU"
   # ========== END EDIT THESE ==========
 -%}
@@ -774,7 +777,7 @@
   window.RLU_COHORT_START = "{{ cohort_iso }}";  /* cohort begins (EDT) */
   window.RLU_SHIP_BY = "{{ ship_by }}";                      /* enroll-by date for kit shipping */
   window.RLU_VIDEO = "{{ video_url }}";
-  window.RLU_VIDEO_POSTER = "";
+  window.RLU_VIDEO_POSTER = "{{ video_poster }}";
   window.RLU_VIDEO_CAPTIONS = "";
   window.KLAVIYO_LIST_ID = "{{ klaviyo_list }}";
   window.KLAVIYO_PUBLIC_KEY = "Wds554";
@@ -846,7 +849,7 @@
             <span class="mc-runtime"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>Press play</span>
           </div>
           <div class="hero-vid" id="heroVid">
-            <video id="rluHeroVideo" controls playsinline preload="auto">
+            <video id="rluHeroVideo" controls playsinline preload="metadata" poster="{{ video_poster }}">
               <source src="" type="video/mp4">
               <track id="rluVideoCC" kind="subtitles" srclang="en" label="English" default>
             </video>
@@ -1887,18 +1890,23 @@
     var cc=$('#rluVideoCC');
     if(cc){ if(window.RLU_VIDEO_CAPTIONS){cc.src=window.RLU_VIDEO_CAPTIONS;} else if(cc.parentNode){cc.parentNode.removeChild(cc);} }
     try{vid.load();}catch(e){}
-    var previewSet=false;
-    var setOpeningFrame=function(){
-      if(previewSet)return;
-      previewSet=true;
-      try{
-        var t=(vid.duration && isFinite(vid.duration) && vid.duration>0.15)?0.12:0.01;
-        vid.currentTime=t;
-        vid.pause();
-      }catch(e){}
-    };
-    vid.addEventListener('loadedmetadata',setOpeningFrame,{once:true});
-    vid.addEventListener('loadeddata',setOpeningFrame,{once:true});
+    /* Seeking to the first frame was only ever a stand-in for a real poster. With
+       a poster set it would overwrite the still we chose and pull down video data
+       to do it, so only fall back to it when there is no poster. */
+    if(!window.RLU_VIDEO_POSTER){
+      var previewSet=false;
+      var setOpeningFrame=function(){
+        if(previewSet)return;
+        previewSet=true;
+        try{
+          var t=(vid.duration && isFinite(vid.duration) && vid.duration>0.15)?0.12:0.01;
+          vid.currentTime=t;
+          vid.pause();
+        }catch(e){}
+      };
+      vid.addEventListener('loadedmetadata',setOpeningFrame,{once:true});
+      vid.addEventListener('loadeddata',setOpeningFrame,{once:true});
+    }
     try{
       var ld=document.createElement('script');
       ld.type='application/ld+json';
