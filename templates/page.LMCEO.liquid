@@ -666,8 +666,11 @@
   .applyform{border-top:1px solid var(--line);position:relative;overflow:hidden}
   .applyform::before{content:'';position:absolute;top:-8%;left:0;right:0;margin-inline:auto;width:740px;height:420px;background:radial-gradient(ellipse,rgba(212,175,55,0.055),transparent 62%);pointer-events:none}
   .applyform .wrap{position:relative;z-index:2}
-  .af-frame{max-width:640px;margin:6vh auto 0}
-  #rluApplyFrame{width:100%;border:0;display:block;min-height:560px;background:#080808;border-radius:20px}
+  /* The wrapper owns the height, not the iframe. iOS Safari ignores height on an
+     iframe and expands it to its content, so the box has to do the clipping.
+     Change --af-max if the form ever legitimately needs more room. */
+  .af-frame{--af-max:1500px;max-width:640px;margin:6vh auto 0;height:640px;max-height:var(--af-max);overflow:auto;-webkit-overflow-scrolling:touch;background:#080808;border:1px solid var(--line);border-radius:20px}
+  #rluApplyFrame{width:100%;height:100%;min-height:100%;border:0;display:block;background:#080808}
   .af-fallback{max-width:560px;margin:22px auto 0;text-align:center;font-size:13px;color:var(--soft);line-height:1.8}
   .af-fallback a{color:var(--pink-soft);border-bottom:1px solid rgba(246,0,162,.35)}
   .af-note{max-width:560px;margin:26px auto 0;text-align:center;font-size:12px;color:var(--faint);line-height:1.8}
@@ -1671,13 +1674,13 @@
     <div class="eyrow c reveal"><span class="ln"></span><span class="ey">Still Deciding</span><span class="ln"></span></div>
     <h2 class="big reveal">Not sure which path? <em>Tell me where you are.</em></h2>
     <p class="lead reveal d1" style="margin:22px auto 0">If you are weighing the two tiers, wondering about your state, or it is the money and you want to talk it through, fill this out instead of guessing. It takes about three minutes and <b style="color:#fff">I read every one myself.</b></p>
-    <div class="af-frame reveal d1">
-      <iframe id="rluApplyFrame" title="Lash Mastery CEO Application" scrolling="no"
+    <div class="af-frame reveal d1" id="rluApplyBox">
+      <iframe id="rluApplyFrame" title="Lash Mastery CEO Application" scrolling="auto"
         src="{{ 'lashceo-application.html' | asset_url }}"></iframe>
-      <p class="af-fallback" id="afFallback" hidden>Having trouble with the form? Email
-        <a href="mailto:learn@richlash.university">learn@richlash.university</a> and tell me
-        where you are. Same answer, slower inbox.</p>
     </div>
+    <p class="af-fallback" id="afFallback" hidden>Having trouble with the form? Email
+      <a href="mailto:learn@richlash.university">learn@richlash.university</a> and tell me
+      where you are. Same answer, slower inbox.</p>
     <p class="af-note reveal">Already decided? You do not need this. <a href="#choose-path" style="color:var(--pink-soft)">Go back up and pick your path.</a></p>
   </div>
 </section>
@@ -1951,15 +1954,24 @@
 
   /* ---------- APPLICATION IFRAME (auto-height + Meta Lead) ---------- */
   (function(){
-    var f=$('#rluApplyFrame');
-    if(!f) return;
+    var box=$('#rluApplyBox');
+    if(!box) return;
+    /* The form was originally built as its own full page, so it can report a height
+       that includes a full-viewport hero. Never take the number on faith: a bad
+       report used to stretch the box into thousands of pixels of empty black. */
+    var MIN=420, MAX=1500;
     var heard=false;
     window.addEventListener('message',function(e){
-      if(!e.data) return;
-      if(e.data.rluApplyHeight){ heard=true; f.style.height=(e.data.rluApplyHeight+24)+'px'; }
-      if(e.data.rluApplyScrollTop){ f.scrollIntoView({behavior:'smooth',block:'start'}); }
-      if(e.data.rluEvent === 'submit'){ if(window.fbq){ fbq('track','Lead'); } }
-      if(e.data.rluRedirect){ window.location.href=e.data.rluRedirect; }
+      var d=e.data;
+      if(!d || typeof d !== 'object') return;
+      var h=d.rluApplyHeight;
+      if(typeof h === 'number' && isFinite(h) && h > 0){
+        heard=true;
+        box.style.height=Math.max(MIN, Math.min(Math.round(h)+24, MAX))+'px';
+      }
+      if(d.rluApplyScrollTop){ box.scrollIntoView({behavior:'smooth',block:'start'}); }
+      if(d.rluEvent === 'submit'){ if(window.fbq){ fbq('track','Lead'); } }
+      if(d.rluRedirect){ window.location.href=d.rluRedirect; }
     });
     /* If the form never reports its height, show a way out rather than an empty box. */
     setTimeout(function(){
