@@ -377,7 +377,15 @@
   /* ============ EDIT THESE ============ */
   window.RLU_ROOM_START = "2026-09-01T20:00:00-04:00";   /* The Retention Room, 8PM EDT */
   window.RLU_THANKYOU   = "/pages/seatconfirmed";        /* where she lands after registering */
-  window.KLAVIYO_LIST_ID = "VyZKwd";                     /* same list the August challenge used */
+  /* !! A list triggered flow only fires the first time a profile joins the list. !!
+     Anyone already on VyZKwd from the August challenge re-registers silently and
+     gets nothing. Two ways out, and the page now does both:
+       1. Point this at a fresh list made for this room. One line, works today.
+       2. Trigger the flow off the metric below instead of the list. A metric
+          fires every single time, on every room, forever, no new list needed.
+     Use 2. Keep 1 as the list she lives on afterwards. */
+  window.KLAVIYO_LIST_ID = "VyZKwd";                     /* swap for the new list id */
+  window.RLU_METRIC = "Registered for The Retention Room";
   window.RLU_SOURCE = "Retention Room Sept 2026";        /* new tag, so this room segments cleanly */
   /* ==================================== */
 </script>
@@ -909,6 +917,24 @@
     legacy.append('$source',source);
     legacy.append('rlu_seat_intent',window.RLU_INTENT);
 
+    /* ---- Call 4: the custom event. This is the one that survives a repeat
+            registrant. A metric triggered flow fires on every occurrence, so a
+            woman who did the August challenge still gets tonight's confirmation. */
+    var eventPayload={
+      data:{
+        type:'event',
+        attributes:{
+          properties:{
+            rlu_seat_intent:window.RLU_INTENT,
+            rlu_source:source,
+            room_date:'2026-09-01'
+          },
+          metric:{data:{type:'metric',attributes:{name:(window.RLU_METRIC||'Registered for The Retention Room')}}},
+          profile:{data:{type:'profile',attributes:profileAttrs}}
+        }
+      }
+    };
+
     var base=(window.RLU_THANKYOU||'/pages/seatconfirmed');
     var qs=[];
     if(window.RLU_INTENT==='vip') qs.push('vip=1');
@@ -929,7 +955,9 @@
       headers:{'Content-Type':'application/x-www-form-urlencoded','Cache-Control':'no-cache'},
       body:legacy.toString()
     }).catch(function(){});
-    Promise.all([p1,p2,p3]).then(function(){ go(); });
+    var p4=fetch('https://a.klaviyo.com/client/events/?company_id='+window.KLAVIYO_COMPANY_ID,
+      {method:'POST',headers:KH,body:JSON.stringify(eventPayload)}).catch(function(){});
+    Promise.all([p1,p2,p3,p4]).then(function(){ go(); });
     setTimeout(go,3000); /* fail-safe: never trap her on this page */
   };
 })();
