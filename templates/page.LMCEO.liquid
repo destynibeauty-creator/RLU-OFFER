@@ -98,10 +98,14 @@
   assign cert_lc_remaining = "2,894"
 
   ### SEATS LEFT
-  # Real numbers beat the word "limited", but only while they are true.
-  # Check Shopify inventory and update these before every push.
+  # Four is the number Destyni actually wants, not the number the kits allow.
+  # A cohort of four to six is what one person can teach properly on a ten hour
+  # week, so this is capacity, not scarcity. It is a shared pool: four remain
+  # across both tiers, however they split.
+  # Real numbers beat the word "limited", but only while they are true. Drop
+  # this the day someone takes a seat.
   assign cert_seats = "4"
-  assign eq_seats = "6"
+  assign eq_seats = "4"
 
   ### PROOF AND EXTRAS
   assign show_money_wall = true
@@ -905,7 +909,7 @@
     </div>
 
     <a href="#choose-path" class="btn">See Both Paths &amp; Pricing</a>
-    <span class="btn-note"><b>{{ cohort_name }} begins {{ cohort_day }}, {{ cohort_date }}.</b> {{ vr_name }} meets {{ vr_when }}. {{ cert_seats }} Certified and {{ eq_seats }} Equipped seats left.</span>
+    <span class="btn-note"><b>{{ cohort_name }} begins {{ cohort_day }}, {{ cohort_date }}.</b> {{ vr_name }} meets {{ vr_when }}. <b>{{ cert_seats }} seats left</b>, across both paths.</span>
   </div>
 </section>
 
