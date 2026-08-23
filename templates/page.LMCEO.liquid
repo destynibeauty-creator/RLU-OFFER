@@ -48,7 +48,10 @@
   assign vr_3 = "Tue, September 22"
   assign vr_4 = "Tue, September 29"
   assign vr_5 = "Tue, October 6"
-  assign vr_6 = "Tue, October 27"
+  assign vr_6 = "Tue, October 20"
+  # Graduation is a seventh Tuesday, not a seventh class. Six weeks of teaching
+  # is what the page and the six agreements say, and that stays true.
+  assign grad_date = "Tue, October 27"
   assign lab_1 = "Wed, September 16"
   assign lab_2 = "Wed, September 30"
   assign lab_3 = "Wed, October 21"
@@ -553,6 +556,10 @@
   .wk-out{display:block;font-size:13.5px;color:#fff;font-weight:500;line-height:1.5;margin-bottom:8px}
   .sched-top{max-width:660px;margin:34px auto 0;padding:20px 24px;border:1px solid var(--linewarm);border-radius:16px;background:rgba(212,175,55,.045);font-size:13.5px;line-height:1.85;color:var(--ink);font-weight:300}
   .sched-top b{color:#fff;font-weight:600}
+  .gradline{max-width:660px;margin:5vh auto 0;padding:26px 26px;border:1px solid var(--linewarm);border-radius:16px;background:linear-gradient(150deg,rgba(212,175,55,.09),transparent 70%);text-align:center}
+  .gl-ey{display:block;font-size:10px;letter-spacing:.26em;text-transform:uppercase;color:var(--gold-soft);font-weight:600;margin-bottom:12px}
+  .gradline b{display:block;font-size:clamp(17px,2.4vw,21px);font-weight:400;color:#fff;letter-spacing:-.01em;margin-bottom:10px}
+  .gl-d{display:block;font-size:13px;color:var(--soft);font-weight:300;line-height:1.75;max-width:420px;margin:0 auto}
   .labs{max-width:660px;margin:5vh auto 0;padding:24px 26px;border:1px solid var(--line);border-radius:16px;background:rgba(255,255,255,.02);text-align:left}
   .labs-h{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--pink-soft);font-weight:600;margin-bottom:12px}
   .labs p{font-size:13px;color:var(--soft);line-height:1.8;font-weight:300;margin-bottom:14px}
@@ -1031,6 +1038,7 @@
       <div class="jcard reveal d2">
         <div class="jno">After</div>
         <h3>Certified and supported</h3>
+        <div class="jl">Graduation, {{ grad_date }} at 12 PM ET</div>
         <div class="jl">Master Eyelash Specialist Certification</div>
         <div class="jl">Long-term portal access</div>
         <div class="jl">Lash Cash Q4 begins {{ lc_start }} (included with Equipped CEO)</div>
@@ -1084,7 +1092,7 @@
       <div class="eyrow c reveal"><span class="ln"></span><span class="ey">Your Six Weeks, Mapped</span><span class="ln"></span></div>
       <h2 class="big reveal">From <em>foundations</em> to <em>launch.</em></h2>
       <p class="lead reveal d1" style="margin:22px auto 0">A guided arc, each week builds on the last. Plan for <b style="color:#fff">5 to 10 hours per week.</b> Every live call is recorded, so if a shift runs long, you never fall behind.</p>
-      <div class="sched-top reveal d1">{{ vr_name }} meets <b>{{ vr_when }}</b>, six sessions. Shadow Labs run <b>{{ lab_when }}</b>, three of them. {{ break_note }} You graduate <b>{{ vr_6 }}</b>.<br><b>Still working a job?</b> Sessions are at noon because that is when most of you can actually think. If you are on shift, watch the replay. It counts for your guarantee, and you will not be behind.</div>
+      <div class="sched-top reveal d1">{{ vr_name }} meets <b>{{ vr_when }}</b>, six sessions. Shadow Labs run <b>{{ lab_when }}</b>, three of them. {{ break_note }} Then graduation, <b>{{ grad_date }}</b>.<br><b>Still working a job?</b> Sessions are at noon because that is when most of you can actually think. If you are on shift, watch the replay. It counts for your guarantee, and you will not be behind.</div>
     </div>
     <div class="wk-line">
       <div class="wk reveal"><svg class="wk-ic" viewBox="0 0 24 24"><path d="M12 2l8 4v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6z"/><path d="M9 12l2 2 4-4"/></svg><div class="wk-no">Week 1</div><div class="wk-date">{{ vr_1 }} &middot; 12 PM ET</div><h4>Foundations</h4><span class="wk-out">Your station is safe enough to touch a client.</span><p>Sanitation, safety, and setup the way medical professionals do it. Your studio, ready.</p></div>
@@ -1092,7 +1100,12 @@
       <div class="wk reveal d2"><svg class="wk-ic" viewBox="0 0 24 24"><path d="M12 3l2.2 4.5 5 .7-3.6 3.5.8 4.9L12 19l-4.4 2.3.8-4.9L4.8 8.2l5-.7z"/></svg><div class="wk-no">Week 3</div><div class="wk-date">{{ vr_3 }} &middot; 12 PM ET</div><h4>Advanced Artistry</h4><span class="wk-out">You can style any eye shape that sits in your chair.</span><p>Volume, styling to every eye shape, and the precision that separates pros from hobbyists.</p></div>
       <div class="wk reveal"><svg class="wk-ic" viewBox="0 0 24 24"><path d="M3 12h4l2-6 4 14 2-8h6"/></svg><div class="wk-no">Week 4</div><div class="wk-date">{{ vr_4 }} &middot; 12 PM ET</div><h4>Refinement</h4><span class="wk-out">Your sets hold, and you can fix the ones that do not.</span><p>Retention, removals, troubleshooting. Live correction on your real work.</p></div>
       <div class="wk reveal d1"><svg class="wk-ic" viewBox="0 0 24 24"><path d="M12 2v20M7 6h7a3 3 0 010 6H8a3 3 0 000 6h8"/></svg><div class="wk-no">Week 5</div><div class="wk-date">{{ vr_5 }} &middot; 12 PM ET</div><h4>The Business</h4><span class="wk-out">Your prices, policies and booking are written down.</span><p>Pricing, policies, client systems. How to run a real lash business from day one.</p></div>
-      <div class="wk reveal d2"><svg class="wk-ic" viewBox="0 0 24 24"><path d="M12 2c3 3 4 7 4 10l-4 4-4-4c0-3 1-7 4-10z"/><circle cx="12" cy="9" r="1.5"/><path d="M8 16l-2 4M16 16l2 4"/></svg><div class="wk-no">Week 6</div><div class="wk-date">{{ vr_6 }} &middot; 12 PM ET</div><h4>Launch &amp; Graduation</h4><span class="wk-out">You leave certified, with your first bookings on the calendar.</span><p>How to actually get clients, without dreading the DMs. Your first bookings, and the roadmap to a full chair.</p></div>
+      <div class="wk reveal d2"><svg class="wk-ic" viewBox="0 0 24 24"><path d="M12 2c3 3 4 7 4 10l-4 4-4-4c0-3 1-7 4-10z"/><circle cx="12" cy="9" r="1.5"/><path d="M8 16l-2 4M16 16l2 4"/></svg><div class="wk-no">Week 6</div><div class="wk-date">{{ vr_6 }} &middot; 12 PM ET</div><h4>Launch</h4><span class="wk-out">You leave certified, with your first bookings on the calendar.</span><p>How to actually get clients, without dreading the DMs. Your first bookings, and the roadmap to a full chair.</p></div>
+    </div>
+    <div class="gradline reveal d1">
+      <span class="gl-ey">Then One More Tuesday</span>
+      <b>Graduation &middot; {{ grad_date }} &middot; 12 PM ET</b>
+      <span class="gl-d">Not a class. Your certification, your name called, and the women you did it with.</span>
     </div>
     <div class="labs reveal d1">
       <div class="labs-h">Shadow Labs &middot; Equipped CEO</div>
@@ -1708,7 +1721,7 @@
       <div class="fitem reveal"><div class="fq"><h3>Do I need any experience?</h3><div class="ic"></div></div><div class="fa">None. Total beginners are welcome and we start from the very beginning. If you&rsquo;re already trained, you&rsquo;ll sharpen your technique and finally get the business side nobody taught you.</div></div>
       <div class="fitem reveal"><div class="fq"><h3>Do I need a license to lash?</h3><div class="ic"></div></div><div class="fa">It depends on your state, and you should know before you enroll rather than after. Some states require an esthetician or cosmetology license to work on paying clients, and a private certification does not replace a state license. This certification trains and certifies you in the skill and the business, and you get our State-by-State Licensing Guide so you know exactly what yours requires. You can read the short version now: <a href="/blogs/news/staterequirements" style="color:var(--pink-soft);border-bottom:1px solid rgba(246,0,162,.35)">state-by-state lash licensing requirements</a>.</div></div>
       <div class="fitem reveal"><div class="fq"><h3>How can I really learn lashing online?</h3><div class="ic"></div></div><div class="fa">You see every method up close on camera, practice on a real model, and get corrected by an RN on your actual work. Every live call is recorded so you can rewatch as many times as you need. You&rsquo;re not learning alone behind a screen, you get more live coaching than a one-day in-person class gives you.</div></div>
-      <div class="fitem reveal"><div class="fq"><h3>How much time each week?</h3><div class="ic"></div></div><div class="fa">{{ vr_name }}, our weekly session, meets <b>{{ vr_when }}</b>: {{ vr_1 }}, {{ vr_2 }}, {{ vr_3 }}, {{ vr_4 }}, {{ vr_5 }} and {{ vr_6 }}. Shadow Labs run {{ lab_when }} on {{ lab_1 }}, {{ lab_2 }} and {{ lab_3 }}. {{ break_note }} Around that, plan for about 5 to 10 hours a week. Every session is recorded, so if a shift runs long, you catch up on your schedule and never fall behind.</div></div>
+      <div class="fitem reveal"><div class="fq"><h3>How much time each week?</h3><div class="ic"></div></div><div class="fa">{{ vr_name }}, our weekly session, meets <b>{{ vr_when }}</b>: {{ vr_1 }}, {{ vr_2 }}, {{ vr_3 }}, {{ vr_4 }}, {{ vr_5 }} and {{ vr_6 }}. Shadow Labs run {{ lab_when }} on {{ lab_1 }}, {{ lab_2 }} and {{ lab_3 }}. {{ break_note }} Graduation is one more Tuesday after that, {{ grad_date }}. Around all of it, plan for about 5 to 10 hours a week. Every session is recorded, so if a shift runs long, you catch up on your schedule and never fall behind.</div></div>
       <div class="fitem reveal"><div class="fq"><h3>What&rsquo;s the difference between Certified CEO and Equipped CEO?</h3><div class="ic"></div></div><div class="fa">Both tiers include the full certification, live coaching, AI tools, Performance Guarantee, and the Money Maker Lash Kit with product for your first 30 clients. Equipped CEO adds the complete professional studio shipped to your door, Shadow Labs for live technique correction, private 1:1 strategy sessions, and your seat in Lash Cash Q4. Certified gets you trained, certified, and stocked with your kit. Equipped gets you fully set up.</div></div>
       <div class="fitem reveal"><div class="fq"><h3>What is Lash Cash Q4, and how do I get in?</h3><div class="ic"></div></div><div class="fa">Lash Cash Q4 is six live build nights where your business gets built with you: entity and pricing, your website with booking and deposits, a 16-template forms library, your AI agents set up live, your client and rebooking system, then your Q4 and January plan. Thursdays at 9 PM ET on {{ lc_dates }}. It is included with Equipped CEO, a ${{ lc_addon }} add-on for Certified CEO, and ${{ lc_price }} for everyone else. Seats are capped at {{ lc_cap }} and every night is recorded. Your call link and replays arrive by email before Night One.</div></div>
       <div class="fitem reveal"><div class="fq"><h3>Can I split the payment?</h3><div class="ic"></div></div><div class="fa">Yes. You can pay in full, use Shop Pay, Affirm, or Sezzle at checkout, or use RLU Pay&trade;, our in-house plan with no credit check. Put a deposit down to lock your seat and pay the rest across your six weeks. See the RLU Pay&trade; section above for exact plans.</div></div>
