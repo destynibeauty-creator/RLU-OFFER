@@ -247,13 +247,13 @@
             <tr>
               <td align="center" class="px" style="padding:26px 42px 0 42px;">
                 <div style="font-family:'Poppins',Arial,Helvetica,sans-serif; font-size:10px; letter-spacing:3px; text-transform:uppercase; color:#D4AF37; padding-bottom:14px;">
-                  Two things to bring
+                  Bring this
                 </div>
                 <p style="margin:0 0 12px 0; font-family:'Poppins',Arial,Helvetica,sans-serif; font-weight:300; font-size:14px; line-height:1.75; color:#9A928D;">
-                  <span style="color:#F2EEEB; font-weight:500;">A photo of a set that didn't last.</span> Your own work, or a client's text about it. It is far easier to work out what happened with something real in front of us.
+                  <span style="color:#F2EEEB; font-weight:500;">The name of your adhesive.</span> Go and look at the bottle. Brand, name, and cure time. Act One is chemistry, and yours is going to come up. This is the one I really want you to have.
                 </p>
                 <p style="margin:0; font-family:'Poppins',Arial,Helvetica,sans-serif; font-weight:300; font-size:14px; line-height:1.75; color:#9A928D;">
-                  <span style="color:#F2EEEB; font-weight:500;">The name of your adhesive.</span> Go and look at the bottle. Brand, name, and cure time. Act One is chemistry, and yours is going to come up.
+                  <span style="color:#F2EEEB; font-weight:500;">And if you have one, a photo of a set that didn't last.</span> Your own work, or a client's text about it. You will not have to show it to anybody. It is just so you are looking at something real while we work out what happened.
                 </p>
               </td>
             </tr>
@@ -282,7 +282,7 @@
                   <tr>
                     <td style="padding:0 5px;">                      <a href="https://cdn.shopify.com/s/files/1/0649/6505/0626/files/theretentionroom_2.ics?v=1787494426" style="display:inline-block; border:1px solid #3a3540; color:#EFE9E6; text-decoration:none; font-family:'Poppins',Arial,Helvetica,sans-serif; font-weight:500; font-size:12px; letter-spacing:0.6px; padding:13px 22px; border-radius:40px;" target="_blank">&nbsp; Apple Calendar</a>
                     </td>
-                    <td style="padding:0 5px;">                      <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&amp;text=The%20Retention%20Room%20%C2%B7%20Rich%20Lash%20University&amp;dates=20260902T000000Z/20260902T010000Z&amp;details=One%20live%20hour%20with%20Destyni%20Triplett%2C%20RN.%208%20to%209%20PM%20ET.%0A%0ABring%20a%20photo%20of%20a%20set%20that%20didn%27t%20last%2C%20and%20the%20name%20of%20your%20adhesive.%0A%0AJoin%20here%3A%20https%3A%2F%2Fus06web.zoom.us%2Fj%2F82594734701%3Fpwd%3DGpIauDg8vGWu5xIuST13kWU8hgBwtx.1&amp;location=https%3A%2F%2Fus06web.zoom.us%2Fj%2F82594734701%3Fpwd%3DGpIauDg8vGWu5xIuST13kWU8hgBwtx.1" style="display:inline-block; border:1px solid #3a3540; color:#EFE9E6; text-decoration:none; font-family:'Poppins',Arial,Helvetica,sans-serif; font-weight:500; font-size:12px; letter-spacing:0.6px; padding:13px 22px; border-radius:40px;" target="_blank">Google Calendar</a>
+                    <td style="padding:0 5px;">                      <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&amp;text=The%20Retention%20Room%20%C2%B7%20Rich%20Lash%20University&amp;dates=20260902T000000Z/20260902T010000Z&amp;details=One%20live%20hour%20with%20Destyni%20Triplett%2C%20RN.%208%20to%209%20PM%20ET.%0A%0ABring%20the%20name%20of%20your%20adhesive.%20If%20you%20have%20one%2C%20pull%20up%20a%20photo%20of%20a%20set%20that%20didn%27t%20last.%20Nobody%20has%20to%20see%20it.%0A%0AJoin%20here%3A%20https%3A%2F%2Fus06web.zoom.us%2Fj%2F82594734701%3Fpwd%3DGpIauDg8vGWu5xIuST13kWU8hgBwtx.1&amp;location=https%3A%2F%2Fus06web.zoom.us%2Fj%2F82594734701%3Fpwd%3DGpIauDg8vGWu5xIuST13kWU8hgBwtx.1" style="display:inline-block; border:1px solid #3a3540; color:#EFE9E6; text-decoration:none; font-family:'Poppins',Arial,Helvetica,sans-serif; font-weight:500; font-size:12px; letter-spacing:0.6px; padding:13px 22px; border-radius:40px;" target="_blank">Google Calendar</a>
                     </td>
                   </tr>
                 </table>

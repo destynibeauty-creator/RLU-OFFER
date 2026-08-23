@@ -16,9 +16,9 @@ You're in, {{ first_name|default:'love' }}. Your seat in The Retention Room is s
 
 Tuesday, Sept 1. 8 PM ET / 7 CT / 6 MT / 5 PT. One live hour.
 
-Your link: https://us06web.zoom.us/j/82594734701?pwd=GpIauDg8vGWu5xIuST13kWU8hgBwtx.1
+Before then, write down the brand and name of your adhesive. It's on the bottle.
 
-Bring a photo of a set that didn't last, and the name of your adhesive.
+https://us06web.zoom.us/j/82594734701?pwd=GpIauDg8vGWu5xIuST13kWU8hgBwtx.1
 
 Destyni
 
@@ -27,9 +27,7 @@ Destyni
 2. SMS, Tuesday September 1 at 7:00 PM ET
 ================================================================
 
-One hour, {{ first_name|default:'love' }}. The Retention Room opens at 8 ET.
-
-Grab that photo of a set that didn't last and check what adhesive you're on.
+One hour, {{ first_name|default:'love' }}. Have your adhesive bottle where you can see it.
 
 https://us06web.zoom.us/j/82594734701?pwd=GpIauDg8vGWu5xIuST13kWU8hgBwtx.1
 
@@ -62,13 +60,17 @@ One live hour on Zoom
 Your link:
 https://us06web.zoom.us/j/82594734701?pwd=GpIauDg8vGWu5xIuST13kWU8hgBwtx.1
 
-Two things to bring:
+Bring this:
 
-1. A photo of a set that didn't last. Yours, not a stock photo.
-2. The name of the adhesive you're using right now.
+1. The name of the adhesive you're using right now. Brand, name, cure time.
+   It's on the bottle. Act One is chemistry and yours will come up.
+
+2. If you have one, a photo of a set that didn't last. Yours, not a stock
+   photo. You will not have to show it to anybody. It is just so you are
+   looking at something real.
 
 Retention is not a talent problem. It is a chemistry problem, and you
-cannot troubleshoot chemistry from memory. Bring the evidence.
+cannot troubleshoot chemistry from memory.
 
 The Room runs 8 to 9. Campus members stay until 9:45 for the private
 breakdown and live reviews of your sets. If you want that half hour,
