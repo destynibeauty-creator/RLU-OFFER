@@ -828,17 +828,16 @@
 <section class="hero">
   <div class="hero-c">
     <span class="ey">The Lash Mastery CEO Certification&trade;</span>
-    <span class="open-flag"><i></i>Enrollment Open &middot; {{ cohort_name }} Begins {{ cohort_day }}, {{ cohort_date }}</span>
     <h1>{{ hero_h1 }}</h1>
     <p class="hero-sub">{{ hero_sub }}</p>
     <div class="hero-cta">
       <a href="#choose-path" class="btn">Choose Your CEO Path</a>
       <span class="btn-note">Start with a deposit or pay in full. <b>No credit check with RLU Pay&trade;.</b></span>
-      <a href="#heroWatch" class="hero-alt">Hear from three graduates first &darr;</a>
     </div>
     <div class="hero-trust">
-      <span>RN-Led Training</span><span>Kit Shipped Before Week 1</span><span>Performance Guarantee</span><span>100% Virtual</span>
+      <span>RN-Led Training</span><span>Kit Shipped Before Week 1</span><span>Performance Guarantee</span><span>${{ cert_deposit }} Starts It</span>
     </div>
+    <a href="#heroWatch" class="hero-alt">Hear from three graduates first &darr;</a>
 
     <div class="mc reveal" id="challengeGraduateVideo">
       <div class="mc-kicker"><span class="tri"></span>Graduates &middot; In Their Own Words</div>
@@ -1872,7 +1871,10 @@
   var lastY=window.pageYOffset, ticking=false;
   function onScroll(){
     var y=window.pageYOffset;
-    var show=y>760;
+    /* The nav hides on scroll-down past 320. If the sticky bar waits until 760
+       there is a stretch with no call to action anywhere on screen, and it lands
+       exactly on the headline. Back-to-top still waits, it is not useful early. */
+    var show=y>400;
     if(stickybar)stickybar.classList.toggle('show',show);
     if(toTop){toTop.classList.toggle('show',y>760);toTop.classList.toggle('lift',show);}
     if(nav){
