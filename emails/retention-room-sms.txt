@@ -1,0 +1,83 @@
+THE RETENTION ROOM
+Short-form confirmations. Tuesday, September 1, 2026, 8 PM ET.
+
+Zoom: https://us06web.zoom.us/j/82594734701?pwd=GpIauDg8vGWu5xIuST13kWU8hgBwtx.1
+Campus: https://www.skool.com/richlashuniversity/about
+
+Klaviyo tag for the name: {{ first_name|default:'love' }}
+Every send below is written to work with the name missing.
+
+
+================================================================
+1. SMS, sent the moment she registers
+================================================================
+
+You're in, {{ first_name|default:'love' }}. Your seat in The Retention Room is saved.
+
+Tuesday, Sept 1. 8 PM ET / 7 CT / 6 MT / 5 PT. One live hour.
+
+Your link: https://us06web.zoom.us/j/82594734701?pwd=GpIauDg8vGWu5xIuST13kWU8hgBwtx.1
+
+Bring a photo of a set that didn't last, and the name of your adhesive.
+
+Destyni
+
+
+================================================================
+2. SMS, Tuesday September 1 at 7:00 PM ET
+================================================================
+
+One hour, {{ first_name|default:'love' }}. The Retention Room opens at 8 ET.
+
+Grab that photo of a set that didn't last and check what adhesive you're on.
+
+https://us06web.zoom.us/j/82594734701?pwd=GpIauDg8vGWu5xIuST13kWU8hgBwtx.1
+
+Destyni
+
+
+================================================================
+3. SMS, Tuesday September 1 at 7:55 PM ET
+================================================================
+
+Doors are open. Come on in.
+
+https://us06web.zoom.us/j/82594734701?pwd=GpIauDg8vGWu5xIuST13kWU8hgBwtx.1
+
+
+================================================================
+4. Plain text email, if you want a text-only twin of the HTML
+================================================================
+Subject:  Your seat is saved
+Preview:  Tuesday night, 8 PM ET. Here is your link.
+
+{{ first_name|default:'love' }},
+
+You're in. Your seat in The Retention Room is saved.
+
+Tuesday, September 1
+8 PM ET / 7 CT / 6 MT / 5 PT
+One live hour on Zoom
+
+Your link:
+https://us06web.zoom.us/j/82594734701?pwd=GpIauDg8vGWu5xIuST13kWU8hgBwtx.1
+
+Two things to bring:
+
+1. A photo of a set that didn't last. Yours, not a stock photo.
+2. The name of the adhesive you're using right now.
+
+Retention is not a talent problem. It is a chemistry problem, and you
+cannot troubleshoot chemistry from memory. Bring the evidence.
+
+The Room runs 8 to 9. Campus members stay until 9:45 for the private
+breakdown and live reviews of your sets. If you want that half hour,
+it's here: https://www.skool.com/richlashuniversity/about
+
+See you Tuesday.
+
+Faith first. Work daily. Watch it come.
+
+Destyni
+
+{% unsubscribe_link %}
