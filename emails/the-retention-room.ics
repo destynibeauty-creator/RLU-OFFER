@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Rich Lash University//The Retention Room//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:retention-room-2026-09-01@richlash.university
+DTSTAMP:20260823T000000Z
+DTSTART:20260902T000000Z
+DTEND:20260902T010000Z
+SUMMARY:The Retention Room · Rich Lash University
+DESCRIPTION:One live hour with Destyni Triplett\, RN. 8 to 9 PM ET.\n\nWhy her lashes fall off in nine days\, and what to change before your next client.\n\nBring a photo of a set that didn't last\, and the name of your adhesive.\n\nYour Zoom link is in your confirmation email.
+LOCATION:Live on Zoom
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:The Retention Room starts in 15 minutes
+END:VALARM
+END:VEVENT
+END:VCALENDAR
