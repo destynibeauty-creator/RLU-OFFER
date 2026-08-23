@@ -45,14 +45,19 @@ final push and it is still the cheapest registration you will get.
 |---|---|
 | **Tue Sep 1** | Reminder text at 7:00. **8:00 to 9:00 the room. 9:00 to 9:30 the campus.** |
 | **Wed Sep 2** | Replay email to everyone who registered and did not attend. DM everyone who did. |
-| **Thu Sep 3** | **Cart closes.** Last email, last DMs. This is the day, not September 1. |
-| **Fri Sep 4** | Send enrollment agreements. Chase the ones who said yes and have not signed. |
-| **Sat Sep 5** | **Ship kits.** |
-| **Sun Sep 6** | Welcome email to the cohort. Zoom links, portal access, what to expect Tuesday. |
-| **Mon Sep 7** | Cohort Two begins. Portal opens. Quiet day, prepare Vision Room 1. |
+| **Thu Sep 3** | **Kit deadline.** "Enroll today and your kit is there before Week 1." First spike. |
+| **Fri Sep 4** | **Ship kits** for everyone who made the Thursday cut. Keep DMing. |
+| **Sat Sep 5** | DMs. Post the last-call story. |
+| **Sun Sep 6** | **Doors close.** Last email in the morning, last DMs all day. Second spike, and the bigger one. |
+| **Mon Sep 7** | Cohort Two begins. Portal opens. Agreements out, kits ship for the late ones. |
 
-**Anyone who enrolls Sept 4 to 7 still makes it.** Week 1 is Foundations and does not
-need the kit. Say that plainly rather than turning her away.
+**Two deadlines, not one, and that is deliberate.** Thursday is about the kit, Sunday
+is about the door. Each one gets its own email and its own reason, which is twice the
+urgency of a single close and both halves are true.
+
+**Anyone who enrolls Sept 4 to 6 still makes it.** Week 1 is Foundations and she does
+not touch a lash, so a kit landing mid-week costs her nothing. Say that plainly rather
+than turning her away.
 
 ---
 
@@ -91,6 +96,10 @@ The launch is over. Deliver.
 | Live attendance | 30% or better |
 | **New campus members** | **the number that matters** |
 | Cohort Two seats | 4 or more is a good month |
+
+**Update `rlu.cart_close` in Shopify** (Settings > Custom data > Shop). It currently
+reads "Wednesday, September 3" and should read "Sunday, September 6". Keep `ship_by`
+at September 3, since those are two different promises.
 
 Do not measure sessions. Do not measure followers.
 
