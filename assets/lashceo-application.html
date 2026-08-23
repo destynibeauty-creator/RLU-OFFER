@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="dark">
+<title>Lash Mastery CEO Certification™ Application</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300&display=swap" rel="stylesheet">
+<style>
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+  :root{
+    --black:#080808;--white:#FFF;--ink:#F2EEF0;--soft:#A39BA0;--faint:#6a626a;
+    --field:rgba(255,255,255,0.04);
+    --pink:#F600A2;--pink-soft:#ff5cc5;--green:#4EBB19;--green-soft:#7ee84d;--gold:#D4AF37;--gold-soft:#E8C57A;--gold-deep:#C99B3F;
+    --line:rgba(255,255,255,0.1);
+  }
+  html{background:#080808;-webkit-text-size-adjust:100%}
+  body{
+    font-family:'Poppins',system-ui,sans-serif;background:#080808;color:var(--ink);font-weight:300;
+    display:flex;align-items:flex-start;justify-content:center;
+    padding:30px 16px 50px;position:relative;overflow-x:hidden;-webkit-font-smoothing:antialiased;
+  }
+  body::before{content:"";position:absolute;top:-15%;left:50%;transform:translateX(-50%);width:780px;height:560px;background:radial-gradient(ellipse,rgba(246,0,162,0.14),transparent 64%);filter:blur(18px);pointer-events:none;z-index:0}
+  .card{position:relative;z-index:1;width:100%;max-width:560px;background:linear-gradient(180deg,rgba(255,255,255,0.04),rgba(255,255,255,0.012));border:1px solid var(--line);border-radius:22px;padding:40px 32px 36px;box-shadow:0 40px 90px -40px rgba(0,0,0,.9)}
+  @media(max-width:480px){.card{padding:32px 22px 30px}}
+
+  /* Embedded inside /pages/enroll the parent already draws the frame. Two borders
+     and two backgrounds looked like a box inside a box, and the outer padding and
+     glow were adding height for nothing. Strip all of it when we are in an iframe. */
+  html.embed body{padding:0}
+  html.embed body::before{display:none}
+  html.embed .card{max-width:none;border:0;border-radius:0;background:none;box-shadow:none;padding:34px 26px 32px}
+  @media(max-width:480px){html.embed .card{padding:28px 20px 28px}}
+
+  .eyebrow{font-size:10px;font-weight:500;letter-spacing:.4em;text-transform:uppercase;color:var(--pink-soft);margin-bottom:16px}
+  h1{font-size:clamp(26px,5vw,34px);font-weight:200;line-height:1.1;letter-spacing:-.02em;margin-bottom:14px;color:#fff}
+  h1 .accent{color:var(--pink-soft);font-style:italic;font-weight:200}
+  .sub{font-size:14px;font-weight:300;color:var(--soft);line-height:1.7;max-width:46ch}
+  .readiness-note{margin-top:14px;font-size:13px;font-weight:300;color:var(--soft);line-height:1.7;max-width:48ch}
+  .readiness-note b{font-weight:500;color:var(--ink);font-style:normal}
+  .credential{margin-top:18px;padding-top:16px;border-top:1px solid var(--line);font-size:12.5px;font-weight:300;font-style:italic;color:var(--soft)}
+  .credential b{font-weight:500;font-style:normal;color:var(--ink)}
+
+  .progress{margin:28px 0 26px}
+  .track{height:3px;background:rgba(255,255,255,.07);border-radius:99px;overflow:hidden}
+  .fill{height:100%;width:25%;background:linear-gradient(90deg,var(--pink),var(--pink-soft));border-radius:99px;transition:width .45s cubic-bezier(.4,0,.2,1)}
+  .steps-labels{display:flex;justify-content:space-between;margin-top:12px}
+  .slab{font-size:9.5px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--faint);transition:color .3s;flex:1;text-align:center}
+  .slab:first-child{text-align:left}.slab:last-child{text-align:right}
+  .slab.on{color:var(--pink-soft)}.slab.done{color:var(--ink)}
+
+  .step{display:none;animation:rise .45s ease both}
+  .step.active{display:block}
+  @keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+  .step-head{font-size:19px;font-weight:400;margin-bottom:5px;color:#fff}
+  .step-note{font-size:13px;color:var(--soft);font-weight:300;font-style:italic;margin-bottom:24px}
+
+  label.fl{display:block;font-size:12.5px;font-weight:400;letter-spacing:.01em;margin-bottom:8px;color:var(--ink)}
+  .req{color:var(--pink-soft)}
+  .field-wrap{margin-bottom:18px}
+  input[type=text],input[type=email],input[type=tel],select,textarea{
+    width:100%;background:var(--field);border:1px solid var(--line);border-radius:12px;padding:14px 15px;color:var(--ink);font-family:inherit;font-size:15px;font-weight:300;transition:border-color .2s,box-shadow .2s}
+  textarea{resize:vertical;min-height:88px;line-height:1.55}
+  input::placeholder,textarea::placeholder{color:#5f5a61}
+  input:focus,select:focus,textarea:focus{outline:none;border-color:var(--pink);box-shadow:0 0 0 3px rgba(246,0,162,.16)}
+  select{appearance:none;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'><path d='M1 1l5 5 5-5' stroke='%23ff5cc5' stroke-width='1.6' fill='none' stroke-linecap='round'/></svg>");background-repeat:no-repeat;background-position:right 16px center;padding-right:40px}
+  .two{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  @media(max-width:430px){.two{grid-template-columns:1fr;gap:0}}
+
+  .opt{display:block;position:relative;background:var(--field);border:1px solid var(--line);border-radius:14px;padding:16px 18px 16px 52px;margin-bottom:11px;cursor:pointer;transition:border-color .2s,background .2s,transform .12s}
+  .opt:hover{border-color:rgba(246,0,162,.35)}
+  .opt:active{transform:scale(.995)}
+  .opt input{position:absolute;opacity:0;pointer-events:none}
+  .dot{position:absolute;left:17px;top:19px;width:20px;height:20px;border-radius:50%;border:1.5px solid var(--soft);transition:border-color .2s}
+  .dot::after{content:"";position:absolute;inset:4px;border-radius:50%;background:var(--pink);transform:scale(0);transition:transform .2s}
+  .opt .ot{display:block;font-size:14.5px;font-weight:500;color:#fff;line-height:1.3}
+  .opt .od{display:block;font-size:12.5px;color:var(--soft);font-weight:300;margin-top:5px;line-height:1.5}
+  .opt input:checked~.dot{border-color:var(--pink)}
+  .opt input:checked~.dot::after{transform:scale(1)}
+  .opt:has(input:checked){border-color:var(--pink);background:linear-gradient(180deg,rgba(246,0,162,.1),rgba(246,0,162,.03))}
+
+  .priceframe{font-size:12.5px;color:var(--soft);font-weight:300;line-height:1.6;background:rgba(212,175,55,.05);border:1px solid rgba(212,175,55,.22);border-radius:12px;padding:14px 16px;margin:2px 0 20px}
+  .priceframe b{color:var(--gold-soft);font-weight:500}
+
+  .paths-note{font-size:13px;color:var(--ink);font-weight:300;line-height:1.65;margin:2px 0 16px}
+  .paths-note b{font-weight:500;color:#fff}
+
+  .commit{display:flex;gap:12px;align-items:flex-start;background:var(--field);border:1px solid rgba(246,0,162,.22);border-radius:14px;padding:16px;margin:6px 0 4px;cursor:pointer}
+  .commit input{position:absolute;opacity:0}
+  .check{flex:none;width:22px;height:22px;border-radius:6px;border:1.5px solid var(--pink);display:grid;place-items:center;margin-top:1px;transition:background .2s,border-color .2s}
+  .check svg{width:13px;height:13px;opacity:0;transition:opacity .2s}
+  .commit input:checked~.check{background:var(--green);border-color:var(--green)}
+  .commit input:checked~.check svg{opacity:1}
+  .commit .ct{font-size:13px;line-height:1.55;font-weight:300}
+  .commit .ct b{font-weight:500;color:#fff}
+
+  .err{color:var(--pink-soft);font-size:12px;margin-top:6px;display:none}
+  .err.show{display:block}
+
+  .nav{display:flex;gap:12px;margin-top:30px}
+  button{font-family:inherit;cursor:pointer;border:none;border-radius:40px;font-weight:600;font-size:13px;letter-spacing:.06em;text-transform:uppercase;padding:16px 20px;transition:transform .12s,filter .2s,box-shadow .3s}
+  button:active{transform:translateY(1px)}
+  .ghost{background:transparent;border:1px solid var(--line);color:var(--ink);flex:0 0 auto;text-transform:none;letter-spacing:.02em;font-weight:400}
+  .ghost:hover{border-color:rgba(246,0,162,.4)}
+  .primary{flex:1;background:linear-gradient(120deg,#F600A2,#b80079);color:#fff;box-shadow:0 12px 32px -10px rgba(246,0,162,.6)}
+  .primary:hover{transform:translateY(-2px);box-shadow:0 18px 44px -12px rgba(246,0,162,.7)}
+  .hide{display:none!important}
+
+  .done-screen{display:none;text-align:center;padding:16px 4px 6px}
+  .done-screen.show{display:block;animation:rise .5s ease both}
+  .seal{width:76px;height:76px;margin:0 auto 24px;border-radius:50%;background:radial-gradient(circle at 30% 30%,#6bd934,var(--green));display:grid;place-items:center;box-shadow:0 0 0 8px rgba(78,187,25,.12)}
+  .seal svg{width:34px;height:34px}
+  .done-screen h2{font-size:27px;font-weight:200;margin-bottom:12px;color:#fff;letter-spacing:-.02em}
+  .done-screen h2 .accent{color:var(--pink-soft);font-style:italic}
+  .done-screen p{color:var(--soft);font-size:14px;font-weight:300;line-height:1.7;max-width:42ch;margin:0 auto}
+  .done-cta{display:none;background:linear-gradient(120deg,#F600A2,#b80079);color:#fff;font-weight:600;font-size:13px;letter-spacing:.06em;text-transform:uppercase;padding:16px 30px;border-radius:40px;text-decoration:none;margin:24px auto 4px;box-shadow:0 12px 32px -10px rgba(246,0,162,.6);cursor:pointer}
+  .done-screen .sig{margin-top:22px;font-style:italic;font-weight:300;font-size:14px;color:var(--ink)}
+
+  @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+  <main class="card" role="main">
+    <header>
+      <div class="eyebrow">Lash Mastery CEO Certification™</div>
+      <h1>Apply to <span class="accent">build something real.</span></h1>
+      <p class="sub">This is real training for women serious about becoming lash artists, whether you are starting fresh or starting over. Not everyone is the right fit, and that is the point. I read every application myself and reach out to the women I know I can help.</p>
+      <p class="readiness-note">This 3-minute application also acts as your <b>Lash CEO Readiness Check</b>, so we can see your best next step: Certified CEO, Equipped CEO, RLU Pay™, a conversation with me, or a future cohort.</p>
+      <div class="credential">Taught by <b>Destyni Triplett, RN</b>. Lashing since 2018, nursing since 2020. Women like Chelsea, LaTiya and Courtney are already building.</div>
+    </header>
+
+    <div class="progress" id="progress">
+      <div class="track"><div class="fill" id="fill"></div></div>
+      <div class="steps-labels">
+        <span class="slab on" data-s="1">You</span>
+        <span class="slab" data-s="2">Where you're at</span>
+        <span class="slab" data-s="3">Your story</span>
+        <span class="slab" data-s="4">Ready?</span>
+      </div>
+    </div>
+
+    <form id="form" novalidate>
+      <div aria-hidden="true" style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0" tabindex="-1">
+        <label>Website (leave this empty)<input type="text" name="website" tabindex="-1" autocomplete="off"></label>
+      </div>
+      <!-- STEP 1 -->
+      <section class="step active" data-step="1">
+        <div class="step-head">Let's start with you</div>
+        <div class="step-note">So I know who I'm talking to.</div>
+        <div class="two">
+          <div class="field-wrap">
+            <label class="fl" for="firstname">First name <span class="req">*</span></label>
+            <input type="text" id="firstname" name="firstname" autocomplete="given-name" placeholder="First">
+            <div class="err" data-for="firstname">Add your first name.</div>
+          </div>
+          <div class="field-wrap">
+            <label class="fl" for="lastname">Last name <span class="req">*</span></label>
+            <input type="text" id="lastname" name="lastname" autocomplete="family-name" placeholder="Last">
+            <div class="err" data-for="lastname">Add your last name.</div>
+          </div>
+        </div>
+        <div class="field-wrap">
+          <label class="fl" for="email">Email <span class="req">*</span></label>
+          <input type="email" id="email" name="email" autocomplete="email" placeholder="you@email.com">
+          <div class="err" data-for="email">Add a real email. This is where your welcome lands.</div>
+        </div>
+        <div class="field-wrap">
+          <label class="fl" for="phone">Phone <span class="req">*</span></label>
+          <input type="tel" id="phone" name="phone" autocomplete="tel" placeholder="(404) 000-0000">
+          <div class="err" data-for="phone">Add a number we can reach you on.</div>
+        </div>
+        <div class="two">
+          <div class="field-wrap">
+            <label class="fl" for="city">City <span class="req">*</span></label>
+            <input type="text" id="city" name="city" autocomplete="address-level2" placeholder="Atlanta">
+            <div class="err" data-for="city">Add your city.</div>
+          </div>
+          <div class="field-wrap">
+            <label class="fl" for="state">State <span class="req">*</span></label>
+            <select id="state" name="state"><option value="" selected disabled>Choose</option></select>
+            <div class="err" data-for="state">Pick your state.</div>
+          </div>
+        </div>
+        <div class="field-wrap">
+          <label class="fl" for="social">Instagram or TikTok handle</label>
+          <input type="text" id="social" name="social" autocomplete="off" placeholder="@yourhandle">
+          <div style="font-size:12px;color:var(--soft);font-weight:300;line-height:1.55;margin-top:7px">Drop your Instagram or TikTok handle if you have one. No pressure if you are not posting yet. This just helps me see where you are and how to guide you.</div>
+        </div>
+      </section>
+
+      <!-- STEP 2 -->
+      <section class="step" data-step="2">
+        <div class="step-head">Where are you right now?</div>
+        <div class="step-note">Be honest. There's a right fit for every starting point.</div>
+        <div class="field-wrap" data-group="experience">
+          <label class="opt"><input type="radio" name="experience" value="beginner"><span class="dot"></span><span class="ot">I'm just getting started</span><span class="od">New to lashing and ready to learn it the right way.</span></label>
+          <label class="opt"><input type="radio" name="experience" value="trained"><span class="dot"></span><span class="ot">I've trained before</span><span class="od">Took a course or two, but I'm still not confident on a real client.</span></label>
+          <label class="opt"><input type="radio" name="experience" value="stalled"><span class="dot"></span><span class="ot">I'm certified but stuck</span><span class="od">I have the cert. I just haven't actually launched yet.</span></label>
+          <div class="err" data-for="experience">Pick the one that sounds most like you.</div>
+        </div>
+        <div class="field-wrap">
+          <label class="fl" for="licensed">Are you licensed to lash in your state? <span class="req">*</span></label>
+          <select id="licensed" name="licensed">
+            <option value="" selected disabled>Choose</option>
+            <option value="yes">Yes, I'm licensed</option>
+            <option value="in-progress">In progress, enrolled in cosmetology or esthetics</option>
+            <option value="no">No, not yet</option>
+            <option value="unsure">Not sure what my state requires</option>
+          </select>
+          <div class="err" data-for="licensed">Let me know where you stand on licensing.</div>
+        </div>
+      </section>
+
+      <!-- STEP 3 -->
+      <section class="step" data-step="3">
+        <div class="step-head">Tell me your story</div>
+        <div class="step-note">This is the part I actually read. Be real with me.</div>
+        <div class="field-wrap">
+          <label class="fl" for="tried">Have you trained or invested in lashing before? How did it leave you? <span class="req">*</span></label>
+          <textarea id="tried" name="tried" placeholder="A course, a kit, YouTube, nothing yet, and where it left you: confident, stuck, frustrated, starting over."></textarea>
+          <div class="err" data-for="tried">Give me a few honest sentences here.</div>
+        </div>
+        <div class="field-wrap">
+          <label class="fl" for="vision">What do you most want to walk away knowing how to do?</label>
+          <textarea id="vision" name="vision" placeholder="The skill or outcome you most want from this."></textarea>
+          <div class="err" data-for="vision">Tell me what you're hoping to learn.</div>
+        </div>
+        <div class="field-wrap">
+          <label class="fl" for="whynow">Why now?</label>
+          <textarea id="whynow" name="whynow" placeholder="What made you fill this out today?"></textarea>
+        </div>
+      </section>
+
+      <!-- STEP 4 -->
+      <section class="step" data-step="4">
+        <div class="step-head">Are you ready?</div>
+        <div class="step-note">No pressure. Just honesty. It helps me place you right.</div>
+        <div class="priceframe">A real investment in your career, and we made it doable. <b>You can start for as little as $750 down</b> with RLU Pay&trade; (a $150 plan fee applies), or break it into monthly payments with Shop Pay, Affirm, or Sezzle. <b>Certified CEO $2,997 &middot; Equipped CEO $3,997.</b></div>
+        <div class="field-wrap" data-group="investready">
+          <label class="opt"><input type="radio" name="investready" value="ready"><span class="dot"></span><span class="ot">Yes, I'm ready to invest in myself</span><span class="od">This is a real investment of time, focus and money, and I'm ready for it.</span></label>
+          <label class="opt"><input type="radio" name="investready" value="plan"><span class="dot"></span><span class="ot">Yes, with a payment plan</span><span class="od">I'm in, and I'd want to spread the investment out.</span></label>
+          <label class="opt"><input type="radio" name="investready" value="talk"><span class="dot"></span><span class="ot">I want to talk it through first</span><span class="od">I'm serious, I just have a few questions before I commit.</span></label>
+          <div class="err" data-for="investready">Pick the one that's true for you.</div>
+        </div>
+        <div class="field-wrap">
+          <label class="fl" for="heard">How did you find us?</label>
+          <select id="heard" name="heard">
+            <option value="" selected disabled>Choose</option>
+            <option>Instagram</option><option>The Lash CEO Challenge</option><option>A friend or a past graduate</option>
+            <option>Email</option><option>Google or search</option><option>Facebook</option><option>Other</option>
+          </select>
+        </div>
+        <p style="font-size:12.5px;color:var(--soft);font-weight:300;line-height:1.6;margin:2px 0 12px">This program is backed by a performance guarantee, but it only works if you show up. So I only say yes to women who are ready to do the work.</p>
+        <label class="commit">
+          <input type="checkbox" id="commit" name="commit">
+          <span class="check"><svg viewBox="0 0 24 24" fill="none"><path d="M5 13l4 4L19 7" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          <span class="ct"><b>I'm ready to show up and do the work.</b> I understand this is real training and I'm serious about this craft, and if I'm accepted, I'm committing to it.</span>
+        </label>
+        <div class="err" data-for="commit" style="margin-top:8px">Check the box when you're ready.</div>
+
+        <label class="commit" style="border-color:var(--line);margin-top:14px">
+          <input type="checkbox" id="smsconsent" name="smsconsent">
+          <span class="check" style="border-color:var(--soft)"><svg viewBox="0 0 24 24" fill="none"><path d="M5 13l4 4L19 7" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          <span class="ct" style="color:var(--soft)">I agree to receive marketing and promotional text messages from Rich Lash University at the number provided, including messages sent by autodialer. Consent is not a condition of enrollment. Message &amp; data rates may apply. Reply STOP to opt out, HELP for help.</span>
+        </label>
+        <!-- honeypot -->
+        <input type="checkbox" name="botcheck" style="display:none" tabindex="-1" autocomplete="off">
+      </section>
+
+      <div class="nav">
+        <button type="button" class="ghost hide" id="back">Back</button>
+        <button type="button" class="primary" id="next">Continue</button>
+        <button type="submit" class="primary hide" id="submit">Submit my application</button>
+      </div>
+    </form>
+
+    <div class="done-screen" id="done">
+      <div class="seal"><svg viewBox="0 0 24 24" fill="none"><path d="M5 13l4 4L19 7" stroke="#0A0A0A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+      <h2 id="done-h">Application <span class="accent">received.</span></h2>
+      <p id="done-p">I read these myself, every one. If we're a fit, you'll hear from me with your next step. Keep an eye out.</p>
+      <a id="done-cta" class="done-cta" href="#" rel="noopener">Continue &rarr;</a>
+      <p class="sig" id="done-sig">Thank you for being honest with me. Let's see what we can build. <em>Destyni &hearts;</em></p>
+      <p id="redir-note" style="display:none;margin-top:14px;font-size:13px;letter-spacing:.02em;color:var(--soft)"></p>
+    </div>
+  </main>
+
+<script>
+(function(){
+  /* ════════ YOUR LINKS & KEYS ════════ */
+  var SALES_URL    = "https://richlash.university/pages/enroll";  // standalone destination
+  var TIERS_ANCHOR = "#choose-path";                              // the two tiers, on the enroll page
+  var WEB3_KEY     = "77bbe1a1-a9ef-48a5-b872-215b3184bc35";      // web3forms access key (to read applications)
+  var KLAVIYO_KEY  = "Wds554";                                    // your klaviyo public key
+  var KLAVIYO_LIST = "SqnsZw";                                    // Lash Mastery CEO Applicants list
+  /* ═══════════════════════════════════════════════════ */
+
+  /* This form now lives inside /pages/enroll. Know which one we are, because the
+     ending is different: embedded, the sales page is already underneath us. */
+  var EMBED = false;
+  try{ EMBED = (window.self !== window.top); }catch(e){ EMBED = true; }
+  if(EMBED){ document.documentElement.classList.add('embed'); }
+
+  var STATES=["Alabama","Alaska","Arizona","Arkansas","California","Colorado","Connecticut","Delaware","District of Columbia","Florida","Georgia","Hawaii","Idaho","Illinois","Indiana","Iowa","Kansas","Kentucky","Louisiana","Maine","Maryland","Massachusetts","Michigan","Minnesota","Mississippi","Missouri","Montana","Nebraska","Nevada","New Hampshire","New Jersey","New Mexico","New York","North Carolina","North Dakota","Ohio","Oklahoma","Oregon","Pennsylvania","Rhode Island","South Carolina","South Dakota","Tennessee","Texas","Utah","Vermont","Virginia","Washington","West Virginia","Wisconsin","Wyoming"];
+  var sel=document.getElementById('state');
+  STATES.forEach(function(s){var o=document.createElement('option');o.textContent=s;sel.appendChild(o);});
+
+  var form=document.getElementById('form');
+  var card=document.querySelector('.card');
+  var formLoadTime=Date.now();
+  var steps=[].slice.call(document.querySelectorAll('.step'));
+  var labels=[].slice.call(document.querySelectorAll('.slab'));
+  var fill=document.getElementById('fill');
+  var back=document.getElementById('back'),next=document.getElementById('next'),submit=document.getElementById('submit');
+  var cur=1,total=steps.length;
+  var hdr=document.querySelector('header');
+  var rules={1:['firstname','lastname','email','phone','city','state'],2:['experience','licensed'],3:['tried'],4:['investready','commit']};
+
+  /* ── Tell the parent page how tall the CONTENT is ────────────────────────────
+     Do not ever measure document.documentElement here. In an iframe the html
+     element is at least as tall as the iframe itself, so reporting it created a
+     loop: parent grows the frame, the frame reports the new bigger size back,
+     parent grows it again. That ratchet is what stretched the enrollment page
+     into thousands of pixels of empty black.
+     Measure the card, and stay quiet unless the number actually moved.        */
+  var lastH=0;
+  function measure(){
+    var pad=0;
+    try{
+      var cs=window.getComputedStyle(document.body);
+      pad=(parseFloat(cs.paddingTop)||0)+(parseFloat(cs.paddingBottom)||0);
+    }catch(e){}
+    if(card){ return Math.ceil(card.getBoundingClientRect().height+pad); }
+    return Math.ceil(document.body.scrollHeight);
+  }
+  function postHeight(){
+    try{
+      var h=measure();
+      if(!h || Math.abs(h-lastH)<2) return;   /* unchanged, do not feed the loop */
+      lastH=h;
+      if(window.parent && window.parent!==window){ window.parent.postMessage({rluApplyHeight:h},"*"); }
+    }catch(e){}
+  }
+  function scrollParentToForm(){
+    try{ if(window.parent && window.parent!==window){ window.parent.postMessage({rluApplyScrollTop:true},"*"); } }catch(e){}
+  }
+  window.addEventListener('load',postHeight);
+  window.addEventListener('resize',postHeight);
+  if(window.ResizeObserver && card){ new ResizeObserver(postHeight).observe(card); }
+  setTimeout(postHeight,300);setTimeout(postHeight,1000);setTimeout(postHeight,2500);
+
+  function val(name){
+    var el=form.elements[name];
+    if(!el) return '';
+    if(el.length && el[0] && el[0].type==='radio'){var c=form.querySelector('input[name="'+name+'"]:checked');return c?c.value:'';}
+    if(el.type==='checkbox') return el.checked?'1':'';
+    return (el.value||'').trim();
+  }
+  function showErr(name,on){var e=document.querySelector('.err[data-for="'+name+'"]');if(e)e.classList.toggle('show',on);}
+  function validEmail(v){return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v);}
+  function validate(step){var ok=true;rules[step].forEach(function(name){var v=val(name);var bad=!v||(name==='email'&&!validEmail(v));showErr(name,bad);if(bad)ok=false;});return ok;}
+
+  function render(){
+    steps.forEach(function(s){s.classList.toggle('active',+s.dataset.step===cur);});
+    labels.forEach(function(l){var n=+l.dataset.s;l.classList.toggle('on',n===cur);l.classList.toggle('done',n<cur);});
+    fill.style.width=(cur/total*100)+'%';
+    back.classList.toggle('hide',cur===1);
+    next.classList.toggle('hide',cur===total);
+    submit.classList.toggle('hide',cur!==total);
+    if(hdr){ hdr.style.display=(cur===1?'':'none'); }
+    postHeight();
+    scrollParentToForm();
+  }
+  next.addEventListener('click',function(){if(!validate(cur))return;if(cur<total){cur++;render();}});
+  back.addEventListener('click',function(){if(cur>1){cur--;render();}});
+  form.addEventListener('input',function(e){if(e.target.name)showErr(e.target.name,false);});
+  form.addEventListener('change',function(e){if(e.target.name)showErr(e.target.name,false);});
+
+  form.addEventListener('submit',function(e){
+    e.preventDefault();
+    // Spam protection (invisible): two honeypots + speed trap
+    if(val('website')){ return; }                          // hidden field filled = bot
+    if(val('botcheck')){ return; }                         // hidden checkbox ticked = bot
+    if(Date.now()-formLoadTime < 4000){ return; }          // submitted too fast = bot
+    if(!validate(total))return;
+
+    // Tell the parent page a real application was submitted (fires Meta Lead event)
+    try{ if(window.parent && window.parent!==window){ window.parent.postMessage({rluEvent:'submit'},"*"); } }catch(e){}
+
+    // ===== 1) Send to Web3Forms (so you can read applications) =====
+    if(WEB3_KEY.indexOf('PASTE')!==0){
+      fetch("https://api.web3forms.com/submit",{method:"POST",headers:{"Content-Type":"application/json","Accept":"application/json"},body:JSON.stringify({
+        access_key:WEB3_KEY,
+        subject:"New Lash CEO Application: "+(val('firstname')||'')+" "+(val('lastname')||''),
+        from_name:"Rich Lash University Applications",
+        "First Name":val('firstname'),"Last Name":val('lastname'),Email:val('email'),Phone:val('phone'),City:val('city'),State:val('state'),"Instagram / TikTok":val('social'),
+        "Where they're at":val('experience'),"Licensed?":val('licensed'),
+        "Trained before / how it left them":val('tried'),"Wants to learn":val('vision'),"Why now":val('whynow'),
+        "Ready to invest?":val('investready'),"How they found us":val('heard'),"Committed":val('commit')?"Yes":"No","SMS Consent":val('smsconsent')?"Yes":"No"
+      })}).catch(function(){});
+    }
+
+    // ===== 2) Send to Klaviyo (auto follow-up emails + SMS) =====
+    if(KLAVIYO_LIST.indexOf('PASTE')!==0){
+      // Format phone to E.164 (+1XXXXXXXXXX) for Klaviyo
+      var digits=(val('phone')||'').replace(/[^0-9]/g,'');
+      var phoneE164='';
+      if(digits.length===10){ phoneE164='+1'+digits; }
+      else if(digits.length===11 && digits.charAt(0)==='1'){ phoneE164='+'+digits; }
+      var smsConsent=(val('smsconsent') && phoneE164)?true:false;
+
+      var profileAttrs={
+        email:val('email'),
+        first_name:val('firstname'),
+        last_name:val('lastname'),
+        location:{city:val('city'),region:val('state')},
+        properties:{"Experience Level":val('experience'),"Licensed":val('licensed'),"Tried Before":val('tried'),"Wants To Learn":val('vision'),"Why Now":val('whynow'),"Ready To Invest":val('investready'),"How They Found Us":val('heard'),"Instagram/TikTok":val('social'),"SMS Consent":smsConsent,"Application Date":new Date().toISOString()}
+      };
+      if(smsConsent){ profileAttrs.phone_number=phoneE164; }
+
+      fetch("https://a.klaviyo.com/client/subscriptions/?company_id="+KLAVIYO_KEY,{
+        method:"POST",
+        headers:{"Content-Type":"application/json","revision":"2024-10-15"},
+        body:JSON.stringify({
+          data:{
+            type:"subscription",
+            attributes:{
+              custom_source:"Lash CEO Application",
+              profile:{data:{type:"profile",attributes:profileAttrs}}
+            },
+            relationships:{list:{data:{type:"list",id:KLAVIYO_LIST}}}
+          }
+        })
+      }).then(function(r){
+        if(!r.ok){ r.text().then(function(t){ console.error('Klaviyo '+r.status+': '+t); }); }
+      }).catch(function(err){ console.error('Klaviyo request failed', err); });
+
+      // Separate, non-blocking SMS marketing opt-in. Never blocks the list subscribe above.
+      if(smsConsent){
+        fetch("https://a.klaviyo.com/client/subscriptions/?company_id="+KLAVIYO_KEY,{
+          method:"POST",
+          headers:{"Content-Type":"application/json","revision":"2024-10-15"},
+          body:JSON.stringify({
+            data:{
+              type:"subscription",
+              attributes:{
+                custom_source:"Lash CEO Application",
+                profile:{data:{type:"profile",attributes:{
+                  email:val('email'),
+                  phone_number:phoneE164,
+                  subscriptions:{ sms:{ marketing:{ consent:"SUBSCRIBED" }, transactional:{ consent:"SUBSCRIBED" } } }
+                }}}
+              },
+              relationships:{list:{data:{type:"list",id:KLAVIYO_LIST}}}
+            }
+          })
+        }).then(function(r){
+          if(!r.ok){ r.text().then(function(t){ console.error('Klaviyo SMS '+r.status+': '+t); }); }
+        }).catch(function(err){ console.error('Klaviyo SMS request failed', err); });
+      }
+    }
+
+    // ===== 3) Branch the success screen =====
+    var mode=val('investready');
+    var h=document.getElementById('done-h'),p=document.getElementById('done-p'),sig=document.getElementById('done-sig'),cta=document.getElementById('done-cta');
+    var goTo=null;   /* null means stay put: there is nowhere better to send her */
+
+    if(mode==='talk'){
+      /* She asked to talk. There is no booking page, so do not pretend there is.
+         Give her the number and tell her the truth: I am reading this myself. */
+      h.innerHTML='Let’s <span class="accent">talk.</span>';
+      p.innerHTML='I read every one of these myself, and since you would like to talk it through first, that is exactly what we will do. I will reach out about where you are, which path fits, and how the payments work. If you would rather not wait, call me: <a href="tel:+18773378964" style="color:#fff;font-weight:500;white-space:nowrap;border-bottom:1px solid var(--pink)">877-DESTYNI</a> <span style="color:var(--soft)">(877-337-8964)</span>, Monday to Friday, 10am to 6pm EDT.';
+      sig.innerHTML='Talk soon. <em>Destyni &hearts;</em>';
+      cta.style.display='none';
+    } else {
+      h.innerHTML='You’re <span class="accent">ready.</span>';
+      p.textContent='I love it. Here is everything inside the program: what you get, both ways to enroll, and how to pay over time with RLU Pay if you want. Read it over and let us lock your seat while there is still room.';
+      sig.innerHTML='Let’s build something real. <em>Destyni &hearts;</em>';
+      cta.style.display='inline-block';
+      if(EMBED){
+        /* The sales page is already underneath us. Do not reload it, just walk
+           her up to the two tiers. */
+        cta.textContent='Take me to the two paths ↑';
+        cta.setAttribute('href','#');
+        cta.addEventListener('click',function(ev){
+          ev.preventDefault();
+          try{ window.parent.postMessage({rluRedirect:TIERS_ANCHOR},"*"); }catch(e){}
+        });
+      } else {
+        cta.textContent='See the program & enroll →';
+        cta.setAttribute('href',SALES_URL);
+        cta.target='_top';
+        goTo=SALES_URL;
+      }
+    }
+
+    document.getElementById('progress').classList.add('hide');
+    form.classList.add('hide');
+    document.getElementById('done').classList.add('show');
+    postHeight();
+    scrollParentToForm();
+
+    // ===== 4) Standalone only: auto-forward after 7s. Embedded, she stays put. =====
+    if(!goTo) return;
+    var note=document.getElementById('redir-note');
+    var secs=7;
+    (function tick(){
+      if(note){ note.style.display='block'; note.innerHTML='Taking you there in <strong style="color:#fff">'+secs+'</strong>…'; }
+      if(secs<=0){ window.location.href=goTo; return; }
+      secs--; setTimeout(tick,1000);
+    })();
+  });
+})();
+</script>
+</body>
+</html>
