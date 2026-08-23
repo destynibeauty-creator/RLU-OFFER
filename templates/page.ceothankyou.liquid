@@ -211,6 +211,9 @@
   /* Send her straight to the join or checkout page if Skool gives you one.
      /about is the sales page and it makes her hunt for the button. */
   window.RLU_VIP_URL     = "https://www.skool.com/richlashuniversity/about";
+  /* The join link goes into the calendar entry on purpose. At 7:45 the thing
+     that is open on her phone is the reminder, not a three week old email. */
+  window.RLU_ZOOM_URL    = "https://us06web.zoom.us/j/82594734701?pwd=GpIauDg8vGWu5xIuST13kWU8hgBwtx.1";
   window.RLU_START_ISO   = "2026-09-01T20:00:00-04:00";  /* doors, 8PM ET */
   window.RLU_END_ISO     = "2026-09-01T21:00:00-04:00";  /* general admission ends 9 */
   window.RLU_END_VIP_ISO = "2026-09-01T21:45:00-04:00";  /* campus stays until 9:45 */
@@ -454,7 +457,10 @@
   /* ---- calendar. One night, no recurrence. Campus members get the extra
           half hour on their calendar, General Admission does not. ---- */
   var TITLE='The Retention Room - Rich Lash University';
-  var DESC='One hour live on Zoom, 8 to 9 PM ET. Bring a photo of a set that didn\'t last, and the name of your adhesive.';
+  var ZOOM=window.RLU_ZOOM_URL||'';
+  var DESC='One hour live on Zoom, 8 to 9 PM ET. Bring a photo of a set that didn\'t last, and the name of your adhesive.'
+    + (ZOOM ? '\n\nJoin here: '+ZOOM : '');
+  var PLACE=ZOOM || 'Live on Zoom';
   function z(d){ return d.toISOString().replace(/[-:]/g,'').split('.')[0]+'Z'; }
   function endISO(){ return isVip ? (window.RLU_END_VIP_ISO||window.RLU_END_ISO) : window.RLU_END_ISO; }
   window.rluGCal=function(){
@@ -462,7 +468,7 @@
     var u='https://calendar.google.com/calendar/render?action=TEMPLATE'
       +'&text='+encodeURIComponent(TITLE)
       +'&dates='+z(s)+'/'+z(e)
-      +'&location='+encodeURIComponent('Live on Zoom')
+      +'&location='+encodeURIComponent(PLACE)
       +'&details='+encodeURIComponent(DESC);
     window.open(u,'_blank','noopener');
   };
@@ -471,7 +477,11 @@
     var ics=['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//Rich Lash University//EN','CALSCALE:GREGORIAN','METHOD:PUBLISH','BEGIN:VEVENT',
       'UID:'+Date.now()+'@richlash.university','DTSTAMP:'+z(new Date()),
       'DTSTART:'+z(s),'DTEND:'+z(e),
-      'SUMMARY:'+TITLE,'DESCRIPTION:'+DESC,'LOCATION:Live on Zoom','STATUS:CONFIRMED',
+      'SUMMARY:'+TITLE,
+      'DESCRIPTION:'+DESC.replace(/,/g,'\\,').replace(/\n/g,'\\n'),
+      'LOCATION:'+PLACE.replace(/,/g,'\\,'),
+      ZOOM ? 'URL:'+ZOOM : 'X-RLU-NOURL:1',
+      'STATUS:CONFIRMED',
       'BEGIN:VALARM','TRIGGER:-PT15M','ACTION:DISPLAY','DESCRIPTION:The Retention Room starts in 15 minutes','END:VALARM',
       'END:VEVENT','END:VCALENDAR'].join('\r\n');
     var b=new Blob([ics],{type:'text/calendar'});
