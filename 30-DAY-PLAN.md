@@ -43,7 +43,7 @@ final push and it is still the cheapest registration you will get.
 
 | Day | Do |
 |---|---|
-| **Tue Sep 1** | Reminder text at 7:00. **8:00 to 9:00 the room. 9:00 to 9:30 the campus.** |
+| **Tue Sep 1** | Reminder text at 7:00. **8:00 to 9:00 the room. 9:00 to 9:45 the campus.** |
 | **Wed Sep 2** | Replay email to everyone who registered and did not attend. DM everyone who did. |
 | **Thu Sep 3** | **Kit deadline.** "Enroll today and your kit is there before Week 1." First spike. |
 | **Fri Sep 4** | **Ship kits** for everyone who made the Thursday cut. Keep DMing. |

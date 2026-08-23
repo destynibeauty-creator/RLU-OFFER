@@ -213,7 +213,7 @@
   window.RLU_VIP_URL     = "https://www.skool.com/richlashuniversity/about";
   window.RLU_START_ISO   = "2026-09-01T20:00:00-04:00";  /* doors, 8PM ET */
   window.RLU_END_ISO     = "2026-09-01T21:00:00-04:00";  /* general admission ends 9 */
-  window.RLU_END_VIP_ISO = "2026-09-01T21:30:00-04:00";  /* campus stays until 9:30 */
+  window.RLU_END_VIP_ISO = "2026-09-01T21:45:00-04:00";  /* campus stays until 9:45 */
   /* ==================================== */
 </script>
 
@@ -352,7 +352,7 @@
           <div class="li">Replay for 24 hours</div>
           <div class="li">Your questions answered in the room</div>
           <div class="li">The Four Questions, to use on your next client</div>
-          <div class="li"><b>You do not leave at nine.</b> Stay until 9:30 in the same room, bring photos of your own sets, and we work out what is happening to yours</div>
+          <div class="li"><b>You do not leave at nine.</b> Stay until 9:45 in the same room, bring photos of your own sets, and we work out what is happening to yours</div>
           <div class="li"><b>The Retention Protocol on paper.</b> The four questions, the aftercare script and the day-three message</div>
           <div class="li"><b>Your replay kept. Permanently.</b> Not twenty four hours</div>
           <div class="li"><b>Every room after this one</b>, included</div>
@@ -425,7 +425,7 @@
   var vipUrl = (window.RLU_VIP_URL && window.RLU_VIP_URL.indexOf('URL_HERE')<0) ? window.RLU_VIP_URL : '#';
   if(isVip){
     $('#tTier').textContent='Campus';
-    var td=$('#tDoors'); if(td){ td.textContent='8 to 9:30 PM ET'; }
+    var td=$('#tDoors'); if(td){ td.textContent='8 to 9:45 PM ET'; }
     $('#tkt').classList.add('vip');
     var vn=$('#vipnow'); if(vn){ vn.classList.add('show'); }
     var vb2=$('#vipnowBtn'); if(vb2){ vb2.setAttribute('href', vipUrl); }
