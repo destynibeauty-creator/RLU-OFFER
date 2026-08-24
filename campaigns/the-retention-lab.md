@@ -27,6 +27,53 @@ believes retention is knowable, she wants to be in the room where you know it.
 
 ---
 
+## What the grid actually says
+
+Read off the reels tab, so this is view counts and not leads. Her analytics
+will say more.
+
+| Views | What it was |
+|---|---|
+| **14.6K** | Her, poolside, aerial, pink |
+| **6,840** | The lash ad creative, pig popsicle |
+| **4,271** | Her, underwater |
+| 1,341 | Rich Risers, Nia, the kit |
+| 1,221 | The Price of Paper, desk, certificates |
+| 915 | **Her at the neon wall, scrubs, talking** |
+| 776 | **Rendered classroom, Night One** |
+| 411 | **Static graphic, Or Sanitation, Comment RICH** |
+
+Three things fall out of that, and only one of them is the thing she said.
+
+**1. It is not that AI works. It is that she works.** The two big organic
+numbers are both her, styled, in a visually extraordinary setting. Generated
+or not is beside the point. The subject is her and the production is high.
+
+**2. Her weakest format is the one that looks most like teaching.** 391 and
+915, both her at the neon wall in scrubs talking to camera. That is the format
+this campaign was about to lean on for the autopsies. It is the worst
+performing thing on the account.
+
+**3. The bare branded piece is also weak.** 776 for the rendered classroom and
+411 for the sanitation card. Dark, on brand, no human, no reason to stop. **The
+macro concept lands in this bucket unless it is genuinely arresting.** A
+rendered classroom is not surprising. A bond dissolving might be. That is the
+bet, and it is a bet, not a certainty.
+
+**So the strongest version of this campaign is the collision of the two.** Put
+her inside the lab. The production value of the 14.6K, pointed at the subject
+matter of the Room. Not a talking head at the neon wall, and not a bare macro
+plate. Her, in the environment, with the data running.
+
+**And one caution worth more than the rest of this file.** Views are not
+leads. The 14.6K poolside video almost certainly produced zero registrations.
+The 411 sanitation card said "comment RICH" and may have out converted it ten
+to one. Before building eight days around reach, check which of these actually
+sent anybody anywhere. If reach and leads point different directions on this
+account, leads win, every time.
+
+---
+
 ## The visual system
 
 Everything in the campaign uses the same four things so eight days of posts
