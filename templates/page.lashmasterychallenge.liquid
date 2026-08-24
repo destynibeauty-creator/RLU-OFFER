@@ -88,6 +88,18 @@
   .btn-early{margin-top:6px}
   .btn-sub{display:block;margin-top:14px;font-size:14px;color:var(--faint);font-weight:300}
 
+  /* Meta traffic is almost all phones, inside an in app browser that eats
+     roughly a hundred pixels of chrome. Every pixel above the button is a
+     pixel of fold, so the hero runs tighter here than anywhere else. */
+  @media(max-width:600px){
+    .hero{padding:5vh 6vw 7vh}
+    .hero-ey{margin-bottom:13px}
+    .hero h1{margin-bottom:12px}
+    .hero .hook{margin-bottom:15px}
+    .hero-mech{margin-bottom:15px}
+    .hero-vis{margin-bottom:28px}
+  }
+
   /* The date used to live in .btn-sub at 14px in the faintest colour on the
      page. It is the one fact she has to walk away with, so it gets its own
      object now, sized like it matters. */
@@ -433,7 +445,6 @@
     <h1>The Retention <em>Room.</em></h1>
     <p class="hook">Why her lashes fall off in nine days.</p>
     <p class="hero-mech">Retention is not a talent problem. It is a chemistry problem.</p>
-    <p class="sub">One live night with Destyni Triplett, RN to understand why sets fail, what you may be missing before the appointment even starts, and what to change before your next client.</p>
     <div class="hero-date">
       <span class="hd-d">Tuesday, September 1</span>
       <span class="hd-sep"></span>
@@ -443,12 +454,16 @@
     </div>
     <a href="#register" class="btn-gold btn-early" onclick="rluIntent('free')">Save My Seat &rarr;</a>
     <span class="btn-sub">No card required &middot; Replay included</span>
+<!-- This paragraph used to sit above the button. On a phone inside the Meta
+     in app browser it pushed the only call to action past the fold, so it now
+     explains the offer to a woman who has already seen the button. -->
+    <p class="sub" style="margin-top:30px">One live night with Destyni Triplett, RN to understand why sets fail, what you may be missing before the appointment even starts, and what to change before your next client.</p>
     <span class="hero-cred" style="margin-bottom:36px">Registered Nurse &middot; 9 Years Lashing &middot; 1,000+ Clients Served &middot; 250+ Women Trained</span>
     <div class="hero-vis">
       <img src="https://richlash.university/cdn/shop/files/ezgif.com-gif-maker_2fcde9d2-cf82-43db-9c2d-c3be9eb6d987.gif?v=1663686379&width=1200" alt="Destyni Triplett, RN lashing a client" onerror="this.closest('.hero-vis').style.display='none'">
     </div>
     <div class="hero-when">Tuesday, September 1 &middot; 8 to 9 PM ET &middot; Live on Zoom &middot; Replay included</div>
-    <a href="#register" class="btn-gold">Save My Seat &rarr;</a>
+    <a href="#register" class="btn-gold">Yes! Save My Seat &rarr;</a>
     <span class="btn-sub">No card required &middot; Your Zoom link comes by email</span>
   </div>
 </section>
