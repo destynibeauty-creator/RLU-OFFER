@@ -235,6 +235,31 @@ You reported real fees on a $2,997 sale: **Affirm $239.76** (exactly 8.0% — th
 
 The counterweight is who carries default risk: Affirm and Shop Pay pay you in full and absorb the buyer's default; on RLU Pay, you do. The breakeven: the ~$300 per-plan fee advantage covers expected losses only while default probability × loss-given-default stays under ~$300.
 
+**REVISED AGAIN, Aug 23: Shy is the third data point and she breaks the argument.**
+Shy enrolled in the Lash Empire Takeover off a single masterclass on a plan of
+roughly $7,000 and paid roughly $3,000 of it. That is about $4,000 written off.
+
+Self-financed collection history is now **1 completed out of 3**:
+
+| Buyer | Plan | Collected | Rail |
+|---|---|---|---|
+| Chiquita | 9 of 9 | full | self |
+| Delia | $1,050 owed | $0 | self |
+| Shy | ~$7,000 | ~$3,000 | self, Square |
+| Alexandria | $2,997 | full | Affirm |
+| Miesha | $2,647 | $500, in progress | self, HoneyBook |
+
+Roughly **$5,050 written off across three self-financed plans.** Three Affirm
+transactions at $239.76 would have cost $719. The fee advantage was never the
+question. The question was the losses, and the losses are five to seven times
+the fees.
+
+**The rule inverts: steer to Shop Pay and Affirm first, deliberately, and treat
+the fee as insurance rather than leakage.** They pay in full and absorb the
+default. RLU Pay stays only as the access path for women those rails decline,
+which is a real and worth-serving group, under every protection below plus one
+new one: the credential issues on final payment.
+
 **REVISED by the Aug 21 briefing: the collection history arrived, and it is 1 of 2 plans completed** (Chiquita 9 of 9; Delia's $1,050 written off). At a 50% observed base rate with four-figure losses, the fee advantage does not cover the risk. The revised rule: **pay in full first (Shop Pay, then Affirm) whenever the buyer can manage it; RLU Pay stays on the menu as the access path** — it is still the no-credit-check differentiator that closes women the other rails reject — but only with autopay mandatory, the written delinquency policy signed before the first installment, and goods shipping only after collected cash exceeds COGS (already the practice). Miesha completing 5 of 5 is the live test; two clean completions in a row re-open the RLU-Pay-first argument, because the fee math never stopped favoring it.
 
 One consistency note: the blended ~$1,950 margin used in Sections 2, 4, 10, and 12 sits between the Affirm-heavy (~$1,750) and RLU-Pay-heavy (~$2,020) mixes. If you steer to RLU Pay as recommended, the plan's projections are mildly conservative; if buyers land on Affirm, they're mildly optimistic.
