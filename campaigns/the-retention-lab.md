@@ -90,17 +90,28 @@ series makes people want the next one and the back catalogue.
 **Use your own sets or ones you have permission for.** Never a stranger's work
 off the internet. This format only has power because it is honest.
 
-### 3. YOUR FACE. Non negotiable.
+### 3. WHERE YOUR FACE STILL HAS TO BE
 
-**AI is the set design. It is not the actor.**
+Correction to an earlier version of this file. It said at least three of the
+eight days had to be you on camera, on the grounds that your real footage
+outperforms. That was wrong. The 23.3K was paid, and AI content has been your
+strongest performer lately. Reach is not the argument.
 
-Your highest performing content is you, in a real room, talking. 23.3K on
-"I didn't leave nursing to chase lashes." That is the number to respect.
+The real split is not real versus generated. It is **reach versus money.**
 
-At least three of the eight days are you, filmed on your phone, no overlay, no
-generated anything. The AI pieces earn the scroll. Your face earns the trust.
-A feed of only generated content in 2026 reads as a person with nothing real
-to show, and that is the opposite of the argument you are making.
+**Generated content can carry the whole feed.** It is what is working, it is
+what stops a scroll in 2026, and the macro concept below is the best version
+of it available to you. Make more of it than this calendar asks for, not less.
+
+**Your face belongs on the pieces that ask for money.** The Campus post on
+Saturday, the one on September 2, and the day-of stories. Somebody deciding to
+hand you nine dollars a month, and later three thousand, is deciding about a
+person. That decision does not happen in a macro shot.
+
+**And the Room itself is the trust step.** September 1 is a full hour of your
+face. That is the architecture: generated content buys the reach, the Room
+converts it, the Campus keeps it. The feed does not have to do the job the
+Room is for.
 
 ### 4. THE ROOM. Environment b-roll.
 
@@ -177,7 +188,11 @@ palette line, because that is what got the bronze out of the studio render.
 
 ## Where it all points
 
-**Organic.** Every caption ends the same way. One line, the date, the link in
+**Organic.** Lean in. If generated content is what is performing on this
+account right now, the calendar below is a floor and not a ceiling. Cut any
+piece that is not pulling and make another macro instead.
+
+Every caption ends the same way. One line, the date, the link in
 bio. Not a paragraph. The content does the work, the caption just opens the
 door.
 
