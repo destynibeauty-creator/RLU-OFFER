@@ -74,6 +74,60 @@ account, leads win, every time.
 
 ---
 
+## What is performing in the lash space right now
+
+Searched August 2026. Sources at the bottom of this file.
+
+**1. Retention and aftercare hooks book the most of any category.** The number
+one thing a client is afraid of is that the set will not last, so the artist
+who can explain retention is the one who gets booked. That is not a lucky
+angle she stumbled into. It is the highest converting subject in the category
+and she is the only RN teaching it.
+
+**2. Educational content drives the highest save rates in the lash niche**, and
+a save is the strongest signal the algorithm reads. Chemistry content is
+algorithmically favoured. It just has to be produced at the quality of the
+14.6K, not the quality of the 411.
+
+**3. UV curing lamps and their purple glow are the 2026 scroll stop.** Everyone
+is about to be purple. **Her glow is #F600A2.** Owning pink light while the
+category goes purple is a free differentiator and it is already her brand
+colour.
+
+**Hooks that are working in this exact category right now:**
+
+> Three things destroying your retention right now
+> Why do her lashes fall out in clumps a week after her fill?
+> What is the real reason your sets never last past day ten?
+
+Note the shape. A number, or a question that names a specific day. Not a
+statement. Not a brand line.
+
+---
+
+## Proven format, her AI version
+
+She has AI twins that read as real and they are her two biggest organic
+numbers. So the play is not inventing a format. It is taking what already
+works in the category and shooting it with a twin, in the Lab, about chemistry.
+
+| What already performs | Her version | Why it is better than the original |
+|---|---|---|
+| Before and after transition | **Day 1 and day 9 of the same set** | Everyone shows beauty. Nobody shows the decay. |
+| Mirror reveal, genuine reaction | **The day nine text arriving** | The pain moment nobody films |
+| Day in the life vlog | **Twin vlog: a day of diagnosing sets** | Teaching inside a vlog wrapper, which is what converts for her |
+| "3 things that destroy your retention" | Twin, styled, in the Lab, delivering it | The single highest booking hook format in the category |
+| Lash cycle explained, graphic | Animated cycle with her gauge row | Highest save rate format |
+| UV purple glow | **The cure, in #F600A2** | The category is going purple. She goes pink. |
+| Satisfying application macro | **The bond dissolving** | Same satisfaction, opposite emotion |
+
+**The one rule that comes out of the grid.** Her weakest posts were her at the
+neon wall in scrubs, and bare branded cards. Both were 391 to 915. Whatever
+gets made, it cannot look like either. Twin or not, the production has to sit
+at the level of the poolside shot or it lands in the 411 bucket.
+
+---
+
 ## The visual system
 
 Everything in the campaign uses the same four things so eight days of posts
@@ -268,3 +322,15 @@ hold, never "sets fail". See BRAND-VOICE.md.
 No brown, in any prompt, ever.
 
 Every generated piece labelled as generated in its caption.
+
+---
+
+## Sources
+
+Category research, August 2026.
+
+- [55 Lash Tech Hooks for Booked-Out Artists (2026), Reelry](https://www.reelry.app/hooks/lash-techs)
+- [Social Media Content Ideas for Lash Techs 2026, LivBay Supplies](https://livbaysupplies.com/blogs/news/social-media-content-ideas-for-lash-techs-stop-posting-start-dominating-in-2026)
+- [30 Instagram Reel Ideas for Lash Techs That Actually Convert, Pop Of Beauty](https://popofbeauty.co.uk/blogs/news/30-instagram-reel-ideas-for-lash-techs-that-actually-convert)
+- [67 Lash Tech Instagram Post Ideas, Socialmon](https://www.socialmon.ai/blog/67-lash-tech-instagram-post-ideas-with-examples-that-get-bookings)
+- [30 Social Media Content Ideas For Lash Artists, LashBase](https://lashbase.co.uk/blogs/news/30-social-media-content-ideas-for-lash-artists)
