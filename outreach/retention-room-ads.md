@@ -1,21 +1,146 @@
 # The Retention Room, Meta ads
-Live Monday August 24 through Tuesday September 1. Objective: leads.
-Button: Sign Up. Destination: the room page.
 
-Baseline to judge against: August ran $510.34, 690 link clicks, 199 leads,
-$0.74 a click, $2.56 a lead, flat the whole run.
+Rewritten August 24 against Destyni's three top performing August ads.
+My first draft was in the wrong register. This one is not.
+
+Baseline: August ran $510.34, 690 clicks, 199 leads, $0.74 a click,
+$2.56 a lead, flat the whole run.
+
+---
+
+## What her winners actually did
+
+The three that performed share seven things, and my first draft had one of them.
+
+**1. Short.** Four to six lines. Nothing else on the page.
+
+**2. They open on an internal moment, not a problem.** "Ever catch yourself
+thinking." "You stopped because it looked pretty." "The kids go back to
+school." Nobody's set is failing in any of them.
+
+**3. Desire, not diagnosis.** "Imagine being the one creating the lashes."
+"Finally do something for yourself." "Maybe it's your turn." My draft opened
+with a client complaining on day nine, which is a pain hook. Hers are
+permission hooks.
+
+**4. No credentials anywhere.** Not one of the three says Registered Nurse,
+250+ women, or 1,000 clients. I loaded my draft with all of it. Hers won
+without any of it.
+
+**5. "Come spend five nights with me" is in all three.** That is the line. It
+is an invitation to be with a person, not to consume a training. Everything
+below keeps it.
+
+**6. "Click sign up to..." in all three.** Says the action out loud.
+
+**7. The primary text stays emotional and the description does the admin.**
+Dates, "1 of 5", "no card required" all live in the description. The headline
+is three to five words with no product name in it. "Maybe It's Your Turn", not
+"The Retention Room, Tuesday September 1".
+
+**The one that matters most for September.** All three sell learning a skill,
+not fixing retention. Her ad audience converts on becoming a lash artist. So
+the Room's retention content is the substance, and the invitation is still the
+hook. Three of the four below are written that way. The fourth tests whether
+the retention promise can carry an ad on its own.
+
+---
+
+## A. Maybe It's Your Turn
+
+**Primary text**
+> Ever catch yourself thinking...
+>
+> "I wish I knew how to do that."
+>
+> Maybe this is your sign to stop watching and finally learn the skill women
+> get paid for.
+>
+> Come spend one night with me.
+>
+> Click sign up to start learning.
+
+**Headline**
+> Maybe It's Your Turn
+
+**Description**
+> One night · Live on Zoom · No card required
+
+---
+
+## B. Your First Client Starts Here
+
+**Primary text**
+> You keep saving the videos.
+>
+> Now imagine being the one creating the lashes.
+>
+> If you've been thinking about learning, come spend one night with me.
+>
+> I'll show you where to start. One hour, LIVE, on Zoom.
+>
+> Click sign up to secure your seat.
+
+**Headline**
+> Your First Client Starts Here
+
+**Description**
+> Tuesday, Sept 1 · Live at 8 PM ET
+
+---
+
+## C. The Quiet House
+
+**Primary text**
+> The kids are back in school. The house is quiet again.
+>
+> What if this is the season you finally do something for yourself?
+>
+> Come spend one night with me.
+>
+> Click sign up to get you started.
+
+**Headline**
+> Their School Year. Your Start.
+
+**Description**
+> Tuesday, Sept 1 · No card required
+
+---
+
+## D. It Was Never Your Hand
+
+The only one that leads with retention. Same shape as the winners, different
+promise. This is the test: can the problem carry an ad, or does the invitation
+have to.
+
+**Primary text**
+> You did everything right.
+>
+> She still texted you on day nine.
+>
+> It was never your hand.
+>
+> Come spend one night with me and I'll show you what it actually is.
+>
+> Click sign up to save your seat.
+
+**Headline**
+> It Was Never Your Hand
+
+**Description**
+> One night · Tuesday, Sept 1 · 8 PM ET
 
 ---
 
 ## Video overlays, 12 seconds
 
 **0:00 to 0:04**
-> Learning lashes, or tired of them
-> **falling out too soon?**
+> Ever catch yourself thinking
+> **"I wish I knew how to do that"?**
 
 **0:04 to 0:08**
-> It's not your hand.
-> **It's chemistry.**
+> Come spend **one night** with me.
 
 **0:08 to 0:12**
 > Tap **Sign Up** to join me live in
@@ -27,72 +152,18 @@ button and the caption over the bottom of the frame.
 
 ---
 
-## Variant A, the problem hook
-
-**Primary text**
-
-> Her set looked perfect leaving your chair. Nine days later she's sending you
-> a photo.
->
-> That is not your hand. It is chemistry, and almost nobody teaches it.
->
-> Tuesday, September 1 at 8 PM ET I'm doing one live hour on why lash
-> extensions fall out too soon, what you may be missing before she even sits
-> down, and what to change before your next client.
->
-> Already lashing, or haven't taken your first client yet? Both belong in this
-> room.
->
-> Registered Nurse. Nine years lashing. 250+ women trained.
->
-> No card required. Save your seat.
-
-**Headline** (37 characters)
-> The Retention Room · Tue Sept 1, 8 ET
-
-**Description**
-> One live hour on Zoom. No card required.
-
----
-
-## Variant B, the beginner hook
-
-Closest to the August creative that pulled $2.56 leads. Run it against A.
-
-**Primary text**
-
-> Want to learn lashes, or already lashing and tired of sets shedding way too
-> fast?
->
-> Tuesday, September 1 at 8 PM ET, one live hour with me on Zoom.
->
-> Why extensions fall out too soon, the four questions to ask before you pick
-> up a tweezer, and the day three message that saves the client you were about
-> to lose.
->
-> I'm a Registered Nurse and I've been lashing since 2017. I look at retention
-> through both lenses, which is why this is not the same retention talk you
-> have already sat through.
->
-> Bring the name of your adhesive. Not lashing yet? Just come.
->
-> No card required. Save your seat.
-
-**Headline** (36 characters)
-> One Live Hour · Why Sets Shed Fast
-
-**Description**
-> Tuesday, Sept 1, 8 PM ET. Live on Zoom.
-
----
-
 ## How to run it
 
 **Duplicate the August ad set. Do not build new.** Nine days is not enough
-runway to learn from zero, and the existing campaign already carries data.
+runway to learn from zero and the existing campaign already carries data.
 
-**Budget, weighted late.** A lead bought tonight has nine days to forget. A
-lead bought on the 30th has two.
+**Run A and D against each other first.** A is her proven register. D is the
+question nobody has answered yet. If D holds near $2.56 you have learned that
+retention sells cold, which is worth more than the spend. B and C are the
+bench.
+
+**Budget, weighted late.** A lead bought tonight has eight days to forget one
+bought on the 30th has two.
 
 | | |
 |---|---|
@@ -108,20 +179,37 @@ Lands near $1,285. Never raise more than about 25% in a day once it is running.
 **Tuesday morning, judge on cost per lead only.** Under $3.50, keep climbing.
 $3.50 to $5.00, hold and change the copy. Over $5.00, the hook missed.
 
-**Tag the ad registrants separately** from the ones who come off your own
-lists. On September 2 you want to know whether strangers convert to Campus at
-the same rate your own people do. That answer is worth more than the spend.
+**Tag ad registrants separately** from the ones off your own lists. On
+September 2 you want to know whether strangers convert to Campus at the same
+rate your own people do.
+
+---
+
+## One honest problem
+
+Every winner said **five nights**. The Room is one hour. That is a smaller ask
+and a smaller promise at the same time, and the copy above cannot fix the
+second half of that.
+
+It cuts both ways. One night is far easier to say yes to, so registrations
+should come cheaper. It is also less of you, so the trust built by September 1
+is thinner than the trust five nights built, and trust is what sells a $2,997
+certification.
+
+Watch those two numbers apart on September 2. If the Room fills the Campus but
+does not move the cohort, that is not a failed room. It means the Room is a
+Campus engine and October needs the five nights back.
 
 ---
 
 ## Rules this copy follows
 
-No income or earnings claim of any kind.
+No income or earnings claim in any form.
 
-Only the confirmed numbers: 250+ women trained, 1,000+ clients, nine years,
-RN since 2020.
+Only confirmed numbers, and none of them appear in the ads because none of her
+winners used any.
 
-Her retention vocabulary, not mine. Shedding, falling out too soon, didn't
-last. Never hold, never "sets fail". See BRAND-VOICE.md.
+Her retention vocabulary. Shedding, falling out too soon, didn't last. Never
+hold, never "sets fail". See BRAND-VOICE.md.
 
 "No card required", never the other word.
