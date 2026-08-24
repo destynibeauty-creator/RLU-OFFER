@@ -207,6 +207,26 @@
 </style>
 
 <script>
+  /* Meta. Lead already fires on the room page the moment she submits, which is
+     how the $2.56 baseline was measured in August, so it stays there and is
+     deliberately not repeated here. Firing Lead twice would halve her apparent
+     cost per lead and she is making budget decisions off that number.
+
+     This is a second, differently named signal. It fires on a real page load
+     so it cannot be lost to the redirect race, and it counts only women who
+     actually landed. If the two numbers diverge in Events Manager, the gap is
+     registrations that never reached this page. */
+  try{
+    if(typeof fbq === 'function'){
+      fbq('track','CompleteRegistration',{
+        content_name: 'Retention Room Sept 2026',
+        content_category: (location.search.indexOf('vip=1') > -1 ? 'campus' : 'general')
+      });
+    }
+  }catch(e){}
+</script>
+
+<script>
   /* ============ EDIT THESE ============ */
   /* Send her straight to the join or checkout page if Skool gives you one.
      /about is the sales page and it makes her hunt for the button. */
