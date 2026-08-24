@@ -69,7 +69,10 @@
                   <span style="font-weight:700; color:#F600A2;">in</span>, {{ first_name|default:'love' }}.
                 </h1>
                 <p style="margin:20px 0 0 0; font-family:'Poppins',Arial,Helvetica,sans-serif; font-weight:300; font-size:15.5px; line-height:1.75; color:#9A928D;">
-                  Your seat in The Retention Room is saved. One night, live with me on Zoom, Tuesday September 1. We are getting into why her lashes fall off at day nine, and what to change before your next client.
+                  Your seat in The Retention Room is saved. One night, live with me on Zoom, Tuesday September 1. We are getting into why lash sets fall off around day nine, and what to change so it stops happening.
+                </p>
+                <p style="margin:14px 0 0 0; font-family:'Poppins',Arial,Helvetica,sans-serif; font-weight:300; font-size:15.5px; line-height:1.75; color:#9A928D;">
+                  <span style="color:#F2EEEB; font-weight:500;">And if you have not taken your first client yet, you are in the right room.</span> Retention is not something you wait to learn after it goes wrong. It is easier to understand before you have anything to unlearn.
                 </p>
               </td>
             </tr>
@@ -255,6 +258,9 @@
                 <p style="margin:0; font-family:'Poppins',Arial,Helvetica,sans-serif; font-weight:300; font-size:14px; line-height:1.75; color:#9A928D;">
                   <span style="color:#F2EEEB; font-weight:500;">And if you have one, a photo of a set that didn't last.</span> Your own work, or a client's text about it. You will not have to show it to anybody. It is just so you are looking at something real while we work out what happened.
                 </p>
+                <p style="margin:12px 0 0 0; font-family:'Poppins',Arial,Helvetica,sans-serif; font-weight:300; font-size:13px; line-height:1.7; color:#6E6E68;">
+                  Not lashing yet? Skip the photo. Come with your questions instead.
+                </p>
               </td>
             </tr>
 <!-- CTA -->
@@ -282,7 +288,7 @@
                   <tr>
                     <td style="padding:0 5px;">                      <a href="https://cdn.shopify.com/s/files/1/0649/6505/0626/files/theretentionroom_2.ics?v=1787494426" style="display:inline-block; border:1px solid #3a3540; color:#EFE9E6; text-decoration:none; font-family:'Poppins',Arial,Helvetica,sans-serif; font-weight:500; font-size:12px; letter-spacing:0.6px; padding:13px 22px; border-radius:40px;" target="_blank">&nbsp; Apple Calendar</a>
                     </td>
-                    <td style="padding:0 5px;">                      <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&amp;text=The%20Retention%20Room%20%C2%B7%20Rich%20Lash%20University&amp;dates=20260902T000000Z/20260902T010000Z&amp;details=One%20live%20hour%20with%20Destyni%20Triplett%2C%20RN.%208%20to%209%20PM%20ET.%0A%0ABring%20the%20name%20of%20your%20adhesive.%20If%20you%20have%20one%2C%20pull%20up%20a%20photo%20of%20a%20set%20that%20didn%27t%20last.%20Nobody%20has%20to%20see%20it.%0A%0AJoin%20here%3A%20https%3A%2F%2Fus06web.zoom.us%2Fj%2F82594734701%3Fpwd%3DGpIauDg8vGWu5xIuST13kWU8hgBwtx.1&amp;location=https%3A%2F%2Fus06web.zoom.us%2Fj%2F82594734701%3Fpwd%3DGpIauDg8vGWu5xIuST13kWU8hgBwtx.1" style="display:inline-block; border:1px solid #3a3540; color:#EFE9E6; text-decoration:none; font-family:'Poppins',Arial,Helvetica,sans-serif; font-weight:500; font-size:12px; letter-spacing:0.6px; padding:13px 22px; border-radius:40px;" target="_blank">Google Calendar</a>
+                    <td style="padding:0 5px;">                      <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&amp;text=The%20Retention%20Room%20%C2%B7%20Rich%20Lash%20University&amp;dates=20260902T000000Z/20260902T010000Z&amp;details=One%20live%20hour%20with%20Destyni%20Triplett%2C%20RN.%208%20to%209%20PM%20ET.%0A%0ABring%20the%20name%20of%20your%20adhesive.%20If%20you%20have%20one%2C%20pull%20up%20a%20photo%20of%20a%20set%20that%20didn%27t%20last.%20Not%20lashing%20yet%3F%20Bring%20your%20questions.%0A%0AJoin%20here%3A%20https%3A%2F%2Fus06web.zoom.us%2Fj%2F82594734701%3Fpwd%3DGpIauDg8vGWu5xIuST13kWU8hgBwtx.1&amp;location=https%3A%2F%2Fus06web.zoom.us%2Fj%2F82594734701%3Fpwd%3DGpIauDg8vGWu5xIuST13kWU8hgBwtx.1" style="display:inline-block; border:1px solid #3a3540; color:#EFE9E6; text-decoration:none; font-family:'Poppins',Arial,Helvetica,sans-serif; font-weight:500; font-size:12px; letter-spacing:0.6px; padding:13px 22px; border-radius:40px;" target="_blank">Google Calendar</a>
                     </td>
                   </tr>
                 </table>
@@ -315,6 +321,9 @@
                       <div style="font-family:'Poppins',Arial,Helvetica,sans-serif; font-size:10px; letter-spacing:2px; text-transform:uppercase; color:#A29A95;">
                         Chelsea B. &middot; Campus Member
                       </div>
+                      <div style="font-family:'Poppins',Arial,Helvetica,sans-serif; font-weight:300; font-size:10.5px; line-height:1.6; color:#6E6E68; padding-top:10px;">
+                        Chelsea's own words about her own week. Results are individual and yours will be your own.
+                      </div>
                     </td>
                   </tr>
                 </table>
@@ -330,7 +339,7 @@
                         Have you taken the Campus seat?
                       </div>
                       <p style="margin:0 0 20px 0; font-family:'Poppins',Arial,Helvetica,sans-serif; font-weight:300; font-size:14.5px; line-height:1.7; color:#C9C6C2;">
-                        That is where Chelsea was. At nine, everyone else logs off and you stay until 9:45 while we look at photos of your own sets. You keep the Retention Protocol, your replay, every future Room, and the whole Rich Lash&reg; University Campus.
+                        That is where Chelsea was, right before her first client. At nine, everyone else logs off and you stay until 9:45. Bring your work and I will look at it. Bring your questions and I will answer them. If you are not lashing yet, watching me break down somebody else's set is the fastest way to learn what to look for. You keep the Retention Protocol, your replay, every future Room, and the whole Rich Lash&reg; University Campus.
                       </p>
 <!--[if mso]>
               <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.skool.com/richlashuniversity/about" style="height:50px;v-text-anchor:middle;width:250px;" arcsize="50%" stroke="f" fillcolor="#D4AF37"><w:anchorlock/><center style="color:#1a1208;font-family:Arial,sans-serif;font-size:13px;font-weight:bold;letter-spacing:1px;">TAKE THE CAMPUS SEAT</center></v:roundrect>
