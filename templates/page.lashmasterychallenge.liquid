@@ -88,6 +88,31 @@
   .btn-early{margin-top:6px}
   .btn-sub{display:block;margin-top:14px;font-size:14px;color:var(--faint);font-weight:300}
 
+  /* The date used to live in .btn-sub at 14px in the faintest colour on the
+     page. It is the one fact she has to walk away with, so it gets its own
+     object now, sized like it matters. */
+  .hero-date{display:inline-flex;align-items:center;justify-content:center;gap:16px;margin:4px auto 30px;padding:15px 28px;
+    border:1px solid rgba(212,175,55,.45);border-radius:10px;background:rgba(212,175,55,.06);flex-wrap:wrap}
+  .hero-date .hd-d{font-size:clamp(18px,2.7vw,24px);font-weight:600;color:#fff;letter-spacing:-.01em;line-height:1.1}
+  .hero-date .hd-t{font-size:clamp(15px,2.2vw,19px);font-weight:500;color:var(--gold-soft);line-height:1.1}
+  .hero-date .hd-v{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--soft);font-weight:600}
+  .hero-date .hd-sep{width:1px;height:20px;background:rgba(212,175,55,.45)}
+  @media(max-width:560px){
+    .hero-date{gap:8px;padding:14px 20px;margin-bottom:24px}
+    .hero-date .hd-sep{display:none}
+    .hero-date .hd-d,.hero-date .hd-t,.hero-date .hd-v{width:100%;text-align:center}
+  }
+
+  /* The room band. Cropped on purpose, see the comment on the img. */
+  .roomband{background:var(--black);padding:2vh 6vw 0}
+  .rb-frame{position:relative;border:1px solid var(--line);border-radius:18px;overflow:hidden;background:#0d0d0d}
+  .rb-frame img{width:100%;aspect-ratio:16/6;object-fit:cover;object-position:center top;display:block}
+  .rb-cap{position:absolute;left:0;right:0;bottom:0;padding:52px 28px 22px;text-align:center;
+    background:linear-gradient(to top,rgba(10,10,10,.94) 12%,rgba(10,10,10,.72) 46%,transparent)}
+  .rb-cap b{display:block;font-size:clamp(19px,3vw,30px);font-weight:600;color:#fff;letter-spacing:-.015em;line-height:1.15}
+  .rb-cap span{display:block;margin-top:7px;font-size:clamp(11px,1.6vw,13px);letter-spacing:.2em;text-transform:uppercase;color:var(--gold-soft);font-weight:600}
+  @media(max-width:640px){.rb-frame img{aspect-ratio:4/3}.rb-cap{padding:44px 18px 18px}}
+
   /* ===== SECTIONS ===== */
   .dark{background:var(--black);color:var(--ink);padding:12vh 6vw}
   .wrap{max-width:1080px;margin:0 auto}
@@ -409,13 +434,20 @@
     <p class="hook">Why her lashes fall off in nine days.</p>
     <p class="hero-mech">Retention is not a talent problem. It is a chemistry problem.</p>
     <p class="sub">One live night with Destyni Triplett, RN to understand why sets fail, what you may be missing before the appointment even starts, and what to change before your next client.</p>
+    <div class="hero-date">
+      <span class="hd-d">Tuesday, September 1</span>
+      <span class="hd-sep"></span>
+      <span class="hd-t">8 to 9 PM ET</span>
+      <span class="hd-sep"></span>
+      <span class="hd-v">Live on Zoom</span>
+    </div>
     <a href="#register" class="btn-gold btn-early" onclick="rluIntent('free')">Save My Seat &rarr;</a>
-    <span class="btn-sub">Tuesday, September 1 &middot; 8 PM ET &middot; Live on Zoom</span>
+    <span class="btn-sub">No card required &middot; Replay included</span>
     <span class="hero-cred" style="margin-bottom:36px">Registered Nurse &middot; 9 Years Lashing &middot; 1,000+ Clients Served &middot; 250+ Women Trained</span>
     <div class="hero-vis">
       <img src="https://richlash.university/cdn/shop/files/ezgif.com-gif-maker_2fcde9d2-cf82-43db-9c2d-c3be9eb6d987.gif?v=1663686379&width=1200" alt="Destyni Triplett, RN lashing a client" onerror="this.closest('.hero-vis').style.display='none'">
     </div>
-    <div class="hero-when">One night &middot; 8 to 9 PM ET &middot; Live on Zoom &middot; Replay included</div>
+    <div class="hero-when">Tuesday, September 1 &middot; 8 to 9 PM ET &middot; Live on Zoom &middot; Replay included</div>
     <a href="#register" class="btn-gold">Save My Seat &rarr;</a>
     <span class="btn-sub">No card required &middot; Your Zoom link comes by email</span>
   </div>
@@ -564,6 +596,25 @@
       <p><b>Every set that fails is a woman who does not come back and does not send her friend. You are not losing one appointment. You are losing every fill she would have booked for the next two years, and the six friends she would have sent you.</b></p>
       <p>So when you catch yourself thinking you need more clients, look again. A chair that empties as fast as it fills is not a marketing problem. You can post every day of your life and you will still be carrying water in a bucket with a hole in it.</p>
       <p class="cost-close">You do not need more clients. <b>You need the ones you already have to come back. That starts with knowing why it doesn't last, and that is one hour, and it is Tuesday.</b></p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== THE ROOM ===== -->
+<section class="roomband">
+  <div class="wrap reveal">
+    <div class="rb-frame">
+<!-- Cropped to 16:6 on purpose. The bottom third of this render is the product
+     tables and their labels carry AI text glitches that are readable at full
+     width. Widen the ratio only once those are redone. -->
+      <img src="https://cdn.shopify.com/s/files/1/0649/6505/0626/files/RETENTIONROOM.png?v=1787591752&amp;width=1600"
+           alt="The Retention Room, Rich Lash University"
+           loading="lazy" decoding="async"
+           onerror="this.closest('section').style.display='none'">
+      <div class="rb-cap">
+        <b>Tuesday, September 1</b>
+        <span>8 PM ET &middot; Live on Zoom</span>
+      </div>
     </div>
   </div>
 </section>
