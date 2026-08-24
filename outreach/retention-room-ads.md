@@ -64,7 +64,7 @@ the retention promise can carry an ad on its own.
 > Maybe It's Your Turn
 
 **Description**
-> One night · Live on Zoom · No card required
+> One night on why lashes shed too fast · Live on Zoom · No card required
 
 ---
 
@@ -85,7 +85,7 @@ the retention promise can carry an ad on its own.
 > Your First Client Starts Here
 
 **Description**
-> Tuesday, Sept 1 · Live at 8 PM ET
+> Where lashes start, and why they shed · Tue, Sept 1 · 8 PM ET
 
 ---
 
@@ -104,7 +104,7 @@ the retention promise can carry an ad on its own.
 > Their School Year. Your Start.
 
 **Description**
-> Tuesday, Sept 1 · No card required
+> One night on why lashes shed too fast · Tue, Sept 1 · No card required
 
 ---
 
@@ -199,6 +199,33 @@ certification.
 Watch those two numbers apart on September 2. If the Room fills the Campus but
 does not move the cohort, that is not a failed room. It means the Room is a
 Campus engine and October needs the five nights back.
+
+---
+
+## Message match, and where it lives
+
+A woman clicking "I wish I knew how to do that" lands on a page whose first
+line is "Why her lashes fall off in nine days." If nothing bridges that, she
+has no clients, decides it is the wrong room, and leaves. That click cost
+$0.74.
+
+Three things carry the bridge, and none of them touch what already works.
+
+**The description does it in the ad.** Primary text stays in her proven
+emotional register with no topic in it. The description names the night: "One
+night on why lashes shed too fast." Admin was always the description's job.
+
+**The page eyebrow does it on arrival.** It used to read "Rich Lash University
+presents", which said nothing. It now reads **"Already lashing, or about to
+be"**, directly above the headline, so a beginner is told she belongs before
+she reads a word about day nine.
+
+**The hero paragraph does it below the button.** "Haven't taken your first
+client yet? Come anyway. This is the part that is much easier to learn before
+you have anything to unlearn."
+
+Variant D is the exception and needs no bridge. It leads with retention, so it
+should land on the retention hero with nothing in between.
 
 ---
 
