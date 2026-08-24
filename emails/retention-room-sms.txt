@@ -4,7 +4,9 @@ Short-form confirmations. Tuesday, September 1, 2026, 8 PM ET.
 Zoom: https://us06web.zoom.us/j/82594734701?pwd=GpIauDg8vGWu5xIuST13kWU8hgBwtx.1
 Campus: https://www.skool.com/richlashuniversity/about
 
-Klaviyo tag for the name: {{ first_name|default:'love' }}
+Klaviyo tag for the name: {{ person.first_name|default:'Love' }}
+SMS resolves profile fields under person. Bare first_name is an email-only tag
+and renders empty in a text.
 Every send below is written to work with the name missing.
 
 
@@ -12,26 +14,26 @@ Every send below is written to work with the name missing.
 1. SMS, sent the moment she registers
 ================================================================
 
-You're in, {{ first_name|default:'love' }}. Your seat in The Retention Room is saved.
+Your seat in The Retention Room is saved, {{ person.first_name|default:'Love' }}.
 
-Tuesday, Sept 1. 8 PM ET / 7 CT / 6 MT / 5 PT. One live hour.
+Tuesday, Sept 1. 8 ET / 7 CT / 6 MT / 5 PT. One live hour.
 
-Before then, write down the brand and name of your adhesive. It's on the bottle.
+Before then, write down your adhesive brand and name. It's on the bottle. Not lashing yet? Just come.
 
 https://us06web.zoom.us/j/82594734701?pwd=GpIauDg8vGWu5xIuST13kWU8hgBwtx.1
 
-Destyni
+- Destyni
 
 
 ================================================================
 2. SMS, Tuesday September 1 at 7:00 PM ET
 ================================================================
 
-One hour, {{ first_name|default:'love' }}. Have your adhesive bottle where you can see it.
+One hour, {{ person.first_name|default:'Love' }}. Have your adhesive bottle where you can see it, or just bring your questions.
 
 https://us06web.zoom.us/j/82594734701?pwd=GpIauDg8vGWu5xIuST13kWU8hgBwtx.1
 
-Destyni
+- Destyni
 
 
 ================================================================
@@ -49,7 +51,7 @@ https://us06web.zoom.us/j/82594734701?pwd=GpIauDg8vGWu5xIuST13kWU8hgBwtx.1
 Subject:  Your seat is saved
 Preview:  Tuesday night, 8 PM ET. Here is your link.
 
-{{ first_name|default:'love' }},
+{{ person.first_name|default:'Love' }},
 
 You're in. Your seat in The Retention Room is saved.
 
