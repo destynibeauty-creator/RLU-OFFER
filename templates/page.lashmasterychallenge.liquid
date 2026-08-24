@@ -117,13 +117,9 @@
 
   /* The room band. Cropped on purpose, see the comment on the img. */
   .roomband{background:var(--black);padding:2vh 6vw 0}
-  .rb-frame{position:relative;border:1px solid var(--line);border-radius:18px;overflow:hidden;background:#0d0d0d}
+  .rb-frame{border:1px solid var(--line);border-radius:18px;overflow:hidden;background:#0d0d0d}
   .rb-frame img{width:100%;aspect-ratio:16/6;object-fit:cover;object-position:center top;display:block}
-  .rb-cap{position:absolute;left:0;right:0;bottom:0;padding:52px 28px 22px;text-align:center;
-    background:linear-gradient(to top,rgba(10,10,10,.94) 12%,rgba(10,10,10,.72) 46%,transparent)}
-  .rb-cap b{display:block;font-size:clamp(19px,3vw,30px);font-weight:600;color:#fff;letter-spacing:-.015em;line-height:1.15}
-  .rb-cap span{display:block;margin-top:7px;font-size:clamp(11px,1.6vw,13px);letter-spacing:.2em;text-transform:uppercase;color:var(--gold-soft);font-weight:600}
-  @media(max-width:640px){.rb-frame img{aspect-ratio:4/3}.rb-cap{padding:44px 18px 18px}}
+  @media(max-width:640px){.rb-frame img{aspect-ratio:4/3}}
 
   /* ===== SECTIONS ===== */
   .dark{background:var(--black);color:var(--ink);padding:12vh 6vw}
@@ -626,10 +622,6 @@
            alt="The Retention Room, Rich Lash University"
            loading="lazy" decoding="async"
            onerror="this.closest('section').style.display='none'">
-      <div class="rb-cap">
-        <b>Tuesday, September 1</b>
-        <span>8 PM ET &middot; Live on Zoom &middot; From wherever you are</span>
-      </div>
     </div>
   </div>
 </section>
