@@ -3,6 +3,48 @@ Written August 25, 2026, from the RLU repo and the SCENE AI handoff.
 
 ---
 
+## Correction, August 25, and it reorders everything
+
+**RLU's 16 Campus members are all strangers. THE SCENE AI's 8 are seven
+friends and family plus one stranger.**
+
+| | RLU Campus | THE SCENE AI |
+|---|---|---|
+| Paying members | 16 | 8 |
+| Strangers among them | **16** | **1** |
+| Age | Years | 15 days |
+| Produced a high ticket buyer | Yes, Alexandria at $2,997 | Not yet |
+
+That single line resolves an argument this file was hedging. **RLU converts
+strangers. It has done it sixteen times and one of them went on to spend
+$2,997.** The Campus-as-holding-pen model is not a theory any more.
+
+**And it names what SCENE AI is actually missing**, which is not price,
+products, or a partner network.
+
+Her proven mechanism, across three years and every certification buyer she
+has, is: **ads, then a live event where she teaches, then the offer.**
+Cold traffic sent to an application and a call produced nothing. Cold traffic
+sent to a live challenge produced every sale.
+
+**THE SCENE AI has no live event.** It has ads pointed at a Skool page and a
+GPT link. It is missing the exact step that makes the other business work.
+
+**One more difference worth naming.** RLU sells relief from a specific pain a
+woman is feeling this week. THE SCENE AI sells a capability she might like to
+have. Pain converts faster than capability, and it converts strangers.
+
+**So September 1 is not only the Retention Room. It is the rehearsal.** She is
+about to run the mechanism SCENE AI needs, for lashes, with real money on it.
+Whatever she learns that night is the blueprint for a free live hour on
+building an AI character, run in November, to a community that by then has
+seven finished case studies to show.
+
+That sequencing is not a compromise. It is the fastest route to SCENE AI
+working, and it costs nothing extra.
+
+---
+
 ## The number nobody has said
 
 THE SCENE AI is losing money every month, and it is doing it against a

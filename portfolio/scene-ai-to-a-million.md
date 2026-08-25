@@ -117,6 +117,26 @@ Number five is the real price, and it should be a decision, not a drift.
 
 ---
 
+## The correction that reprices this whole document
+
+**Seven of the eight members are friends and family. One is a stranger.**
+
+Every projection above multiplies an acquisition rate, and the measured rate
+is **one stranger out of 7,364 unique viewers in thirty days.** Not eight.
+
+That is not failure at fifteen days. Most launches convert zero. But it means
+this document is a model of a business that does not have a funnel yet, and
+none of its numbers should be planned against until one exists.
+
+**Meanwhile RLU's 16 Campus members are all strangers, and one of them bought
+at $2,997.** The mechanism that produced them is ads, then a live event where
+she teaches, then the offer. THE SCENE AI has no live event.
+
+**That is the gap. Not the price, not the ladder, not the partner network.**
+Everything on this page waits behind a free live hour that does not exist yet.
+
+---
+
 ## The good news, and it is genuinely good
 
 **33,982 views in thirty days on a brand that was two weeks old.**
