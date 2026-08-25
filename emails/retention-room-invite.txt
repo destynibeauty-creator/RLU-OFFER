@@ -9,7 +9,8 @@
     <meta content="light dark" name="supported-color-schemes"/>
     <title>The Retention Room</title>
 <!--[if mso]><noscript><xml><o:OfficeDocumentSettings><o:PixelsPerInch>96</o:PixelsPerInch></o:OfficeDocumentSettings></xml></noscript><![endif]-->
-<!--[if mso]><style type="text/css">*{font-family:Arial,Helvetica,sans-serif !important;}</style><![endif]-->
+<!--[if mso]><style type="text/css">*{font-family:'Segoe UI',Arial,Helvetica,sans-serif !important;}</style><![endif]-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,300;1,400&display=swap" rel="stylesheet" type="text/css"/>
     <style type="text/css">
   @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,300;1,400&display=swap');
   body,table,td,a{ -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; }
@@ -48,7 +49,7 @@
                     <td style="padding:0 4px;"><span class="dot" style="display:inline-block; width:7px; height:7px; border-radius:50%; background-color:#F600A2;">&nbsp;</span></td>
                     <td style="padding:0 4px;"><span class="dot dot2" style="display:inline-block; width:7px; height:7px; border-radius:50%; background-color:#F600A2;">&nbsp;</span></td>
                     <td style="padding:0 4px;"><span class="dot dot3" style="display:inline-block; width:7px; height:7px; border-radius:50%; background-color:#F600A2;">&nbsp;</span></td>
-                    <td style="padding:0 0 0 10px;"><span style="font-family:'Poppins',Arial,Helvetica,sans-serif; font-size:10px; letter-spacing:3.5px; font-weight:600; text-transform:uppercase; color:#F600A2;">You're Invited</span></td>
+                    <td style="padding:0 0 0 10px;"><span style="font-family:'Poppins','Segoe UI',Roboto,Helvetica,Arial,sans-serif; font-size:10px; letter-spacing:3.5px; font-weight:600; text-transform:uppercase; color:#F600A2;">You're Invited</span></td>
                   </tr>
                 </table>
               </td>
@@ -57,16 +58,16 @@
 <!-- HERO -->
             <tr>
               <td align="center" class="px" style="padding:44px 42px 0 42px;">
-                <div style="font-family:'Poppins',Arial,Helvetica,sans-serif; font-size:10px; letter-spacing:3.5px; text-transform:uppercase; color:#D4AF37; padding-bottom:20px;">
+                <div style="font-family:'Poppins','Segoe UI',Roboto,Helvetica,Arial,sans-serif; font-size:10px; letter-spacing:3.5px; text-transform:uppercase; color:#D4AF37; padding-bottom:20px;">
                   Real Talk
                 </div>
-                <h1 class="h1" style="margin:0; font-family:'Poppins',Arial,Helvetica,sans-serif; font-weight:200; font-size:46px; line-height:1.04; color:#F2EEEB; letter-spacing:-1px;">
+                <h1 class="h1" style="margin:0; font-family:'Poppins','Segoe UI',Roboto,Helvetica,Arial,sans-serif; font-weight:200; font-size:46px; line-height:1.04; color:#F2EEEB; letter-spacing:-1px;">
                   Stop thinking<br/><span style="font-weight:600; font-style:italic; color:#F600A2;">it's you.</span>
                 </h1>
-                <p style="margin:26px 0 0 0; font-family:'Poppins',Arial,Helvetica,sans-serif; font-weight:300; font-size:16px; line-height:1.8; color:#9A928D;">
+                <p style="margin:26px 0 0 0; font-family:'Poppins','Segoe UI',Roboto,Helvetica,Arial,sans-serif; font-weight:300; font-size:16px; line-height:1.8; color:#9A928D;">
                   Hey {{ first_name|default:'love' }}. My sets last three weeks. I got clients texting me at four still talking about how full they look.
                 </p>
-                <p style="margin:18px 0 0 0; font-family:'Poppins',Arial,Helvetica,sans-serif; font-weight:300; font-size:16px; line-height:1.8; color:#9A928D;">
+                <p style="margin:18px 0 0 0; font-family:'Poppins','Segoe UI',Roboto,Helvetica,Arial,sans-serif; font-weight:300; font-size:16px; line-height:1.8; color:#9A928D;">
                   <span style="color:#F2EEEB; font-weight:600;">That is not magic hands.</span> I need you to hear that part. It's chemistry, and chemistry is something somebody can teach you.
                 </p>
               </td>
@@ -78,14 +79,14 @@
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
                   <tr><td style="height:1px; background-color:#262026; font-size:0; line-height:0;">&nbsp;</td></tr>
                 </table>
-                <p style="margin:26px 0 0 0; font-family:'Poppins',Arial,Helvetica,sans-serif; font-weight:400; font-size:20px; line-height:1.55; color:#F2EEEB; text-align:left;">
+                <p style="margin:26px 0 0 0; font-family:'Poppins','Segoe UI',Roboto,Helvetica,Arial,sans-serif; font-weight:400; font-size:20px; line-height:1.55; color:#F2EEEB; text-align:left;">
                   Stop thinking you're the reason your lashes aren't lasting.<br/>
                   Stop thinking you're the reason your retention sucks.
                 </p>
-                <p style="margin:16px 0 0 0; font-family:'Poppins',Arial,Helvetica,sans-serif; font-weight:300; font-size:16px; line-height:1.8; color:#9A928D; text-align:left;">
+                <p style="margin:16px 0 0 0; font-family:'Poppins','Segoe UI',Roboto,Helvetica,Arial,sans-serif; font-weight:300; font-size:16px; line-height:1.8; color:#9A928D; text-align:left;">
                   You've been beating yourself up over something nobody ever sat down and explained to you.
                 </p>
-                <p style="margin:28px 0 0 0; font-family:'Poppins',Arial,Helvetica,sans-serif; font-weight:200; font-style:italic; font-size:24px; line-height:1.4; color:#F600A2;">
+                <p style="margin:28px 0 0 0; font-family:'Poppins','Segoe UI',Roboto,Helvetica,Arial,sans-serif; font-weight:200; font-style:italic; font-size:24px; line-height:1.4; color:#F600A2;">
                   So Tuesday night<br/>I'm telling my business.
                 </p>
               </td>
@@ -97,13 +98,13 @@
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border:1px solid #D4AF37; border-radius:14px; background-color:#141007;" width="100%">
                   <tr>
                     <td align="center" style="padding:28px 24px 0 24px;">
-                      <div style="font-family:'Poppins',Arial,Helvetica,sans-serif; font-size:9px; letter-spacing:2.5px; text-transform:uppercase; color:#8a7a45; font-weight:600; padding-bottom:10px;">
+                      <div style="font-family:'Poppins','Segoe UI',Roboto,Helvetica,Arial,sans-serif; font-size:9px; letter-spacing:2.5px; text-transform:uppercase; color:#8a7a45; font-weight:600; padding-bottom:10px;">
                         Rich Lash&reg; University Presents
                       </div>
-                      <div style="font-family:'Poppins',Arial,Helvetica,sans-serif; font-weight:600; font-size:30px; line-height:1.15; color:#F2EEEB; letter-spacing:-0.5px;">
+                      <div style="font-family:'Poppins','Segoe UI',Roboto,Helvetica,Arial,sans-serif; font-weight:600; font-size:30px; line-height:1.15; color:#F2EEEB; letter-spacing:-0.5px;">
                         The Retention Room
                       </div>
-                      <div style="font-family:'Poppins',Arial,Helvetica,sans-serif; font-weight:300; font-style:italic; font-size:14px; color:#D4AF37; padding-top:10px;">
+                      <div style="font-family:'Poppins','Segoe UI',Roboto,Helvetica,Arial,sans-serif; font-weight:300; font-style:italic; font-size:14px; color:#D4AF37; padding-top:10px;">
                         One night. One hour. No card.
                       </div>
                     </td>
@@ -113,16 +114,16 @@
                       <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-top:1px solid #33290f;" width="100%">
                         <tr>
                           <td align="center" class="stat-cell" style="padding:18px 6px 0 6px;" width="33.3%">
-                            <div style="font-family:'Poppins',Arial,Helvetica,sans-serif; font-size:8.5px; letter-spacing:2px; text-transform:uppercase; color:#6E6E68; padding-bottom:5px;">Date</div>
-                            <div style="font-family:'Poppins',Arial,Helvetica,sans-serif; font-weight:600; font-size:13.5px; color:#F2EEEB;">Tue, Sept 1</div>
+                            <div style="font-family:'Poppins','Segoe UI',Roboto,Helvetica,Arial,sans-serif; font-size:8.5px; letter-spacing:2px; text-transform:uppercase; color:#6E6E68; padding-bottom:5px;">Date</div>
+                            <div style="font-family:'Poppins','Segoe UI',Roboto,Helvetica,Arial,sans-serif; font-weight:600; font-size:13.5px; color:#F2EEEB;">Tue, Sept 1</div>
                           </td>
                           <td align="center" class="stat-cell" style="padding:18px 6px 0 6px;" width="33.3%">
-                            <div style="font-family:'Poppins',Arial,Helvetica,sans-serif; font-size:8.5px; letter-spacing:2px; text-transform:uppercase; color:#6E6E68; padding-bottom:5px;">Doors</div>
-                            <div style="font-family:'Poppins',Arial,Helvetica,sans-serif; font-weight:600; font-size:13.5px; color:#F2EEEB;">8 PM ET</div>
+                            <div style="font-family:'Poppins','Segoe UI',Roboto,Helvetica,Arial,sans-serif; font-size:8.5px; letter-spacing:2px; text-transform:uppercase; color:#6E6E68; padding-bottom:5px;">Doors</div>
+                            <div style="font-family:'Poppins','Segoe UI',Roboto,Helvetica,Arial,sans-serif; font-weight:600; font-size:13.5px; color:#F2EEEB;">8 PM ET</div>
                           </td>
                           <td align="center" class="stat-cell" style="padding:18px 6px 0 6px;" width="33.3%">
-                            <div style="font-family:'Poppins',Arial,Helvetica,sans-serif; font-size:8.5px; letter-spacing:2px; text-transform:uppercase; color:#6E6E68; padding-bottom:5px;">Venue</div>
-                            <div style="font-family:'Poppins',Arial,Helvetica,sans-serif; font-weight:600; font-size:13.5px; color:#F2EEEB;">Live on Zoom</div>
+                            <div style="font-family:'Poppins','Segoe UI',Roboto,Helvetica,Arial,sans-serif; font-size:8.5px; letter-spacing:2px; text-transform:uppercase; color:#6E6E68; padding-bottom:5px;">Venue</div>
+                            <div style="font-family:'Poppins','Segoe UI',Roboto,Helvetica,Arial,sans-serif; font-weight:600; font-size:13.5px; color:#F2EEEB;">Live on Zoom</div>
                           </td>
                         </tr>
                       </table>
@@ -135,16 +136,16 @@
 <!-- THREE ACTS -->
             <tr>
               <td class="px" style="padding:30px 42px 0 42px;">
-                <div style="font-family:'Poppins',Arial,Helvetica,sans-serif; font-size:10px; letter-spacing:3px; text-transform:uppercase; color:#D4AF37; padding-bottom:16px; text-align:center;">
+                <div style="font-family:'Poppins','Segoe UI',Roboto,Helvetica,Arial,sans-serif; font-size:10px; letter-spacing:3px; text-transform:uppercase; color:#D4AF37; padding-bottom:16px; text-align:center;">
                   One hour, three acts
                 </div>
-                <p style="margin:0 0 12px 0; font-family:'Poppins',Arial,Helvetica,sans-serif; font-weight:300; font-size:14px; line-height:1.75; color:#9A928D;">
+                <p style="margin:0 0 12px 0; font-family:'Poppins','Segoe UI',Roboto,Helvetica,Arial,sans-serif; font-weight:300; font-size:14px; line-height:1.75; color:#9A928D;">
                   <span style="color:#F2EEEB; font-weight:500;">The chemistry nobody explains.</span> Your room decides how long her set lasts before she even sits down.
                 </p>
-                <p style="margin:0 0 12px 0; font-family:'Poppins',Arial,Helvetica,sans-serif; font-weight:300; font-size:14px; line-height:1.75; color:#9A928D;">
+                <p style="margin:0 0 12px 0; font-family:'Poppins','Segoe UI',Roboto,Helvetica,Arial,sans-serif; font-weight:300; font-size:14px; line-height:1.75; color:#9A928D;">
                   <span style="color:#F2EEEB; font-weight:500;">The four questions.</span> Ask these at intake and you already know what her set is going to do.
                 </p>
-                <p style="margin:0; font-family:'Poppins',Arial,Helvetica,sans-serif; font-weight:300; font-size:14px; line-height:1.75; color:#9A928D;">
+                <p style="margin:0; font-family:'Poppins','Segoe UI',Roboto,Helvetica,Arial,sans-serif; font-weight:300; font-size:14px; line-height:1.75; color:#9A928D;">
                   <span style="color:#F2EEEB; font-weight:500;">The day-three text.</span> The one that saves the client you were about to lose.
                 </p>
               </td>
@@ -154,12 +155,12 @@
             <tr>
               <td align="center" class="px" style="padding:34px 42px 0 42px;">
 <!--[if mso]>
-          <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://richlash.university/pages/challenge" style="height:56px;v-text-anchor:middle;width:320px;" arcsize="50%" stroke="f" fillcolor="#F600A2"><w:anchorlock/><center style="color:#ffffff;font-family:Arial,sans-serif;font-size:14px;font-weight:bold;letter-spacing:1px;">SAVE MY SEAT</center></v:roundrect>
+          <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://richlash.university/pages/challenge" style="height:56px;v-text-anchor:middle;width:320px;" arcsize="50%" stroke="f" fillcolor="#F600A2"><w:anchorlock/><center style="color:#ffffff;font-family:'Segoe UI',Arial,sans-serif;font-size:14px;font-weight:bold;letter-spacing:1px;">SAVE MY SEAT</center></v:roundrect>
           <![endif]-->
 <!--[if !mso]><!-- -->
-                <a href="https://richlash.university/pages/challenge" style="display:inline-block; background-color:#F600A2; color:#ffffff; text-decoration:none; font-family:'Poppins',Arial,Helvetica,sans-serif; font-weight:600; font-size:14px; letter-spacing:1px; text-transform:uppercase; padding:19px 48px; border-radius:40px;" target="_blank">Save My Seat</a>
+                <a href="https://richlash.university/pages/challenge" style="display:inline-block; background-color:#F600A2; color:#ffffff; text-decoration:none; font-family:'Poppins','Segoe UI',Roboto,Helvetica,Arial,sans-serif; font-weight:600; font-size:14px; letter-spacing:1px; text-transform:uppercase; padding:19px 48px; border-radius:40px;" target="_blank">Save My Seat</a>
 <!--<![endif]-->
-                <p style="margin:16px 0 0 0; font-family:'Poppins',Arial,Helvetica,sans-serif; font-weight:300; font-size:12.5px; line-height:1.8; color:#6E6E68;">
+                <p style="margin:16px 0 0 0; font-family:'Poppins','Segoe UI',Roboto,Helvetica,Arial,sans-serif; font-weight:300; font-size:12.5px; line-height:1.8; color:#6E6E68;">
                   No card required &middot; Replay included
                 </p>
               </td>
@@ -171,7 +172,7 @@
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-left:2px solid #F600A2; background-color:#0d0d0d;" width="100%">
                   <tr>
                     <td style="padding:20px 24px;">
-                      <p style="margin:0; font-family:'Poppins',Arial,Helvetica,sans-serif; font-weight:300; font-size:14.5px; line-height:1.75; color:#C9C6C2;">
+                      <p style="margin:0; font-family:'Poppins','Segoe UI',Roboto,Helvetica,Arial,sans-serif; font-weight:300; font-size:14.5px; line-height:1.75; color:#C9C6C2;">
                         Now let me be honest with you. Yours won't last three weeks by Tuesday. I'm not going to sit here and lie to you. <span style="color:#F2EEEB; font-weight:500;">But you're going to walk out knowing why mine do, and what to change before your next client.</span>
                       </p>
                     </td>
@@ -183,10 +184,10 @@
 <!-- WHO IT IS FOR -->
             <tr>
               <td class="px" style="padding:26px 42px 0 42px;">
-                <p style="margin:0 0 12px 0; font-family:'Poppins',Arial,Helvetica,sans-serif; font-weight:300; font-size:14px; line-height:1.75; color:#9A928D;">
+                <p style="margin:0 0 12px 0; font-family:'Poppins','Segoe UI',Roboto,Helvetica,Arial,sans-serif; font-weight:300; font-size:14px; line-height:1.75; color:#9A928D;">
                   <span style="color:#F2EEEB; font-weight:500;">Already lashing and tired of that day nine text?</span> Come.
                 </p>
-                <p style="margin:0; font-family:'Poppins',Arial,Helvetica,sans-serif; font-weight:300; font-size:14px; line-height:1.75; color:#9A928D;">
+                <p style="margin:0; font-family:'Poppins','Segoe UI',Roboto,Helvetica,Arial,sans-serif; font-weight:300; font-size:14px; line-height:1.75; color:#9A928D;">
                   <span style="color:#F2EEEB; font-weight:500;">Haven't taken your first client yet?</span> Come anyway. It's way easier to learn this before you've got something to unlearn.
                 </p>
               </td>
@@ -195,16 +196,16 @@
 <!-- SIGN OFF -->
             <tr>
               <td class="px" style="padding:32px 42px 8px 42px;">
-                <p style="margin:0 0 18px 0; font-family:'Poppins',Arial,Helvetica,sans-serif; font-weight:300; font-style:italic; font-size:17px; line-height:1.5; color:#F2EEEB;">
+                <p style="margin:0 0 18px 0; font-family:'Poppins','Segoe UI',Roboto,Helvetica,Arial,sans-serif; font-weight:300; font-style:italic; font-size:17px; line-height:1.5; color:#F2EEEB;">
                   Come spend one night with me.
                 </p>
-                <p style="margin:0 0 4px 0; font-family:'Poppins',Arial,Helvetica,sans-serif; font-weight:400; font-style:italic; font-size:21px; color:#F600A2;">
+                <p style="margin:0 0 4px 0; font-family:'Poppins','Segoe UI',Roboto,Helvetica,Arial,sans-serif; font-weight:400; font-style:italic; font-size:21px; color:#F600A2;">
                   Destyni&nbsp;<span style="font-style:normal;font-size:16px;color:#F600A2;">&hearts;</span>
                 </p>
-                <p style="margin:0; font-family:'Poppins',Arial,Helvetica,sans-serif; font-weight:300; font-size:12.5px; color:#6E6E68; letter-spacing:0.2px;">
+                <p style="margin:0; font-family:'Poppins','Segoe UI',Roboto,Helvetica,Arial,sans-serif; font-weight:300; font-size:12.5px; color:#6E6E68; letter-spacing:0.2px;">
                   Destyni Triplett, RN &middot; Founder &amp; Dean, Rich Lash&reg; University
                 </p>
-                <p style="margin:22px 0 8px 0; padding-top:18px; border-top:1px solid #262026; font-family:'Poppins',Arial,Helvetica,sans-serif; font-weight:500; font-size:13.5px; line-height:1.6; color:#EFE9E6;">
+                <p style="margin:22px 0 8px 0; padding-top:18px; border-top:1px solid #262026; font-family:'Poppins','Segoe UI',Roboto,Helvetica,Arial,sans-serif; font-weight:500; font-size:13.5px; line-height:1.6; color:#EFE9E6;">
                   Faith first. Work daily. Watch it come.
                 </p>
               </td>
@@ -213,10 +214,10 @@
 <!-- FOOTER -->
             <tr>
               <td align="center" bgcolor="#0d0d0d" style="background-color:#0d0d0d; padding:28px 42px 32px 42px; border-top:1px solid #262026;">
-                <p style="margin:0 0 8px 0; font-family:'Poppins',Arial,Helvetica,sans-serif; font-weight:500; font-size:12px; letter-spacing:4px; text-transform:uppercase; color:#EFE9E6;">
+                <p style="margin:0 0 8px 0; font-family:'Poppins','Segoe UI',Roboto,Helvetica,Arial,sans-serif; font-weight:500; font-size:12px; letter-spacing:4px; text-transform:uppercase; color:#EFE9E6;">
                   RICH <span style="color:#F600A2;">L</span><span style="color:#7FD317;">A</span><span style="color:#4EBB19;">S</span><span style="color:#1E7D14;">H</span>&reg; UNIVERSITY
                 </p>
-                <p style="margin:0; font-family:'Poppins',Arial,Helvetica,sans-serif; font-weight:300; font-size:11px; line-height:2; letter-spacing:0.4px; color:#6b645f;">
+                <p style="margin:0; font-family:'Poppins','Segoe UI',Roboto,Helvetica,Arial,sans-serif; font-weight:300; font-size:11px; line-height:2; letter-spacing:0.4px; color:#6b645f;">
                   Nationwide Certification &middot; Est. 2019<br/>285 W Wieuca Rd STE 5285, Atlanta, GA 30342<br/><br/><a href="https://richlash.university/pages/privacy" style="color:#9a928d; text-decoration:none; letter-spacing:2px; text-transform:uppercase; font-size:10px;">Privacy</a> <span style="color:#3a3540;">&nbsp;|&nbsp;</span> <a href="{% unsubscribe_link %}" style="color:#9a928d; text-decoration:none; letter-spacing:2px; text-transform:uppercase; font-size:10px;">Unsubscribe</a>
                 </p>
               </td>
