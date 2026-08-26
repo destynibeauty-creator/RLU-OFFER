@@ -48,11 +48,19 @@ Send this by itself. No link, no price, no pitch. You are buying a reply.
 > I'm taking four women into the September cohort and I wanted to ask you before
 > I open it up to everybody.
 >
-> What's actually got you stuck right now, retention or getting clients in?
+> Where are you right now: haven't taken your first client yet, lashing but
+> retention's off, or lashing and need more clients in the chair?
 
 Why it works: it's a real question, it costs her nothing to answer, and her
-answer tells you which of the two things to talk about. A woman who types back
-"retention" has just told you she is a buyer.
+answer tells you which of the three things to talk about. A woman who types
+back "retention" has just told you she is a buyer.
+
+**"Haven't taken your first client yet" is listed first on purpose.** Some of
+the 199 have never had a client. Ask "retention or clients" and you've told a
+beginner she's behind before she answers. Putting her option first makes it the
+normal answer instead of the embarrassing one, and she is not a lesser buyer.
+She is the cleanest fit for a full certification, because she has nothing to
+unlearn.
 
 **Send these in the morning or early evening. Never all at once.** Twenty
 identical messages in ten minutes reads as a blast and gets you reported.
@@ -60,6 +68,28 @@ identical messages in ten minutes reads as a blast and gets you reported.
 ---
 
 ## What to say when she answers
+
+### She says she hasn't started yet
+
+Do not treat this as a smaller answer. This is the woman your whole program was
+built for.
+
+> Honestly, that's the best place to start. You have nothing to unlearn.
+>
+> Most women get to me after they already paid somebody for a certificate and a
+> kit, and nobody ever explained why sets fall off. You get to skip that part
+> completely.
+>
+> I'm doing a live hour Tuesday the 1st, 8 ET. Come watch how I teach before you
+> decide anything. Nothing to buy. {ROOM LINK}
+>
+> The September cohort is the whole thing. Six weeks live with me, two
+> certifications, your kit ships before week one. $750 starts it.
+
+If she says she's nervous or feels behind:
+
+> You're not behind. You're early, and early is easier. Retention is a lot
+> simpler to learn before you have bad habits than after.
 
 ### She says retention
 
@@ -126,8 +156,8 @@ Send Friday the 28th. Once.
 > Two things, then I'll leave you alone.
 >
 > Tuesday the 1st I'm doing one live hour on why lash sets fall off around day
-> nine and what to change before your next client. Nothing to buy, no card.
-> {ROOM LINK}
+> nine and what to change before the next set. Nothing to buy, no card. If you
+> haven't taken your first client yet, you're in the right room. {ROOM LINK}
 >
 > And I'm taking four women into the September certification cohort. Six weeks
 > live with me, two certifications, kit ships before week one, $750 starts it.
