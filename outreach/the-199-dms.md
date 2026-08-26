@@ -3,8 +3,13 @@
 199 women clicked a Meta ad in August, gave you their email and phone, and
 were never sold anything. They cost $510.34. Nobody has spoken to them since.
 
-**Goal: four seats. Doors close Sunday, September 6. Today is Sunday, August 23,
-so you have thirteen days.**
+**Goal: twenty nos. Doors close Sunday, September 6. Today is Wednesday, August 26,
+so you have eleven days.**
+
+The target is nos, not yeses. Twenty women telling you no is a completed job.
+You cannot control who buys. You can control how many people you asked, and
+nobody in the history of this business has ever collected twenty nos without
+collecting a few yeses on the way.
 
 Real prices, checked against the enrollment page:
 
@@ -16,7 +21,7 @@ Real prices, checked against the enrollment page:
 | Biweekly after deposit | 3 x $799 | 3 x $982.33 |
 
 Four deposits is $3,000. That is two months of your gap, collected in
-thirteen days, for the cost of typing.
+eleven days, for the cost of typing.
 
 ---
 
@@ -113,7 +118,7 @@ for the next room.
 
 ## Tier two, the broadcast
 
-Send Monday the 24th or Tuesday the 25th. Once.
+Send Friday the 28th. Once.
 
 > Hey {FIRST}, Destyni here. You registered for the Lash Mastery Challenge back
 > in August.
@@ -132,13 +137,14 @@ Send Monday the 24th or Tuesday the 25th. Once.
 
 ---
 
-## The thirteen days
+## The eleven days
 
 | When | What |
 |---|---|
-| Sun Aug 23 to Mon Aug 24 | Tier one, message one. Twenty to forty, by hand. |
-| Mon Aug 25 | Tier two broadcast, once. |
-| Tue Aug 25 to Sun Aug 30 | Answer replies. Nothing else. |
+| Wed Aug 26 | Tier one, message one. Ten by hand tonight. |
+| Thu Aug 27 | Ten more. Answer yesterday's replies first. |
+| Fri Aug 28 | Tier two broadcast, once. |
+| Sat Aug 29 to Mon Aug 31 | Answer replies. Nothing else. |
 | Tue Sep 1 | The Retention Room, 8 PM ET. |
 | Wed Sep 2 | Message everyone who showed up live. This is your best day. |
 | Thu Sep 3 | Kit cutoff. One reminder to anyone still deciding. |
@@ -159,8 +165,12 @@ is enough.
 
 Never send the same message twice to the same person.
 
-No discount. Not on day thirteen, not to close the fourth seat. You have never
+No discount. Not on day eleven, not to close the fourth seat. You have never
 sold this at full price and the first time you do cannot be the time you didn't.
 
 If she says no, say thank you and mean it. She is worth more in March than a
 seat you talked her into in September.
+
+**Count every no.** Write the number down where you can see it. A no is not a
+failed message, it is a finished one. The only message that failed is the one
+you didn't send.
