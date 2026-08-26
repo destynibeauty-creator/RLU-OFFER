@@ -27,9 +27,22 @@ eleven days, for the cost of typing.
 
 ## Split the list in two
 
-**Tier one.** Anyone who showed up live to the August challenge, replied to
-anything, opened more than twice, or has ever bought from you. Probably twenty
-to forty people. **These get a one to one message, typed by you, one at a time.**
+**Tier one.** Anyone who came to the August challenge live, clicked the
+challenge email or text, replied to anything, or has ever bought from you.
+**These get a one to one message, typed by you, one at a time.**
+
+Rank inside tier one before you send. Warmest first, so you build momentum
+before you hit your first no:
+
+| Rank | Who | Opener |
+|---|---|---|
+| 1 | Came to the challenge live | Attendee version |
+| 2 | Clicked the challenge SMS | Clicker version |
+| 3 | Clicked the challenge email | Clicker version |
+| 4 | Replied to anything, ever | Attendee version, name the thing she said |
+| 5 | Has bought from you before | Attendee version, name what she bought |
+
+An opened email is not tier one. A click is.
 
 **Tier two.** Everybody else. One broadcast.
 
@@ -43,7 +56,21 @@ messages are announcements.
 
 Send this by itself. No link, no price, no pitch. You are buying a reply.
 
+**Attendee version.** She was actually in the room.
+
 > Hey {FIRST}, it's Destyni. You came to the Lash Mastery Challenge in August.
+>
+> I'm taking four women into the September cohort and I wanted to ask you before
+> I open it up to everybody.
+>
+> Where are you right now: haven't taken your first client yet, lashing but
+> retention's off, or lashing and need more clients in the chair?
+
+**Clicker version.** She raised her hand and never got spoken to. Do not say
+"you came to" if she didn't. She will know, and it costs you the reply.
+
+> Hey {FIRST}, it's Destyni. You looked at the Lash Mastery Challenge back in
+> August and I never followed up with you myself. That's on me.
 >
 > I'm taking four women into the September cohort and I wanted to ask you before
 > I open it up to everybody.
@@ -64,6 +91,21 @@ unlearn.
 
 **Send these in the morning or early evening. Never all at once.** Twenty
 identical messages in ten minutes reads as a blast and gets you reported.
+
+**Protect your number.** Carriers flag personal numbers that fire identical
+texts back to back, and a flagged number stops delivering to everybody, not
+just the list. Three rules:
+
+- Space them. A few minutes between each, not a rapid burst.
+- Vary something in every one. Her name is doing most of that work already.
+- No link in the first message. Links in cold outbound texts are the single
+  fastest way to get filtered. The link goes in your second message, after she
+  replies.
+
+**Watch the clock, your list is nationwide.** 9 PM in Ohio is 6 PM in
+California, so evening Eastern is safe for everybody. The reverse is not. Do
+not send anything after 9 PM your time. If somebody says stop, stop, and take
+her out of the list tonight.
 
 ---
 
