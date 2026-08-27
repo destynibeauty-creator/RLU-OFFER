@@ -530,3 +530,101 @@ pictures.
 
 The proof shot is a side by side: her real suite next to the generated one, or
 the same face in six settings she never visited, with a timer on screen.
+
+---
+
+# Revision: Medical Aesthetics Moves Up
+
+Recorded August 26 2026, after a competing analysis and two rounds of critique.
+**This supersedes the ranking above for audience #6.**
+
+## Why it moves
+
+The original ranking put local professional practices at #6, reasoning that
+there was no referral path. That was wrong. **Destyni is an RN. Her buyer is
+very often an RN.** A large share of med spas use registered nurses for
+injections, and the owner is typically a nurse or nurse practitioner who left
+bedside work to open her own place.
+
+That credential is not rapport. It is a service nobody else in the category can
+sell.
+
+## Firmographics, verified
+
+| | |
+|---|---|
+| US med spas | ~10,500, projected 11,553, grown from 8,899 in recent reporting |
+| Average annual revenue | $1,398,833 (AmSpa 2024), with 2026 estimates running $1.6M to $2.8M |
+| Single-location share | About 81%. **The owner is the buyer. No procurement.** |
+| Marketing budget | 8% to 15% of revenue, so $80k to $150k/yr at a $1M clinic |
+| Owner profile | Female RN or NP, 35 to 45, suburban, affluent-adjacent metro |
+
+## The positioning
+
+**Not "I'm a nurse, so I get you." That is rapport.**
+
+**"I'm a nurse, so I know what you can't post." That is a service.**
+
+Every agency pitching her can make pretty pictures. None of them can tell her
+which pictures draw a board complaint.
+
+## The offer, revised
+
+**Lead with an advertising and brand review plus asset build. $997 to $1,500,
+delivered in five days.** The retainer is the upsell for clinics that ask
+"can you just do this every month," and she takes only as many as she can
+actually deliver.
+
+Why the small first sale wins: fast cash, low delivery load, highest-trust
+opening move, and the only version where the license is an asset instead of a
+liability.
+
+## Non-negotiables
+
+**No synthetic humans anywhere near a clinical context.** Cut the recurring AI
+brand face out of the medical offer entirely. Sell environments, brand worlds,
+treatment-room aesthetics, educational visuals, series graphics, product in
+scene. An AI person in a medical clinic's content can read as a fake
+practitioner or a fake patient, which is squarely where FTC enforcement lives.
+The brand world was always the defensible part. The face was risk with no
+upside.
+
+**Never call it a compliance audit.** She is a nurse, not their compliance
+officer. A document titled "compliance audit" signed by an RN reads as
+professional advice regardless of the contract. It is an **advertising and
+brand review**. She flags what looks exposed. She certifies nothing.
+
+**Never publish spec work carrying a clinic's name or marks** without written
+permission. Send it privately, one clinic at a time, then ask.
+
+**Cap the build in writing.** Defined asset count, one revision round, scope on
+the invoice.
+
+**Sell it as Destyni Triplett, RN.** Not a new brand. She is not selling an
+agency, she is selling the nurse who knows where the line is. No third identity
+to build.
+
+## Portfolio in seven days, not six months
+
+Do not wait to accumulate beauty case studies. Beauty work gets discounted on
+sight by a clinic owner.
+
+**Rebuild three real med spas in her metro on spec over one weekend.** Send each
+one the assets unprompted, privately, with no pitch attached. That is a
+portfolio in the actual category inside a week.
+
+Instagram DM with the work attached is the launch channel. Device and pharma
+rep partnerships are the second-half play, measured in months.
+
+## Before selling any of it
+
+1. Check the state nursing board on outside business activity and on a licensed
+   nurse producing marketing for medical practices. Some states have opinions.
+2. Professional liability coverage.
+3. A contract where the clinic warrants and indemnifies on final approval of
+   anything published. She is not their compliance officer and it has to say so.
+
+## Timing
+
+Spec work is a weekend. **This can begin September 8.** It does not compete
+with the September 6 close.
