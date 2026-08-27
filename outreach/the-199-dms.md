@@ -3,8 +3,8 @@
 199 women clicked a Meta ad in August, gave you their email and phone, and
 were never sold anything. They cost $510.34. Nobody has spoken to them since.
 
-**Goal: twenty nos. Doors close Sunday, September 6. Today is Wednesday, August 26,
-so you have eleven days.**
+**Goal: twenty nos. Doors close Sunday, September 6. Today is Thursday, August 27,
+so you have ten days.**
 
 The target is nos, not yeses. Twenty women telling you no is a completed job.
 You cannot control who buys. You can control how many people you asked, and
@@ -21,7 +21,7 @@ Real prices, checked against the enrollment page:
 | Biweekly after deposit | 3 x $799 | 3 x $982.33 |
 
 Four deposits is $3,000. That is two months of your gap, collected in
-eleven days, for the cost of typing.
+ten days, for the cost of typing.
 
 ---
 
@@ -209,14 +209,13 @@ Send Friday the 28th. Once.
 
 ---
 
-## The eleven days
+## The ten days
 
 | When | What |
 |---|---|
-| Wed Aug 26 | Tier one, message one. Ten by hand tonight. |
-| Thu Aug 27 | Ten more. Answer yesterday's replies first. |
-| Fri Aug 28 | Tier two broadcast, once. |
-| Sat Aug 29 to Mon Aug 31 | Answer replies. Nothing else. |
+| **Thu Aug 27** | **Tier one, message one. Ten by hand tonight.** |
+| Fri Aug 28 | Ten more, then the tier two broadcast, once. |
+| Sat Aug 29 to Mon Aug 31 | Ten a day. Answer replies first, always. |
 | Tue Sep 1 | The Retention Room, 8 PM ET. |
 | Wed Sep 2 | Message everyone who showed up live. This is your best day. |
 | Thu Sep 3 | Kit cutoff. One reminder to anyone still deciding. |
@@ -237,7 +236,7 @@ is enough.
 
 Never send the same message twice to the same person.
 
-No discount. Not on day eleven, not to close the fourth seat. You have never
+No discount. Not on day ten, not to close the fourth seat. You have never
 sold this at full price and the first time you do cannot be the time you didn't.
 
 If she says no, say thank you and mean it. She is worth more in March than a
