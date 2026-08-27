@@ -414,3 +414,119 @@ converts at all. Everything in this document is arithmetic on top of a number
 nobody has measured. One live hour produces that number.
 
 Do that once and this stops being a strategy document and becomes a plan.
+
+---
+
+# Appendix: Buyer Profile for Audience #1
+
+**Offer:** THE SCENE AI, four-week live cohort, $697.
+**Buyer:** independent beauty and wellness business owner.
+
+Sourced figures are marked. Everything else is inference from Destyni's own
+account data and nine years inside this industry, and should be treated as a
+working hypothesis until the first cohort confirms or corrects it.
+
+## Who she is on paper
+
+| | |
+|---|---|
+| **Gender** | Overwhelmingly women [inference, industry composition] |
+| **Age** | 25 to 42, clustered 28 to 36 [inference] |
+| **Income, salon suite operators** | **$72,000/yr average**, versus $45,000 for salon employees [sourced] |
+| **Income, independent beauty pros** | $50,000 to $120,000, with national figures of $74,699 to $80,847 [sourced] |
+| **Income, lash artists specifically** | $62,907 average, range $26,000 to $84,000 [sourced] |
+| **Education** | **43% hold a bachelor's degree or higher**, versus 28% in traditional salons [sourced] |
+| **Business structure** | Booth renter or suite owner. Over 90% of salon industry companies are booth renters [sourced] |
+| **Team size** | One. Occasionally two. |
+| **Business age** | 18 months to 6 years. Half of new skin care businesses do not reach year three [sourced] |
+| **Location** | Suburban and mid-size metro, disproportionately the South and Midwest |
+
+**That education number matters more than the income number.** 43% with a
+degree means this is not an audience that needs things dumbed down. She left a
+career or skipped one on purpose, and she reads.
+
+## What her week actually looks like
+
+She works two to three hours per client, alone, with headphones in. She takes
+four to six clients a day. She is on her feet, bent over a face, in silence,
+for most of her waking hours.
+
+**She consumes an enormous amount of audio.** Podcasts and long-form video with
+the screen off, hours a day, every working day. This is the most underused
+channel for reaching her and almost nobody in beauty education uses it.
+
+Her marketing happens between clients and after 9pm. She photographs her own
+work with her phone, in her own lighting, tired.
+
+## What she is already paying for
+
+- Suite rent, $200 to $600 a week
+- Product and supply, monthly
+- Booking software: GlossGenius, Vagaro, Square, Boulevard
+- Canva Pro
+- Occasional boosted posts, rarely a real campaign
+- Continuing education, once or twice a year, $200 to $3,000
+- Photography, $300 to $800 a session, once or twice a year if at all
+
+**She has a content budget. It is just currently spent on her own unpaid time.**
+
+## What she desperately wants
+
+To look established. Not bigger, established. She wants a woman scrolling past
+to assume she has been doing this for ten years and has a waitlist.
+
+She wants to stop being the model, the photographer, the editor, and the
+subject of her own marketing.
+
+She wants to post consistently without being on camera consistently, because
+being on camera daily requires being camera-ready daily, and she is bent over a
+face for nine hours.
+
+## What keeps her up
+
+**Comparison.** She sees another artist's feed that looks like a magazine and
+assumes that artist is booked solid. She has no idea whether it's true.
+
+**The empty week.** Bookings are lumpy. A slow week is a rent conversation.
+
+**Her own inconsistency.** She posts four times in a week, then nothing for
+eleven days, then feels behind and posts something she does not like.
+
+## Buying triggers, in order of strength
+
+1. **A slow two weeks.** This is the strongest one and it is seasonal.
+2. **A competitor's feed getting noticeably better.**
+3. **A rebrand, a new suite, or a move.**
+4. **A price increase she is about to announce** and does not feel ready to justify.
+5. **January and September.** New year and back-to-school are the two moments beauty professionals reinvest.
+
+## Her objections, and what is underneath them
+
+| She says | She means | What answers it |
+|---|---|---|
+| "My clients will know it's AI" | I cannot afford to look fake in a trust business | Show unlabeled work, then reveal. Teach a disclosure standard. Never generate fake results. |
+| "I don't have time to learn another thing" | The last thing I bought is still unopened | The cohort produces her content while she learns. She leaves with output, not homework. |
+| "I already have Canva" | I do not understand what is different | Canva arranges what exists. This makes what does not exist. |
+| "Is it even ethical" | This is a real concern, not a stall | Answer it directly and first. Brand and lifestyle imagery, never fabricated client results. |
+| "$697 is a lot right now" | Bookings are slow, which is why I am here | Do not discount. Payment split, or send her to the included live hour. |
+
+## Where to reach her
+
+| Channel | Strength |
+|---|---|
+| Destyni's own list and Instagram | **Strongest. 1,099 engaged, already warm, zero cost.** |
+| Meta ads, beauty interest stacks | Proven. $2.56 per lead in August. |
+| Suite-owner and booth-renter Facebook groups | Large, active, referral-heavy |
+| Beauty trade shows | Expensive, very high intent |
+| **Podcasts and long-form audio** | **Underused. She listens all day while she works.** |
+| Instagram Reels | Where she already sees Destyni's best-performing content |
+
+## Message that lands
+
+Not "learn AI." She does not want to learn AI, she wants to stop taking her own
+pictures.
+
+**"Your clients think you have a photographer. Let them."**
+
+The proof shot is a side by side: her real suite next to the generated one, or
+the same face in six settings she never visited, with a timer on screen.
