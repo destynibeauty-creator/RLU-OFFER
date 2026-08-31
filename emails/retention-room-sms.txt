@@ -26,6 +26,30 @@ https://us06web.zoom.us/j/82594734701?pwd=GpIauDg8vGWu5xIuST13kWU8hgBwtx.1
 
 
 ================================================================
+1b. SMS, Monday August 31 evening, to everybody registered
+================================================================
+
+Tomorrow night, {{ person.first_name|default:'Love' }}. 8 PM ET.
+
+One hour on why lashes fall out around day nine. Before then, write down your adhesive brand and name. It's on the bottle.
+
+https://us06web.zoom.us/j/82594734701?pwd=GpIauDg8vGWu5xIuST13kWU8hgBwtx.1
+
+- Destyni
+
+
+================================================================
+1c. SMS, Tuesday September 1 morning, to everybody registered
+================================================================
+
+Tonight, {{ person.first_name|default:'Love' }}. 8 ET / 7 CT / 6 MT / 5 PT.
+
+https://us06web.zoom.us/j/82594734701?pwd=GpIauDg8vGWu5xIuST13kWU8hgBwtx.1
+
+- Destyni
+
+
+================================================================
 2. SMS, Tuesday September 1 at 7:00 PM ET
 ================================================================
 
