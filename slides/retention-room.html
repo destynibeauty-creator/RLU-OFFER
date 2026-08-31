@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Retention Room</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,300;1,400;1,500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ground:#0A0A0A; --ink:#F2EEF0; --soft:#A39BA0; --faint:#6a626a;
+  --pink:#F600A2; --gold:#D4AF37; --green:#4EBB19;
+  --font:'Poppins','Segoe UI',Roboto,Helvetica,Arial,sans-serif;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{height:100%;background:var(--ground);color:var(--ink);font-family:var(--font);overflow:hidden}
+#deck{position:relative;width:100vw;height:100vh}
+.s{position:absolute;inset:0;display:none;flex-direction:column;justify-content:center;
+   padding:6vh 8vw;opacity:0;transition:opacity .35s ease}
+.s.on{display:flex;opacity:1}
+.ey{font-size:clamp(9px,1.1vw,13px);letter-spacing:.34em;text-transform:uppercase;
+    color:var(--gold);font-weight:500;margin-bottom:3.4vh}
+.ey.pink{color:var(--pink)}
+h1{font-size:clamp(34px,7.2vw,104px);font-weight:200;line-height:1.02;letter-spacing:-.02em}
+h1 em{font-style:italic;font-weight:500;color:var(--pink)}
+h2{font-size:clamp(26px,4.6vw,66px);font-weight:200;line-height:1.1;letter-spacing:-.015em}
+h2 b{font-weight:500;color:#fff}
+h2 em{font-style:italic;font-weight:500;color:var(--gold)}
+p.lead{font-size:clamp(15px,1.9vw,27px);font-weight:300;line-height:1.62;color:var(--soft);
+       margin-top:3.2vh;max-width:26ch}
+p.lead.wide{max-width:40ch}
+p.lead b{color:#fff;font-weight:500}
+.big-stat{font-size:clamp(60px,15vw,220px);font-weight:200;line-height:.9;color:var(--pink);letter-spacing:-.04em}
+ul{list-style:none;margin-top:4vh}
+li{font-size:clamp(16px,2.3vw,34px);font-weight:300;line-height:1.5;color:var(--ink);
+   padding:1.6vh 0 1.6vh 2.2em;position:relative;border-bottom:1px solid rgba(212,175,55,.14)}
+li:last-child{border-bottom:0}
+li:before{content:counter(n,decimal-leading-zero);counter-increment:n;position:absolute;left:0;top:2vh;
+          font-size:clamp(10px,1.1vw,14px);letter-spacing:.2em;color:var(--gold);font-weight:500}
+ul{counter-reset:n}
+ul.plain li:before{content:'';}
+ul.plain li{padding-left:0}
+.act{text-align:center;align-items:center}
+.act .no{font-size:clamp(10px,1.3vw,15px);letter-spacing:.4em;text-transform:uppercase;
+         color:var(--pink);font-weight:500;margin-bottom:2.4vh}
+.act h2{max-width:16ch}
+.rule{width:64px;height:1px;background:var(--gold);margin:4vh auto}
+.take{align-items:center;text-align:center}
+.take .lbl{font-size:clamp(9px,1.1vw,13px);letter-spacing:.34em;text-transform:uppercase;
+           color:var(--faint);font-weight:500;margin-bottom:2.6vh}
+.take .name{font-size:clamp(32px,6.4vw,92px);font-weight:200;letter-spacing:-.02em}
+.take .name em{font-style:italic;font-weight:500;color:var(--gold)}
+.take .sub{font-size:clamp(14px,1.7vw,24px);font-weight:300;color:var(--soft);margin-top:3vh;max-width:34ch}
+.quote{font-size:clamp(20px,3.4vw,50px);font-weight:200;font-style:italic;line-height:1.32;max-width:20ch}
+.quote b{font-style:normal;font-weight:500;color:var(--pink)}
+.attr{font-size:clamp(10px,1.1vw,14px);letter-spacing:.24em;text-transform:uppercase;
+      color:var(--faint);margin-top:4vh;font-weight:500}
+.bubs{display:flex;flex-wrap:wrap;gap:1.6vh 1.4vw;margin-top:4vh;max-width:46ch}
+.bub{border:1px solid rgba(246,0,162,.28);border-radius:40px;padding:1.4vh 2vw;
+     font-size:clamp(13px,1.5vw,21px);font-weight:300;color:var(--soft)}
+.bub b{color:#fff;font-weight:500}
+.fill{border-left:2px solid var(--green);padding:2.4vh 0 2.4vh 2vw;margin-top:4vh;max-width:38ch}
+.fill .tag{font-size:clamp(9px,1vw,12px);letter-spacing:.28em;text-transform:uppercase;
+           color:var(--green);font-weight:600;margin-bottom:1.4vh}
+.fill p{font-size:clamp(14px,1.6vw,22px);font-weight:300;color:var(--soft);line-height:1.6}
+.close{text-align:center;align-items:center}
+.sig{font-style:italic;font-size:clamp(20px,2.6vw,38px);font-weight:400;color:var(--pink);margin-top:5vh}
+.tag-line{font-size:clamp(11px,1.2vw,16px);letter-spacing:.22em;text-transform:uppercase;
+          color:var(--faint);font-weight:500;margin-top:3vh}
+#hud{position:fixed;bottom:2.4vh;right:3vw;font-size:11px;letter-spacing:.2em;color:#3a343a;
+     font-weight:500;z-index:50}
+#bar{position:fixed;left:0;bottom:0;height:2px;background:var(--pink);width:0;
+     transition:width .35s ease;z-index:50}
+@media(max-width:700px){.s{padding:5vh 7vw}p.lead{max-width:none}}
+</style>
+</head>
+<body>
+<div id="deck">
+
+<!-- 1 -->
+<section class="s act">
+  <div class="no">Tuesday, September 1 &middot; 8 PM ET</div>
+  <h1>The Retention <em>Room.</em></h1>
+  <div class="rule"></div>
+  <p class="lead wide" style="text-align:center;margin:0 auto">Why her lashes fall off in nine days.</p>
+  <div class="tag-line">Destyni Triplett, RN &middot; Rich Lash&reg; University</div>
+</section>
+
+<!-- 2 -->
+<section class="s">
+  <span class="ey pink">Before we start</span>
+  <h2>Here is what happens on <b>day nine.</b></h2>
+</section>
+
+<!-- 3 -->
+<section class="s">
+  <p class="lead wide" style="margin-top:0">She sends the photo. Half the set, and a message that starts with <b>"hey, so..."</b></p>
+  <p class="lead wide">You already know what it says before you open it.</p>
+</section>
+
+<!-- 4 -->
+<section class="s">
+  <p class="lead wide" style="margin-top:0">So you apologise. You offer to fix it for nothing. You spend two hours and your product on a set you already got paid for once, and you tell her it is no trouble.</p>
+  <h2 style="margin-top:4vh">And then you quietly <b>stop posting your work.</b></h2>
+</section>
+
+<!-- 5 -->
+<section class="s">
+  <span class="ey">What artists actually say</span>
+  <div class="bubs">
+    <div class="bub">I don't know <b>what I'm doing wrong.</b></div>
+    <div class="bub">She swore she <b>wasn't using oil.</b></div>
+    <div class="bub">It lasted a week and then <b>just started shedding.</b></div>
+    <div class="bub">I paid for a course. I got a certificate and a kit. <b>Nobody could tell me why my sets fall off.</b></div>
+  </div>
+</section>
+
+<!-- 6 -->
+<section class="s act">
+  <h2>Bad retention is not a talent problem.<br><em>It is a chemistry problem.</em></h2>
+  <div class="rule"></div>
+  <p class="lead wide" style="text-align:center;margin:0 auto">And you cannot troubleshoot chemistry from memory.</p>
+</section>
+
+<!-- 7 -->
+<section class="s act">
+  <div class="no">One night &middot; Three acts</div>
+  <h2>Three acts.<br><em>One answer.</em></h2>
+</section>
+
+<!-- 8 -->
+<section class="s act">
+  <div class="no">Act One</div>
+  <h2>The Chemistry</h2>
+  <div class="rule"></div>
+  <p class="lead wide" style="text-align:center;margin:0 auto">Why it doesn't last.</p>
+</section>
+
+<!-- 9 -->
+<section class="s">
+  <span class="ey">Act One</span>
+  <h2>Cyanoacrylate. <b>What your adhesive actually is.</b></h2>
+  <div class="fill">
+    <div class="tag">Your content</div>
+    <p>What the glue is, how it cures, and why it is not drying. Have them read their bottle out loud here.</p>
+  </div>
+</section>
+
+<!-- 10 -->
+<section class="s">
+  <span class="ey">Act One</span>
+  <h2>The three conditions in your room that <b>decide how long her set lasts.</b></h2>
+  <div class="fill">
+    <div class="tag">Your content</div>
+    <p>Humidity. Temperature. Cure time. Your numbers, your ranges, and what happens on either side of them.</p>
+  </div>
+</section>
+
+<!-- 11 -->
+<section class="s">
+  <span class="ey">Act One</span>
+  <h2>The oils that quietly <b>dissolve your work.</b></h2>
+  <div class="fill">
+    <div class="tag">Your content</div>
+    <p>Where they come from, why "she swore she wasn't using oil" is usually true, and what she is actually doing.</p>
+  </div>
+</section>
+
+<!-- 12 -->
+<section class="s take">
+  <div class="lbl">You leave with</div>
+  <div class="name">The Cure <em>Check</em></div>
+  <p class="sub">The three conditions in your room that decide how long her set lasts.</p>
+</section>
+
+<!-- 13 -->
+<section class="s act">
+  <div class="no">Act Two</div>
+  <h2>The Consultation</h2>
+  <div class="rule"></div>
+  <p class="lead wide" style="text-align:center;margin:0 auto">It is decided before you pick up a tweezer.</p>
+</section>
+
+<!-- 14 -->
+<section class="s">
+  <span class="ey">Act Two</span>
+  <h2>Her skincare. Her shower. Her mascara.<br><b>Where she is in her own lash cycle.</b></h2>
+  <p class="lead wide">Four questions asked at intake will tell you what her set is going to do, and let you say it out loud before she finds out the hard way.</p>
+</section>
+
+<!-- 15 -->
+<section class="s">
+  <span class="ey">Act Two</span>
+  <h2>The Four Questions</h2>
+  <div class="fill">
+    <div class="tag">Your content</div>
+    <p>Question one, two, three, four. Say each one exactly how you would say it in the chair, then what her answer tells you.</p>
+  </div>
+</section>
+
+<!-- 16 -->
+<section class="s take">
+  <div class="lbl">You leave with</div>
+  <div class="name">The Four <em>Questions</em></div>
+  <p class="sub">Ask them at your next appointment. Watch what changes.</p>
+</section>
+
+<!-- 17 -->
+<section class="s act">
+  <div class="no">Act Three</div>
+  <h2>The Rebooking</h2>
+  <div class="rule"></div>
+  <p class="lead wide" style="text-align:center;margin:0 auto">A set that lasts is a client who comes back.</p>
+</section>
+
+<!-- 18 -->
+<section class="s">
+  <span class="ey">Act Three</span>
+  <h2>This is where retention stops being about lashes and <b>starts being about your money.</b></h2>
+  <p class="lead wide">When her set lasts, she trusts you. She comes back. She rebooks before she ever leaves the chair.</p>
+</section>
+
+<!-- 19 -->
+<section class="s">
+  <span class="ey">Act Three</span>
+  <h2>The aftercare <b>she will actually follow.</b></h2>
+  <div class="fill">
+    <div class="tag">Your content</div>
+    <p>What you tell her, in what order, and the one instruction most artists skip.</p>
+  </div>
+</section>
+
+<!-- 20 -->
+<section class="s">
+  <span class="ey">Act Three</span>
+  <h2>The day-three check-in.</h2>
+  <p class="lead wide">Catch a problem before it turns into a complaint.</p>
+  <div class="fill">
+    <div class="tag">Your content</div>
+    <p>The exact message. What to look for in her reply. What you do with each answer.</p>
+  </div>
+</section>
+
+<!-- 21 -->
+<section class="s take">
+  <div class="lbl">You leave with</div>
+  <div class="name">The <em>Protocol</em></div>
+  <p class="sub">The day-three message, what to look for in her response, and how it saves the clients you would have lost.</p>
+</section>
+
+<!-- 22 -->
+<section class="s">
+  <span class="ey">Tonight you got</span>
+  <ul>
+    <li>The Cure Check</li>
+    <li>The Four Questions</li>
+    <li>The Protocol</li>
+  </ul>
+</section>
+
+<!-- 23 -->
+<section class="s act">
+  <div class="no">Nine o'clock</div>
+  <h2>General Admission leaves with notes.<br><em>The Campus stays in the room.</em></h2>
+  <div class="rule"></div>
+  <p class="lead wide" style="text-align:center;margin:0 auto">Until 9:45. Bring up a set that didn't last and we work out what happened to yours, on the screen, together. <b>Nine dollars.</b></p>
+</section>
+
+<!-- 24 -->
+<section class="s">
+  <span class="ey">If you want the whole thing</span>
+  <h2>Lash Mastery CEO <b>Certification</b></h2>
+  <p class="lead wide">Six weeks live with me. Cohort begins <b>Monday, September 7</b>. Enroll by <b>Thursday, September 3</b> and your kit reaches you before Week One. Doors close <b>Sunday, September 6</b>.</p>
+  <p class="lead wide">richlash.university/pages/enroll</p>
+</section>
+
+<!-- 25 -->
+<section class="s close">
+  <h2>Thank you for<br><em>giving me your hour.</em></h2>
+  <div class="tag-line">Faith first. Work daily. Watch it come.</div>
+  <div class="sig">Destyni &#9829;</div>
+</section>
+
+</div>
+<div id="hud"></div>
+<div id="bar"></div>
+<script>
+(function(){
+  var s=[].slice.call(document.querySelectorAll('.s')),i=0,
+      hud=document.getElementById('hud'),bar=document.getElementById('bar');
+  function go(n){
+    i=Math.max(0,Math.min(s.length-1,n));
+    s.forEach(function(el,k){el.classList.toggle('on',k===i)});
+    hud.textContent=(i+1)+' / '+s.length;
+    bar.style.width=((i+1)/s.length*100)+'%';
+  }
+  document.addEventListener('keydown',function(e){
+    if(['ArrowRight','ArrowDown',' ','PageDown','Enter'].indexOf(e.key)>-1){e.preventDefault();go(i+1)}
+    if(['ArrowLeft','ArrowUp','PageUp','Backspace'].indexOf(e.key)>-1){e.preventDefault();go(i-1)}
+    if(e.key==='Home')go(0); if(e.key==='End')go(s.length-1);
+    if(e.key==='f'||e.key==='F'){document.documentElement.requestFullscreen&&document.documentElement.requestFullscreen()}
+  });
+  document.addEventListener('click',function(e){go(e.clientX < window.innerWidth*0.25 ? i-1 : i+1)});
+  go(0);
+})();
+</script>
+</body>
+</html>
