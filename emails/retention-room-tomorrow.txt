@@ -1,133 +1,272 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<meta name="x-apple-disable-message-reformatting"/>
-<meta name="color-scheme" content="dark"/>
-<meta name="supported-color-schemes" content="dark"/>
-<title>Tomorrow night</title>
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml">
+  <head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+    <meta name="x-apple-disable-message-reformatting"/>
+    <meta content="light dark" name="color-scheme"/>
+    <meta content="light dark" name="supported-color-schemes"/>
+    <title>
+      Hey Boo, Tomorrow
+    </title>
 <!--[if mso]>
-<xml><o:OfficeDocumentSettings><o:PixelsPerInch>96</o:PixelsPerInch></o:OfficeDocumentSettings></xml>
-<![endif]-->
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,300;1,400;1,500&amp;display=swap" rel="stylesheet" type="text/css"/>
-<style type="text/css">
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,300;1,400;1,500&display=swap');
-body,table,td,a{-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}
-table,td{mso-table-lspace:0pt;mso-table-rspace:0pt}
-img{-ms-interpolation-mode:bicubic;border:0;outline:none;text-decoration:none;display:block}
-body{margin:0!important;padding:0!important;width:100%!important;background-color:#050505}
-a{color:#F600A2;text-decoration:none}
-@media screen and (max-width:600px){
-  .wrap{width:100%!important}
-  .px{padding-left:26px!important;padding-right:26px!important}
-  .h1{font-size:31px!important;line-height:1.14!important}
-  .lead{font-size:15px!important}
-  .btn a{display:block!important;width:auto!important}
-}
-/*[if mso]>* { font-family:'Segoe UI',Arial,sans-serif !important; }<![endif]*/
-</style>
-</head>
-<body style="margin:0;padding:0;background-color:#050505;">
-<div style="display:none;font-size:1px;color:#050505;line-height:1px;max-height:0;max-width:0;opacity:0;overflow:hidden;">Tomorrow, 8 PM ET. I am telling you everything.&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;</div>
+  <noscript>
+    <xml>
+      <o:OfficeDocumentSettings>
+        <o:PixelsPerInch>96</o:PixelsPerInch>
+      </o:OfficeDocumentSettings>
+    </xml>
+  </noscript>
+  <![endif]-->
+<!--[if mso]>
+  <style type="text/css">
+    *{font-family:Arial,Helvetica,sans-serif !important;}
+  </style>
+  <![endif]-->
+<!--[if !mso]><!-->
+  </head>
+  <body>    <span href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet" type="text/css"></span>
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+    </style>
+<!--<![endif]-->
+    <style type="text/css">
+    body, table, td, a{
+      -webkit-text-size-adjust:100%;
+      -ms-text-size-adjust:100%;
+    }
 
-<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#050505;">
-<tr><td align="center" style="padding:34px 12px;">
+    table, td{
+      mso-table-lspace:0pt;
+      mso-table-rspace:0pt;
+    }
 
-<table role="presentation" class="wrap" width="600" cellpadding="0" cellspacing="0" border="0" style="width:600px;max-width:600px;background-color:#0A0A0A;border:1px solid rgba(212,175,55,0.16);border-radius:6px;">
+    img{
+      -ms-interpolation-mode:bicubic;
+      border:0;
+      outline:none;
+      text-decoration:none;
+    }
 
-  <!-- topbar -->
-  <tr><td class="px" style="padding:26px 44px 0 44px;">
-    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr>
-      <td align="left" style="font-family:'Poppins','Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:9px;letter-spacing:3px;text-transform:uppercase;color:#D4AF37;font-weight:500;">Rich Lash&reg; University</td>
-      <td align="right" style="font-family:'Poppins','Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:9px;letter-spacing:3px;text-transform:uppercase;color:#6a626a;font-weight:500;">Tomorrow</td>
-    </tr></table>
-  </td></tr>
+    body{
+      margin:0;
+      padding:0;
+      width:100% !important;
+      height:100% !important;
+    }
 
-  <tr><td class="px" style="padding:22px 44px 0 44px;">
-    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="height:1px;background-color:rgba(212,175,55,0.18);font-size:0;line-height:0;">&nbsp;</td></tr></table>
-  </td></tr>
+    a{
+      color:#F600A2;
+    }
 
-  <!-- headline -->
-  <tr><td class="px" style="padding:40px 44px 0 44px;">
-    <p style="margin:0 0 18px 0;font-family:'Poppins','Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:10px;letter-spacing:4px;text-transform:uppercase;color:#F600A2;font-weight:500;">Tuesday &middot; 8 PM ET</p>
-    <h1 class="h1" style="margin:0;font-family:'Poppins','Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:42px;line-height:1.08;font-weight:200;color:#F2EEF0;letter-spacing:-0.6px;">Hey boo.<br/><span style="font-weight:600;font-style:italic;color:#F600A2;">Tomorrow.</span></h1>
-  </td></tr>
+    @media screen and (max-width:600px){
+      .container{
+        width:100% !important;
+      }
 
-  <!-- body -->
-  <tr><td class="px" style="padding:30px 44px 0 44px;">
-    <p class="lead" style="margin:0 0 18px 0;font-family:'Poppins','Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.72;font-weight:300;color:#A39BA0;">The Retention Room is tomorrow night and it is going to be good.</p>
+      .px{
+        padding-left:24px !important;
+        padding-right:24px !important;
+      }
 
-    <p class="lead" style="margin:0 0 18px 0;font-family:'Poppins','Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.72;font-weight:300;color:#A39BA0;"><span style="color:#F2EEF0;font-weight:500;">I am telling you everything.</span> Not the surface. Not the version that makes you come back and pay to hear the rest.</p>
+      .h1{
+        font-size:34px !important;
+      }
 
-    <p class="lead" style="margin:0 0 18px 0;font-family:'Poppins','Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.72;font-weight:300;color:#A39BA0;">I am not one of those educators who holds back the good part so you have to buy something to get it. That has never been me and it is not happening tomorrow.</p>
-  </td></tr>
-
-  <!-- pink rule quote -->
-  <tr><td class="px" style="padding:14px 44px 0 44px;">
-    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
-      <tr><td style="border-left:2px solid #F600A2;padding:6px 0 6px 20px;">
-        <p style="margin:0;font-family:'Poppins','Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:19px;line-height:1.6;font-weight:400;font-style:italic;color:#F2EEF0;">I want you to win. That is the whole thing.</p>
-      </td></tr>
+      .tier{
+        display:block !important;
+        width:100% !important;
+        padding-bottom:14px !important;
+      }
+    }
+  </style>
+<!-- PREHEADER -->
+    <div style="display:none; max-height:0; overflow:hidden; mso-hide:all; font-size:1px; line-height:1px; color:#000000;">
+      Tomorrow, 8 PM ET. I am telling you everything.
+    &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;
+    </div>
+    <table bgcolor="#000000" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background-color:#000000;" width="100%">      
+      <tr>        
+        <td align="center" style="padding:12px 12px 48px 12px;">          
+          <table bgcolor="#0A0A0A" border="0" cellpadding="0" cellspacing="0" class="container" role="presentation" style="width:600px; max-width:600px; background-color:#0A0A0A; border:1px solid #262026; border-radius:14px; overflow:hidden;" width="600">            <!-- HEADER -->
+            <tr>              
+              <td align="center" bgcolor="#0A0A0A" style="background-color:#0A0A0A; padding:26px 32px 22px 32px; border-bottom:1px solid #262026;">                
+                <img alt="Rich Lash University" src="https://cdn.shopify.com/s/files/1/0649/6505/0626/files/RLULOGO2026WHITE.png?v=1781386902" style="display:block; margin:0 auto; width:58px; max-width:58px; height:auto; border:0;" width="58"/>
+                <div style="margin-top:14px; font-family:'Poppins',Arial,Helvetica,sans-serif; font-size:10px; letter-spacing:3px; font-weight:600; text-transform:uppercase; color:#D4AF37;">
+                  Tomorrow Night
+                </div>
+              </td>
+            </tr>
+<!-- HERO -->
+            <tr>              
+              <td align="center" class="px" style="padding:44px 42px 0 42px;">                
+                <h1 class="h1" style="margin:0; font-family:'Poppins',Arial,Helvetica,sans-serif; font-weight:300; font-size:40px; line-height:1.1; color:#F2EEEB; letter-spacing:-1px;">
+                  Hey boo.
+                  <br/>
+                  <span style="font-weight:700; color:#F600A2;">
+                  Tomorrow.
+                </span>
+                </h1>
+              </td>
+            </tr>
+<!-- BODY -->
+            <tr>              
+              <td class="px" style="padding:28px 42px 0 42px;">                
+                <p style="margin:0 0 18px 0; font-family:'Poppins',Arial,Helvetica,sans-serif; font-weight:300; font-size:15.5px; line-height:1.8; color:#EFE9E6;">
+                  The Retention Room is tomorrow night and it is going to be good.
+                </p>
+                <p style="margin:0 0 18px 0; font-family:'Poppins',Arial,Helvetica,sans-serif; font-weight:300; font-size:15.5px; line-height:1.8; color:#EFE9E6;">
+                  <span style="font-weight:600; color:#FFFFFF;">I am telling you everything.</span>
+                  Not the surface. Not the version that makes you come back and pay to hear the rest.
+                </p>
+                <p style="margin:0 0 18px 0; font-family:'Poppins',Arial,Helvetica,sans-serif; font-weight:300; font-size:15.5px; line-height:1.8; color:#EFE9E6;">
+                  I am not one of those educators who holds back the good part so you have to buy something to get it. That has never been me and it is not happening tomorrow.
+                </p>
+                <p style="margin:0; font-family:'Poppins',Arial,Helvetica,sans-serif; font-weight:300; font-size:15.5px; line-height:1.8; color:#EFE9E6;">
+                  I really want you to win. That is the whole reason I do this.
+                </p>
+              </td>
+            </tr>
+<!-- QUOTE -->
+            <tr>              
+              <td class="px" style="padding:30px 42px 0 42px;">                
+                <table bgcolor="#17161B" border="0" cellpadding="0" cellspacing="0" role="presentation" style="border:1px solid #302A31; border-radius:14px; background-color:#17161B;" width="100%">                  
+                  <tr>                    
+                    <td align="center" style="padding:28px 30px;">                      
+                      <p style="margin:0; font-family:'Poppins',Arial,Helvetica,sans-serif; font-size:19px; line-height:1.6; font-weight:300; font-style:italic; color:#FFFFFF;">
+                        All you have to do is show up.
+                        <br/>
+                        You are going to know what to do after that.
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+<!-- CLOSE -->
+            <tr>              
+              <td class="px" style="padding:30px 42px 0 42px;">                
+                <p style="margin:0 0 18px 0; font-family:'Poppins',Arial,Helvetica,sans-serif; font-weight:300; font-size:15.5px; line-height:1.8; color:#EFE9E6;">
+                  Whatever I know about why lashes fall out, you are going to know it too by nine o'clock. Then you walk into your next client already knowing what to change.
+                </p>
+                <p style="margin:0 0 18px 0; font-family:'Poppins',Arial,Helvetica,sans-serif; font-weight:300; font-size:15.5px; line-height:1.8; color:#EFE9E6;">
+                  <span style="font-weight:600; color:#FFFFFF;">One thing before then.</span>
+                  Go get your adhesive and write down the brand and the name. It is on the bottle. Act One is chemistry and yours is going to come up.
+                </p>
+                <p style="margin:0; font-family:'Poppins',Arial,Helvetica,sans-serif; font-weight:300; font-size:15.5px; line-height:1.8; color:#EFE9E6;">
+                  <span style="font-weight:600; color:#FFFFFF;">Have not taken your first client yet? Come anyway.</span>
+                  This part is a whole lot easier to learn before you have anything to unlearn.
+                </p>
+              </td>
+            </tr>
+<!-- CTA -->
+            <tr>              
+              <td align="center" class="px" style="padding:34px 42px 0 42px;">                <!--[if mso]>
+              <v:roundrect
+                xmlns:v="urn:schemas-microsoft-com:vml"
+                xmlns:w="urn:schemas-microsoft-com:office:word"
+                href="https://us06web.zoom.us/j/82594734701?pwd=GpIauDg8vGWu5xIuST13kWU8hgBwtx.1"
+                style="height:60px;v-text-anchor:middle;width:320px;"
+                arcsize="50%"
+                stroke="f"
+                fillcolor="#F600A2"
+              >
+                <w:anchorlock/>
+                <center
+                  style="color:#ffffff;font-family:Arial,sans-serif;font-size:15px;font-weight:bold;letter-spacing:1px;"
+                >
+                  YOUR ZOOM LINK
+                </center>
+              </v:roundrect>
+              <![endif]-->
+<!--[if !mso]><!-- -->
+                <a href="https://us06web.zoom.us/j/82594734701?pwd=GpIauDg8vGWu5xIuST13kWU8hgBwtx.1" style="display:inline-block; background-color:#F600A2; color:#FFFFFF; text-decoration:none; font-family:'Poppins',Arial,Helvetica,sans-serif; font-weight:700; font-size:15px; letter-spacing:1px; text-transform:uppercase; padding:21px 46px; border-radius:40px;" target="_blank">
+                Your Zoom Link &rarr;
+              </a>
+<!--<![endif]-->
+                <p style="margin:16px 0 0 0; font-family:'Poppins',Arial,Helvetica,sans-serif; font-weight:300; font-size:12px; line-height:1.7; color:#77716E;">
+                  Save it now so you are not hunting for it at 7:58.
+                </p>
+              </td>
+            </tr>
+<!-- WHEN -->
+            <tr>              
+              <td class="px" style="padding:30px 42px 0 42px;">                
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border:1px solid #398414; border-radius:12px; background-color:#0D160B;" width="100%">                  
+                  <tr>                    
+                    <td align="center" style="padding:22px 20px;">                      
+                      <div style="font-family:'Poppins',Arial,Helvetica,sans-serif; font-size:10px; letter-spacing:3px; text-transform:uppercase; font-weight:600; color:#7FD317;">
+                        Tuesday, September 1
+                      </div>
+                      <div style="margin-top:7px; font-family:'Poppins',Arial,Helvetica,sans-serif; font-size:20px; line-height:1.4; font-weight:600; color:#FFFFFF;">
+                        8:00 PM ET
+                      </div>
+                      <p style="margin:8px 0 0 0; font-family:'Poppins',Arial,Helvetica,sans-serif; font-size:12.5px; line-height:1.7; font-weight:300; color:#AAA4A1;">
+                        7 CT &middot; 6 MT &middot; 5 PT &middot; One live hour on Zoom
+                      <br/>
+                      Got a question you want me to hit? Reply to this email.
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+<!-- SIGN OFF -->
+            <tr>              
+              <td align="center" class="px" style="padding:36px 42px 36px 42px;">                
+                <p style="margin:0 0 7px 0; font-family:'Poppins',Arial,Helvetica,sans-serif; font-weight:300; font-size:14px; line-height:1.8; color:#D8D4D0;">
+                  See you tomorrow.
+                  <br/>
+                  Come as you are and bring your questions.
+                </p>
+                <p style="margin:18px 0 4px 0; font-family:'Poppins',Arial,Helvetica,sans-serif; font-weight:400; font-style:italic; font-size:21px; color:#F600A2;">
+                  Destyni&nbsp;
+                  <span style="font-style:normal; font-size:16px; color:#F600A2;">
+                  &hearts;
+                </span>
+                </p>
+                <p style="margin:0 0 14px 0; font-family:'Poppins',Arial,Helvetica,sans-serif; font-weight:300; font-size:12px; color:#6E6E68;">
+                  Destyni Triplett, RN
+                  <br/>
+                  Founder and Dean, Rich Lash&reg; University
+                </p>
+                <p style="margin:0; font-family:'Poppins',Arial,Helvetica,sans-serif; font-weight:600; font-size:11px; letter-spacing:2px; text-transform:uppercase; color:#D4AF37;">
+                  Faith first. Work daily. Watch it come.
+                </p>
+              </td>
+            </tr>
+<!-- FOOTER -->
+            <tr>              
+              <td align="center" bgcolor="#0D0D0D" style="background-color:#0D0D0D; padding:24px 42px 28px 42px; border-top:1px solid #262026;">                
+                <p style="margin:0 0 8px 0; font-family:'Poppins',Arial,Helvetica,sans-serif; font-weight:500; font-size:11px; letter-spacing:4px; text-transform:uppercase; color:#EFE9E6;">
+                  RICH
+                  <span style="color:#F600A2;">L</span><span style="color:#7FD317;">A</span><span style="color:#4EBB19;">S</span><span style="color:#1E7D14;">H</span>&reg;
+                UNIVERSITY
+                </p>
+                <p style="margin:0 0 10px 0; font-family:'Poppins',Arial,Helvetica,sans-serif; font-weight:300; font-size:10.5px; line-height:2; letter-spacing:0.4px; color:#6B645F;">
+                  285 W Wieuca Rd STE 5285, Atlanta, GA 30342
+                  <br/>
+                  <a href="https://richlash.university/pages/privacy" style="color:#9A928D; text-decoration:none; letter-spacing:2px; text-transform:uppercase; font-size:10px;">
+                  Privacy
+                </a>
+                  <span style="color:#3A3540;">
+                  &nbsp;|&nbsp;
+                </span>
+                  <a href="{% unsubscribe_link %}" style="color:#9A928D; text-decoration:none; letter-spacing:2px; text-transform:uppercase; font-size:10px;">
+                  Unsubscribe
+                </a>
+                </p>
+                <p style="margin:0; font-family:'Poppins',Arial,Helvetica,sans-serif; font-weight:300; font-size:9.5px; line-height:1.8; color:#4A4540;">
+                  Results vary and are not guaranteed.
+                  <br/>
+                  This certification is a private program and does not replace any state license.
+                </p>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
     </table>
-  </td></tr>
-
-  <tr><td class="px" style="padding:26px 44px 0 44px;">
-    <p class="lead" style="margin:0;font-family:'Poppins','Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.72;font-weight:300;color:#A39BA0;"><span style="color:#F2EEF0;font-weight:500;">All you have to do is show up.</span> Whatever I know about why lashes fall out, you are going to know it too by nine o'clock, and you are going to walk into your next client already knowing what to do.</p>
-  </td></tr>
-
-  <!-- details -->
-  <tr><td class="px" style="padding:34px 44px 0 44px;">
-    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border:1px solid rgba(212,175,55,0.18);border-radius:4px;">
-      <tr><td style="padding:22px 24px;">
-        <p style="margin:0 0 8px 0;font-family:'Poppins','Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:9px;letter-spacing:3px;text-transform:uppercase;color:#6a626a;font-weight:500;">The Retention Room</p>
-        <p style="margin:0 0 4px 0;font-family:'Poppins','Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:19px;line-height:1.4;font-weight:400;color:#F2EEF0;">Tuesday, September 1</p>
-        <p style="margin:0;font-family:'Poppins','Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:14px;line-height:1.6;font-weight:300;color:#A39BA0;">8 PM ET &middot; 7 CT &middot; 6 MT &middot; 5 PT<br/>One live hour on Zoom</p>
-      </td></tr>
-    </table>
-  </td></tr>
-
-  <!-- button -->
-  <tr><td class="px btn" align="center" style="padding:32px 44px 0 44px;">
-    <!--[if mso]>
-    <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://us06web.zoom.us/j/82594734701?pwd=GpIauDg8vGWu5xIuST13kWU8hgBwtx.1" style="height:56px;v-text-anchor:middle;width:300px;" arcsize="50%" stroke="f" fillcolor="#F600A2"><w:anchorlock/><center style="color:#ffffff;font-family:'Segoe UI',Arial,sans-serif;font-size:14px;font-weight:bold;letter-spacing:1px;">YOUR ZOOM LINK</center></v:roundrect>
-    <![endif]-->
-    <!--[if !mso]><!-->
-    <a href="https://us06web.zoom.us/j/82594734701?pwd=GpIauDg8vGWu5xIuST13kWU8hgBwtx.1" style="display:inline-block;background-color:#F600A2;color:#ffffff;text-decoration:none;font-family:'Poppins','Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-weight:600;font-size:14px;letter-spacing:1px;text-transform:uppercase;padding:19px 44px;border-radius:40px;" target="_blank">Your Zoom Link</a>
-    <!--<![endif]-->
-    <p style="margin:14px 0 0 0;font-family:'Poppins','Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:11px;letter-spacing:1.4px;text-transform:uppercase;color:#6a626a;font-weight:500;">Save it now so you are not hunting at 7:58</p>
-  </td></tr>
-
-  <!-- bring -->
-  <tr><td class="px" style="padding:38px 44px 0 44px;">
-    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="height:1px;background-color:rgba(212,175,55,0.14);font-size:0;line-height:0;">&nbsp;</td></tr></table>
-    <p style="margin:26px 0 14px 0;font-family:'Poppins','Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:10px;letter-spacing:3px;text-transform:uppercase;color:#D4AF37;font-weight:500;">One thing before then</p>
-    <p class="lead" style="margin:0 0 18px 0;font-family:'Poppins','Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.72;font-weight:300;color:#A39BA0;"><span style="color:#F2EEF0;font-weight:500;">Go get your adhesive and write down the brand and the name.</span> It is on the bottle. Act One is chemistry and yours is going to come up.</p>
-    <p class="lead" style="margin:0;font-family:'Poppins','Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.72;font-weight:300;color:#A39BA0;"><span style="color:#F2EEF0;font-weight:500;">Have not taken your first client yet? Come anyway.</span> This part is a whole lot easier to learn before you have anything to unlearn.</p>
-  </td></tr>
-
-  <!-- signoff -->
-  <tr><td class="px" style="padding:38px 44px 0 44px;">
-    <p style="margin:0 0 6px 0;font-family:'Poppins','Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:15px;line-height:1.7;font-weight:300;color:#A39BA0;">See you tomorrow.</p>
-    <p style="margin:0 0 18px 0;font-family:'Poppins','Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:11px;letter-spacing:2.4px;text-transform:uppercase;color:#6a626a;font-weight:500;">Faith first. Work daily. Watch it come.</p>
-    <p style="margin:0;font-family:'Poppins','Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:26px;font-style:italic;font-weight:400;color:#F600A2;">Destyni &#9829;</p>
-  </td></tr>
-
-  <!-- footer -->
-  <tr><td class="px" style="padding:40px 44px 34px 44px;">
-    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="height:1px;background-color:rgba(212,175,55,0.14);font-size:0;line-height:0;">&nbsp;</td></tr></table>
-    <p style="margin:22px 0 0 0;text-align:center;font-family:'Poppins','Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:13px;letter-spacing:7px;font-weight:500;">
-      <span style="color:#F2EEF0;">RICH</span>&nbsp;<span style="color:#F600A2;">L</span><span style="color:#D4AF37;">A</span><span style="color:#4EBB19;">S</span><span style="color:#F600A2;">H</span>
-    </p>
-    <p style="margin:12px 0 0 0;text-align:center;font-family:'Poppins','Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:9px;line-height:1.8;letter-spacing:1.4px;text-transform:uppercase;color:#4a444a;font-weight:400;">
-      Destyni Lashed Me, Inc. &middot; Rich Lash&reg; is a registered trademark<br/>
-      Results vary and are not guaranteed<br/>
-      <a href="{% unsubscribe_link %}" style="color:#4a444a;text-decoration:underline;">Unsubscribe</a>
-    </p>
-  </td></tr>
-
-</table>
-</td></tr>
-</table>
-</body>
+  </body>
 </html>
