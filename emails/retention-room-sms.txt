@@ -1,24 +1,47 @@
-THE RETENTION ROOM
-Short-form confirmations. Tuesday, September 1, 2026, 8 PM ET.
+THE RETENTION ROOM — SMS SCHEDULE
+Tuesday, September 1, 2026. 8 PM ET.
 
-Zoom: https://us06web.zoom.us/j/82594734701?pwd=GpIauDg8vGWu5xIuST13kWU8hgBwtx.1
-Campus: https://www.skool.com/richlashuniversity/about
+Zoom:     https://us06web.zoom.us/j/82594734701?pwd=GpIauDg8vGWu5xIuST13kWU8hgBwtx.1
+Register: https://richlash.university/pages/retention-room
+Campus:   https://www.skool.com/richlashuniversity/about
 
-Klaviyo tag for the name: {{ person.first_name|default:'Love' }}
-SMS resolves profile fields under person. Bare first_name is an email-only tag
-and renders empty in a text.
-Every send below is written to work with the name missing.
+NAME TAG: {{ person.first_name|default:'Love' }}
+SMS resolves profile fields under person. A bare first_name tag is email-only
+and renders empty in a text. Do NOT use a full-name tag, it pulls first and
+last and reads like a robot mid-sentence.
 
 
 ================================================================
-1. SMS, sent the moment she registers
+1. 11:00 AM  ·  ALREADY REGISTERED                       [ SENT ]
 ================================================================
 
-Your seat in The Retention Room is saved, {{ person.first_name|default:'Love' }}.
+It's tonight {{ person.first_name|default:'Love' }}. 8 ET / 7 CT / 6 MT / 5 PT.
 
-Tuesday, Sept 1. 8 ET / 7 CT / 6 MT / 5 PT. One live hour.
+https://us06web.zoom.us/j/82594734701?pwd=GpIauDg8vGWu5xIuST13kWU8hgBwtx.1
 
-Before then, write down your adhesive brand and name. It's on the bottle. Not lashing yet? Just come.
+Real quick before then, what's the one thing about your retention you can't figure out? Text it back and I'll make sure I hit it tonight.
+
+- Destyni
+
+
+================================================================
+2. 12:00 PM  ·  NOT REGISTERED
+================================================================
+
+Hey {{ person.first_name|default:'Love' }}, The Retention Room is tonight at 8 ET and I'm telling y'all everything I know about why lashes fall out.
+
+Nothing to buy. No adhesive or kit yet? Come anyway. Bring your questions.
+
+https://richlash.university/pages/retention-room
+
+- Destyni
+
+
+================================================================
+3. 7:00 PM  ·  EVERYBODY REGISTERED
+================================================================
+
+One hour {{ person.first_name|default:'Love' }}. Go grab your adhesive so it's sitting next to you, or just bring your questions.
 
 https://us06web.zoom.us/j/82594734701?pwd=GpIauDg8vGWu5xIuST13kWU8hgBwtx.1
 
@@ -26,42 +49,7 @@ https://us06web.zoom.us/j/82594734701?pwd=GpIauDg8vGWu5xIuST13kWU8hgBwtx.1
 
 
 ================================================================
-1b. SMS, Monday August 31 evening, to everybody registered
-================================================================
-
-Tomorrow night, {{ person.first_name|default:'Love' }}. 8 PM ET.
-
-One hour on why lashes fall out around day nine. Before then, write down your adhesive brand and name. It's on the bottle.
-
-https://us06web.zoom.us/j/82594734701?pwd=GpIauDg8vGWu5xIuST13kWU8hgBwtx.1
-
-- Destyni
-
-
-================================================================
-1c. SMS, Tuesday September 1 morning, to everybody registered
-================================================================
-
-Tonight, {{ person.first_name|default:'Love' }}. 8 ET / 7 CT / 6 MT / 5 PT.
-
-https://us06web.zoom.us/j/82594734701?pwd=GpIauDg8vGWu5xIuST13kWU8hgBwtx.1
-
-- Destyni
-
-
-================================================================
-2. SMS, Tuesday September 1 at 7:00 PM ET
-================================================================
-
-One hour, {{ person.first_name|default:'Love' }}. Have your adhesive bottle where you can see it, or just bring your questions.
-
-https://us06web.zoom.us/j/82594734701?pwd=GpIauDg8vGWu5xIuST13kWU8hgBwtx.1
-
-- Destyni
-
-
-================================================================
-3. SMS, Tuesday September 1 at 7:55 PM ET
+4. 7:55 PM  ·  EVERYBODY REGISTERED
 ================================================================
 
 Doors are open. Come on in.
@@ -70,42 +58,13 @@ https://us06web.zoom.us/j/82594734701?pwd=GpIauDg8vGWu5xIuST13kWU8hgBwtx.1
 
 
 ================================================================
-4. Plain text email, if you want a text-only twin of the HTML
+5. WEDNESDAY  ·  ONLY THE WOMEN WHO WERE LIVE
 ================================================================
-Subject:  Your seat is saved
-Preview:  Tuesday night, 8 PM ET. Here is your link.
+The highest-value message of the whole week. Send it by hand, not as a
+campaign, to the ones who actually showed up.
 
-{{ person.first_name|default:'Love' }},
+You were in the room last night {{ person.first_name|default:'Love' }}, so I wanted to ask you personally.
 
-You're in. Your seat in The Retention Room is saved.
+What are you changing on your next client?
 
-Tuesday, September 1
-8 PM ET / 7 CT / 6 MT / 5 PT
-One live hour on Zoom
-
-Your link:
-https://us06web.zoom.us/j/82594734701?pwd=GpIauDg8vGWu5xIuST13kWU8hgBwtx.1
-
-Bring this:
-
-1. The name of the adhesive you're using right now. Brand, name, cure time.
-   It's on the bottle. Act One is chemistry and yours will come up.
-
-2. If you have one, a photo of a set that didn't last. Yours, not a stock
-   photo. You will not have to show it to anybody. It is just so you are
-   looking at something real.
-
-Bad retention is not a talent problem. It is a chemistry problem, and you
-cannot troubleshoot chemistry from memory.
-
-The Room runs 8 to 9. Campus members stay until 9:45 for the private
-breakdown and live reviews of your sets. If you want that half hour,
-it's here: https://www.skool.com/richlashuniversity/about
-
-See you Tuesday.
-
-Faith first. Work daily. Watch it come.
-
-Destyni
-
-{% unsubscribe_link %}
+- Destyni
