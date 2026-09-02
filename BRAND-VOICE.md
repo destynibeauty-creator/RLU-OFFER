@@ -49,3 +49,54 @@ changed without her. If she wants alignment, the swap is "fall out".
 Left alone on purpose: the `fail-safe` comment in the registration script, which
 is a programming term no reader sees, and "while you are holding the ticket" on
 the seat confirmed page, which is a hand holding an object.
+
+---
+
+## How Destyni actually texts (recorded Sept 2, from her own dictation)
+
+Every outreach text follows this shape. Do not write outreach any other way.
+
+1. **Greeting with the time of day, then who you are.**
+   "Good morning Kayla. It's Destyni with Rich Lash University."
+   She always identifies herself. Grasshopper is not a number they have saved.
+
+2. **Say how you know.**
+   "I was going through my files and I saw..."
+   She gives a reason for the message existing. It is never "I noticed you"
+   with no explanation, which reads like surveillance.
+
+3. **State the fact flat, no drama.**
+   "you were looking at the certification back in July and never finished
+   enrolling."
+
+4. **Give the relevant information without selling it.**
+   "We do have a cohort that starts next week."
+   A statement, not a pitch. No deadline pressure, no seat count, no urgency.
+
+5. **Hand them the out, before they ask for it.**
+   "If you moved on from it, I get it, no hard feelings, just let me know."
+
+6. **Close soft.**
+   "But I did want to check in with you and see where you're currently at."
+
+### What she does NOT say
+
+These are mine, not hers. She corrected all of them:
+
+- "Tell me the real one and I'll tell you the truth."
+- "I'm not about to pitch you."
+- "Which one are you?"
+- "I'd rather know that now than pretend it's nothing."
+- "Tell me straight."
+- Forcing a choice between two framed options.
+- Any rhetorical challenge. She is warm and she leaves room. The directness
+  lives in the facts being plain, not in pressing the person.
+
+She also asks rather than defers. "Tell me more about that" beats "I'll come
+back to that once I know what we're solving."
+
+### Mechanics
+- Standard contractions are correct in a text. Her sent SMS reads "It's
+  tonight", "I'm telling y'all everything", "I'll make sure I hit it."
+- Still no "ain't", "finna", "gonna" in anything written.
+- Still no sentence starting with "And", even when she says it out loud.
