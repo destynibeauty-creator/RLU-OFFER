@@ -91,6 +91,12 @@ These are mine, not hers. She corrected all of them:
 - Forcing a choice between two framed options.
 - Any rhetorical challenge. She is warm and she leaves room. The directness
   lives in the facts being plain, not in pressing the person.
+- **"I never followed up with you" and "that's on me."** Do not put this in
+  outreach. She calls people. She chases. Writing that she dropped them is
+  usually false, and it makes her sound like an educator who lets women fall
+  through, which is the opposite of who she is. If a thread genuinely went
+  quiet on her end and she says so herself, she can own it in that one
+  message. Never write it as a default opener.
 
 She also asks rather than defers. "Tell me more about that" beats "I'll come
 back to that once I know what we're solving."
