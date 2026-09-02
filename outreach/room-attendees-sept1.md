@@ -5,6 +5,11 @@
 Numbers matched against the Shopify customer list. Send from Grasshopper,
 by hand, one at a time. Not a campaign.
 
+**Every message opens with who it is from.** Grasshopper is a number none
+of these women have saved. A stranger texting at night about money reads
+like a scam, and the answer to a scam is silence. "It's Destyni with Rich
+Lash University" in the first line is what makes the rest of it get read.
+
 ---
 
 ## TIER ONE · text these three first
@@ -23,35 +28,41 @@ that unless something in it landed.
 
 ### Alicia · send now
 
-> Hey Alicia. You told me this morning your thing was figuring out the
-> right glue, and that is exactly what I opened with tonight.
+> Hey Alicia, it's Destyni with Rich Lash University.
+>
+> You told me this morning your thing was figuring out the right glue, and
+> that's exactly what I opened with tonight.
 >
 > You made it all the way to the checkout page and something stopped you.
 >
-> I am not about to pitch you. I just want to know what it was. The money,
-> the timing, or something about the program you are not sure about?
+> I'm not about to pitch you. I just want to know what it was. The money,
+> the timing, or something about the program you're not sure about?
 >
-> Tell me the real one and I will tell you the truth.
+> Tell me the real one and I'll tell you the truth.
 
 ### Lakenya · send at 9 AM
 
-> Hey Lakenya. You stayed all the way to the end tonight, past nine even,
-> and I noticed.
+> Hey Lakenya, it's Destyni with Rich Lash University.
 >
-> So let me just ask you straight. What is the thing that has you stuck?
-> The money, the timing, or you are not sure it will work for you?
+> You stayed all the way to the end last night, past nine even, and I
+> noticed.
 >
-> Whatever it is, tell me the real one. I am not going to pressure you.
+> So let me just ask you straight. What's the thing that has you stuck?
+> The money, the timing, or you're not sure it'll work for you?
+>
+> Whatever it is, tell me the real one. I'm not going to pressure you.
 
 ### Sabrina · send at 9 AM
 
-> Hey Sabrina. You were in the room with me almost the whole hour tonight
-> and I appreciate you for that.
+> Hey Sabrina, it's Destyni with Rich Lash University.
 >
-> Real question. What are you changing on your next client after tonight?
+> You were in the room with me almost the whole hour last night and I
+> appreciate you for that.
+>
+> Real question. What are you changing on your next client?
 >
 > And if something about the certification is sitting funny with you, say
-> that too. I would rather know.
+> that too. I'd rather know.
 
 ---
 
@@ -63,11 +74,13 @@ that unless something in it landed.
 | **Hannah Cotter** | 779-970-4266 | Email matches exactly |
 | **Amber Thomas** | 404-216-6900 | Two Ambers attended. Eight Ambers in your list, this is the only one with a number on file, so it may or may not be her. |
 
-> Hey [name]. You were in the Retention Room with me last night.
+> Hey [name], it's Destyni with Rich Lash University.
+>
+> You were in the Retention Room with me last night.
 >
 > What are you changing on your next client?
 >
-> Tell me and I will tell you if that is the right place to start.
+> Tell me and I'll tell you if that's the right place to start.
 
 ---
 
