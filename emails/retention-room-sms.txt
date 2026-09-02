@@ -2,7 +2,7 @@ THE RETENTION ROOM — SMS SCHEDULE
 Tuesday, September 1, 2026. 8 PM ET.
 
 Zoom:     https://us06web.zoom.us/j/82594734701?pwd=GpIauDg8vGWu5xIuST13kWU8hgBwtx.1
-Register: https://richlash.university/pages/retention-room
+Register: https://richlash.university/pages/retentionroom
 Campus:   https://www.skool.com/richlashuniversity/about
 
 NAME TAG: {{ person.first_name|default:'Love' }}
@@ -32,7 +32,7 @@ Hey {{ person.first_name|default:'Love' }}, The Retention Room is tonight at 8 E
 
 Nothing to buy. No adhesive or kit yet? Come anyway. Bring your questions.
 
-https://richlash.university/pages/retention-room
+https://richlash.university/pages/retentionroom
 
 - Destyni
 
