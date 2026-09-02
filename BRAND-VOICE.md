@@ -100,3 +100,11 @@ back to that once I know what we're solving."
   tonight", "I'm telling y'all everything", "I'll make sure I hit it."
 - Still no "ain't", "finna", "gonna" in anything written.
 - Still no sentence starting with "And", even when she says it out loud.
+
+### Dates, get them right
+- **The Retention Room was Tuesday, September 1.** Not Monday.
+- **Cohort 2 starts Monday, September 7.** Doors close Sunday the 6th, kit
+  cutoff Thursday the 3rd.
+- Those are two different days and running them together has already put
+  the wrong day into sent messages. When writing outreach, say "last night"
+  or name the actual date rather than a weekday from memory.
