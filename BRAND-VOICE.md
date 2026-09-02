@@ -114,3 +114,19 @@ back to that once I know what we're solving."
 - Those are two different days and running them together has already put
   the wrong day into sent messages. When writing outreach, say "last night"
   or name the actual date rather than a weekday from memory.
+
+### Application answers age. Do not lead with them.
+
+The Ready To Invest field (ready / plan / talk) is context for her, not an
+opener for the woman. Most of these applications are from June and July.
+By September her money, her job, her training and her interest have all had
+two months to change.
+
+**Lead with a question about where she is now.** Let her say whether money
+is still the issue. Then RLU Pay answers a live objection instead of
+guessing at an old one.
+
+Price belongs in the message only when the woman is actively deciding right
+now: she just said yes, she asked what it costs, or she is mid-conversation
+about enrolling. Marquisa got the link because she answered "yes" first.
+Amber got the number because she had asked three questions in a row.
