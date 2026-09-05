@@ -138,13 +138,42 @@ than chasing views.
 
 ---
 
+## Decided since (Sept 5)
+
+**$1M means total 2026 revenue.** She has collected about $60,000 this year,
+so the gap is roughly $940,000 in the remaining four months against a
+business currently running near $7,500 a month. Told her plainly that the
+arithmetic does not hold, that $1M is a 2027 number, and that a genuinely
+aggressive Q4 lands somewhere around double to triple the year. She wants
+the plan for $940,000 anyway, and that plan is written against real market
+prices rather than against the target.
+
+**Audience: @profashionalist 3,838, @richdestyni 9,211.** Around 48,000
+views a month across both. That rules THE SCENE education ladder out as a Q4
+revenue line, since a hundred buyers at $2,997 would be nearly one percent of
+the entire following. It is a 2027 engine. Build it, do not bank on it.
+
+**The buyer is the brand buyer, not the performance buyer.** Character
+consistency is the moat, and a performance buyer does not want consistency,
+they want variation. The skill only gets paid for on the brand side. A volume
+tier waits until there is one client's numbers to point at.
+
+**The wedge is rendering Black customers correctly.** Skin, hair, beards,
+edges, waves, styling. Him and her. That is the one claim on the card that is
+hard to copy and it leads the page. Target list follows from it: Black-owned
+beauty, hair and wig brands, grooming, barbershops, menswear, sneakers,
+spirits, and any brand whose customer keeps getting rendered wrong.
+
+**Distribution is the binding constraint on everything except outbound.**
+Nothing has broken out yet on Instagram. TikTok is the cheap shot at reach
+using the existing library. Outbound brand pitching runs in parallel because
+it is the one engine that does not need an audience.
+
 ## Open questions (mine, not hers)
 
-1. Is $1M total 2026 revenue, or new revenue Sept through Jan? Everything
-   downstream changes on this answer. Do not model until she says.
-2. Follower counts on @richdestyni and @profashionalist. Audience size is the
-   gating variable in every version of the plan.
-3. What the offer ladder above $9 actually is, and at what prices.
+1. Whether to add a performance or volume tier once a first case study exists.
+2. The rate card carries no proof at all. First real client, a before and
+   after belongs on it.
 
 ## Rules that carry over
 
