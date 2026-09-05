@@ -6,10 +6,13 @@ Everyone SMS-subscribed. Do not exclude the people already mid-conversation. The
 
 ## Copy
 
-Hey {{ person.first_name|default:'Love' }}, it's Destyni. Monday is the last certification cohort I'm running this year. The next one is next year. Doors close tomorrow night at 11:59. If you've been sitting on it, now is when you tell me.
+Hey {{ person.first_name|default:'Love' }}, it's Destyni. Monday is the last certification cohort I'm running this year. I'm in every session of these myself, so after this one I'm giving the rest of the year to my own work. The next one is next year.
+
+$750 puts you in it. Doors close tomorrow at 11:59.
 
 https://richlash.university/pages/enroll
 
 ## Notes
 - Do not write "doors are closed." They are not closed until Sunday night.
-- Do not add a discount. The deadline is the reason.
+- Do not add a discount. The deadline and the $750 are the reason.
+- Lead with the $750, not the $2,997. The down payment is the decision.
