@@ -11,7 +11,7 @@ cannot hold a character across two videos. That is the product.
 
 ---
 
-## 1 · THE PILOT — $7,500
+## 1 · THE PILOT — $3,500
 
 For a brand that wants to see it work before committing.
 
@@ -21,7 +21,7 @@ For a brand that wants to see it work before committing.
 - 2 rounds of revisions
 - 2 weeks
 
-## 2 · THE CAMPAIGN — $35,000
+## 2 · THE CAMPAIGN — $15,000
 
 A full product launch or seasonal campaign.
 
@@ -33,18 +33,20 @@ A full product launch or seasonal campaign.
 - 3 rounds of revisions
 - 3 weeks
 
-## 3 · THE CHARACTER — $75,000
+## 3 · THE CHARACTER AND WORLD — $30,000
 
 The brand owns a spokesperson who never ages, never reschedules, and never
 renegotiates.
 
-- Full character bible: face, body, proportions, hair, voice, wardrobe,
-  personality, continuity rules, recurring world
+- 1 lead character, full bible: face, body, proportions, hair, voice,
+  wardrobe, personality, continuity rules
+- 1 supporting character in the same world, him and her
+- 4 recurring locations built to the brand, reusable on every future asset
 - Launch campaign: 1 hero, 8 cutdowns, 20 stills
 - Character files and usage rights transfer to the brand
 - 6 weeks
 
-## 4 · CREATIVE DIRECTION RETAINER — $15,000/month
+## 4 · CREATIVE DIRECTION RETAINER — $8,000/month
 Three month minimum.
 
 - 4 hero pieces a month
@@ -59,8 +61,11 @@ Three month minimum.
 
 | | |
 | --- | --- |
-| Additional cutdown | $750 |
-| Additional still | $250 |
+| Additional cutdown | $400 |
+| Additional still | $150 |
+| Second lead character | $9,000 |
+| Additional supporting character | $4,000 |
+| Additional world location | $2,500 |
 | Rush, under 10 days | +35% |
 | Broadcast or paid usage beyond 12 months | quoted |
 
@@ -73,14 +78,31 @@ Net 30 available for brands that require it, quoted at +10%.
 
 ---
 
-## What $940,000 looks like on this card
+## Pricing basis, September 2026
+
+Set against observed market, not against a revenue target. Published ranges
+at the time: virtual influencer character builds run $500 to $5,000 simple,
+$5,000 to $20,000 polished, $20,000 and up with video, voice and automation.
+AI creative agency retainers run roughly $4,300 to $23,000 a month. AI video
+ads from performance agencies run $100 to $500 each. Traditional brand video
+runs $5,000 to $15,000 per piece.
+
+The first version of this card was priced backwards, by dividing a revenue
+goal by an achievable deal count. It came out two to four times market.
+
+The premium over the commodity end is earned by two things the cheap end does
+not do: rendering Black skin, hair and styling correctly, and holding one
+character consistent across a whole campaign.
+
+## What $940,000 looks like at these prices
 
 | Mix | Count | Total |
 | --- | --- | --- |
-| The Character, $75,000 | 8 | $600,000 |
-| The Campaign, $35,000 | 8 | $280,000 |
-| Retainer, $15,000/mo | 4 months | $60,000 |
-| | | **$940,000** |
+| Character and World, $30,000 | 22 | $660,000 |
+| The Campaign, $15,000 | 14 | $210,000 |
+| Retainer, $8,000/mo | 9 months | $72,000 |
+| | | **$942,000** |
 
-Twenty transactions, not three hundred. That is the whole reason this line
-exists and everything else does not.
+Forty-five transactions, not twenty. Correcting the prices to market moved
+the number further away. That is the honest consequence and it belongs
+written down.
