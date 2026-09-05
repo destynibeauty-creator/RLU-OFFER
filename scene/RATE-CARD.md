@@ -33,12 +33,14 @@ A full product launch or seasonal campaign.
 - 3 rounds of revisions
 - 3 weeks
 
-## 3 · THE CHARACTER AND WORLD — $30,000
+## 3 · THE CHARACTER OR TWIN — $30,000
 
 The brand owns a spokesperson who never ages, never reschedules, and never
 renegotiates.
 
-- 1 lead character, full bible: face, body, proportions, hair, voice,
+- Two ways in: an original character built for the brand, or an AI twin of
+  a real person with their signed likeness release
+- 1 lead, full bible: face, body, proportions, hair, voice,
   wardrobe, personality, continuity rules
 - 1 supporting character in the same world, him and her
 - 4 recurring locations built to the brand, reusable on every future asset
