@@ -1,0 +1,488 @@
+<title>The Scene AI Rate Card</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&family=Saira+Condensed:wght@500;600;700;800&display=swap">
+<style>
+  :root{
+    --black:#000000;
+    --charcoal:#0F0F12;
+    --raise:#16161B;
+    --silver:#C0C3C7;
+    --white:#F7F7F5;
+    --cyan:#00E5FF;
+    --magenta:#F600A2;
+    --lime:#C6FF00;
+    --muted:#8A8D93;
+    --faint:#5A5D64;
+    --line:#22222A;
+
+    --display:"Saira Condensed","Poppins",Impact,sans-serif;
+    --body:"Poppins",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  }
+
+  *{box-sizing:border-box;}
+
+  body{
+    background:var(--black);
+    color:var(--white);
+    font-family:var(--body);
+    font-weight:300;
+    font-size:16px;
+    line-height:1.75;
+    -webkit-font-smoothing:antialiased;
+  }
+
+  .wrap{max-width:1000px;margin:0 auto;padding:0 34px 120px;}
+
+  /* metallic silver text */
+  .metal{
+    color:var(--silver);
+    background:linear-gradient(176deg,#FFFFFF 0%,#E6E8EA 22%,#B9BDC2 48%,#7E8288 62%,#D9DCDF 82%,#F7F7F5 100%);
+    -webkit-background-clip:text;
+    background-clip:text;
+    -webkit-text-fill-color:transparent;
+  }
+  @supports not (-webkit-background-clip:text){ .metal{color:var(--silver);background:none;} }
+
+  /* corner bracket device */
+  .brackets{position:relative;}
+  .brackets::before,.brackets::after{
+    content:"";position:absolute;width:26px;height:26px;pointer-events:none;
+  }
+  .brackets::before{top:0;left:0;border-top:2px solid var(--magenta);border-left:2px solid var(--magenta);}
+  .brackets::after{bottom:0;right:0;border-bottom:2px solid var(--cyan);border-right:2px solid var(--cyan);}
+
+  /* ---------- masthead ---------- */
+  .masthead{padding:64px 0 46px;border-bottom:1px solid var(--line);}
+  .lockup{padding:26px 30px;display:inline-flex;flex-direction:column;gap:2px;}
+  .lockup .the{
+    font-family:var(--display);font-weight:600;font-size:15px;
+    letter-spacing:0.5em;text-transform:uppercase;color:var(--white);
+    margin-left:3px;
+  }
+  .lockup .word{
+    font-family:var(--display);font-weight:800;
+    font-size:clamp(46px,9vw,86px);line-height:0.92;
+    letter-spacing:0.005em;text-transform:uppercase;
+    display:flex;align-items:baseline;gap:0.14em;
+  }
+  .lockup .ai .a{color:var(--cyan);}
+  .lockup .ai .i{color:var(--magenta);}
+
+  .tagline{
+    margin-top:26px;
+    font-family:var(--display);font-weight:600;
+    font-size:clamp(17px,2.4vw,23px);
+    letter-spacing:0.16em;text-transform:uppercase;
+    color:var(--muted);
+  }
+  .tagline b{color:var(--cyan);font-weight:600;}
+  .tagline i{color:var(--magenta);font-style:normal;font-weight:600;}
+
+  .meta{
+    margin-top:32px;display:flex;flex-wrap:wrap;gap:8px 26px;
+    font-size:11px;letter-spacing:0.2em;text-transform:uppercase;
+    color:var(--faint);font-weight:500;
+  }
+  .meta .now{color:var(--lime);}
+
+  /* ---------- thesis ---------- */
+  .thesis{padding:52px 0 0;display:grid;gap:22px;max-width:64ch;}
+  .thesis .big{
+    font-family:var(--display);font-weight:800;
+    font-size:clamp(30px,5vw,50px);line-height:1.02;
+    text-transform:uppercase;letter-spacing:0.01em;
+    text-wrap:balance;
+  }
+  .thesis p{margin:0;font-size:16.5px;color:var(--silver);}
+  .thesis p.dim{color:var(--muted);}
+  .thesis strong{color:var(--white);font-weight:500;}
+
+  /* ---------- section heads ---------- */
+  .section{padding-top:86px;}
+  .section-head{
+    display:flex;align-items:baseline;gap:22px;
+    padding-bottom:26px;border-bottom:1px solid var(--line);
+  }
+  .section-head h2{
+    font-family:var(--display);font-weight:800;
+    font-size:clamp(26px,3.6vw,38px);line-height:1;
+    text-transform:uppercase;letter-spacing:0.015em;margin:0;
+  }
+  .section-head .tag{
+    margin-left:auto;font-size:10.5px;letter-spacing:0.22em;
+    text-transform:uppercase;color:var(--faint);font-weight:500;white-space:nowrap;
+  }
+
+  /* ---------- tiers ---------- */
+  .tier{
+    display:grid;grid-template-columns:minmax(240px,310px) 1fr;gap:44px;
+    padding:44px 0;border-bottom:1px solid var(--line);
+  }
+  .tier-id{display:flex;flex-direction:column;gap:12px;}
+  .tier-name{
+    font-family:var(--display);font-weight:700;font-size:15px;
+    letter-spacing:0.26em;text-transform:uppercase;color:var(--cyan);
+  }
+  .tier-price{
+    font-family:var(--display);font-weight:800;
+    font-size:clamp(44px,6.5vw,64px);line-height:0.95;
+    letter-spacing:0.005em;font-variant-numeric:tabular-nums;
+  }
+  .tier-price .per{
+    display:block;margin-top:10px;
+    font-family:var(--body);font-size:13px;font-weight:300;
+    letter-spacing:0.04em;color:var(--muted);text-transform:none;
+    -webkit-text-fill-color:var(--muted);background:none;
+  }
+  .tier-for{font-size:14.5px;color:var(--muted);line-height:1.65;max-width:34ch;}
+  .tier-body{display:flex;flex-direction:column;gap:20px;}
+  .tier-body > p{margin:0;font-size:15.5px;color:var(--silver);max-width:58ch;}
+
+  .spec{
+    display:grid;grid-template-columns:auto 1fr;gap:11px 22px;
+    font-size:13.5px;line-height:1.6;
+  }
+  .spec dt{
+    color:var(--faint);letter-spacing:0.16em;text-transform:uppercase;
+    font-size:10.5px;font-weight:500;padding-top:3px;white-space:nowrap;
+  }
+  .spec dd{margin:0;color:var(--white);font-weight:300;}
+
+  /* the one lift */
+  .tier.hero{
+    background:var(--charcoal);
+    padding:52px 34px 46px;margin:0 -34px;
+    border-bottom:1px solid var(--line);
+  }
+  .tier.hero .tier-name{color:var(--magenta);}
+  .flag{
+    align-self:flex-start;
+    font-size:10px;letter-spacing:0.24em;text-transform:uppercase;
+    color:var(--black);background:var(--lime);font-weight:600;
+    padding:4px 10px;
+  }
+
+  /* ---------- tables ---------- */
+  .table-scroll{overflow-x:auto;}
+  table{width:100%;border-collapse:collapse;font-size:14.5px;min-width:460px;}
+  th{
+    font-size:10.5px;letter-spacing:0.2em;text-transform:uppercase;
+    color:var(--faint);font-weight:500;text-align:left;
+    padding:22px 18px 12px 0;border-bottom:1px solid var(--line);
+  }
+  th.num,td.num{text-align:right;padding-right:0;font-variant-numeric:tabular-nums;}
+  td{padding:15px 18px 15px 0;border-bottom:1px solid var(--line);color:var(--muted);vertical-align:top;}
+  td.k{color:var(--white);font-weight:400;}
+  td.num{color:var(--cyan);font-weight:500;white-space:nowrap;}
+
+  /* ---------- process ---------- */
+  .step{
+    display:grid;grid-template-columns:62px 1fr;gap:26px;
+    padding:26px 0;border-bottom:1px solid var(--line);align-items:start;
+  }
+  .step-n{
+    font-family:var(--display);font-weight:800;font-size:32px;line-height:1;
+    color:var(--magenta);font-variant-numeric:tabular-nums;padding-top:1px;
+  }
+  .step h3{
+    font-family:var(--display);font-weight:700;font-size:19px;
+    text-transform:uppercase;letter-spacing:0.09em;
+    margin:0 0 8px;color:var(--white);
+  }
+  .step p{margin:0;font-size:14.5px;color:var(--muted);max-width:62ch;}
+  .step .when{
+    display:block;margin-top:10px;font-size:10.5px;letter-spacing:0.2em;
+    text-transform:uppercase;color:var(--cyan);font-weight:500;
+  }
+
+  /* ---------- two-up ---------- */
+  .duo{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:0 56px;}
+  .col{padding-top:34px;}
+  .col h3{
+    font-size:10.5px;letter-spacing:0.24em;text-transform:uppercase;
+    color:var(--cyan);font-weight:600;margin:0 0 18px;
+  }
+  .col.neg h3{color:var(--faint);}
+  .col ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:13px;}
+  .col li{font-size:14.5px;color:var(--muted);line-height:1.6;padding-left:22px;position:relative;}
+  .col li::before{content:"";position:absolute;left:0;top:11px;width:9px;height:2px;background:var(--cyan);}
+  .col.neg li::before{background:var(--faint);}
+
+  /* ---------- q&a ---------- */
+  .q{padding:28px 0;border-bottom:1px solid var(--line);}
+  .q h3{
+    font-family:var(--display);font-weight:700;font-size:21px;
+    text-transform:uppercase;letter-spacing:0.05em;
+    margin:0 0 10px;color:var(--white);line-height:1.2;
+  }
+  .q p{margin:0;font-size:14.5px;color:var(--muted);max-width:64ch;}
+
+  /* ---------- close ---------- */
+  .close{margin-top:88px;background:var(--charcoal);padding:56px 40px;}
+  .close h2{
+    font-family:var(--display);font-weight:800;
+    font-size:clamp(30px,5vw,52px);line-height:1.0;
+    text-transform:uppercase;margin:0 0 20px;letter-spacing:0.01em;
+  }
+  .close p{margin:0;color:var(--muted);font-size:15px;max-width:58ch;}
+  .contact{display:flex;flex-wrap:wrap;gap:14px 40px;padding-top:28px;font-size:13.5px;}
+  .contact span{
+    display:block;margin-bottom:5px;color:var(--faint);
+    font-size:10px;letter-spacing:0.24em;text-transform:uppercase;font-weight:500;
+  }
+  .contact a{color:var(--cyan);text-decoration:none;border-bottom:1px solid rgba(0,229,255,0.3);padding-bottom:2px;}
+  .contact a:hover{border-bottom-color:var(--cyan);}
+  a:focus-visible{outline:2px solid var(--magenta);outline-offset:3px;}
+
+  footer{
+    padding-top:56px;font-size:10.5px;letter-spacing:0.2em;
+    text-transform:uppercase;color:var(--faint);font-weight:500;
+  }
+
+  @media (max-width:760px){
+    .wrap{padding:0 22px 88px;}
+    .tier{grid-template-columns:1fr;gap:26px;}
+    .tier.hero{margin:0 -22px;padding:44px 22px;}
+    .step{grid-template-columns:42px 1fr;gap:18px;}
+    .close{padding:40px 24px;}
+    .brackets::before,.brackets::after{width:18px;height:18px;}
+  }
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;}}
+</style>
+
+<div class="wrap">
+
+  <header class="masthead">
+    <div class="lockup brackets">
+      <div class="the">The</div>
+      <div class="word">
+        <span class="metal">Scene</span>
+        <span class="ai"><span class="a">A</span><span class="i">I</span></span>
+      </div>
+    </div>
+    <div class="tagline">Create cinematic content. <b>Build</b> <i>your digital world.</i></div>
+    <div class="meta">
+      <div>Destyni Triplett, RN</div>
+      <div>AI Creative Director</div>
+      <div>@profashionalist</div>
+      <div class="now">Rate card · Sept 2026</div>
+    </div>
+  </header>
+
+  <div class="thesis">
+    <div class="big metal">We don't generate content.<br>We build worlds.</div>
+    <p>You already know what a production day costs you. The studio, the talent booking, the location fee, the glam team, the retouching, and the six weeks between the brief and the first usable cut.</p>
+    <p>I direct campaigns that skip all of it. You get the hero, the cutdowns and the stills, built to your brand, delivered in weeks instead of quarters, and revised without rebooking anybody.</p>
+    <p class="dim"><strong>The part most people cannot do:</strong> hold one character across an entire campaign. Same face, same body, same voice, same world, in January and in June. Most AI content falls apart by the second asset. That consistency is the product, and it is the reason the top tier on this card exists.</p>
+  </div>
+
+  <section class="section">
+    <div class="section-head">
+      <h2 class="metal">Engagements</h2>
+      <div class="tag">Four ways to work</div>
+    </div>
+
+    <article class="tier">
+      <div class="tier-id">
+        <div class="tier-name">The Pilot</div>
+        <div class="tier-price metal">$7,500</div>
+        <p class="tier-for">For a brand that wants to see it work on their own product before committing a campaign budget.</p>
+      </div>
+      <div class="tier-body">
+        <p>One finished piece built around a single product, cut for the placements you actually run.</p>
+        <dl class="spec">
+          <dt>Hero</dt><dd>1 video, up to 30 seconds</dd>
+          <dt>Cutdowns</dt><dd>3 vertical, :06 / :15 / :30</dd>
+          <dt>Stills</dt><dd>5 finished frames</dd>
+          <dt>Revisions</dt><dd>2 rounds</dd>
+          <dt>Turnaround</dt><dd>2 weeks from brief</dd>
+          <dt>Usage</dt><dd>Organic and paid social, 12 months</dd>
+        </dl>
+      </div>
+    </article>
+
+    <article class="tier">
+      <div class="tier-id">
+        <div class="tier-name">The Campaign</div>
+        <div class="tier-price metal">$35,000</div>
+        <p class="tier-for">A product launch, a seasonal push, or a full refresh of a brand's creative library.</p>
+      </div>
+      <div class="tier-body">
+        <p>Concept and direction included. I bring the idea, not just the execution, and a character built to your brand rather than a stock face.</p>
+        <dl class="spec">
+          <dt>Concept</dt><dd>Written treatment, 2 directions to choose from</dd>
+          <dt>Hero</dt><dd>1 video, up to 60 seconds</dd>
+          <dt>Cutdowns</dt><dd>6, cut for paid, Reels, TikTok and Shorts</dd>
+          <dt>Stills</dt><dd>15 finished frames</dd>
+          <dt>Character</dt><dd>1, built to the brand, held across every asset</dd>
+          <dt>Revisions</dt><dd>3 rounds</dd>
+          <dt>Turnaround</dt><dd>3 weeks from approved treatment</dd>
+          <dt>Usage</dt><dd>All digital, 24 months</dd>
+        </dl>
+      </div>
+    </article>
+
+    <article class="tier hero brackets">
+      <div class="tier-id">
+        <div class="flag">Most requested</div>
+        <div class="tier-name">The Character</div>
+        <div class="tier-price metal">$75,000</div>
+        <p class="tier-for">A spokesperson the brand owns outright. She does not age, reschedule, post something regrettable, or renegotiate next year.</p>
+      </div>
+      <div class="tier-body">
+        <p>One character. A whole world. This is the tier nobody else is really selling, because the hard part is not generating a pretty face. It is producing that same face, body, wardrobe and voice a hundred times across a year without her drifting. That takes a bible and someone maintaining it.</p>
+        <dl class="spec">
+          <dt>Bible</dt><dd>Face, body, proportions, hair, voice, wardrobe rules, personality, world, continuity notes</dd>
+          <dt>Launch</dt><dd>1 hero up to 60s, 8 cutdowns, 20 stills</dd>
+          <dt>Handover</dt><dd>Character files and reference set transfer to the brand</dd>
+          <dt>Revisions</dt><dd>3 rounds on the character, 3 on the campaign</dd>
+          <dt>Turnaround</dt><dd>6 weeks</dd>
+          <dt>Usage</dt><dd>Perpetual, all media, brand owns the character</dd>
+        </dl>
+      </div>
+    </article>
+
+    <article class="tier">
+      <div class="tier-id">
+        <div class="tier-name">Creative Direction</div>
+        <div class="tier-price metal">$15,000<span class="per">per month · three month minimum</span></div>
+        <p class="tier-for">For a brand that does not need one campaign. They need someone running their content, every month, on brand, on continuity.</p>
+      </div>
+      <div class="tier-body">
+        <p>Standing production. Continuity held month over month, so December's asset still looks like it belongs beside September's.</p>
+        <dl class="spec">
+          <dt>Hero</dt><dd>4 pieces per month</dd>
+          <dt>Cutdowns</dt><dd>12 per month</dd>
+          <dt>Stills</dt><dd>20 per month</dd>
+          <dt>Direction</dt><dd>Monthly call, quarterly creative plan</dd>
+          <dt>Priority</dt><dd>Rush requests absorbed at no surcharge</dd>
+          <dt>Usage</dt><dd>All digital, perpetual, for the term and after</dd>
+        </dl>
+      </div>
+    </article>
+  </section>
+
+  <section class="section">
+    <div class="section-head">
+      <h2 class="metal">Add-ons</h2>
+      <div class="tag">Priced per unit</div>
+    </div>
+    <div class="table-scroll">
+      <table>
+        <thead><tr><th>Item</th><th>Detail</th><th class="num">Rate</th></tr></thead>
+        <tbody>
+          <tr><td class="k">Additional cutdown</td><td>Any aspect ratio, from delivered material</td><td class="num">$750</td></tr>
+          <tr><td class="k">Additional still</td><td>Finished frame, 4000px long edge</td><td class="num">$250</td></tr>
+          <tr><td class="k">Additional character</td><td>Second face in the same world, full bible</td><td class="num">$18,000</td></tr>
+          <tr><td class="k">Rush</td><td>Delivery under 10 days</td><td class="num">+35%</td></tr>
+          <tr><td class="k">Broadcast or OOH usage</td><td>Beyond digital placements</td><td class="num">Quoted</td></tr>
+          <tr><td class="k">Usage extension</td><td>Past the term in the engagement</td><td class="num">Quoted</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head">
+      <h2 class="metal">Delivery spec</h2>
+      <div class="tag">Same on every engagement</div>
+    </div>
+    <div class="table-scroll">
+      <table>
+        <thead><tr><th>Asset</th><th>Format</th><th>Ratios</th></tr></thead>
+        <tbody>
+          <tr><td class="k">Hero video</td><td>ProRes master plus H.264 delivery, 4K</td><td>16:9 and 9:16</td></tr>
+          <tr><td class="k">Cutdowns</td><td>H.264, 1080p and 4K</td><td>9:16, 1:1, 4:5, 16:9</td></tr>
+          <tr><td class="k">Stills</td><td>PNG and JPG, 4000px long edge</td><td>Vertical, square, horizontal</td></tr>
+          <tr><td class="k">Captions</td><td>Burned-in and separate SRT</td><td>Included</td></tr>
+          <tr><td class="k">Handoff</td><td>Organized drive folder, named to your convention</td><td>Yours to keep</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head">
+      <h2 class="metal">How it runs</h2>
+      <div class="tag">Brief to delivery</div>
+    </div>
+    <div class="step"><div class="step-n">1</div><div>
+      <h3>Brief</h3>
+      <p>A 30 minute call. What the product is, who it is for, where the assets are running, and what you have hated about your last three campaigns.</p>
+      <span class="when">Day 1</span></div></div>
+    <div class="step"><div class="step-n">2</div><div>
+      <h3>Treatment</h3>
+      <p>Two written directions with reference frames. You pick one, or we take pieces from both. Nothing gets built until this is approved in writing.</p>
+      <span class="when">Days 2 to 5</span></div></div>
+    <div class="step"><div class="step-n">3</div><div>
+      <h3>Character lock</h3>
+      <p>The face, body, wardrobe and world get set and signed off before a single final asset is produced. Changing her after this point restarts the build, which is why it happens here.</p>
+      <span class="when">Days 5 to 10</span></div></div>
+    <div class="step"><div class="step-n">4</div><div>
+      <h3>Build and review</h3>
+      <p>Hero first, then cutdowns and stills off the approved hero. Revisions come back as one consolidated list per round, not in pieces.</p>
+      <span class="when">Balance of the term</span></div></div>
+    <div class="step"><div class="step-n">5</div><div>
+      <h3>Handoff</h3>
+      <p>Every file, every ratio, organized and named. Plus a short written note on how the character was built, so your team can brief the next round accurately.</p>
+      <span class="when">Final week</span></div></div>
+  </section>
+
+  <section class="section">
+    <div class="section-head">
+      <h2 class="metal">Before we start</h2>
+      <div class="tag">What each side brings</div>
+    </div>
+    <div class="duo">
+      <div class="col">
+        <h3>What I need from you</h3>
+        <ul>
+          <li>Product images, or the physical product shipped to me</li>
+          <li>Brand guidelines, fonts and color values if they exist</li>
+          <li>The placements the assets are actually running in</li>
+          <li>One decision maker who can approve a round</li>
+          <li>Three examples of campaigns you like and one you do not</li>
+        </ul>
+      </div>
+      <div class="col neg">
+        <h3>Not included</h3>
+        <ul>
+          <li>Paid media spend or media buying</li>
+          <li>Licensed music, quoted separately if you want a known track</li>
+          <li>The likeness of any real person, living or dead</li>
+          <li>Claims about the product I cannot substantiate from your own materials</li>
+          <li>Website, packaging or print design</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head">
+      <h2 class="metal">Asked and answered</h2>
+      <div class="tag">The five that come up</div>
+    </div>
+    <div class="q"><h3>Will people know it is AI?</h3>
+      <p>Some will. The work is labeled as AI where the platform or the campaign calls for it, and I will not build you something that pretends a real person endorsed your product. Disclosure has not hurt the work. Pretending would.</p></div>
+    <div class="q"><h3>What if the character changes in the next batch?</h3>
+      <p>That is the failure mode of nearly all AI content and it is the specific thing I build against. On the Character tier you own the bible, so consistency survives even if you take the work elsewhere.</p></div>
+    <div class="q"><h3>Can we use it in paid?</h3>
+      <p>Yes. Every tier includes paid social usage, and the delivery spec is cut for it. Broadcast and out of home are quoted separately because the licensing is different.</p></div>
+    <div class="q"><h3>Who owns the output?</h3>
+      <p>You own the delivered assets on every tier. On the Character tier you also own the character itself, files and all. I keep the right to show the work in my portfolio unless you ask me not to, which is a normal thing to ask and costs nothing.</p></div>
+    <div class="q"><h3>Why trust a lash educator with our campaign?</h3>
+      <p>Because I have run a product company for nine years and shipped to real customers, so I know what a campaign has to do for a business. I am a Registered Nurse, which is where the discipline comes from. And the work speaks before I do, which is why you got a finished asset before you got this page.</p></div>
+  </section>
+
+  <div class="close brackets">
+    <h2 class="metal">Send me the product.<br>I'll send you the campaign.</h2>
+    <p>Fifty percent to start, fifty on delivery. Wire or card. Net 30 available for brands that require it, quoted at plus ten percent. Rates hold through December 31, 2026.</p>
+    <div class="contact">
+      <div><span>Book</span><a href="mailto:destynibeauty@gmail.com">destynibeauty@gmail.com</a></div>
+      <div><span>Work</span><a href="https://instagram.com/profashionalist">@profashionalist</a></div>
+      <div><span>Business</span><a href="https://instagram.com/richdestyni">@richdestyni</a></div>
+    </div>
+  </div>
+
+  <footer>The Scene AI · Destyni Triplett, RN · Atlanta</footer>
+
+</div>
