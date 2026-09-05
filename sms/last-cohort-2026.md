@@ -1,5 +1,5 @@
 # SMS: Last cohort of the year
-Sent Saturday Sept 5, 2026. Enrollment closes Sunday Sept 6, 11:59 PM ET. Cohort starts Monday Sept 7.
+Sent Friday Sept 4, 2026. Enrollment closes Sunday Sept 6, 11:59 PM ET. Cohort starts Monday Sept 7.
 
 ## Send to
 Everyone SMS-subscribed. Do not exclude the women already mid-conversation. They need this one most.

@@ -1,5 +1,5 @@
 SUBJECT: Monday is the last one this year.
-PREHEADER: $750 gets you in. Doors close tomorrow night at 11:59 PM ET.
+PREHEADER: $750 gets you in. Doors close Sunday night at 11:59 PM ET.
 
 ---
 
@@ -107,7 +107,7 @@ You do not need the whole amount today. You need $750 and a decision.
 
 ---
 
-Doors close tomorrow night at 11:59 PM ET.
+Doors close Sunday night at 11:59 PM ET.
 
 If the answer is no, tell me no. Reply and say "not this time." I'll
 stop asking and I won't take it personal.
